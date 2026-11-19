@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-19T19:58:05+00:00",
+ "atualizado": "2026-11-19T20:14:26+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
@@ -7,15 +7,8 @@
   {
    "d": "19/11/2026",
    "c": "arvore",
-   "v": "G1",
-   "t": "Temporal provoca transtornos e aciona sirenes em Nova Friburgo",
-   "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSmRzaHg0cWR2bWxTMUNxUW9teG5vaVV2TDB5TUk0YVhTZWZvS1c2ZTBJXzRzbUxkQ2J0cUdsRFQtVHNCVWttdWNCN1kxbmx4R25hVlpsNjBWM0hNaHpSakR6SzczQnQ3akc4bWZneVg0T2Z0RWNLM2tqamE0d0dncTFrY0Z5eWU2Zm04cm5ENGYwTzlBVGRHeUYwVTF5aFFvMi1EakRMamh0cF9KVHBGcjhDV2tlSTJRNzBsNnRVUFNCY0ti0gHTAUFVX3lxTE1UWi1DMldIVVNOSHdHSWctcTRkcWc1X2FubnhGbnlLbE9sWXRTeFVRZzRiOUVkcm5OVXZjMElxWXRzcFZlSFloSGk0R29mUDB4dEItSnBZbnJVcDJnRHJaTmVvN01DcEw1SENwR0ZQc25adWZxbkRGY0xfLWpFMXhfamhMaFo1blFreU1oZ3IwN2RDeXpTV18yTjZkVVliS2VDT0RBU0JkZHNscWpETHVlUjNSV1UtRzNaMGdOYWhhMjI5NTFyRVlIZnNjVTluYmV4eVk?oc=5"
-  },
-  {
-   "d": "19/11/2026",
-   "c": "arvore",
    "v": "R7",
-   "t": "Temporal provoca caos em São Paulo e gera 2º maior congestionamento do ano #Shorts #HojeEmDia",
+   "t": "Temporal provoca caos em São Paulo e gera 2º maior congestionamento do ano",
    "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdi1PUTV3aHJkZlE3YUtJVFFqWTV3RjZoZDhiSzJpZkg3Zl9XMk56U1c4NlhiYkZnTjE4MzNaOGNxZWJna1gzRFF3M1dFOTV1QTN5UXlmbl9TQk5MeVhVZUhXN2RaUHI3NnBQNDVZZXE2ejdwQ3ZKaTRHWV94VHdLWGZLOUJWbjhyVUl3MHdvTjFhOTM4UndKSE44V3Q4YWktWHZqNkVWMmYxSjJYVkttLWJ5enBTQnpzSW9wc1hRU3ZCRDNqSkZmU3ZFeThMOFE?oc=5"
   },
   {
@@ -27,24 +20,10 @@
   },
   {
    "d": "19/11/2026",
-   "c": "chuva",
-   "v": "CNN Brasil",
-   "t": "Quinta (19) terá chuva em grande parte do país; veja previsão do feriado",
-   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWTAxY3B1bG5RSlFmMjI1UHpiOTJURXotRVdXbDFZWXJhcjNVWmFzX1dQcW1yeVpFVmdIVk1NdnZtYlNyV2pEY3VnS196RVpWQTV4SENEU0xBUWlvRF80eHMxQlhUdHNPUW94SHhXWU96Vkd0cXY1UThKOTBYWkVscUQ0MktJa0pfSWJweWY5WEd0eEcxMjBOODQ3elQtMzhPN0d2UndpaVIwbDBN?oc=5"
-  },
-  {
-   "d": "19/11/2026",
    "c": "calor",
    "v": "Folha de S.Paulo",
    "t": "Previsão indica mais calor e pancadas de chuva nesta quinta (19) em São Paulo",
    "u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTkU3NEd5ZWlOT2NlRlFRWHJ1SF9qRUlORmRBd21kTElTSE8tYzBvbTlDdURlMHduLXd1MjJlb1RhWUR6c2pkVGNfZUx1NzdDZ2RQdFpkbDRhR3FYMmRCQjluaGd5ZTY1TnZCS05VRTA0OTBFdUhaZWhram90S2NCS29iZ2JNNk5YVGZGX2EtR3F5OHZtaUhoTk1fNVZvZ0l0S3UxdWM0eXNxOUI1TjVCM20yYzFjYlE1cTZDTDRiS1poXzV5RldxdQ?oc=5"
-  },
-  {
-   "d": "19/11/2026",
-   "c": "chuva",
-   "v": "Metrópoles",
-   "t": "Tempestade: Defesa Civil ensina como se proteger em caso de chuva forte.",
-   "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZ0t6LW1kc1pMMGhiTkFSaHM2a3I3cWp0bnZ2YTQxU1hLY25RXzVnRlpaLVpxYXllZldCY1NQTHI2UjFKeXlRZ0VoRGlsMHdGOE5zMFFQeW04blZ5V1RQSXAyV0hwSzRsTnBWcnJ4TjNEQzQ5cE8ySndUcDRNblFyTVpGNS1Ham1UMEFfSm1GVGFkQi0teDBOY19QS0V4YlREdTIxb1laOVU?oc=5"
   },
   {
    "d": "18/11/2026",
@@ -59,6 +38,27 @@
    "v": "Metrópoles",
    "t": "Chuva alaga saída da estação de trem da Linha 7-Rubi em São Paulo.",
    "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMm5FakNmMnJ3dFVLamt3S2NCdkJxVEh0Nmw4bVY0dk1qaWxEUndhQWo1dW5faVpWV0lDZzhZdDIwVmpKbGZhSW5HQXlQOXRyZjNVVkNoUUhVUERyZW95V1lmX0daRTh2OGh3cmsxZnA0UTZiZ3Q0X2VnX3NNTmRNeDRubDhTdVRqM2U3SUVOTVlyUE1IZ3NXaU4tZlM3d0xxVGZhMA?oc=5"
+  },
+  {
+   "d": "18/11/2026",
+   "c": "arvore",
+   "v": "O GLOBO",
+   "t": "Temporal em São Paulo provoca granizo e alagamentos e deixa 36 mil imóveis sem luz",
+   "u": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbGc3ck4xNWxxa2w1ZkJqSE82WTJHMU5qeVhzR0FHT2tvTXBEYjM1UzlYQjg4YkVBWGN5TUNUNC1aeldhRG5VY2lpcV9wQ3pna21kak5oV0NYWjFrbEx6VTlqcEUtN1hBU0Q2TUFmY0hTYkxTOWdTWjZJNDZVVWJTVTZyWHFVWEZaNlkwLUJWZkx6RzN4YTUxUEdKZlh0bzJzSGFmWnZTMmRtclVLT1pXVHZodUdVS3BweTBMdTV1RWJxNHc3ZGFGXzdyb0RKc2lpNVdqVVVMMWJRakRyUVZ5TF92WdIB8gFBVV95cUxNZWNUOF9od0RucTJrdmowbTVvTVJ4U1FvWDNsTlhZVEtROXh5WWhWZkpla2RVdVdGSlU4cjJpYmh3Um05dDFXU3ZBQjJkdlE4TGlpLW1aaWJVUnVsemRndEtscW9tOXAzX0pLYzZYNzFZWUtDYXNra2tOQS1UYlNDMG01OTUtLXhGRXQxbkJPbmlNWk9RVDlhSnFKdXJrU0ZnTHR2Y190SUpic0FCZ05LcVY3MnJGbTJzQ2EwcVd0OGFtbkFYcmlQLW5WTUsySXlOb2lYbEI1M09qNmtCVFNIY3dwUjJtbzBYVHdyZWhKQXlFdw?oc=5"
+  },
+  {
+   "d": "18/11/2026",
+   "c": "arvore",
+   "v": "G1",
+   "t": "Temporal em Campinas: entenda por que chuva causou alagamentos e enxurradas",
+   "u": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVWxEUjc5dzJMT1VUU0M0dW84d1NEelo4Umlla2xTRVhEcmhON0EtaHZMUTRNYkZJSTc0VUF2YkpvMFZ6MXY2TWV0ei0tYXY3bElYek83ZmJjV2FwSklVUlhQVWlGMlBzY2JlTnFudnpDR3k3OGNRNmlLazFfZ3dLTXcwM2xaQkR3b0o0Skc1WmNrdVMxUXotbzFndDZ2bHRvXzhfRlpoenJDNGNoeEVZakRpZjlYVk8taWl1VXlvcUNqV0dxajNtU1hmOW9YYnhtbmJqTDZn0gHkAUFVX3lxTE5oMzhCNDFjNWFxTWxDb3RENm9qdGNHTUdFbWZZcEx2QUllRWU3SzktSmRkcHg3WktvQUFySmY1WHNBb1FUMEhSSUpQR0w2cmNUV3Q4dHNibmRyUDB4bm5XR0l4czBoYTVOLUxEd0ZGb0pPU2pxYzZueGtnSVZ1ZERRTUNOcTlxS3VRT3BlQ05teFJhcV9KcVhzM3lHNGVOSDlfZFlXMHRINGpGbUhiTnFtOW0xdVlqNjduOHRkbDRWSy1WNGR3amZwRF96a3BrQzVyalAzSkxYSXlSZlJGYVowQ3JvcQ?oc=5"
+  },
+  {
+   "d": "18/11/2026",
+   "c": "alerta",
+   "v": "CNN Brasil",
+   "t": "Defesa Civil emite segundo alerta severo para chuvas em São Paulo",
+   "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMUtoX05uajJkY3JpeXpoX3Y3c1pYNGc3cVVtamJyUFIwSmF3elJXSjVrTTA3eHA0Z25hbjBiWGxlLTM4R1pyOUV6TEY0MENXaGJMQU52RE00b0VUdkx1NW55aU03TWkwdWV1c0lDYkJoZWg3aEY0XzZpNGd3RGN6NGN0QmdoZFB3MFpTMjFCVE5nS0QxMlplTlJBTXBRWjVYWFBqa0VhWE84aG85d2NFNDhOdXRmQQ?oc=5"
   }
  ]
 }

@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-19T19:52:53Z</updated>
-  <dc:date>2026-11-19T19:52:53Z</dc:date>
+  <updated>2026-11-19T20:13:33Z</updated>
+  <dc:date>2026-11-19T20:13:33Z</dc:date>
   <entry>
     <title>CHUVAS INTENSAS</title>
     <author>
