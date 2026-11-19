@@ -1,0 +1,43 @@
+name: Robô de alertas e alagamentos
+
+# Roda a cada 10 minutos (o GitHub pode atrasar alguns minutos) e também quando você clica em "Run workflow".
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: robo
+  cancel-in-progress: true
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ler as fontes oficiais (e mandar avisos, se o OneSignal estiver ligado)
+        env:
+          ONESIGNAL_APP_ID: ${{ secrets.ONESIGNAL_APP_ID }}
+          ONESIGNAL_API_KEY: ${{ secrets.ONESIGNAL_API_KEY }}
+        run: |
+          mkdir -p saida
+          git fetch origin dados 2>/dev/null && git show origin/dados:enviados.json > saida/enviados_antes.json 2>/dev/null || echo "[]" > saida/enviados_antes.json
+          python3 robo.py saida
+      - name: Salvar na branch "dados" (não mexe no site)
+        run: |
+          git config user.name "robo-alerta-que-instrui"
+          git config user.email "robo@users.noreply.github.com"
+          if git fetch origin dados 2>/dev/null; then
+            git checkout -B dados origin/dados
+          else
+            git checkout --orphan dados
+            git rm -rf --quiet . || true
+          fi
+          cp saida/alertas.json saida/alagamentos.json saida/noticias.json saida/enviados.json saida/*.txt .
+          git add alertas.json alagamentos.json noticias.json enviados.json alertas-amostra.txt alagamentos-amostra.txt noticias-amostra.txt
+          git commit -m "dados $(date -u +%Y-%m-%dT%H:%MZ)" || exit 0
+          git push origin dados
