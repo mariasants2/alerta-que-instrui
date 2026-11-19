@@ -2334,9 +2334,13 @@ renderHere=function(){ _renderHereV8(); if(!(HERE&&HERE.fora&&!HERE.erro)) retur
 
 /* ---------- 5) Alerta oficial em vigor e alagamentos agora (robô do GitHub) ---------- */
 let ALAG=null;
-function alertaVale(al){ const r=regAny(); const a=semAcento([al.area,al.titulo,al.descricao].join(" "));
-  if(r&&r.municipio) return a.includes(semAcento(r.nome));
-  return /sao paulo/.test(a); }
+function dentroPol(la,lo,pts){ let d=false; for(let i=0,j=pts.length-1;i<pts.length;j=i++){ const [yi,xi]=pts[i],[yj,xj]=pts[j]; if((yi>la)!==(yj>la)&&lo<(xj-xi)*(la-yi)/((yj-yi)||1e-12)+xi) d=!d; } return d; }
+// O alerta oficial vem com o desenho da área atingida: o app confere se a região da pessoa está dentro dele.
+function alertaVale(al){ const r=regAny(); const la=r&&r.lat||-23.55, lo=r&&r.lng||-46.633;
+  if(Array.isArray(al.poligonos)&&al.poligonos.length) return al.poligonos.some(p=>Array.isArray(p)&&p.length>2&&dentroPol(la,lo,p));
+  const a=" "+semAcento([al.titulo,al.descricao].join(" ")).toLowerCase().replace(/estado de sao paulo/g," ")+" ";
+  if(r&&r.municipio) return new RegExp("[^a-z]"+semAcento(r.nome).toLowerCase().replace(/[^a-z ]/g,".")+"[^a-z]").test(a);
+  return /[^a-z]sao paulo[^a-z]|capital|grande sp/.test(a); }
 const _checkAlertsV8=checkAlerts;
 checkAlerts=async function(){
   const d=await lerDados("alertas.json");
@@ -2344,7 +2348,7 @@ checkAlerts=async function(){
   const vale=(d.alertas||[]).filter(x=>(!x.expira||Date.parse(x.expira)>Date.now())&&alertaVale(x));
   const hora=horaDe(d.atualizado), r=regAny();
   if(vale.length){ const al=vale[0];
-    liveAlert={text:al.descricao||al.titulo, head:al.titulo||al.evento||"Alerta", area:al.area||"", id:al.id};
+    liveAlert={text:al.descricao||al.titulo, head:al.titulo||al.evento||"Alerta", area:/^\s*S[ÃA]O PAULO\s*\/\s*SP\s*$/i.test(al.area||"")?"":(al.area||""), id:al.id};
     statusBox("on","Alerta da Defesa Civil em vigor",`${esc(liveAlert.head)}${liveAlert.area?" · "+esc(liveAlert.area.slice(0,140)):""}<br><span class="muted">Conferido às ${hora} no sistema oficial de alertas.</span>`);
     novoAlerta(al);
   } else statusBox("off",`Nenhum alerta oficial ativo para ${r?esc(r.municipio?r.nome:"a cidade de São Paulo"):"São Paulo"} agora`,`Conferido às ${hora} no sistema oficial de alertas da Defesa Civil. Receba também pelo SMS 40199.`);

@@ -52,6 +52,16 @@ def ler_cap(alert):
     infos = filhos(alert, "info") or [alert]
     info = next((i for i in infos if texto(i, "language").lower().startswith("pt")), infos[0])
     areas = [texto(a, "areadesc") for a in filhos(info, "area")] or [texto(info, "areadesc")]
+    poligonos = []
+    for pg in filhos(info, "polygon"):
+        pts = []
+        for par in (pg.text or "").split():
+            try:
+                la, lo = par.split(",")[:2]; pts.append([round(float(la), 3), round(float(lo), 3)])
+            except Exception:
+                pass
+        if len(pts) >= 3:
+            poligonos.append(pts[::max(1, len(pts) // 400)])
     expira = texto(info, "expires")
     return {
         "id": texto(alert, "identifier") or hashlib.sha1(ET.tostring(alert)).hexdigest()[:16],
@@ -63,6 +73,7 @@ def ler_cap(alert):
         "descricao": texto(info, "description"),
         "instrucao": texto(info, "instruction"),
         "area": "; ".join(a for a in areas if a)[:600],
+        "poligonos": poligonos[:20],
     }
 
 
@@ -92,8 +103,10 @@ def alertas():
             achados.append(cap)
     sp = []
     for a in achados:
-        tudo = " ".join([a["area"], a["titulo"], a["descricao"]])
-        if not re.search(r"S[ãa]o Paulo|\bSP\b", tudo, re.I):
+        if a["area"]:
+            if not re.search(r"/\s*SP\b", a["area"], re.I):
+                continue
+        elif not re.search(r"S[ãa]o Paulo(?! de Oliven)|\bSP\b", a["titulo"] + " " + a["descricao"], re.I):
             continue
         exp = data_iso(a["expira"]) if a["expira"] else None
         if exp and exp < AGORA:
@@ -163,6 +176,35 @@ def slug(n):
     return re.sub(r"[^a-z]+", "-", n).strip("-")
 
 
+# pontos da capital (centro e as quatro zonas) para saber se o desenho do alerta pega a cidade de SP
+CAPITAL = [(-23.55, -46.633), (-23.47, -46.63), (-23.68, -46.70), (-23.54, -46.47), (-23.57, -46.73), (-23.80, -46.70)]
+
+
+def dentro(lat, lng, pts):
+    d = False
+    j = len(pts) - 1
+    for i in range(len(pts)):
+        yi, xi = pts[i]; yj, xj = pts[j]
+        if (yi > lat) != (yj > lat) and lng < (xj - xi) * (lat - yi) / ((yj - yi) or 1e-12) + xi:
+            d = not d
+        j = i
+    return d
+
+
+def alvo_do_alerta(a, cidades):
+    polys = a.get("poligonos") or []
+    if polys:
+        alvo = [slug(c[0]) for c in cidades if any(dentro(c[1], c[2], p) for p in polys)]
+        if any(dentro(la, lo, p) for la, lo in CAPITAL for p in polys):
+            alvo.append("sao-paulo")
+        return alvo
+    txt = re.sub(r"estado de S[ãa]o Paulo", " ", a.get("titulo", "") + " " + a.get("descricao", ""), flags=re.I)
+    alvo = [slug(c[0]) for c in cidades if re.search(r"\b" + re.escape(c[0]) + r"\b", txt, re.I)]
+    if re.search(r"S[ãa]o Paulo|capital paulista|Grande SP", txt, re.I):
+        alvo.append("sao-paulo")
+    return alvo
+
+
 def enviar_avisos():
     app_id, chave = os.environ.get("ONESIGNAL_APP_ID", "").strip(), os.environ.get("ONESIGNAL_API_KEY", "").strip()
     antes_p = os.path.join(OUT, "enviados_antes.json")
@@ -179,7 +221,7 @@ def enviar_avisos():
         print("avisos: sem chaves do OneSignal ou sem dados; nada enviado")
         return
     try:
-        cidades = [c[0] for c in json.load(open("cidades-sp.json", encoding="utf-8"))]
+        cidades = json.load(open("cidades-sp.json", encoding="utf-8"))
     except Exception:
         cidades = []
     site = os.environ.get("SITE_URL") or "https://%s.github.io/%s/" % tuple(os.environ.get("GITHUB_REPOSITORY", "x/x").split("/"))
@@ -189,10 +231,7 @@ def enviar_avisos():
         env = data_iso(a.get("enviado") or "")
         if env and (AGORA - env).total_seconds() > 3 * 3600:  # não avisa alerta antigo
             enviados.append(a["id"]); continue
-        texto_area = " ".join([a.get("area", ""), a.get("titulo", ""), a.get("descricao", "")])
-        alvo = [slug(c) for c in cidades if re.search(r"\b" + re.escape(c) + r"\b", texto_area, re.I)]
-        if re.search(r"S[ãa]o Paulo|capital paulista", texto_area, re.I):
-            alvo.append("sao-paulo")
+        alvo = alvo_do_alerta(a, cidades)
         alvo = sorted(set(alvo))[:450]
         if not alvo:
             enviados.append(a["id"]); continue
@@ -225,6 +264,13 @@ BUSCAS = ['"Defesa Civil" chuva "São Paulo"', 'alagamento OR deslizamento OR te
 CONFIAVEIS = re.compile(r"g1|globo|cnn brasil|ag[êe]ncia sp|ag[êe]ncia brasil|folha|estad[ãa]o|uol|band|sbt|record|r7|cgesp|cge|climatempo|metsul|metr[óo]poles|poder360|veja|exame|terra|jovem pan|cbn|defesa civil|governo de s", re.I)
 
 
+try:
+    _nomes = sorted((c[0] for c in json.load(open("cidades-sp.json", encoding="utf-8")) if len(c[0]) > 4), key=len, reverse=True)
+    CIDADE_RE = re.compile(r"\b(" + "|".join(re.escape(n) for n in _nomes) + r")\b", re.I)
+except Exception:
+    CIDADE_RE = re.compile(r"(?!x)x")
+
+
 def categoria(t):
     if re.search(r"alerta", t, re.I): return "alerta"
     if re.search(r"calor|temperatura|quente", t, re.I): return "calor"
@@ -243,8 +289,11 @@ def noticias():
                 titulo = titulo[: -len(fonte) - 3]
             if not (titulo and link.startswith("https://") and fonte and CONFIAVEIS.search(fonte)):
                 continue
+            titulo = re.sub(r"(\s#\w+)+\s*$", "", titulo).strip()
             if not re.search(r"chuva|alag|desliz|enchente|inunda|temporal|defesa civil|calor|tempestade|[áa]rvore", titulo, re.I):
                 continue
+            if not (re.search(r"S[ãa]o Paulo|\bSP\b|paulist|capital", titulo, re.I) or CIDADE_RE.search(titulo)):
+                continue  # só notícias de SP
             chave = re.sub(r"\W+", " ", titulo.lower())[:60]
             if chave in vistos:
                 continue
