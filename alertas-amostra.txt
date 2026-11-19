@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-19T20:44:27Z</updated>
-  <dc:date>2026-11-19T20:44:27Z</dc:date>
+  <updated>2026-11-19T21:35:51Z</updated>
+  <dc:date>2026-11-19T21:35:51Z</dc:date>
   <entry>
     <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>198964/2026</id>
-    <updated>2026-11-19T08:53:03Z</updated>
+    <id>198965/2026</id>
+    <updated>2026-11-19T09:39:12Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>198964/2026</identifier>
+        <identifier>198965/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-19T05:53:03-03:00</sent>
+        <sent>2026-11-19T06:39:12-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -26,14 +26,14 @@
           <event>CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
           <urgency>Expected</urgency>
-          <severity>Moderate</severity>
+          <severity>Severe</severity>
           <certainty>Likely</certainty>
-          <onset>2026-11-19T05:53:03-03:00</onset>
-          <expires>2026-11-19T05:50:00-03:00</expires>
-          <senderName>Defesa Civil Nacional</senderName>
-          <headline>Defesa Civil:Durante chuvas intensas, procure abrigo seguro, evite areas alagadas, enxurradas e locais proximos a encostas.</headline>
-          <description>Alerta de Tempestade Severa com chuva intensa.</description>
-          <instruction>Proteja-se.</instruction>
+          <onset>2026-11-19T06:39:12-03:00</onset>
+          <expires>2026-11-19T09:30:00-03:00</expires>
+          <senderName>Defesa Civil Estadual do Amazonas</senderName>
+          <headline>Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.</headline>
+          <description>A análise da imagem do satélite GOES, disponibilizada por CIRA/NOAA, indica áreas de nebulosidade associadas a pancadas de chuva no(s) município(s) mencionado(s), com possibilidade de pancadas de intensidade moderada a forte, acompanhada de descargas elétricas e rajadas de vento. Essas condições podem favorecer a ocorrência de alagamentos e enxurradas em áreas vulneráveis.</description>
+          <instruction>Siga as orientações da defesa civil local. Se houver vendaval, granizo ou descargas elétricas, fique atento às recomendações para estes tipos de ameaças; Auxilie crianças, idosos e pessoas com dificuldade de locomoção próximas a você; Evite contato com a água de alagamentos, pois podem estar contaminadas e provocar doenças.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -41,5 +41,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>MINAS GERAIS/MG, ESPÍRITO SANTO/ES</areaDesc>
-            <polygon>-19.935,-41.295 -19.947,-41.309 -19.981,-41.321 -20.015,-41.31 -20.058,-41.336 -20.123,-41.35 -20.161,-41.379 -20.189,-41.384 -20.197,-41.41 -20.206,-41.412 -20.191,-41.437 -20.164,-41.428 -20.121,-41.453 -20.11,-41.469 -20.119,-41.49 -20.108,-41.502 -20.057,-41.503 -20.051,-41.519 -20.059,-41.537 -20.049,-41.537 -20.033,-41.559 -19.994,-41.548 -19.995,-41.562 -19.986,-41.566 -20.001,-41.593 -19.982,-41.617 -19.992,-41.63 -19.973,-41.648 -19.962,-41.638 -19.962,-41.616 -19.953,-41.608 -19.941,-41.614 -19.935,-41.593 -19.924,-41.609 -19.919,-41.598 -19.89,-41.605 -19.851,-41.573 -19.825,-41.593 -19.79,-41.579 -19.782,-41.586 -19.754,-41.554 -19.722,-41.551 -19.713,-41.508 -19.696,-41.512 -19.704,-41.506 -19.699,-41.495 -19.681,-41.49 -19.692,-41.473 -19.693,-41.427 -19.672,-41.418 -19.658,-41.386 -19.673,-41.38 -19.702,-41.388 -19.713,-41.38 -19.749,-41.393 -19.767,-41.383 -19.761,-41.362 -19.767,-41.352 -19.794,-41.344 -19.799,-41.326 -19.833,-41.335 -19.861,-41.287 -19.884,-41.29 -19.886,-41.274 -19.899,-41.275 -19.904,-41.299
+            <areaDesc>Guajará/AM, Ipixuna/AM</areaDesc>
+            <polygon>-6.998,-72.698 -6.998,-72.698 -6.996,-72.698 -6.987,-72.697 -6.969,-72.7 -6.96,-72.697 -6.959,-72.688 -6.959,-72.678 -6.956,-72.67 -6.95,-72.663 -6.941,-72.664 -6.932,-72.668 -6.915,-72.672 -6.912,-72.675 -6.908,-72.678 -6.904,-72.685 -6.903,-72.693 -6.903,-72.702 -6.904,-72.709 -6.905,-72.717 -6.908,-72.724 -6.914,-72.731 -6.921,-72.736 -6.937,-72.762 -6.944,-72.767 -6.961,-72.775 -6.
