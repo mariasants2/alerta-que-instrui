@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-19T20:14:26+00:00",
+ "atualizado": "2026-11-19T20:47:48+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
@@ -35,6 +35,13 @@
   {
    "d": "18/11/2026",
    "c": "chuva",
+   "v": "Terra",
+   "t": "São Paulo registra 1.200 km de engarrafamento em noite de chuva e alagamentos",
+   "u": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQcWlzQW5QY1R3QTN2WjhlQmtiLWQ2U0lsMkVxbDJuQ2pTOE92Q1Faa1QtTXB5dGIwbGxJZlFadXp4bkswOWs2MTlDTno0UVZWTmVpZWdKSjJoVnJpUVNrSjBobVNac1VFeTZQLWNDcGFBZkhCMk5ReFJDWDBRNjRWSnc5dlVuZ01iTWdac3dFSFFxeUcxNG03aHR5YkctckNmTUd4Mi11ekUtYkVHNW1WSWV4a1FTalhnNnBHZWd0R21yLTJWaTNlUGE0MjZxZElFbW96WmotTXFtY3o4RDNFOVZVT0RWUkt6SkhiTU1qY1RtcTE5Vnk2aFFHMEFQZEdv?oc=5"
+  },
+  {
+   "d": "18/11/2026",
+   "c": "chuva",
    "v": "Metrópoles",
    "t": "Chuva alaga saída da estação de trem da Linha 7-Rubi em São Paulo.",
    "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMm5FakNmMnJ3dFVLamt3S2NCdkJxVEh0Nmw4bVY0dk1qaWxEUndhQWo1dW5faVpWV0lDZzhZdDIwVmpKbGZhSW5HQXlQOXRyZjNVVkNoUUhVUERyZW95V1lmX0daRTh2OGh3cmsxZnA0UTZiZ3Q0X2VnX3NNTmRNeDRubDhTdVRqM2U3SUVOTVlyUE1IZ3NXaU4tZlM3d0xxVGZhMA?oc=5"
@@ -52,13 +59,6 @@
    "v": "G1",
    "t": "Temporal em Campinas: entenda por que chuva causou alagamentos e enxurradas",
    "u": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVWxEUjc5dzJMT1VUU0M0dW84d1NEelo4Umlla2xTRVhEcmhON0EtaHZMUTRNYkZJSTc0VUF2YkpvMFZ6MXY2TWV0ei0tYXY3bElYek83ZmJjV2FwSklVUlhQVWlGMlBzY2JlTnFudnpDR3k3OGNRNmlLazFfZ3dLTXcwM2xaQkR3b0o0Skc1WmNrdVMxUXotbzFndDZ2bHRvXzhfRlpoenJDNGNoeEVZakRpZjlYVk8taWl1VXlvcUNqV0dxajNtU1hmOW9YYnhtbmJqTDZn0gHkAUFVX3lxTE5oMzhCNDFjNWFxTWxDb3RENm9qdGNHTUdFbWZZcEx2QUllRWU3SzktSmRkcHg3WktvQUFySmY1WHNBb1FUMEhSSUpQR0w2cmNUV3Q4dHNibmRyUDB4bm5XR0l4czBoYTVOLUxEd0ZGb0pPU2pxYzZueGtnSVZ1ZERRTUNOcTlxS3VRT3BlQ05teFJhcV9KcVhzM3lHNGVOSDlfZFlXMHRINGpGbUhiTnFtOW0xdVlqNjduOHRkbDRWSy1WNGR3amZwRF96a3BrQzVyalAzSkxYSXlSZlJGYVowQ3JvcQ?oc=5"
-  },
-  {
-   "d": "18/11/2026",
-   "c": "alerta",
-   "v": "CNN Brasil",
-   "t": "Defesa Civil emite segundo alerta severo para chuvas em São Paulo",
-   "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMUtoX05uajJkY3JpeXpoX3Y3c1pYNGc3cVVtamJyUFIwSmF3elJXSjVrTTA3eHA0Z25hbjBiWGxlLTM4R1pyOUV6TEY0MENXaGJMQU52RE00b0VUdkx1NW55aU03TWkwdWV1c0lDYkJoZWg3aEY0XzZpNGd3RGN6NGN0QmdoZFB3MFpTMjFCVE5nS0QxMlplTlJBTXBRWjVYWFBqa0VhWE84aG85d2NFNDhOdXRmQQ?oc=5"
   }
  ]
 }
