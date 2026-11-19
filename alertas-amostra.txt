@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-19T21:35:51Z</updated>
-  <dc:date>2026-11-19T21:35:51Z</dc:date>
+  <updated>2026-11-19T22:27:38Z</updated>
+  <dc:date>2026-11-19T22:27:38Z</dc:date>
   <entry>
     <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>198965/2026</id>
-    <updated>2026-11-19T09:39:12Z</updated>
+    <id>198968/2026</id>
+    <updated>2026-11-19T10:38:51Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>198965/2026</identifier>
+        <identifier>198968/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-19T06:39:12-03:00</sent>
+        <sent>2026-11-19T07:38:51-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -28,12 +28,18 @@
           <urgency>Expected</urgency>
           <severity>Severe</severity>
           <certainty>Likely</certainty>
-          <onset>2026-11-19T06:39:12-03:00</onset>
-          <expires>2026-11-19T09:30:00-03:00</expires>
-          <senderName>Defesa Civil Estadual do Amazonas</senderName>
-          <headline>Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.</headline>
-          <description>A análise da imagem do satélite GOES, disponibilizada por CIRA/NOAA, indica áreas de nebulosidade associadas a pancadas de chuva no(s) município(s) mencionado(s), com possibilidade de pancadas de intensidade moderada a forte, acompanhada de descargas elétricas e rajadas de vento. Essas condições podem favorecer a ocorrência de alagamentos e enxurradas em áreas vulneráveis.</description>
-          <instruction>Siga as orientações da defesa civil local. Se houver vendaval, granizo ou descargas elétricas, fique atento às recomendações para estes tipos de ameaças; Auxilie crianças, idosos e pessoas com dificuldade de locomoção próximas a você; Evite contato com a água de alagamentos, pois podem estar contaminadas e provocar doenças.</instruction>
+          <onset>2026-11-19T07:38:51-03:00</onset>
+          <expires>2026-11-19T10:35:00-03:00</expires>
+          <senderName>Defesa Civil Estadual do Paraná</senderName>
+          <headline>Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.</headline>
+          <description>Tempestades com vários raios e condição para rajadas de vento a partir da área de fronteira com o Paraguai. Evite áreas de risco e busque abrigo! Emergências 199 ou 193.</description>
+          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.
+Veja como proceder em casos de desastres. -
+- https://bit.ly/2W1BZxy -
+- Entenda o significado das cores do alerta:
+- http://www.defesacivil.pr.gov.br/Pagina/Significado-das-cores-dos-alertas -
+- Veja a área do alerta: -
+- https://www.defesacivil.pr.gov.br/alertas-vigentes -</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -41,5 +47,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>Guajará/AM, Ipixuna/AM</areaDesc>
-            <polygon>-6.998,-72.698 -6.998,-72.698 -6.996,-72.698 -6.987,-72.697 -6.969,-72.7 -6.96,-72.697 -6.959,-72.688 -6.959,-72.678 -6.956,-72.67 -6.95,-72.663 -6.941,-72.664 -6.932,-72.668 -6.915,-72.672 -6.912,-72.675 -6.908,-72.678 -6.904,-72.685 -6.903,-72.693 -6.903,-72.702 -6.904,-72.709 -6.905,-72.717 -6.908,-72.724 -6.914,-72.731 -6.921,-72.736 -6.937,-72.762 -6.944,-72.767 -6.961,-72.775 -6.
+            <areaDesc>PARANÁ/PR</areaDesc>
+            <polygon>-25.62,-53.939 -25.621,-53.938 -25.571,-53.864 -25.276,-53.747 -24.856,-53.773 -24.577,-53.982 -24.327,-54.265 -24.328,-54.265 -24.33,-54.264 -24.333,-54.263 -24.341,-54.26 -24.35,-54.258 -24.357,-54.258 -24.36,-54.258 -24.364,-54.259 -24.366,-54.259 -24.367,-54.26 -24.369,-54.261 -24.372,-54.264 -24.375,-54.267 -24.375,-54.267 -24.386,-54.273 -24.389,-54.274 -24.39,-54.275 -24.39,-54.275 -24.393,-54.275 -24.394,-54.277 -24.396,-54.277 -24.397,-54.277 -24.404,-54.281 -24.41,-54.284 -24.412,-54.285 -24.414,-54.286 -24.4
