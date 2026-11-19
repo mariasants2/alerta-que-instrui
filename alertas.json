@@ -1,0 +1,75 @@
+{
+ "atualizado": "2026-11-19T19:58:05+00:00",
+ "fonte": "Defesa Civil (IDAP, Ministério da Integração)",
+ "fonte_ok": true,
+ "erro": null,
+ "total_no_feed": 121,
+ "alertas": [
+  {
+   "id": "199052/2026",
+   "enviado": "2026-11-19T15:06:02-03:00",
+   "expira": "2026-11-19T17:05:00-03:00",
+   "evento": "CHUVAS INTENSAS",
+   "gravidade": "Moderate",
+   "titulo": "Defesa Civil:15h05 Chuva isolada na regiao de Campos do Jordao, Sao Bento do Sapucai e Cacapava. Tem raios. Atinge municipios vizinhos. Tenha cuidado!",
+   "descricao": "15h05 Chuva isolada na região de Campos do Jordão, São Bento do Sapucaí e Caçapava. Tem raios. Atinge municípios vizinhos. Tenha cuidado!",
+   "instrucao": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+   "area": "SÃO PAULO/SP"
+  },
+  {
+   "id": "199053/2026",
+   "enviado": "2026-11-19T15:07:32-03:00",
+   "expira": "2026-11-19T17:05:00-03:00",
+   "evento": "CHUVAS INTENSAS",
+   "gravidade": "Moderate",
+   "titulo": "Defesa Civil:15h07 Chuva isolada na regiao de Cardoso. Tem raios. Atinge municipios vizinhos. Tenha cuidado!",
+   "descricao": "15h07 Chuva isolada na região de Cardoso. Tem raios. Atinge municípios vizinhos. Tenha cuidado!",
+   "instrucao": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+   "area": "SÃO PAULO/SP"
+  },
+  {
+   "id": "199058/2026",
+   "enviado": "2026-11-19T15:32:57-03:00",
+   "expira": "2026-11-19T17:30:00-03:00",
+   "evento": "CHUVAS INTENSAS",
+   "gravidade": "Moderate",
+   "titulo": "Defesa Civil:15h32 Chuva isolada na regiao de Ubarana. Tem raios. Atinge municipios vizinhos. Tenha cuidado!",
+   "descricao": "15h32 Chuva isolada na região de Ubarana. Tem raios. Atinge municípios vizinhos. Tenha cuidado!",
+   "instrucao": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+   "area": "SÃO PAULO/SP"
+  },
+  {
+   "id": "199059/2026",
+   "enviado": "2026-11-19T15:35:09-03:00",
+   "expira": "2026-11-19T17:35:00-03:00",
+   "evento": "CHUVAS INTENSAS",
+   "gravidade": "Moderate",
+   "titulo": "Defesa Civil:15h34 Chuva isolada na regiao de Taubate e Pindamonhangaba. Tem raios. Atinge municipios vizinhos. Tenha cuidado!",
+   "descricao": "15h34 Chuva isolada na região de Taubaté e Pindamonhangaba. Tem raios. Atinge municípios vizinhos. Tenha cuidado!",
+   "instrucao": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+   "area": "SÃO PAULO/SP"
+  },
+  {
+   "id": "199066/2026",
+   "enviado": "2026-11-19T16:00:14-03:00",
+   "expira": "2026-11-19T19:00:00-03:00",
+   "evento": "ALAGAMENTOS",
+   "gravidade": "Severe",
+   "titulo": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.   Nao enfrente areas alagadas. Procure local seguro.  Siga as orientacoes da defesa civil local.",
+   "descricao": "Possibilidade de ocorrência alta de alagamento em função da extrapolação da capacidade de escoamento de sistemas de drenagem urbana e consequente acúmulo de água em ruas, calçadas ou outras infraestruturas urbanas. Previsão de continuidade de chuvas. Situação Atual: Acumulado de chuva acima de 15 mm/h, conforme registro do pluviômetro automático do CEMADEN no município.",
+   "instrucao": "Siga as orientações da defesa civil local e do plano de contingência municipal. \"Tenha sempre lanternas e pilhas em condições de uso. Não use velas ou lamparinas devido ao risco de incêndio; \tMonte um kit com água potável, roupas e remédios, caso tenha que sair rápido de sua casa; Procure prever locais seguros, como casa de parentes e amigos, ou abrigos indicados pela Prefeitura, onde você e sua família possam se alojar / abrigar se tiverem que sair de casa.\"",
+   "area": "São Paulo de Olivença/AM"
+  },
+  {
+   "id": "199088/2026",
+   "enviado": "2026-11-19T16:50:10-03:00",
+   "expira": "2026-11-19T23:30:00-03:00",
+   "evento": "CHUVAS INTENSAS",
+   "gravidade": "Extreme",
+   "titulo": "Defesa Civil:Chuva na regiao de Lorena se deslocando para Cachoeira Paulista. Tem raios, vento e condicao para granizo. Atinge municipios vizinhos. Abrigue-se.",
+   "descricao": "Chuva forte na região de Lorena se deslocando para Cachoeira Paulista. Tem raios, vento e condição para granizo. Atinge municípios vizinhos. Busque abrigo.",
+   "instrucao": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+   "area": "SÃO PAULO/SP"
+  }
+ ]
+}
