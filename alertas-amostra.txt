@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-19T22:27:38Z</updated>
-  <dc:date>2026-11-19T22:27:38Z</dc:date>
+  <updated>2026-11-19T23:19:56Z</updated>
+  <dc:date>2026-11-19T23:19:56Z</dc:date>
   <entry>
     <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>198968/2026</id>
-    <updated>2026-11-19T10:38:51Z</updated>
+    <id>198970/2026</id>
+    <updated>2026-11-19T11:27:11Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>198968/2026</identifier>
+        <identifier>198970/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-19T07:38:51-03:00</sent>
+        <sent>2026-11-19T08:27:11-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -26,20 +26,14 @@
           <event>CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
           <urgency>Expected</urgency>
-          <severity>Severe</severity>
-          <certainty>Likely</certainty>
-          <onset>2026-11-19T07:38:51-03:00</onset>
-          <expires>2026-11-19T10:35:00-03:00</expires>
-          <senderName>Defesa Civil Estadual do Paraná</senderName>
-          <headline>Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.</headline>
-          <description>Tempestades com vários raios e condição para rajadas de vento a partir da área de fronteira com o Paraguai. Evite áreas de risco e busque abrigo! Emergências 199 ou 193.</description>
-          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.
-Veja como proceder em casos de desastres. -
-- https://bit.ly/2W1BZxy -
-- Entenda o significado das cores do alerta:
-- http://www.defesacivil.pr.gov.br/Pagina/Significado-das-cores-dos-alertas -
-- Veja a área do alerta: -
-- https://www.defesacivil.pr.gov.br/alertas-vigentes -</instruction>
+          <severity>Extreme</severity>
+          <certainty>Observed</certainty>
+          <onset>2026-11-19T08:27:11-03:00</onset>
+          <expires>2026-11-19T16:00:00-03:00</expires>
+          <senderName>Defesa Civil de Angra dos Reis (RJ)</senderName>
+          <headline>Defesa Civil:ISTO E UM SIMULADO ANGRA ALERTA: Alto volume de chuva registrado no municipio. Fique atento a novos avisos. Tel 199/33654588. ISTO E UM SIMULADO.</headline>
+          <description>Alto volume de chuva registrado no município. Fique atento a novos avisos. Tel 199/33654588. ISTO É UM SIMULADO.</description>
+          <instruction>ISTO E UM SIMULADO ANGRA ALERTA:</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -47,5 +41,6 @@ Veja como proceder em casos de desastres. -
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>PARANÁ/PR</areaDesc>
-            <polygon>-25.62,-53.939 -25.621,-53.938 -25.571,-53.864 -25.276,-53.747 -24.856,-53.773 -24.577,-53.982 -24.327,-54.265 -24.328,-54.265 -24.33,-54.264 -24.333,-54.263 -24.341,-54.26 -24.35,-54.258 -24.357,-54.258 -24.36,-54.258 -24.364,-54.259 -24.366,-54.259 -24.367,-54.26 -24.369,-54.261 -24.372,-54.264 -24.375,-54.267 -24.375,-54.267 -24.386,-54.273 -24.389,-54.274 -24.39,-54.275 -24.39,-54.275 -24.393,-54.275 -24.394,-54.277 -24.396,-54.277 -24.397,-54.277 -24.404,-54.281 -24.41,-54.284 -24.412,-54.285 -24.414,-54.286 -24.4
+            <areaDesc>Angra dos Reis/RJ</areaDesc>
+            <polygon>-23.212,-44.356 -23.212,-44.356 -23.212,-44.357 -23.212,-44.357 -23.212,-44.357 -23.212,-44.358 -23.212,-44.358 -23.212,-44.358 -23.212,-44.358 -23.212,-44.359 -23.213,-44.36 -23.213,-44.36 -23.214,-44.361 -23.215,-44.36 -23.215,-44.359 -23.214,-44.359 -23.214,-44.358 -23.214,-44.357 -23.213,-44.356 -23.213,-44.356 -23.212,-44.356 -23.212,-44.356</polygon>
+            <polygon>-23.089,-44.234 -23.088,-44.234 -23.087,-44.233 -23.086,-44.233 -23.085,-44.235 -23.085,-44.237 -23.086,-44.238 -23.087,-44.237 -23.09,-44.238 -23.092,-44.237 -23.093,-44.237 -23.093,-44.24 -23.094,-44.241 -23.095,-44.243 -23.095,-44.247 -23.095,-44.248 -23.097,-44.25 -23.099,-44.255 -23.099,-44.258 -23.099,-44.258 -23.099,-44.259 -23.1,-44.259 -23.1,-44.258 -23.1,-44.256 -23.1,-44.253 -23.1,-44.251 -23.101,-44.25 -23.102,-44.249 -23.103,-44.248 -23.109,-44.249 -23.11,-44.251 -23.111,-44.253 -23.111,-44.254 -23.111,-44.255 -23.112,-44.2
