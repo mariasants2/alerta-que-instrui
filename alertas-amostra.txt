@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-20T02:31:45Z</updated>
-  <dc:date>2026-11-20T02:31:45Z</dc:date>
+  <updated>2026-11-20T03:28:25Z</updated>
+  <dc:date>2026-11-20T03:28:25Z</dc:date>
   <entry>
     <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>198996/2026</id>
-    <updated>2026-11-19T14:33:32Z</updated>
+    <id>199005/2026</id>
+    <updated>2026-11-19T15:30:19Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>198996/2026</identifier>
+        <identifier>199005/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-19T11:33:32-03:00</sent>
+        <sent>2026-11-19T12:30:19-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -25,15 +25,15 @@
           <category>Met</category>
           <event>CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
-          <urgency>Immediate</urgency>
-          <severity>Moderate</severity>
-          <certainty>Observed</certainty>
-          <onset>2026-11-19T11:33:32-03:00</onset>
-          <expires>2026-11-19T13:25:00-03:00</expires>
-          <senderName>Defesa Civil Estadual do Espírito Santo</senderName>
-          <headline>Defesa Civil:(ES)  ALERTA de RAIOS e CHUVA INTENSA em Marilandia nas proximas 02 horas. Evite area de risco. Fique atento. Emergencia ligue 193.</headline>
-          <description>(ES)  ALERTA de RAIOS e CHUVA INTENSA em Marilandia nas proximas 02 horas. Evite area de risco. Fique atento. Emergencia ligue 193.</description>
-          <instruction>Fique atento. Em casos de emergência ligue 193.</instruction>
+          <urgency>Expected</urgency>
+          <severity>Severe</severity>
+          <certainty>Likely</certainty>
+          <onset>2026-11-19T12:30:19-03:00</onset>
+          <expires>2026-11-19T15:30:00-03:00</expires>
+          <senderName>Defesa Civil Estadual de Minas Gerais</senderName>
+          <headline>Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!</headline>
+          <description>Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!</description>
+          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -41,5 +41,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>Marilândia/ES</areaDesc>
-            <polygon>-19.312,-40.508 -19.313,-40.51 -19.313,-40.51 -19.313,-40.511 -19.313,-40.511 -19.313,-40.511 -19.313,-40.512 -19.313,-40.512 -19.313,-40.512 -19.313,-40.513 -19.313,-40.513 -19.313,-40.513 -19.313,-40.514 -19.314,-40.514 -19.314,-40.514 -19.314,-40.515 -19.315,-40.515 -19.315,-40.515 -19.315,-40.515 -19.315,-40.515 -19.316,-40.516 -19.316,-40.516 -19.316,-40.517 -19.317,-40.517 -19.317,-40.518 -19.318,-40.518 -19.318,-40.519 -19.318,-40.519 -19.318,-40.52 -19.319,-40.521 -19.319,-40.521 -19.319,-40.522 -19.319,-40.522 -19.32,-40.523 -19.32,-40.524 -19.32,-40.524 -19.32,-40.525 -19.32,-40.525 -19.319,-40.525 -19.319,-40.525 -19.319,-40.525 -19.32,-40.526 -19.32,-40.526 -19.32,-40.527 -19.32,-40.527 -19.32,-40.528 -19.32,-40.529 -19.32,-40.529 -19.32,-40.529 -19.32,-40.53 -19.321,-40.53 -19.321,-40.53 -19.321,-40.529 -19.321,-40.529 -19.321,-40.529 -19.322,-40.529 -19.322,-40.529 -19.322,-
+            <areaDesc>MINAS GERAIS/MG</areaDesc>
+            <polygon>-15.59,-41.752 -15.589,-41.752 -15.589,-41.753 -15.589,-41.753 -15.589,-41.753 -15.589,-41.754 -15.589,-41.754 -15.589,-41.755 -15.589,-41.755 -15.588,-41.756 -15.588,-41.756 -15.588,-41.757 -15.588,-41.757 -15.587,-41.758 -15.587,-41.758 -15.587,-41.758 -15.587,-41.759 -15.587,-41.759 -15.587,-41.76 -15.587,-41.76 -15.587,-41.761 -15.587,-41.761 -15.587,-41.762 -15.588,-41.762 -15.589,-41.763 -15.589,-41.763 -15.589,-41.763 -15.59,-41.763 -15.59,-41.763 -15.591,-41.764 -15.591,-41.764 -15.591,-41.764 -15.592,-41.764 -15.592,-41.765 -15.593,-41.765 -15.593,-41.766 -15.593,-41.766 -15.593,-41.767 -15.594,-41.767 -15.594,-41.768 -15.595,-41.768 -15.595,-41.768 -15.596,-41.768 -15.596,-41.769 -15.597,-41.769 -15.597,-41.769 -15.597,-41.769 -15.598,-41.769 -15.599,-41.769 -15.599,-41.769 -15.599,-41.769 -15.6,-41.769 -15.6,-41.77 -15.601,-41.77 -15.601,-41.77 -15.601,-41.771 -15.601,-41.771 -15.601,-41.772 -15.601,-41.772 -15.6
