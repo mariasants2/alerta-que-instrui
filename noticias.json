@@ -1,9 +1,16 @@
 {
- "atualizado": "2026-11-20T22:21:02+00:00",
+ "atualizado": "2026-11-20T23:15:13+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
  "noticias": [
+  {
+   "d": "20/11/2026",
+   "c": "chuva",
+   "v": "UOL Notícias",
+   "t": "Chuva põe zonas norte, leste, centro e Marginal Tietê em estado de atenção",
+   "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOS095a2l2S2wzdkpTNkdNNEFNWENzZFh6N3duMVp1T3dQOEZMS2gza1FCMUp1MVlybnd3eDVwNmI2OXVxQzJzeldEaTVlMFRjUmw5YTJ5aGpZQng1a1hpSDRMeEdCcWJpTWl5NHdRTndlMll0NERWOU1iSWpDdzltaVZMUVJXc3RIdjhIQWV2TWJxM2lqTkNzTVI2OVBTUVAwNkw5QkNzUQ?oc=5"
+  },
   {
    "d": "20/11/2026",
    "c": "chuva",
@@ -14,9 +21,9 @@
   {
    "d": "20/11/2026",
    "c": "chuva",
-   "v": "Terra",
+   "v": "Estadão",
    "t": "Chuvas fortes atingem litoral norte e cidades do interior de São Paulo; veja os locais",
-   "u": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOTkVBbDdxU3FwZlVudkt1QnQ0MkFlZVI2TVhuMll6Zzc0OWI3VDBqVmVzTHhzbWMyaE5mOGowRk9nQzZZYV84R1pWTk5uaGF1Z2NtemVIeFVwUk52SktqR3JBQTJkMzFxM2wtNWNqMWRfVWxlZEx5M3p4Y1ViTUk3RkZEUnBrbDlPekYwYUIzUHdhREZnamNZa0o0VzNOcTJYVmVuOXR0THljMGtlNkdxTzgzN0VjbWVualFLUGNJeEdjNHFzWGJCQ0Q0dVAtdHBFbVV6dE5GRktfUlpVX3dqOUNuZjdVZ3ZEajRjUkZ6UllHM2dVSHp3S1pMSFpOc2tLZTlhWHNYeWI2aEcy?oc=5"
+   "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOG5pMGl6ZC1PMDJyMjFhVWk4LVRYSHZaN05CcXBQU0d4aEtNWEM2bFNkZk9XaGpjcnRaNkd3NzZtWm4xU211R3I5NGZ6N1hOT1FEYVRtQThMUktqVEtFMndVWW1ucElUMUk1OXRXeGEtcHVOSDZ2emlEQkgzNmZRcG5ISEJ0QlUza1poMkFMWHU5eUlPem1HdGRvNzZ0N0lTSDVER0w4QWVESUlIOXpkYzY0eElKczZiYUZsOE1PY1nSAcYBQVVfeXFMT3RCTERPVnFlQlJIalhEczhkMmdibEtpVUpYUEJzYXIyRkpNcEpNNnBObmpQRU9VQ3k4VnV6M01Ga25aWk1fY0ZBWjhkbEx5U0xPT1kwVXlCYjdzUmRweVczdFZyUVlZbjBwZk5aX3l6UmhhQXg5UFJwbEpSajlSREVWbnRVdE44VUNyeTRGeWNFMDRtdlgxQXF3di1jUTZWQU1KR2d4d2hQaW1Mdl9oZE9VZ2lsQXR2Qy15VEhxQXhRWWV4b1F3?oc=5"
   },
   {
    "d": "20/11/2026",
@@ -31,13 +38,6 @@
    "v": "G1",
    "t": "Defesa Civil alerta para chuvas fortes no interior de SP durante o feriado prolongado",
    "u": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOQTNQdXhJRHpTWTdjWEF1YXZ4TkVORGY0WjVxbWRBODBWYkRnYjRORGc4eDZEUThnaFp0S2JLTi1MMU9QZHhFWlkxZGt5dkR5SVhDV3MyTG5fT3YzT1U0RlUtOHc5enBNQy1RMGs4RjVqM0RvRWU0UmFLT3Uyc3lrTnY2U1ZLZV9GTzF2akFVSXV1VTY4TkQ5S1V0YzBpT1haSDRSWV9Nem9WMmQ1c1d3TXBXR2RBRnFzM3htVFozQ2lYX3hZOGpTaDZNbmxqZUhoa2Y4WlF6eGh0MWl4RWs3MHc1WWxfNjM5aURyTks0a244M29jNGfSAYQCQVVfeXFMTm5Lem1sRWg2ejVnS1AtUkltUV9Vb1dDOFVORTN0ZVlvVldkakJ5WUpxblFRMVlYelNoY0d6b1AxTlU2b3pidm4wYVlQaFp0bl9LNHVlTFpPa1BNZkVJbXBDV28wQmtMelFueFJ3em05TktVN3RjNEtiZk1CWm45QkplMWREWmRJZ2FOVjlra2pyS3o2M3A5Um00UDhXSlJNdjJyblRMRlBwY0JkdkVLckRHV2hLbGY4MEJvZXIzQURqZ0hMaTZxcGNBMXFlQ0doRHdvRkR1dTA2S0xlT1dJSTZVVlZ1SjNSRDdjTTBwVlJ3b0J0QUpRS3M4M0ZaT0JlLU5Ibkc?oc=5"
-  },
-  {
-   "d": "20/11/2026",
-   "c": "chuva",
-   "v": "Estadão",
-   "t": "Tempestades que causaram estragos no RS podem chegar até São Paulo? Veja previsão",
-   "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORWpjU2JjTUR0TmZoa0pLdVM3QUIwS2l2a2dHcGRyNl9JUjAtcThQQ3FXaURWNU1ha2l1cEpvQU1nd0c1SndCUTdkcEVSLTBRejd5d2EtaHl3cm0zS3FIb1BMYkpXdHVnY2xpR1U3ZjJsZ1Y1UmRjSll1U2h5WllVVjFwdDgzU0R1bTl5QkhkZGpmWkg2VVdGQm5SV2c0emZ4elRld1FubHpEOHdLSU1DZnMzTk8zd9IBuwFBVV95cUxQVHVlYW8xV2QwMmF5N0tHZENZLUtTdUpDTVl6NGZ4dm9BMHNDcUs4TUVRMWo5b1pNRFQ4dXRYOEY1VC1VNGFIbC1ZdFZjVzhHTzVhTUVPZmk2bmp3UjZ0SEIzam5CVExwNDhVeHFNR2U5UG1iWEhLSG5JeGNBYlVXSHE0MzRsR3h0THh0bnVXUXE5YzVQYmNTX2ZUSmxFd1dGajAwNTR4MkxzdS04Z2FHNWhDbDZPSEFWM0Iw?oc=5"
   },
   {
    "d": "20/11/2026",

@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-20T22:18:00Z</updated>
-  <dc:date>2026-11-20T22:18:00Z</dc:date>
+  <updated>2026-11-20T23:14:37Z</updated>
+  <dc:date>2026-11-20T23:14:37Z</dc:date>
   <entry>
-    <title>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</title>
+    <title>TEMPESTADE LOCAL/CONVECTIVA - VENDAVAL</title>
     <author>
       <name />
     </author>
-    <id>199217/2026</id>
-    <updated>2026-11-20T10:18:43Z</updated>
+    <id>199224/2026</id>
+    <updated>2026-11-20T11:18:31Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199217/2026</identifier>
+        <identifier>199224/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-20T07:18:43-03:00</sent>
+        <sent>2026-11-20T08:18:31-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -23,16 +23,17 @@
         <info>
           <language>pt-BR</language>
           <category>Met</category>
-          <event>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</event>
+          <event>TEMPESTADE LOCAL/CONVECTIVA - VENDAVAL</event>
           <responseType>Execute</responseType>
-          <urgency>Expected</urgency>
-          <severity>Moderate</severity>
+          <urgency>Immediate</urgency>
+          <severity>Severe</severity>
           <certainty>Likely</certainty>
-          <onset>2026-11-20T07:18:43-03:00</onset>
-          <expires>2026-11-20T11:25:00-03:00</expires>
-          <senderName>Defesa Civil Estadual de Santa Catarina</senderName>
-          <description>OBSERVAÇÃO - 20/11 07:17 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Planalto Sul, Litoral Sul e Grande Florianópolis nas próximas 4 horas. Ocorrências ligue 199 ou 193.</description>
-          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
+          <onset>2026-11-20T11:00:00-03:00</onset>
+          <expires>2026-11-20T23:59:00-03:00</expires>
+          <senderName>Defesa Civil de Blumenau (SC)</senderName>
+          <headline>Defesa Civil:ALERTABLU-ATENCAO: A partir final da manha (20/11) pancadas de chuva c/ trovoadas em BLUMENAU. RISCO P/ TEMPORAIS. Fique atento! Emerg 199/193.</headline>
+          <description>ALERTABLU INFORMA - A partir do final da manhã desta sexta-feira, a presença de perturbações na atmosfera favorece a ocorrência de pancadas de chuva com trovoadas sobre a região de Blumenau. Nesse período, o risco é aumentado para temporais isolados acompanhados de chuva intensa em curto espaço de tempo, rajadas momentâneas de vento forte e queda de granizo pontual. Fique atento! Em caso de ocorrência, ligue 199 ou 193.</description>
+          <instruction>Durante uma tempestade com ventos intensos, evite abrigar-se sob árvores, estruturas metálicas ou coberturas frágeis, pois há risco de queda ou rompimento. Mantenha-se em local seguro, longe de janelas e objetos que possam ser arremessados. Se possível, desligue aparelhos eletrônicos das tomadas. Evite trafegar durante a tempestade. Acesse o site ou aplicativo AlertaBlu para se informar a respeito das condições de tempo previstas para Blumenau. Em caso de ocorrência, ligue 199 ou 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -40,5 +41,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>SANTA CATARINA/SC</areaDesc>
-            <polygon>-28.611,-48.821 -28.611,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.61,-48.823 -28.61,-48.823 -28.61,-48.823 -28.61,-48.823 -28.61,-48.822 -28.61,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-
+            <areaDesc>Blumenau/SC</areaDesc>
+            <polygon>-26.621,-49.113 -26.621,-49.113 -26.62,-49.112 -26.62,-49.112 -26.619,-49.112 -26.618,-49.112 -26.618,-49.112 -26.617,-49.113
