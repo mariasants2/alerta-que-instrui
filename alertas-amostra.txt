@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-20T21:25:36Z</updated>
-  <dc:date>2026-11-20T21:25:36Z</dc:date>
+  <updated>2026-11-20T22:18:00Z</updated>
+  <dc:date>2026-11-20T22:18:00Z</dc:date>
   <entry>
     <title>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199209/2026</id>
-    <updated>2026-11-20T09:25:19Z</updated>
+    <id>199217/2026</id>
+    <updated>2026-11-20T10:18:43Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199209/2026</identifier>
+        <identifier>199217/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-20T06:25:19-03:00</sent>
+        <sent>2026-11-20T07:18:43-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -28,10 +28,10 @@
           <urgency>Expected</urgency>
           <severity>Moderate</severity>
           <certainty>Likely</certainty>
-          <onset>2026-11-20T06:25:19-03:00</onset>
-          <expires>2026-11-20T12:30:00-03:00</expires>
+          <onset>2026-11-20T07:18:43-03:00</onset>
+          <expires>2026-11-20T11:25:00-03:00</expires>
           <senderName>Defesa Civil Estadual de Santa Catarina</senderName>
-          <description>OBSERVAÇÃO - 20/11 06:21 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Meio-Oeste e Planalto Sul nas próximas 6 horas. Ocorrências ligue 199 ou 193.</description>
+          <description>OBSERVAÇÃO - 20/11 07:17 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Planalto Sul, Litoral Sul e Grande Florianópolis nas próximas 4 horas. Ocorrências ligue 199 ou 193.</description>
           <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
@@ -41,4 +41,4 @@
           </parameter>
           <area>
             <areaDesc>SANTA CATARINA/SC</areaDesc>
-            <polygon>-27.631,-51.374 -27.557,-51.092 -27.538,-50.852 -27.531,-50.69 -27.584,-50.348 -27.018,-51.233 -26.967,-51.564 -27.255,-52.442 -27.255,-52.442 -27.255,-52.442 -27.256,-52.442 -27.258,-52.441 -27.258,-52.441 -27.259,-52.441 -27.261,-52.441 -27.261,-52.44 -27.262,-52.44 -27.263,-52.439 -27.264,-52.439 -27.264,-52.438 -27.265,-52.438 -27.266,-52.437 -27.266,-52.436 -27.267,-52.436 -27.268,-52.435 -27.269,-52.433 -27.27,-52.432 -27.271,-52.43 -27.272,-52.43 -27.273,-52.428 -27.274,-52.427 -27.275,-52.427 -27.276,-52.425 -27.277,-52.424 -27.277,-52.424 -27.278,-52.423 -27.278,-52.423 -27.279,-52.422 -27.28,-52.421 -27.281,-52.42 -27.282,-52.419 -27.282,-52.418 -27.283,-52.417 -27.284,-52.416 -27.285,-52.415 -27.285,-52.415 -27.285,-52.415 -27.286,-52.413 -27.286,-52.412 -27.286,-52.412 -27.286,-52.412 -27.286,-52.412 -27.287,-52.41 -27.288,-52.409 -27.288,-52.408 -2
+            <polygon>-28.611,-48.821 -28.611,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.61,-48.823 -28.61,-48.823 -28.61,-48.823 -28.61,-48.823 -28.61,-48.822 -28.61,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-

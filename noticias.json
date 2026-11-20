@@ -1,9 +1,30 @@
 {
- "atualizado": "2026-11-20T21:28:04+00:00",
+ "atualizado": "2026-11-20T22:21:02+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
  "noticias": [
+  {
+   "d": "20/11/2026",
+   "c": "chuva",
+   "v": "G1",
+   "t": "Fernão Dias é interditada nos dois sentidos após alagamento causado por fortes chuvas em MG",
+   "u": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPbUU3Zi1MQk5OY2p6aGpPc1NUVzNxTWgzbjFQUmhGMHU5YS1xRDQ0SVR0MmlMTC1Hb0hHTkZtLVdmNldGZjk4bUhzVEJ6VTVMYW1YaEZxWVhoaEMxU3RLNjNkTnRKaU9IZWtEekJGaVMxNlNYN0JKY1ZHdDNTZ1N5cTkwNVhOanZiLVRUdWthVlFITlBUbXNScjQ3RWt6VlJ5WjBLZTVPWnNaRUdWMFg0SDBqS2M3TGpmQ3RDQjlMNnZKaGRJN1BkazVvR0pmV19OTDBPcUlBOVdVblVvRFZQWmNOUl9mRW0z0gH3AUFVX3lxTE9xVm1UR2FXTTh6Wk9yYkJhdmJNVlhfRXQ4NGR1b2JJc241V3o4RC02Z05TVDdIbkc2cV9DTEJqdUo4Rk50QUJKeFRjaldQa3ZmMEQ2ZnJ6NVpmc212YWNoNVB4OE1JUy1vVGxCbTRfckNLLW9tYTBFeGlwY3lmSFRQbzlqTXExZFN6TjZSSTFOLUxGU2tBalJxN2hxdXdlc3Z1N3dvOE9fcUxzWFZhTklROTV5TzN1cE9jVjFvVXJOX3FpN0VDRkFCZG43UUVfbHZVMTdmaVBKUUFURnhVX3FUanN6VHA1RUw2MVNyeV9pSjRDeFVLZlU?oc=5"
+  },
+  {
+   "d": "20/11/2026",
+   "c": "chuva",
+   "v": "Terra",
+   "t": "Chuvas fortes atingem litoral norte e cidades do interior de São Paulo; veja os locais",
+   "u": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOTkVBbDdxU3FwZlVudkt1QnQ0MkFlZVI2TVhuMll6Zzc0OWI3VDBqVmVzTHhzbWMyaE5mOGowRk9nQzZZYV84R1pWTk5uaGF1Z2NtemVIeFVwUk52SktqR3JBQTJkMzFxM2wtNWNqMWRfVWxlZEx5M3p4Y1ViTUk3RkZEUnBrbDlPekYwYUIzUHdhREZnamNZa0o0VzNOcTJYVmVuOXR0THljMGtlNkdxTzgzN0VjbWVualFLUGNJeEdjNHFzWGJCQ0Q0dVAtdHBFbVV6dE5GRktfUlpVX3dqOUNuZjdVZ3ZEajRjUkZ6UllHM2dVSHp3S1pMSFpOc2tLZTlhWHNYeWI2aEcy?oc=5"
+  },
+  {
+   "d": "20/11/2026",
+   "c": "alerta",
+   "v": "Metrópoles",
+   "t": "Chuva e granizo: Defesa Civil emite alerta severo para zona norte de SP",
+   "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNazczLXVNY1Y1S3dhT1I5a3U5bmMtcnBfLV9OMXBKY25HWDMwQmJMLUVPN1JFMXhXTHZmQXk2WmU5SGhELU5naGttR0wyT3FTQVFvNU5RR3NUSHN3UDhtazh6N1dQQ2xjRE1XR2RDdWI5SE9EQ0s4SGJOVGQ5WTRuZTlvQjBtX09oYUR4TnEtdUFUR1AtVEtnb2RpQi1FRTFidWR4S2dPZmZYM1E?oc=5"
+  },
   {
    "d": "20/11/2026",
    "c": "alerta",
@@ -38,27 +59,6 @@
    "v": "VEJA",
    "t": "Previsão do tempo nesta sexta, 20: São Paulo terá calor de até 35°C no interior e chuva com avanço de frente fria",
    "u": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUFpsN0pVa2dDRVY5SFNtZkFQSFZGekVMTy1sSHc4dzNpV3ZDMXNXNnJGdXg5Q3ludkFHN1VnZmMtZ3RPampzMVRfSXB0ZWR3bTF0U2FZQk5pd2I5RV83WXNzUVFzc3FWZmFfYkJYX056enJabHVSemZVTWNJZ2JjeFg4VE9HSjRJbGYyclg2ZXp2NkpiMlFlallQSXE2SWFFbDhXRkZWRnVyNlhuYXZRQ19obC1VWDBpQ0lYcWp3TjJ3WjJnczZyOGRTSG1LbnRBUlFxTEVtd1U2bldHemxabEtVZlo?oc=5"
-  },
-  {
-   "d": "19/11/2026",
-   "c": "arvore",
-   "v": "R7",
-   "t": "Temporal provoca caos em São Paulo e gera 2º maior congestionamento do ano",
-   "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdi1PUTV3aHJkZlE3YUtJVFFqWTV3RjZoZDhiSzJpZkg3Zl9XMk56U1c4NlhiYkZnTjE4MzNaOGNxZWJna1gzRFF3M1dFOTV1QTN5UXlmbl9TQk5MeVhVZUhXN2RaUHI3NnBQNDVZZXE2ejdwQ3ZKaTRHWV94VHdLWGZLOUJWbjhyVUl3MHdvTjFhOTM4UndKSE44V3Q4YWktWHZqNkVWMmYxSjJYVkttLWJ5enBTQnpzSW9wc1hRU3ZCRDNqSkZmU3ZFeThMOFE?oc=5"
-  },
-  {
-   "d": "18/11/2026",
-   "c": "arvore",
-   "v": "O GLOBO",
-   "t": "Temporal em São Paulo provoca granizo e alagamentos e deixa 36 mil imóveis sem luz",
-   "u": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbGc3ck4xNWxxa2w1ZkJqSE82WTJHMU5qeVhzR0FHT2tvTXBEYjM1UzlYQjg4YkVBWGN5TUNUNC1aeldhRG5VY2lpcV9wQ3pna21kak5oV0NYWjFrbEx6VTlqcEUtN1hBU0Q2TUFmY0hTYkxTOWdTWjZJNDZVVWJTVTZyWHFVWEZaNlkwLUJWZkx6RzN4YTUxUEdKZlh0bzJzSGFmWnZTMmRtclVLT1pXVHZodUdVS3BweTBMdTV1RWJxNHc3ZGFGXzdyb0RKc2lpNVdqVVVMMWJRakRyUVZ5TF92WdIB8gFBVV95cUxNZWNUOF9od0RucTJrdmowbTVvTVJ4U1FvWDNsTlhZVEtROXh5WWhWZkpla2RVdVdGSlU4cjJpYmh3Um05dDFXU3ZBQjJkdlE4TGlpLW1aaWJVUnVsemRndEtscW9tOXAzX0pLYzZYNzFZWUtDYXNra2tOQS1UYlNDMG01OTUtLXhGRXQxbkJPbmlNWk9RVDlhSnFKdXJrU0ZnTHR2Y190SUpic0FCZ05LcVY3MnJGbTJzQ2EwcVd0OGFtbkFYcmlQLW5WTUsySXlOb2lYbEI1M09qNmtCVFNIY3dwUjJtbzBYVHdyZWhKQXlFdw?oc=5"
-  },
-  {
-   "d": "18/11/2026",
-   "c": "arvore",
-   "v": "G1",
-   "t": "Temporal em Campinas: entenda por que chuva causou alagamentos e enxurradas",
-   "u": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVWxEUjc5dzJMT1VUU0M0dW84d1NEelo4Umlla2xTRVhEcmhON0EtaHZMUTRNYkZJSTc0VUF2YkpvMFZ6MXY2TWV0ei0tYXY3bElYek83ZmJjV2FwSklVUlhQVWlGMlBzY2JlTnFudnpDR3k3OGNRNmlLazFfZ3dLTXcwM2xaQkR3b0o0Skc1WmNrdVMxUXotbzFndDZ2bHRvXzhfRlpoenJDNGNoeEVZakRpZjlYVk8taWl1VXlvcUNqV0dxajNtU1hmOW9YYnhtbmJqTDZn0gHkAUFVX3lxTE5oMzhCNDFjNWFxTWxDb3RENm9qdGNHTUdFbWZZcEx2QUllRWU3SzktSmRkcHg3WktvQUFySmY1WHNBb1FUMEhSSUpQR0w2cmNUV3Q4dHNibmRyUDB4bm5XR0l4czBoYTVOLUxEd0ZGb0pPU2pxYzZueGtnSVZ1ZERRTUNOcTlxS3VRT3BlQ05teFJhcV9KcVhzM3lHNGVOSDlfZFlXMHRINGpGbUhiTnFtOW0xdVlqNjduOHRkbDRWSy1WNGR3amZwRF96a3BrQzVyalAzSkxYSXlSZlJGYVowQ3JvcQ?oc=5"
   }
  ]
 }
