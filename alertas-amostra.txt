@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-20T10:11:52Z</updated>
-  <dc:date>2026-11-20T10:11:52Z</dc:date>
+  <updated>2026-11-20T11:17:44Z</updated>
+  <dc:date>2026-11-20T11:17:44Z</dc:date>
   <entry>
     <title>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199139/2026</id>
-    <updated>2026-11-19T22:14:03Z</updated>
+    <id>199149/2026</id>
+    <updated>2026-11-19T23:18:22Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199139/2026</identifier>
+        <identifier>199149/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-19T19:14:03-03:00</sent>
+        <sent>2026-11-19T20:18:22-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -26,13 +26,12 @@
           <event>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
           <urgency>Expected</urgency>
-          <severity>Severe</severity>
-          <certainty>Likely</certainty>
-          <onset>2026-11-19T19:14:03-03:00</onset>
-          <expires>2026-11-19T21:10:00-03:00</expires>
+          <severity>Moderate</severity>
+          <certainty>Observed</certainty>
+          <onset>2026-11-19T20:18:22-03:00</onset>
+          <expires>2026-11-19T23:15:00-03:00</expires>
           <senderName>Defesa Civil Estadual de Santa Catarina</senderName>
-          <headline>Defesa Civil:ATENCAO - 19/11 19:12 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS  nas proximas 3 horas. Ocorrencias ligue 199 ou 193.</headline>
-          <description>ATENÇÃO - 19/11 19:12 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS para os municípios de Bom Jardim da Serra, Grão Pará, Lauro Müller, Orleans, Painel, Rio Rufino, São Joaquim, Treviso, Urubici, Urupema e Urussanga nas próximas 3 horas. Ocorrências ligue 199 ou 193.</description>
+          <description>OBSERVAÇÃO - 19/11 20:16 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para os municípios de Anitápolis, Armazém, Bom Retiro, Braço do Norte, Capivari de Baixo, Garopaba, Gravatal, Grão Pará, Imaruí, Imbituba, Laguna, Orleans, Paulo Lopes, Pescaria Brava, Rio Fortuna, Santa Rosa de Lima, São Bonifácio, São Ludgero, São Martinho, Tubarão e Urubici nas próximas 3 horas. Ocorrências ligue 199 ou 193.</description>
           <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
@@ -42,20 +41,4 @@
           </parameter>
           <area>
             <areaDesc>SANTA CATARINA/SC</areaDesc>
-            <polygon>-28.212,-50.075 -28.344,-49.973 -28.301,-49.914 -28.297,-49.742 -28.358,-49.571 -28.499,-49.48 -28.433,-49.324 -28.32,-49.249 -28.037,-49.431 -27.98,-49.63 -27.999,-50.021 -28.212,-50.075</polygon>
-          </area>
-        </info>
-      </alert>
-    </content>
-  </entry>
-  <entry>
-    <title>TEMPESTADE LOCAL/CONVECTIVA - GRANIZO</title>
-    <author>
-      <name />
-    </author>
-    <id>199140/2026</id>
-    <updated>2026-11-19T22:25:47Z</updated>
-    <content type="text/xml">
-      <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199140/2026</identifier>
-        <se
+            <polygon>-28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.709 -28.445,-48.71 -28.445,-48.71 -28.445,-48.71 -28.445,-48.71 -28.445,-48.71 -28.445,-48.71 -28.445,-48.71 -28.445,-48.711 -28.446,-48.711 -28.446,-48.711 -28.446,-48.711 -28.446,-48.711 -28.4
