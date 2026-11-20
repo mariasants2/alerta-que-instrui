@@ -1,2 +1,2 @@
-window.GEMINI_KEY="AQ.Ab8RN6J2CS-hyqMfwURDa_tPhyiMdeZDnIhx8YdNo2smv4GSBg";
+window.GEMINI_KEY="AQ.Ab8RN6Jid9xIca1to3zqZCH8wx6jj99QmKK9babxlwF8zBTV8A";
 window.ONESIGNAL_APP_ID="";
