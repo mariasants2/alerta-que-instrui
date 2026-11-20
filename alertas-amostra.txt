@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-20T16:33:36Z</updated>
-  <dc:date>2026-11-20T16:33:36Z</dc:date>
+  <updated>2026-11-20T17:35:15Z</updated>
+  <dc:date>2026-11-20T17:35:15Z</dc:date>
   <entry>
-    <title>GRANIZO</title>
+    <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199182/2026</id>
-    <updated>2026-11-20T04:34:29Z</updated>
+    <id>199188/2026</id>
+    <updated>2026-11-20T05:40:50Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199182/2026</identifier>
+        <identifier>199188/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-20T01:34:29-03:00</sent>
+        <sent>2026-11-20T02:40:50-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -23,17 +23,17 @@
         <info>
           <language>pt-BR</language>
           <category>Met</category>
-          <event>GRANIZO</event>
+          <event>CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
-          <urgency>Expected</urgency>
-          <severity>Extreme</severity>
-          <certainty>Observed</certainty>
-          <onset>2026-11-20T01:34:29-03:00</onset>
-          <expires>2026-11-20T02:30:00-03:00</expires>
-          <senderName>Defesa Civil Estadual do Rio Grande do Sul</senderName>
-          <headline>Defesa Civil:RS: Alerta VERMELHO p/ tempestade c/ GRANIZO GRANDE e VENDAVAL na prox. hora. Risco MUITO ALTO de destelhamento. ABRIGUE-SE. Emerg.190/193</headline>
-          <description>RS: Alerta VERMELHO p/ tempestade c/ GRANIZO GRANDE e VENDAVAL na prox. hora. Risco MUITO ALTO de destelhamento. ABRIGUE-SE. Emerg.190/193</description>
-          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
+          <urgency>Immediate</urgency>
+          <severity>Moderate</severity>
+          <certainty>Possible</certainty>
+          <onset>2026-11-20T02:40:50-03:00</onset>
+          <expires>2026-11-20T06:30:00-03:00</expires>
+          <senderName>Defesa Civil Estadual do Amazonas</senderName>
+          <headline>Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.</headline>
+          <description>A análise da imagem de satélite GOES, no canal infravermelho, disponível no portal do INMET, indica a presença de nuvens associadas a chuva intensa com possibilidade de pancadas de chuva de intensidade moderada a forte sobre o(s) referido(s) município(s). Também há chance de descargas elétricas e rajadas de vento, além do risco de alagamentos e enxurradas em áreas vulneráveis.</description>
+          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Se houver vendaval, granizo ou descargas elétricas, fique atento às recomendações para estes tipos de ameaças; Auxilie crianças, idosos e pessoas com dificuldade de locomoção próximas a você; Evite contato com a água de alagamentos, pois podem estar contaminadas e provocar doenças.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -41,28 +41,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>Uruguaiana/RS</areaDesc>
-            <polygon>-29.746,-57.097 -29.742,-57.093 -29.734,-57.083 -29.701,-57.045 -29.69,-57.036 -29.52,-56.7 -29.859,-56.495 -29.957,-57.012 -29.765,-57.122 -29.764,-57.12 -29.746,-57.097</polygon>
-          </area>
-        </info>
-      </alert>
-    </content>
-  </entry>
-  <entry>
-    <title>GRANIZO</title>
-    <author>
-      <name />
-    </author>
-    <id>199183/2026</id>
-    <updated>2026-11-20T04:39:17Z</updated>
-    <content type="text/xml">
-      <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199183/2026</identifier>
-        <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-20T01:39:17-03:00</sent>
-        <status>Actual</status>
-        <msgType>Alert</msgType>
-        <source>Defesa Civil</source>
-        <scope>Public</scope>
-        <info>
-          <language>pt-BR</language>
+            <areaDesc>AMAZONAS/AM</areaDesc>
+            <polygon>-4.294,-65.95 -4.297,-66.0 -4.296,-66.162 -4.296,-66.169 -4.296,-66.172 -4.296,-66.178 -4.296,-66.181 -4.296,-66.182 -4.296,-66.184 -4.296,-66.358 -4.296,-66.381 -4.296,-66.52 -4.296,-66.522 -4.296,-66.538 -4.296,-66.566 -4.296,-66.568 -4.296,-66.571 -4.296,-66.573 -4.295,-66.738 -4.295,-66.767 -4.295,-66.784 -4.295,-66.932 -4.296,-66.931 -4.29

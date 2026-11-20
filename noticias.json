@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-20T16:38:08+00:00",
+ "atualizado": "2026-11-20T17:38:59+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
@@ -26,20 +26,6 @@
    "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdi1PUTV3aHJkZlE3YUtJVFFqWTV3RjZoZDhiSzJpZkg3Zl9XMk56U1c4NlhiYkZnTjE4MzNaOGNxZWJna1gzRFF3M1dFOTV1QTN5UXlmbl9TQk5MeVhVZUhXN2RaUHI3NnBQNDVZZXE2ejdwQ3ZKaTRHWV94VHdLWGZLOUJWbjhyVUl3MHdvTjFhOTM4UndKSE44V3Q4YWktWHZqNkVWMmYxSjJYVkttLWJ5enBTQnpzSW9wc1hRU3ZCRDNqSkZmU3ZFeThMOFE?oc=5"
   },
   {
-   "d": "19/11/2026",
-   "c": "chuva",
-   "v": "Band",
-   "t": "Defesa Civil monitora SP após dia com chuvas, alagamentos e desabamentos",
-   "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTnNDWXpEZVplWHFBTW1PLVl6amx6SlJqTFdrLU9BZldWaU5NSTFZdzhsdnZfLVhIenZoZWl1MURDRFdqTE1VRmtnYUE4c3dXLVV2WVd0OGZxUHJKY0xvNzhpRFBjd2MwX3ZCa2FZbGFYMUtsWldKb3lXTWJ0NGRjUy1oSHRhcUJYRFRqTFlxbkIxOFZHSWp2VHVkaHdBX1hIMVBWQThzbXItaDQ?oc=5"
-  },
-  {
-   "d": "18/11/2026",
-   "c": "chuva",
-   "v": "CNN Brasil",
-   "t": "Tempestade causa estragos em SP; cidade teve 80% da chuva esperada pro mês",
-   "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTG1JaU4wZkU1WG1iNnJwTzQxVXRDOVpwOHZlM2RqMXlPLWN6OW43U0VKZ3M0dHRlU3BiWmpfMW1zcUNMT0ZuZTFtMVpSLXUwWEhxN1BndXJ2MXRVWXQ1UmpQNEk1b2M1SXhwekxfLVNTRDc4MUcyM3RiODhaWEZiZWRrRmxMZDhHVmxsaXFkOTZJY1JJZ3VhWTNvTUxOb3pveGVPekFVMTlURU50cm9CUlByQ1VzSUJfb2U5dHNkeEc?oc=5"
-  },
-  {
    "d": "18/11/2026",
    "c": "arvore",
    "v": "O GLOBO",
@@ -59,6 +45,20 @@
    "v": "CNN Brasil",
    "t": "Defesa Civil emite segundo alerta severo para chuvas em São Paulo",
    "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMUtoX05uajJkY3JpeXpoX3Y3c1pYNGc3cVVtamJyUFIwSmF3elJXSjVrTTA3eHA0Z25hbjBiWGxlLTM4R1pyOUV6TEY0MENXaGJMQU52RE00b0VUdkx1NW55aU03TWkwdWV1c0lDYkJoZWg3aEY0XzZpNGd3RGN6NGN0QmdoZFB3MFpTMjFCVE5nS0QxMlplTlJBTXBRWjVYWFBqa0VhWE84aG85d2NFNDhOdXRmQQ?oc=5"
+  },
+  {
+   "d": "18/11/2026",
+   "c": "alerta",
+   "v": "Agência Brasil",
+   "t": "Defesa Civil de SP envia 17 alertas de chuvas fortes para o estado",
+   "u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcW10YmFjUEpkVjZQUmxHWnF2cnNtaHhiSTFSUXR0ajVQN2VPdjhPZDdLVW1XMVBWTF9lbGVtZGw3emhVYnlmbFo4T2l5UEpacGVCNFJfeWozVmJUczBWRHJEbkpPRVhPYlU3MWlHQmFzZVZmdTJiTkR2RV8yN2NKRVhrZTJqMEZ3aHQwT3c3azBFRWJZMVhLSkZ5dlh4OVpzb1J6UnNCQzczNlliSEctRVF6ZnZ3d3VpQWJEeGRJc3AtU2RqaUgxUg?oc=5"
+  },
+  {
+   "d": "18/11/2026",
+   "c": "alerta",
+   "v": "Folha de S.Paulo",
+   "t": "Grande SP tem forte chuva, e Defesa Civil emite dois alertas severos; bairros registram queda de granizo",
+   "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxON3ljWmtRbFU0RUFER3YxalBpZGVrdFRabGt0LWJNWnNqN1RoQU5YOTVrWW9CSllfd3VyX0V1NlVvSUxwVGlRUjNxQWJqRno0ZGotaUdFNVR6a19mQks0d1RITlRQSWNEUTc1WUc4X0pRRmV4VUMwTnJEVWJwX1RYT2hyTXVEQW5MQThkQjRocGZiNnpCVGM1bHUxTkFLLTZWaDdSSmg5UnBvVG5YVV8yYWJCMEloWi1nR0FoelNTUUZGVThITVNv?oc=5"
   }
  ]
 }
