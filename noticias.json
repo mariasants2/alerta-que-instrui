@@ -1,64 +1,6 @@
 {
- "atualizado": "2026-11-20T12:18:08+00:00",
+ "atualizado": "2026-11-20T13:39:09+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
- "fonte_ok": true,
- "erro": null,
- "noticias": [
-  {
-   "d": "20/11/2026",
-   "c": "calor",
-   "v": "Folha de S.Paulo",
-   "t": "São Paulo terá feriado típico de primavera, com muito sol, calor e pancadas de chuva à tarde",
-   "u": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZF9YNnZUblM0Z3ZWdXUxcUFSU0hQdUwtWUNxdlFDQnd4aEZXelJqdThHNHVKWXdINm8zaFNiX2pFRmVteC1HS2VZTDRBb19RWUxMZkd0UFhjRjJ2cXVmZk1lYko2WWZBdEppeUFaYmZQWGU0Z2tlS09UbFBpbzdLUjNpZTF5VXRZVnUwZWZIa09MLVdqdkVleHZNMzhETTM4VUIwa2wwdUpVUE4wWDB3YjZDcDBYeldwOXM5eXdtQ2JjdFY4eC0yNzF6ME13eGNfTUFMNktvM0F0aURv?oc=5"
-  },
-  {
-   "d": "19/11/2026",
-   "c": "calor",
-   "v": "VEJA",
-   "t": "Previsão do tempo nesta sexta, 20: São Paulo terá calor de até 35°C no interior e chuva com avanço de frente fria",
-   "u": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUFpsN0pVa2dDRVY5SFNtZkFQSFZGekVMTy1sSHc4dzNpV3ZDMXNXNnJGdXg5Q3ludkFHN1VnZmMtZ3RPampzMVRfSXB0ZWR3bTF0U2FZQk5pd2I5RV83WXNzUVFzc3FWZmFfYkJYX056enJabHVSemZVTWNJZ2JjeFg4VE9HSjRJbGYyclg2ZXp2NkpiMlFlallQSXE2SWFFbDhXRkZWRnVyNlhuYXZRQ19obC1VWDBpQ0lYcWp3TjJ3WjJnczZyOGRTSG1LbnRBUlFxTEVtd1U2bldHemxabEtVZlo?oc=5"
-  },
-  {
-   "d": "19/11/2026",
-   "c": "arvore",
-   "v": "R7",
-   "t": "Temporal provoca caos em São Paulo e gera 2º maior congestionamento do ano",
-   "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdi1PUTV3aHJkZlE3YUtJVFFqWTV3RjZoZDhiSzJpZkg3Zl9XMk56U1c4NlhiYkZnTjE4MzNaOGNxZWJna1gzRFF3M1dFOTV1QTN5UXlmbl9TQk5MeVhVZUhXN2RaUHI3NnBQNDVZZXE2ejdwQ3ZKaTRHWV94VHdLWGZLOUJWbjhyVUl3MHdvTjFhOTM4UndKSE44V3Q4YWktWHZqNkVWMmYxSjJYVkttLWJ5enBTQnpzSW9wc1hRU3ZCRDNqSkZmU3ZFeThMOFE?oc=5"
-  },
-  {
-   "d": "19/11/2026",
-   "c": "chuva",
-   "v": "Band",
-   "t": "Defesa Civil monitora SP após dia com chuvas, alagamentos e desabamentos",
-   "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTnNDWXpEZVplWHFBTW1PLVl6amx6SlJqTFdrLU9BZldWaU5NSTFZdzhsdnZfLVhIenZoZWl1MURDRFdqTE1VRmtnYUE4c3dXLVV2WVd0OGZxUHJKY0xvNzhpRFBjd2MwX3ZCa2FZbGFYMUtsWldKb3lXTWJ0NGRjUy1oSHRhcUJYRFRqTFlxbkIxOFZHSWp2VHVkaHdBX1hIMVBWQThzbXItaDQ?oc=5"
-  },
-  {
-   "d": "19/11/2026",
-   "c": "calor",
-   "v": "Folha de S.Paulo",
-   "t": "Previsão indica mais calor e pancadas de chuva nesta quinta (19) em São Paulo",
-   "u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTkU3NEd5ZWlOT2NlRlFRWHJ1SF9qRUlORmRBd21kTElTSE8tYzBvbTlDdURlMHduLXd1MjJlb1RhWUR6c2pkVGNfZUx1NzdDZ2RQdFpkbDRhR3FYMmRCQjluaGd5ZTY1TnZCS05VRTA0OTBFdUhaZWhram90S2NCS29iZ2JNNk5YVGZGX2EtR3F5OHZtaUhoTk1fNVZvZ0l0S3UxdWM0eXNxOUI1TjVCM20yYzFjYlE1cTZDTDRiS1poXzV5RldxdQ?oc=5"
-  },
-  {
-   "d": "18/11/2026",
-   "c": "chuva",
-   "v": "CNN Brasil",
-   "t": "Tempestade causa estragos em SP; cidade teve 80% da chuva esperada pro mês",
-   "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTG1JaU4wZkU1WG1iNnJwTzQxVXRDOVpwOHZlM2RqMXlPLWN6OW43U0VKZ3M0dHRlU3BiWmpfMW1zcUNMT0ZuZTFtMVpSLXUwWEhxN1BndXJ2MXRVWXQ1UmpQNEk1b2M1SXhwekxfLVNTRDc4MUcyM3RiODhaWEZiZWRrRmxMZDhHVmxsaXFkOTZJY1JJZ3VhWTNvTUxOb3pveGVPekFVMTlURU50cm9CUlByQ1VzSUJfb2U5dHNkeEc?oc=5"
-  },
-  {
-   "d": "18/11/2026",
-   "c": "arvore",
-   "v": "O GLOBO",
-   "t": "Temporal em São Paulo provoca granizo e alagamentos e deixa 36 mil imóveis sem luz",
-   "u": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbGc3ck4xNWxxa2w1ZkJqSE82WTJHMU5qeVhzR0FHT2tvTXBEYjM1UzlYQjg4YkVBWGN5TUNUNC1aeldhRG5VY2lpcV9wQ3pna21kak5oV0NYWjFrbEx6VTlqcEUtN1hBU0Q2TUFmY0hTYkxTOWdTWjZJNDZVVWJTVTZyWHFVWEZaNlkwLUJWZkx6RzN4YTUxUEdKZlh0bzJzSGFmWnZTMmRtclVLT1pXVHZodUdVS3BweTBMdTV1RWJxNHc3ZGFGXzdyb0RKc2lpNVdqVVVMMWJRakRyUVZ5TF92WdIB8gFBVV95cUxNZWNUOF9od0RucTJrdmowbTVvTVJ4U1FvWDNsTlhZVEtROXh5WWhWZkpla2RVdVdGSlU4cjJpYmh3Um05dDFXU3ZBQjJkdlE4TGlpLW1aaWJVUnVsemRndEtscW9tOXAzX0pLYzZYNzFZWUtDYXNra2tOQS1UYlNDMG01OTUtLXhGRXQxbkJPbmlNWk9RVDlhSnFKdXJrU0ZnTHR2Y190SUpic0FCZ05LcVY3MnJGbTJzQ2EwcVd0OGFtbkFYcmlQLW5WTUsySXlOb2lYbEI1M09qNmtCVFNIY3dwUjJtbzBYVHdyZWhKQXlFdw?oc=5"
-  },
-  {
-   "d": "18/11/2026",
-   "c": "arvore",
-   "v": "G1",
-   "t": "Temporal em Campinas: entenda por que chuva causou alagamentos e enxurradas",
-   "u": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVWxEUjc5dzJMT1VUU0M0dW84d1NEelo4Umlla2xTRVhEcmhON0EtaHZMUTRNYkZJSTc0VUF2YkpvMFZ6MXY2TWV0ei0tYXY3bElYek83ZmJjV2FwSklVUlhQVWlGMlBzY2JlTnFudnpDR3k3OGNRNmlLazFfZ3dLTXcwM2xaQkR3b0o0Skc1WmNrdVMxUXotbzFndDZ2bHRvXzhfRlpoenJDNGNoeEVZakRpZjlYVk8taWl1VXlvcUNqV0dxajNtU1hmOW9YYnhtbmJqTDZn0gHkAUFVX3lxTE5oMzhCNDFjNWFxTWxDb3RENm9qdGNHTUdFbWZZcEx2QUllRWU3SzktSmRkcHg3WktvQUFySmY1WHNBb1FUMEhSSUpQR0w2cmNUV3Q4dHNibmRyUDB4bm5XR0l4czBoYTVOLUxEd0ZGb0pPU2pxYzZueGtnSVZ1ZERRTUNOcTlxS3VRT3BlQ05teFJhcV9KcVhzM3lHNGVOSDlfZFlXMHRINGpGbUhiTnFtOW0xdVlqNjduOHRkbDRWSy1WNGR3amZwRF96a3BrQzVyalAzSkxYSXlSZlJGYVowQ3JvcQ?oc=5"
-  }
- ]
+ "fonte_ok": false,
+ "erro": "HTTPError: HTTP Error 429: Too Many Requests"
 }

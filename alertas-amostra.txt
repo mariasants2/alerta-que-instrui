@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-20T12:13:21Z</updated>
-  <dc:date>2026-11-20T12:13:21Z</dc:date>
+  <updated>2026-11-20T13:34:33Z</updated>
+  <dc:date>2026-11-20T13:34:33Z</dc:date>
   <entry>
-    <title>INUNDAÇÕES</title>
+    <title>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199156/2026</id>
-    <updated>2026-11-20T00:22:20Z</updated>
+    <id>199167/2026</id>
+    <updated>2026-11-20T01:49:07Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199156/2026</identifier>
+        <identifier>199167/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-19T21:22:20-03:00</sent>
+        <sent>2026-11-19T22:49:07-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -23,16 +23,15 @@
         <info>
           <language>pt-BR</language>
           <category>Met</category>
-          <event>INUNDAÇÕES</event>
+          <event>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
           <urgency>Expected</urgency>
-          <severity>Extreme</severity>
-          <certainty>Likely</certainty>
-          <onset>2026-11-19T21:22:20-03:00</onset>
-          <expires>2026-11-19T23:15:00-03:00</expires>
-          <senderName>Defesa Civil Estadual do Rio de Janeiro</senderName>
-          <headline>Defesa Civil:DCRJ: Devido as fortes chuvas, ha risco de alagamentos/inundacao/enxurrada no municipio de Barra Mansa. Emergencia 193 e 199.</headline>
-          <description>Chuva persistente no município de Barra Mansa há risco de alagamentos/inundação/enxurrada. A Defesa Civil Estadual, em conjunto com a Municipal, orienta a população a tomar medidas preventivas.</description>
+          <severity>Moderate</severity>
+          <certainty>Observed</certainty>
+          <onset>2026-11-19T22:49:07-03:00</onset>
+          <expires>2026-11-20T01:50:00-03:00</expires>
+          <senderName>Defesa Civil Estadual de Santa Catarina</senderName>
+          <description>OBSERVAÇÃO - 19/11 22:47 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para os municípios de Araquari, Balneário Barra do Sul, Barra Velha, Corupá, Garuva, Guaramirim, Itapoá, Jaraguá do Sul, Joinville, Massaranduba, Schroeder, São Francisco do Sul e São João do Itaperiú nas próximas 3 horas. Ocorrências ligue 199 ou 193.</description>
           <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
@@ -41,5 +40,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>Barra Mansa/RJ</areaDesc>
-            <polygon>-22.316,-44.04 -22.315,-44.039 -22.314,-44.037 -22.311,-44.034 -22.311,-44.032 -22.308,-44.029 -22.307,-44.026 -22.306,-44.025 -22.304,-44.022 -22.301,-44.024 -22.298,-44.024 -22.296,-44.024 -22.296,-44.025 -22.298,-44.026 -22.298,-44.026 -22.3,-44.03 -22.302,-44.033 -22.304,-44.041 -22.305,-44.043 -22.307,-44.047 -22.309,-44.05 -22.312,-44.051 -22.313,-44.053 -22.314,-44.059 -22.316,-44.064 -22.315,-44.067 -22.316,-44.068 -22.318,-44.07 -22.318,-44.072 -22.32,-44.076 -22.32,-44.078 -22.322,-44.083 -22.322,-44.084 -22.325,-44.088 -22.326,-44.09 -22.328,-44.093 -22.329,-44.096 -22.33,-44.097 -22.328,-44.101 -22.328,-44.104 -22.329,-44.108 -22.328,-44.112 -22.329,-44.114 -22.329,-44.117 -22.331,-44.119 -22.333,-44.12 -22.337,-44.123 -22.338,-44.123 -22.338,-44.127 -22.337,-44.
+            <areaDesc>SANTA CATARINA/SC</areaDesc>
+            <polygon>-26.496,-48.582 -26.496,-48.583 -26.496,-48.583 -26.496,-48.583 -26.496,-48.583 -26.496,-48.583 -26.497,-48.583 -26.497,-48.583 -26.497,-48.583 -26.497,-48.584 -26.497,-48.584 -26.497,-48.584 -26.497,-48.584 -26.497,-48.584 -26.497,-48.584 -26.497,-48.584 -26.497,-48.584 -26.498,-48.584 -26.498,-48.584 -26.498,-48.584 -26.498,-48.584 -26.498,-48.584 -26.498,-48.584 -26.498,-48.584 -26.498,-48.583 -26.498,-48.583 -26.498,-48.583 -26.498,-48.583 -26.498,-48.583 -26.498,-48.583 -26.498,-48.583 -26.498,-48.583 -26.498,-48.583 -26.498,-48.583 -26.498,-48.583 -26.498,-48.583 -26.498,-48.583 -26.498,-48.582 -26.498,-48.582 -26.498,-48.582 -26.498,-48.583 -26.498,-48.583 -26.497,-48.583 -26.497,-48.583 -26.497,-48
