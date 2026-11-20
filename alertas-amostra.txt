@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-20T14:35:27Z</updated>
-  <dc:date>2026-11-20T14:35:27Z</dc:date>
+  <updated>2026-11-20T15:32:27Z</updated>
+  <dc:date>2026-11-20T15:32:27Z</dc:date>
   <entry>
-    <title>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</title>
+    <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199175/2026</id>
-    <updated>2026-11-20T02:44:07Z</updated>
+    <id>199178/2026</id>
+    <updated>2026-11-20T03:46:42Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199175/2026</identifier>
+        <identifier>199178/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-19T23:44:07-03:00</sent>
+        <sent>2026-11-20T00:46:42-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -23,16 +23,17 @@
         <info>
           <language>pt-BR</language>
           <category>Met</category>
-          <event>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</event>
+          <event>CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
           <urgency>Expected</urgency>
-          <severity>Moderate</severity>
-          <certainty>Observed</certainty>
-          <onset>2026-11-19T23:44:07-03:00</onset>
-          <expires>2026-11-20T03:45:00-03:00</expires>
-          <senderName>Defesa Civil Estadual de Santa Catarina</senderName>
-          <description>OBSERVAÇÃO - 19/11 23:42 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para áreas das regiões do Planalto Sul, Grande Florianópolis, Médio e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.</description>
-          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
+          <severity>Severe</severity>
+          <certainty>Likely</certainty>
+          <onset>2026-11-20T00:46:42-03:00</onset>
+          <expires>2026-11-20T02:30:00-03:00</expires>
+          <senderName>Defesa Civil Nacional</senderName>
+          <headline>Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Procure um local seguro e proteja-se.</headline>
+          <description>Alerta de Tempestade com rajadas de vento e chuva moderada a forte às 00:24h com duração de 02:00h. Cidades: Chiador, Matias Barbosa, Santana do Deserto e Simão Pereira. FONTE: SIMGE/IGAM</description>
+          <instruction>Siga as orientações das autoridades. Ligue 199 em caso de emergência</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -40,24 +41,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>SANTA CATARINA/SC</areaDesc>
-            <polygon>-27.163,-49.915 -26.932,-49.752 -26.893,-49.377 -26.912,-49.214 -26.989,-49.027 -27.25,-48.861 -27.436,-48.815 -27.677,-48.779 -27.891,-48.89 -27.95,-49.112 -27.916,-49.38 -27.894,-49.465 -27.711,-49.507 -27.54,-49.54 -27.315,-49.622 -27.215,-49.802 -27.163,-49.915</polygon>
-          </area>
-        </info>
-      </alert>
-    </content>
-  </entry>
-  <entry>
-    <title>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</title>
-    <author>
-      <name />
-    </author>
-    <id>199176/2026</id>
-    <updated>2026-11-20T02:51:13Z</updated>
-    <content type="text/xml">
-      <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199176/2026</identifier>
-        <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-19T23:51:13-03:00</sent>
-        <status>Actual</status>
-        <msgType>Ale
+            <areaDesc>MINAS GERAIS/MG</areaDesc>
+            <polygon>-20.121,-42.382 -20.121,-42.382 -20.121,-42.382 -20.121,-42.383 -20.121,-42.383 -20.121,-42.383 -20.121,-42.383 -20.121,-42.383 -20.121,-42.384 -20.121,-42.384 -20.121,-42.384 -20.121,-42.384 -20.121,-42.384 -20.121,-42.384 -20.122,-42.384 -20.122,-42.385 -20.122,-42.385 -20.122,-42.385 -20.122,-42.386 -20.122,-42.386 -20.122,-42.386 -20.122,-42.386 -20.122,-42.386 -20.122,-42.387 -20.122,-42.387 -20.122,-42.387 -20.122,-42.387 -20.122,-42.388 -20.123,-42.388 -20.123,-42.388 -20.123,-42.389 -20.123,-42.389 -20.123,-42.389 -20.123,-42.389 -20.123,-42.39 -20.123,-42.39 -20.123,-42.39 -20.124,-42.39 -20.124,-42.39 -20.124,-42.391 -20.124,-42.391 -20.124,-42.391 -20.124,-42.391 -20.124,-42.392 -20.124,-42.392 -20.124,-42.392 -20.124,-42.393 -20.124,-42.393 -20.124,-42.393 -20.124,-42.393 -20.125,-42.393 -20.125,-42.394 -20.125,-42.394 -20.125,-42.394 -20.125,-42.
