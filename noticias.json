@@ -1,9 +1,16 @@
 {
- "atualizado": "2026-11-20T20:32:27+00:00",
+ "atualizado": "2026-11-20T21:28:04+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
  "noticias": [
+  {
+   "d": "20/11/2026",
+   "c": "alerta",
+   "v": "G1",
+   "t": "Defesa Civil alerta para chuvas fortes no interior de SP durante o feriado prolongado",
+   "u": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOQTNQdXhJRHpTWTdjWEF1YXZ4TkVORGY0WjVxbWRBODBWYkRnYjRORGc4eDZEUThnaFp0S2JLTi1MMU9QZHhFWlkxZGt5dkR5SVhDV3MyTG5fT3YzT1U0RlUtOHc5enBNQy1RMGs4RjVqM0RvRWU0UmFLT3Uyc3lrTnY2U1ZLZV9GTzF2akFVSXV1VTY4TkQ5S1V0YzBpT1haSDRSWV9Nem9WMmQ1c1d3TXBXR2RBRnFzM3htVFozQ2lYX3hZOGpTaDZNbmxqZUhoa2Y4WlF6eGh0MWl4RWs3MHc1WWxfNjM5aURyTks0a244M29jNGfSAYQCQVVfeXFMTm5Lem1sRWg2ejVnS1AtUkltUV9Vb1dDOFVORTN0ZVlvVldkakJ5WUpxblFRMVlYelNoY0d6b1AxTlU2b3pidm4wYVlQaFp0bl9LNHVlTFpPa1BNZkVJbXBDV28wQmtMelFueFJ3em05TktVN3RjNEtiZk1CWm45QkplMWREWmRJZ2FOVjlra2pyS3o2M3A5Um00UDhXSlJNdjJyblRMRlBwY0JkdkVLckRHV2hLbGY4MEJvZXIzQURqZ0hMaTZxcGNBMXFlQ0doRHdvRkR1dTA2S0xlT1dJSTZVVlZ1SjNSRDdjTTBwVlJ3b0J0QUpRS3M4M0ZaT0JlLU5Ibkc?oc=5"
+  },
   {
    "d": "20/11/2026",
    "c": "chuva",
@@ -52,13 +59,6 @@
    "v": "G1",
    "t": "Temporal em Campinas: entenda por que chuva causou alagamentos e enxurradas",
    "u": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVWxEUjc5dzJMT1VUU0M0dW84d1NEelo4Umlla2xTRVhEcmhON0EtaHZMUTRNYkZJSTc0VUF2YkpvMFZ6MXY2TWV0ei0tYXY3bElYek83ZmJjV2FwSklVUlhQVWlGMlBzY2JlTnFudnpDR3k3OGNRNmlLazFfZ3dLTXcwM2xaQkR3b0o0Skc1WmNrdVMxUXotbzFndDZ2bHRvXzhfRlpoenJDNGNoeEVZakRpZjlYVk8taWl1VXlvcUNqV0dxajNtU1hmOW9YYnhtbmJqTDZn0gHkAUFVX3lxTE5oMzhCNDFjNWFxTWxDb3RENm9qdGNHTUdFbWZZcEx2QUllRWU3SzktSmRkcHg3WktvQUFySmY1WHNBb1FUMEhSSUpQR0w2cmNUV3Q4dHNibmRyUDB4bm5XR0l4czBoYTVOLUxEd0ZGb0pPU2pxYzZueGtnSVZ1ZERRTUNOcTlxS3VRT3BlQ05teFJhcV9KcVhzM3lHNGVOSDlfZFlXMHRINGpGbUhiTnFtOW0xdVlqNjduOHRkbDRWSy1WNGR3amZwRF96a3BrQzVyalAzSkxYSXlSZlJGYVowQ3JvcQ?oc=5"
-  },
-  {
-   "d": "18/11/2026",
-   "c": "alerta",
-   "v": "CNN Brasil",
-   "t": "Defesa Civil emite segundo alerta severo para chuvas em São Paulo",
-   "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMUtoX05uajJkY3JpeXpoX3Y3c1pYNGc3cVVtamJyUFIwSmF3elJXSjVrTTA3eHA0Z25hbjBiWGxlLTM4R1pyOUV6TEY0MENXaGJMQU52RE00b0VUdkx1NW55aU03TWkwdWV1c0lDYkJoZWg3aEY0XzZpNGd3RGN6NGN0QmdoZFB3MFpTMjFCVE5nS0QxMlplTlJBTXBRWjVYWFBqa0VhWE84aG85d2NFNDhOdXRmQQ?oc=5"
   }
  ]
 }
