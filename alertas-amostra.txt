@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-20T04:30:54Z</updated>
-  <dc:date>2026-11-20T04:30:54Z</dc:date>
+  <updated>2026-11-20T05:37:00Z</updated>
+  <dc:date>2026-11-20T05:37:00Z</dc:date>
   <entry>
     <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199023/2026</id>
-    <updated>2026-11-19T16:31:08Z</updated>
+    <id>199042/2026</id>
+    <updated>2026-11-19T17:36:55Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199023/2026</identifier>
+        <identifier>199042/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-19T13:31:08-03:00</sent>
+        <sent>2026-11-19T14:36:55-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -28,11 +28,11 @@
           <urgency>Expected</urgency>
           <severity>Severe</severity>
           <certainty>Likely</certainty>
-          <onset>2026-11-19T13:31:08-03:00</onset>
-          <expires>2026-11-19T16:30:00-03:00</expires>
+          <onset>2026-11-19T14:36:55-03:00</onset>
+          <expires>2026-11-19T17:30:00-03:00</expires>
           <senderName>Defesa Civil Estadual do Paraná</senderName>
           <headline>Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.</headline>
-          <description>Tempestade com chuva pontualmente forte e condição para rajadas de vento forte e granizo pontual na região. Evite áreas de risco e busque abrigo! Emergências 199 ou 193.</description>
+          <description>Tempestade com chuva pontualmente forte e condição para rajadas de vento na região. Evite áreas de risco e busque abrigo! Emergências 199 ou 193.</description>
           <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.
 Veja como proceder em casos de desastres. -
 - https://bit.ly/2W1BZxy -
@@ -48,18 +48,19 @@ Veja como proceder em casos de desastres. -
           </parameter>
           <area>
             <areaDesc>PARANÁ/PR</areaDesc>
-            <polygon>-23.387,-51.944 -23.48,-51.937 -23.517,-51.556 -23.337,-51.579 -23.273,-51.61 -23.387,-51.944</polygon>
-            <polygon>-25.896,-52.299 -26.054,-52.267 -26.101,-51.774 -25.805,-51.848 -25.729,-51.904 -25.896,-52.299</polygon>
+            <polygon>-25.861,-50.047 -26.005,-50.057 -26.008,-49.912 -26.017,-49.768 -26.012,-49.711 -25.987,-49.632 -25.945,-49.623 -25.811,-49.65 -25.8,-49.743 -25.861,-50.047</polygon>
           </area>
         </info>
       </alert>
     </content>
   </entry>
   <entry>
-    <title>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</title>
+    <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199024/2026</id>
-    <updated>2026-11-19T16:31:21Z</updated>
-    <content type=
+    <id>199043/2026</id>
+    <updated>2026-11-19T17:38:05Z</updated>
+    <content type="text/xml">
+      <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+        <identifier>199043/2026</identifier>
