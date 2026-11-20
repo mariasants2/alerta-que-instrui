@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-19T23:19:56Z</updated>
-  <dc:date>2026-11-19T23:19:56Z</dc:date>
+  <updated>2026-11-20T00:11:18Z</updated>
+  <dc:date>2026-11-20T00:11:18Z</dc:date>
   <entry>
-    <title>CHUVAS INTENSAS</title>
+    <title>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>198970/2026</id>
-    <updated>2026-11-19T11:27:11Z</updated>
+    <id>198975/2026</id>
+    <updated>2026-11-19T12:47:45Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>198970/2026</identifier>
+        <identifier>198975/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-19T08:27:11-03:00</sent>
+        <sent>2026-11-19T09:47:45-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -23,17 +23,19 @@
         <info>
           <language>pt-BR</language>
           <category>Met</category>
-          <event>CHUVAS INTENSAS</event>
+          <event>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
           <urgency>Expected</urgency>
-          <severity>Extreme</severity>
-          <certainty>Observed</certainty>
-          <onset>2026-11-19T08:27:11-03:00</onset>
-          <expires>2026-11-19T16:00:00-03:00</expires>
-          <senderName>Defesa Civil de Angra dos Reis (RJ)</senderName>
-          <headline>Defesa Civil:ISTO E UM SIMULADO ANGRA ALERTA: Alto volume de chuva registrado no municipio. Fique atento a novos avisos. Tel 199/33654588. ISTO E UM SIMULADO.</headline>
-          <description>Alto volume de chuva registrado no município. Fique atento a novos avisos. Tel 199/33654588. ISTO É UM SIMULADO.</description>
-          <instruction>ISTO E UM SIMULADO ANGRA ALERTA:</instruction>
+          <severity>Severe</severity>
+          <certainty>Likely</certainty>
+          <onset>2026-11-19T09:47:45-03:00</onset>
+          <expires>2026-11-19T23:59:00-03:00</expires>
+          <senderName>Defesa Civil Estadual da Bahia</senderName>
+          <headline>Defesa Civil:Bahia - Alerta Chuvas fortes. Va para local seguro e siga as orientacoes da Defesa Civil, em caso de emergencia, ligue 193 Bombeiros</headline>
+          <description>Defesa Civil da Bahia - Alerta Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h), e queda de granizo. Risco de corte de energia elétrica, estragos em plantações, queda de árvores e de alagamentos</description>
+          <instruction>Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda).
+Se possível, desligue aparelhos elétricos e quadro geral de energia.
+Obtenha mais informações junto à Defesa Civil  e ao Corpo de Bombeiros (telefone 193).</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -41,6 +43,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>Angra dos Reis/RJ</areaDesc>
-            <polygon>-23.212,-44.356 -23.212,-44.356 -23.212,-44.357 -23.212,-44.357 -23.212,-44.357 -23.212,-44.358 -23.212,-44.358 -23.212,-44.358 -23.212,-44.358 -23.212,-44.359 -23.213,-44.36 -23.213,-44.36 -23.214,-44.361 -23.215,-44.36 -23.215,-44.359 -23.214,-44.359 -23.214,-44.358 -23.214,-44.357 -23.213,-44.356 -23.213,-44.356 -23.212,-44.356 -23.212,-44.356</polygon>
-            <polygon>-23.089,-44.234 -23.088,-44.234 -23.087,-44.233 -23.086,-44.233 -23.085,-44.235 -23.085,-44.237 -23.086,-44.238 -23.087,-44.237 -23.09,-44.238 -23.092,-44.237 -23.093,-44.237 -23.093,-44.24 -23.094,-44.241 -23.095,-44.243 -23.095,-44.247 -23.095,-44.248 -23.097,-44.25 -23.099,-44.255 -23.099,-44.258 -23.099,-44.258 -23.099,-44.259 -23.1,-44.259 -23.1,-44.258 -23.1,-44.256 -23.1,-44.253 -23.1,-44.251 -23.101,-44.25 -23.102,-44.249 -23.103,-44.248 -23.109,-44.249 -23.11,-44.251 -23.111,-44.253 -23.111,-44.254 -23.111,-44.255 -23.112,-44.2
+            <areaDesc>BAHIA/BA</areaDesc>
+            <polygon>-17.268,-39.537 -17.266,-39.537 -17.265,-39.537 -17.263,-39.539 -17.261,-39.54 -17.26,-39.541 -17.26,-39.541 -17.259,-39.541 -17.258,-39.541 -17.255,-39.542 -17.254,-39.542 -17.253,-39.544 -17.253,-39.544 -17.253,-39.545 -17.254,-39.545 -17.254,-39.545 -17.256,-39.546 -17.256,-39.547 -17.257,-39.548 -17.257,-39.548 -17.257,-39.548 -17.257,-39.55 -17.258,-39.551 -17.258,-39.553 -17.258,-39.554 -17.258,-39.554 -17.259,-39.555 -17.259,-39.557 -17.26,-39.558 -17.261,
