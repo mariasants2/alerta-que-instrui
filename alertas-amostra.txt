@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-20T08:00:01Z</updated>
-  <dc:date>2026-11-20T08:00:01Z</dc:date>
+  <updated>2026-11-20T09:06:07Z</updated>
+  <dc:date>2026-11-20T09:06:07Z</dc:date>
   <entry>
-    <title>TEMPESTADE LOCAL/CONVECTIVA - GRANIZO</title>
+    <title>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199090/2026</id>
-    <updated>2026-11-19T20:01:49Z</updated>
+    <id>199117/2026</id>
+    <updated>2026-11-19T21:06:08Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199090/2026</identifier>
+        <identifier>199117/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-19T17:01:49-03:00</sent>
+        <sent>2026-11-19T18:06:08-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -23,17 +23,17 @@
         <info>
           <language>pt-BR</language>
           <category>Met</category>
-          <event>TEMPESTADE LOCAL/CONVECTIVA - GRANIZO</event>
+          <event>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
           <urgency>Expected</urgency>
           <severity>Severe</severity>
-          <certainty>Observed</certainty>
-          <onset>2026-11-19T17:01:49-03:00</onset>
-          <expires>2026-11-19T18:00:00-03:00</expires>
-          <senderName>Defesa Civil Estadual do Rio Grande do Sul</senderName>
-          <headline>Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 18h. Mantenha-se seguro</headline>
-          <description>RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 18h. Mantenha-se seguro</description>
-          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 190 ou 193.</instruction>
+          <certainty>Likely</certainty>
+          <onset>2026-11-19T18:06:08-03:00</onset>
+          <expires>2026-11-19T21:05:00-03:00</expires>
+          <senderName>Defesa Civil Estadual de Santa Catarina</senderName>
+          <headline>Defesa Civil:ATENCAO - 19/11 18:04 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 3 horas. Ocorrencias ligue 199 ou 193.</headline>
+          <description>ATENÇÃO - 19/11 18:04 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS para os municípios de Capão Alto, Lages, Painel e São Joaquim nas próximas 3 horas. Ocorrências ligue 199 ou 193.</description>
+          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -41,29 +41,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>RIO GRANDE DO SUL/RS</areaDesc>
-            <polygon>-29.403,-51.354 -29.508,-51.363 -29.554,-51.072 -29.396,-51.058 -29.403,-51.354</polygon>
-          </area>
-        </info>
-      </alert>
-    </content>
-  </entry>
-  <entry>
-    <title>ALAGAMENTOS</title>
-    <author>
-      <name />
-    </author>
-    <id>199091/2026</id>
-    <updated>2026-11-19T20:09:56Z</updated>
-    <content type="text/xml">
-      <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199091/2026</identifier>
-        <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-19T17:09:56-03:00</sent>
-        <status>Actual</status>
-        <msgType>Alert</msgType>
-        <source>Defesa Civil</source>
-        <scope>Public</scope>
-        <info>
-          <language>pt-BR</language>
-          <category>Met</ca
+            <areaDesc>SANTA CATARINA/SC</areaDesc>
+            <polygon>-28.44,-49.98 -28.44,-49.98 -28.441,-49.981 -28.441,-49.982 -28.441,-49.983 -28.442,-49.983 -28.442,-49.983 -28.442,-49.984 -28.442,-49.984 -28.443,-49.985 -28.443,-49.986 -28.444,-49.986 -28.444,-49.987 -28.444,-49.988 -28.445,-49.988 -28.446,-49.989 -28.446,-49.989 -28.446,-49.989 -28.447,-49.989 -28.447,-49.989 -28.448,-49.989 -28.448,-49.989 -28.448,-49.989 -28.449,-49.989 -28.449,-49.988 -28.45,-49.988 -28.45,-49.987 -28.451,-49.987 -28.451,-49.986 -28.452,-49.986 -28.452,-49.986 -28.453,-49.986 -28.453,-49.986 -28.454,-49.986 -28.454,-49.986 -28.454,-49.986 -28.455,-49.986 -28.455,-49.986 -28.456,-49.987 -28.456,-49.987 -28.456,-49.987 -28.456,-49.988 -28.457,-49.989 -28.457,-49.99 
