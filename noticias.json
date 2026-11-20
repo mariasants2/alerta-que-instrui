@@ -1,9 +1,16 @@
 {
- "atualizado": "2026-11-20T19:42:41+00:00",
+ "atualizado": "2026-11-20T20:32:27+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
  "noticias": [
+  {
+   "d": "20/11/2026",
+   "c": "chuva",
+   "v": "Estadão",
+   "t": "Tempestades que causaram estragos no RS podem chegar até São Paulo? Veja previsão",
+   "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORWpjU2JjTUR0TmZoa0pLdVM3QUIwS2l2a2dHcGRyNl9JUjAtcThQQ3FXaURWNU1ha2l1cEpvQU1nd0c1SndCUTdkcEVSLTBRejd5d2EtaHl3cm0zS3FIb1BMYkpXdHVnY2xpR1U3ZjJsZ1Y1UmRjSll1U2h5WllVVjFwdDgzU0R1bTl5QkhkZGpmWkg2VVdGQm5SV2c0emZ4elRld1FubHpEOHdLSU1DZnMzTk8zd9IBuwFBVV95cUxQVHVlYW8xV2QwMmF5N0tHZENZLUtTdUpDTVl6NGZ4dm9BMHNDcUs4TUVRMWo5b1pNRFQ4dXRYOEY1VC1VNGFIbC1ZdFZjVzhHTzVhTUVPZmk2bmp3UjZ0SEIzam5CVExwNDhVeHFNR2U5UG1iWEhLSG5JeGNBYlVXSHE0MzRsR3h0THh0bnVXUXE5YzVQYmNTX2ZUSmxFd1dGajAwNTR4MkxzdS04Z2FHNWhDbDZPSEFWM0Iw?oc=5"
+  },
   {
    "d": "20/11/2026",
    "c": "alerta",
@@ -52,13 +59,6 @@
    "v": "CNN Brasil",
    "t": "Defesa Civil emite segundo alerta severo para chuvas em São Paulo",
    "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMUtoX05uajJkY3JpeXpoX3Y3c1pYNGc3cVVtamJyUFIwSmF3elJXSjVrTTA3eHA0Z25hbjBiWGxlLTM4R1pyOUV6TEY0MENXaGJMQU52RE00b0VUdkx1NW55aU03TWkwdWV1c0lDYkJoZWg3aEY0XzZpNGd3RGN6NGN0QmdoZFB3MFpTMjFCVE5nS0QxMlplTlJBTXBRWjVYWFBqa0VhWE84aG85d2NFNDhOdXRmQQ?oc=5"
-  },
-  {
-   "d": "18/11/2026",
-   "c": "alerta",
-   "v": "Agência Brasil",
-   "t": "Defesa Civil de SP envia 17 alertas de chuvas fortes para o estado",
-   "u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcW10YmFjUEpkVjZQUmxHWnF2cnNtaHhiSTFSUXR0ajVQN2VPdjhPZDdLVW1XMVBWTF9lbGVtZGw3emhVYnlmbFo4T2l5UEpacGVCNFJfeWozVmJUczBWRHJEbkpPRVhPYlU3MWlHQmFzZVZmdTJiTkR2RV8yN2NKRVhrZTJqMEZ3aHQwT3c3azBFRWJZMVhLSkZ5dlh4OVpzb1J6UnNCQzczNlliSEctRVF6ZnZ3d3VpQWJEeGRJc3AtU2RqaUgxUg?oc=5"
   }
  ]
 }
