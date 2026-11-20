@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-20T13:34:33Z</updated>
-  <dc:date>2026-11-20T13:34:33Z</dc:date>
+  <updated>2026-11-20T14:35:27Z</updated>
+  <dc:date>2026-11-20T14:35:27Z</dc:date>
   <entry>
     <title>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199167/2026</id>
-    <updated>2026-11-20T01:49:07Z</updated>
+    <id>199175/2026</id>
+    <updated>2026-11-20T02:44:07Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199167/2026</identifier>
+        <identifier>199175/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-19T22:49:07-03:00</sent>
+        <sent>2026-11-19T23:44:07-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -28,10 +28,10 @@
           <urgency>Expected</urgency>
           <severity>Moderate</severity>
           <certainty>Observed</certainty>
-          <onset>2026-11-19T22:49:07-03:00</onset>
-          <expires>2026-11-20T01:50:00-03:00</expires>
+          <onset>2026-11-19T23:44:07-03:00</onset>
+          <expires>2026-11-20T03:45:00-03:00</expires>
           <senderName>Defesa Civil Estadual de Santa Catarina</senderName>
-          <description>OBSERVAÇÃO - 19/11 22:47 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para os municípios de Araquari, Balneário Barra do Sul, Barra Velha, Corupá, Garuva, Guaramirim, Itapoá, Jaraguá do Sul, Joinville, Massaranduba, Schroeder, São Francisco do Sul e São João do Itaperiú nas próximas 3 horas. Ocorrências ligue 199 ou 193.</description>
+          <description>OBSERVAÇÃO - 19/11 23:42 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para áreas das regiões do Planalto Sul, Grande Florianópolis, Médio e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.</description>
           <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
@@ -41,4 +41,23 @@
           </parameter>
           <area>
             <areaDesc>SANTA CATARINA/SC</areaDesc>
-            <polygon>-26.496,-48.582 -26.496,-48.583 -26.496,-48.583 -26.496,-48.583 -26.496,-48.583 -26.496,-48.583 -26.497,-48.583 -26.497,-48.583 -26.497,-48.583 -26.497,-48.584 -26.497,-48.584 -26.497,-48.584 -26.497,-48.584 -26.497,-48.584 -26.497,-48.584 -26.497,-48.584 -26.497,-48.584 -26.498,-48.584 -26.498,-48.584 -26.498,-48.584 -26.498,-48.584 -26.498,-48.584 -26.498,-48.584 -26.498,-48.584 -26.498,-48.583 -26.498,-48.583 -26.498,-48.583 -26.498,-48.583 -26.498,-48.583 -26.498,-48.583 -26.498,-48.583 -26.498,-48.583 -26.498,-48.583 -26.498,-48.583 -26.498,-48.583 -26.498,-48.583 -26.498,-48.583 -26.498,-48.582 -26.498,-48.582 -26.498,-48.582 -26.498,-48.583 -26.498,-48.583 -26.497,-48.583 -26.497,-48.583 -26.497,-48
+            <polygon>-27.163,-49.915 -26.932,-49.752 -26.893,-49.377 -26.912,-49.214 -26.989,-49.027 -27.25,-48.861 -27.436,-48.815 -27.677,-48.779 -27.891,-48.89 -27.95,-49.112 -27.916,-49.38 -27.894,-49.465 -27.711,-49.507 -27.54,-49.54 -27.315,-49.622 -27.215,-49.802 -27.163,-49.915</polygon>
+          </area>
+        </info>
+      </alert>
+    </content>
+  </entry>
+  <entry>
+    <title>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</title>
+    <author>
+      <name />
+    </author>
+    <id>199176/2026</id>
+    <updated>2026-11-20T02:51:13Z</updated>
+    <content type="text/xml">
+      <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+        <identifier>199176/2026</identifier>
+        <sender>CENAD-SEDEC</sender>
+        <sent>2026-11-19T23:51:13-03:00</sent>
+        <status>Actual</status>
+        <msgType>Ale
