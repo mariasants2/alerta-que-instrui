@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-20T00:11:18Z</updated>
-  <dc:date>2026-11-20T00:11:18Z</dc:date>
+  <updated>2026-11-20T01:28:28Z</updated>
+  <dc:date>2026-11-20T01:28:28Z</dc:date>
   <entry>
     <title>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>198975/2026</id>
-    <updated>2026-11-19T12:47:45Z</updated>
+    <id>198978/2026</id>
+    <updated>2026-11-19T13:30:20Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>198975/2026</identifier>
+        <identifier>198978/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-19T09:47:45-03:00</sent>
+        <sent>2026-11-19T10:30:20-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -25,17 +25,15 @@
           <category>Met</category>
           <event>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
-          <urgency>Expected</urgency>
-          <severity>Severe</severity>
-          <certainty>Likely</certainty>
-          <onset>2026-11-19T09:47:45-03:00</onset>
-          <expires>2026-11-19T23:59:00-03:00</expires>
-          <senderName>Defesa Civil Estadual da Bahia</senderName>
-          <headline>Defesa Civil:Bahia - Alerta Chuvas fortes. Va para local seguro e siga as orientacoes da Defesa Civil, em caso de emergencia, ligue 193 Bombeiros</headline>
-          <description>Defesa Civil da Bahia - Alerta Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h), e queda de granizo. Risco de corte de energia elétrica, estragos em plantações, queda de árvores e de alagamentos</description>
-          <instruction>Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda).
-Se possível, desligue aparelhos elétricos e quadro geral de energia.
-Obtenha mais informações junto à Defesa Civil  e ao Corpo de Bombeiros (telefone 193).</instruction>
+          <urgency>Immediate</urgency>
+          <severity>Moderate</severity>
+          <certainty>Observed</certainty>
+          <onset>2026-11-19T10:30:20-03:00</onset>
+          <expires>2026-11-19T23:55:00-03:00</expires>
+          <senderName>Defesa Civil Estadual do Piauí</senderName>
+          <headline>Defesa Civil:Alerta de Tempestade em 19/11 das 10hs as 23hs. Evite areas de risco para alagamentos ou enxurradas. Em emergencia ligue 190 ou 193. PROTEJA-SE!</headline>
+          <description>Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos.</description>
+          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 190 ou 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -43,5 +41,5 @@ Obtenha mais informações junto à Defesa Civil  e ao Corpo de Bombeiros (telef
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>BAHIA/BA</areaDesc>
-            <polygon>-17.268,-39.537 -17.266,-39.537 -17.265,-39.537 -17.263,-39.539 -17.261,-39.54 -17.26,-39.541 -17.26,-39.541 -17.259,-39.541 -17.258,-39.541 -17.255,-39.542 -17.254,-39.542 -17.253,-39.544 -17.253,-39.544 -17.253,-39.545 -17.254,-39.545 -17.254,-39.545 -17.256,-39.546 -17.256,-39.547 -17.257,-39.548 -17.257,-39.548 -17.257,-39.548 -17.257,-39.55 -17.258,-39.551 -17.258,-39.553 -17.258,-39.554 -17.258,-39.554 -17.259,-39.555 -17.259,-39.557 -17.26,-39.558 -17.261,
+            <areaDesc>PIAUÍ/PI</areaDesc>
+            <polygon>-8.118,-40.985 -8.118,-40.99 -8.119,-40.992 -8.12,-40.995 -8.12,-40.997 -8.12,-41.002 -8.12,-41.007 -8.119,-41.014 -8.12,-41.015 -8.12,-41.016 -8.122,-41.018 -8.126,-41.021 -8.129,-41.023 -8.131,-41.025 -8.133,-41.026 -8.135,-41.027 -8.136,-41.032 -8.136,-41.033 -8.136,-41.035 -8.136,-41.036 -8.136,-41.037 -8.136,-41.04 -8.136,-41.042 -8.135,-41.044 -8.135,-41.046 -8.135,-41.046 -8.136,-41.047 -8.138,-41.049 -8.139,-41.051 -8.141,-41.052 -8.143,-41.055 -8.145,-41.057 -8.148,-41.058 -8.152,-41.06 -8.154,-41.061 -8.163,-41.071 -8.165,-41.073 -8.188,-41.087 -8.195,-41.091 -8.2,-41.093 -8.2,-41.093 -8.2,-41.093 -8.2,-41.094 -8.2,-41.094 -8.205,-41.102 -8.21,-41.109 -8.213,-41.114 -8.215,-41.1
