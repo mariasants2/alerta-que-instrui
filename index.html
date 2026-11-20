@@ -440,6 +440,19 @@ footer.sos .lab{color:var(--butter)}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script src="config.js"></script>
 <script>
+/* Chaves novas do Google (AQ.): se o cabeçalho for recusado, tenta de novo com a chave no endereço e guarda o motivo para o #testeia */
+(function(){ if(!window.fetch) return; const f0=window.fetch.bind(window); window.GEM_ERR={};
+  window.fetch=async function(u,o){ const s=String(u&&u.url||u); const k=o&&o.headers&&o.headers["x-goog-api-key"];
+    if(!k||!/generativelanguage\.googleapis\.com/.test(s)) return f0(u,o);
+    const r=await f0(u,o); if(r.status!==401&&r.status!==403) return r;
+    try{ const j=await r.clone().json(); GEM_ERR[s]=(j.error&&(j.error.status+": "+j.error.message))||String(r.status); }catch(e){ GEM_ERR[s]=String(r.status); }
+    const h=Object.assign({},o.headers); delete h["x-goog-api-key"];
+    let r2; try{ r2=await f0(s+(s.includes("?")?"&":"?")+"key="+encodeURIComponent(k),Object.assign({},o,{headers:h})); }catch(e){ return r; }
+    if(r2.ok){ delete GEM_ERR[s]; return r2; }
+    try{ const j=await r2.clone().json(); GEM_ERR[s]+=" | 2ª tentativa: "+((j.error&&(j.error.status+": "+j.error.message))||r2.status); }catch(e){}
+    return r2; }; })();
+</script>
+<script>
 /* =========================================================
    BASE DE DADOS — copiada da planilha base-de-dados-alerta.xlsx (20/10/2026)
    Nada aqui foi inventado: cada item tem fonte.
@@ -2066,7 +2079,7 @@ if(location.hash==="#testeia"){ (async()=>{
   if(!gemKey){ out.textContent="❌ Sem chave da IA: crie o arquivo config.js no GitHub com a chave (veja o passo a passo)."; return; }
   for(const m of GEMINI.models){
     try{ const r=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${m}:generateContent`,{method:"POST",headers:{"Content-Type":"application/json","x-goog-api-key":gemKey},body:JSON.stringify({contents:[{role:"user",parts:[{text:"Responda só: ok"}]}]})});
-      const motivo={200:"✅ funcionando",400:"❌ chave inválida ou pedido recusado",401:"❌ tipo de chave não aceito (se ela começa com AQ., crie uma chave pelo Google Cloud, que começa com AIza)",403:"❌ bloqueado: confira a restrição de sites da chave (precisa ter o endereço deste site)",404:"– modelo não disponível (o app tenta o próximo)",429:"⚠️ limite de uso atingido, espere 1 minuto"}[r.status]||("⚠️ erro "+r.status);
+      const motivo={200:"✅ funcionando",400:"❌ chave inválida ou pedido recusado",401:"❌ chave recusada (veja o detalhe do Google abaixo)",403:"❌ bloqueado: confira a restrição de sites da chave (precisa ter o endereço deste site)",404:"– modelo não disponível (o app tenta o próximo)",429:"⚠️ limite de uso atingido, espere 1 minuto"}[r.status]||("⚠️ erro "+r.status);
       L.push(`${m}: ${motivo}`); if(r.ok){ L.push("\nA IA está funcionando neste site. O app usa o primeiro modelo que respondeu."); break; }
     }catch(e){ L.push(`${m}: ❌ sem conexão`); }
     out.textContent=L.join("\n");
@@ -2494,6 +2507,11 @@ TOUR[2][2]="No mapa, veja onde você está, as áreas de risco mapeadas perto de
 
 /* ---------- 11) Privacidade: conta o que vai para o serviço de avisos ---------- */
 try{ const ul=document.querySelector(".privlist"); if(ul&&!ul.querySelector(".li-avisos")) ul.insertAdjacentHTML("beforeend",`<li class="li-avisos"><b>Se você ligar os avisos</b>, só a sua cidade e o seu distrito vão para o serviço de avisos (OneSignal), para o alerta chegar no celular certo. Dá para desligar quando quiser.</li>`); }catch(e){}
+
+/* ---------- 12) #testeia mostra o motivo exato que o Google deu ---------- */
+if(location.hash==="#testeia"){ let n=0; const t=setInterval(()=>{ n++; const out=document.getElementById("tiaOut"); const E=window.GEM_ERR||{};
+  const msgs=[...new Set(Object.values(E))]; if(out&&msgs.length&&!out.dataset.det){ out.dataset.det=1; out.insertAdjacentHTML("afterend",`<p class="small muted" style="margin:10px 0 0;white-space:pre-line"><b>Detalhe do Google:</b>\n${msgs.map(esc).join("\n")}</p>`); }
+  if(n>40) clearInterval(t); },1000); }
 
 </script>
 <script>if("serviceWorker" in navigator && location.protocol==="https:"){addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));}</script>
