@@ -1,9 +1,16 @@
 {
- "atualizado": "2026-11-20T18:38:56+00:00",
+ "atualizado": "2026-11-20T19:42:41+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
  "noticias": [
+  {
+   "d": "20/11/2026",
+   "c": "alerta",
+   "v": "G1",
+   "t": "Defesa Civil emite alerta de chuva forte em São José dos Campos",
+   "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbnBSTDE1cTdqYUh6V2xhbm0yaFBOMXc2dUlUQUtYalF3cHJ0WjB1bjFMRmo5dXdPVTlLVGVtX1JhdV9qOGxhT2R0SU96MGpyWTVqZjBFQnVReGx2bHplY0YyY1NNWHAzWmNnRHI5SnVuV194UHRmX0xWT1p0SDZsRkFWN1hlVmNTdi1KMlhOUUZkc0k1S1pDcEVzNUo5LTN0VTBOaUM4ZmZCRGtRbEpNZXVQc1lrUnZQN0VxbXNMV3M2b1NvbFllZFB0QXk1T04w0gHfAUFVX3lxTE56SkhWOV9Nbll0dEl4UVFaVmxYRkF3N1IwX1lERjBYOE1NSFU3b2p1SUY4MTR6MG5fTUNtTmlHRU5tVHMtSnlDLWJnUGZEbVZicmRnelNsMGNxYjA3cjVnLXdrWXpxalJWekdkaXhxd2k2NHRCbk9LaFM2UDh1RDR3N3FfYXdRVFVVWk54Sm1Ea2VJOU9qWi1yaUtEcVpsSzh4Y3h6MjUzN0phVmRjUEVOUHBtZnIyQURwN3pQWDMtZWZJaXotbGZ4elNidm94b3owRUo1SkdaTXpyMkhpcXM?oc=5"
+  },
   {
    "d": "20/11/2026",
    "c": "calor",
@@ -52,13 +59,6 @@
    "v": "Agência Brasil",
    "t": "Defesa Civil de SP envia 17 alertas de chuvas fortes para o estado",
    "u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcW10YmFjUEpkVjZQUmxHWnF2cnNtaHhiSTFSUXR0ajVQN2VPdjhPZDdLVW1XMVBWTF9lbGVtZGw3emhVYnlmbFo4T2l5UEpacGVCNFJfeWozVmJUczBWRHJEbkpPRVhPYlU3MWlHQmFzZVZmdTJiTkR2RV8yN2NKRVhrZTJqMEZ3aHQwT3c3azBFRWJZMVhLSkZ5dlh4OVpzb1J6UnNCQzczNlliSEctRVF6ZnZ3d3VpQWJEeGRJc3AtU2RqaUgxUg?oc=5"
-  },
-  {
-   "d": "18/11/2026",
-   "c": "alerta",
-   "v": "Folha de S.Paulo",
-   "t": "Grande SP tem forte chuva, e Defesa Civil emite dois alertas severos; bairros registram queda de granizo",
-   "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxON3ljWmtRbFU0RUFER3YxalBpZGVrdFRabGt0LWJNWnNqN1RoQU5YOTVrWW9CSllfd3VyX0V1NlVvSUxwVGlRUjNxQWJqRno0ZGotaUdFNVR6a19mQks0d1RITlRQSWNEUTc1WUc4X0pRRmV4VUMwTnJEVWJwX1RYT2hyTXVEQW5MQThkQjRocGZiNnpCVGM1bHUxTkFLLTZWaDdSSmg5UnBvVG5YVV8yYWJCMEloWi1nR0FoelNTUUZGVThITVNv?oc=5"
   }
  ]
 }
