@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-20T09:06:07Z</updated>
-  <dc:date>2026-11-20T09:06:07Z</dc:date>
+  <updated>2026-11-20T10:11:52Z</updated>
+  <dc:date>2026-11-20T10:11:52Z</dc:date>
   <entry>
     <title>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199117/2026</id>
-    <updated>2026-11-19T21:06:08Z</updated>
+    <id>199139/2026</id>
+    <updated>2026-11-19T22:14:03Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199117/2026</identifier>
+        <identifier>199139/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-19T18:06:08-03:00</sent>
+        <sent>2026-11-19T19:14:03-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -28,11 +28,11 @@
           <urgency>Expected</urgency>
           <severity>Severe</severity>
           <certainty>Likely</certainty>
-          <onset>2026-11-19T18:06:08-03:00</onset>
-          <expires>2026-11-19T21:05:00-03:00</expires>
+          <onset>2026-11-19T19:14:03-03:00</onset>
+          <expires>2026-11-19T21:10:00-03:00</expires>
           <senderName>Defesa Civil Estadual de Santa Catarina</senderName>
-          <headline>Defesa Civil:ATENCAO - 19/11 18:04 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 3 horas. Ocorrencias ligue 199 ou 193.</headline>
-          <description>ATENÇÃO - 19/11 18:04 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS para os municípios de Capão Alto, Lages, Painel e São Joaquim nas próximas 3 horas. Ocorrências ligue 199 ou 193.</description>
+          <headline>Defesa Civil:ATENCAO - 19/11 19:12 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS  nas proximas 3 horas. Ocorrencias ligue 199 ou 193.</headline>
+          <description>ATENÇÃO - 19/11 19:12 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS para os municípios de Bom Jardim da Serra, Grão Pará, Lauro Müller, Orleans, Painel, Rio Rufino, São Joaquim, Treviso, Urubici, Urupema e Urussanga nas próximas 3 horas. Ocorrências ligue 199 ou 193.</description>
           <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
@@ -42,4 +42,20 @@
           </parameter>
           <area>
             <areaDesc>SANTA CATARINA/SC</areaDesc>
-            <polygon>-28.44,-49.98 -28.44,-49.98 -28.441,-49.981 -28.441,-49.982 -28.441,-49.983 -28.442,-49.983 -28.442,-49.983 -28.442,-49.984 -28.442,-49.984 -28.443,-49.985 -28.443,-49.986 -28.444,-49.986 -28.444,-49.987 -28.444,-49.988 -28.445,-49.988 -28.446,-49.989 -28.446,-49.989 -28.446,-49.989 -28.447,-49.989 -28.447,-49.989 -28.448,-49.989 -28.448,-49.989 -28.448,-49.989 -28.449,-49.989 -28.449,-49.988 -28.45,-49.988 -28.45,-49.987 -28.451,-49.987 -28.451,-49.986 -28.452,-49.986 -28.452,-49.986 -28.453,-49.986 -28.453,-49.986 -28.454,-49.986 -28.454,-49.986 -28.454,-49.986 -28.455,-49.986 -28.455,-49.986 -28.456,-49.987 -28.456,-49.987 -28.456,-49.987 -28.456,-49.988 -28.457,-49.989 -28.457,-49.99 
+            <polygon>-28.212,-50.075 -28.344,-49.973 -28.301,-49.914 -28.297,-49.742 -28.358,-49.571 -28.499,-49.48 -28.433,-49.324 -28.32,-49.249 -28.037,-49.431 -27.98,-49.63 -27.999,-50.021 -28.212,-50.075</polygon>
+          </area>
+        </info>
+      </alert>
+    </content>
+  </entry>
+  <entry>
+    <title>TEMPESTADE LOCAL/CONVECTIVA - GRANIZO</title>
+    <author>
+      <name />
+    </author>
+    <id>199140/2026</id>
+    <updated>2026-11-19T22:25:47Z</updated>
+    <content type="text/xml">
+      <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+        <identifier>199140/2026</identifier>
+        <se
