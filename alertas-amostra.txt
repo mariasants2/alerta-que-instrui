@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-21T23:09:24Z</updated>
-  <dc:date>2026-11-21T23:09:24Z</dc:date>
+  <updated>2026-11-21T23:55:30Z</updated>
+  <dc:date>2026-11-21T23:55:30Z</dc:date>
   <entry>
     <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199591/2026</id>
-    <updated>2026-11-21T11:20:59Z</updated>
+    <id>199597/2026</id>
+    <updated>2026-11-21T12:13:49Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199591/2026</identifier>
+        <identifier>199597/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-21T08:20:59-03:00</sent>
+        <sent>2026-11-21T09:13:49-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -25,15 +25,15 @@
           <category>Met</category>
           <event>CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
-          <urgency>Immediate</urgency>
+          <urgency>Expected</urgency>
           <severity>Severe</severity>
           <certainty>Likely</certainty>
-          <onset>2026-11-21T08:20:59-03:00</onset>
-          <expires>2026-11-22T08:00:00-03:00</expires>
-          <senderName>Defesa Civil de Belo Horizonte (MG)</senderName>
-          <headline>Defesa Civil:Chuva, raios e ventos de 50 km/h ate 8h de domingo (22) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh</headline>
-          <description>Chuva, raios e ventos de 50 km/h ate 8h de domingo (22) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh</description>
-          <instruction>Redobre a sua atenção! Evite áreas de inundação e não trafegue em ruas sujeitas a alagamentos ou perto de córregos e ribeirões nos momentos de forte chuva; Não atravesse ruas alagadas nem deixe crianças brincando nas enxurradas e próximo a córregos; Não se abrigue nem estacione veículos debaixo de árvores; Atenção especial para áreas de encostas e morros; Nunca se aproxime de cabos elétricos rompidos. Ligue para CEMIG (116) ou Defesa Civil (199).</instruction>
+          <onset>2026-11-21T09:13:49-03:00</onset>
+          <expires>2026-11-21T11:20:00-03:00</expires>
+          <senderName>Defesa Civil Estadual de Minas Gerais</senderName>
+          <headline>Defesa Civil:Alerta de Tempestade Severa com vendaval e chuva forte. Proteja-se!</headline>
+          <description>Alerta de Tempestade Severa com vendaval e chuva forte. Proteja-se!</description>
+          <instruction>Acompanhe os alertas da Defesa Civil. Durante chuvas intensas, procure abrigo seguro, evite áreas alagadas, enxurradas e locais próximos a encostas. Não atravesse ruas inundadas, a pé ou de veículo. Fique atento a sinais de deslizamentos e ao aumento do nível de rios e córregos. Em situação de perigo, afaste-se imediatamente da área de risco. Emergências: Defesa Civil 199 e Bombeiros 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -41,5 +41,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>Belo Horizonte/MG</areaDesc>
-            <polygon>-19.776,-43.95 -19.776,-43.95 -19.776,-43.951 -19.776,-43.952 -19.777,-43.952 -19.777,-43.951 -19.777,-43.951 -19.777,-43.951 -19.777,-43.952 -19.777,-43.954 -19.777,-43.954 -19.778,-43.956 -19.778,-43.957 -19.778,-43.958 -19.778,-43.958 -19.778,-43.958 -19.778,-43.959 -19.778,-43.959 -19.779,-43.959 -19.779,-43.959 -19.779,-43.959 -19.78,-43.959 -19.78,-43.959 -19.78,-43.959 -19.78,-43.959 -19.78,-43.96 -19.78,-43.96 -19.78,-43.96 -19.78,-43.96 -19.78,-43.96 -19.78,-43.96 -19.78,-43.961 -19.78,-43.961 -19.781,
+            <areaDesc>MINAS GERAIS/MG</areaDesc>
+            <polygon>-19.542,-48.545 -19.569,-48.523 -19.566,-48.508 -19.578,-48.53 -19.597,-48.533 -19.604,-48.484 -19.629,-48.489 -19.649,-48.461 -19.678,-48.473 -19.706,-48.448 -19.737,-48.445 -19.777,-48.454 -19.781,-48.484 -19.82,-48.459 -19.81,-48.48 -19.835,-48.481 -19.889,-48.544 -19.88,-48.588 -19.863,-48.587 -19.859,-48.599 -19.874,-48.64 -19.895,-48.66 -19.879,-48.68 -19.876,-48.723 -19.847,-48.741 -19.844,-48.774 -19.834,-48.771 -19.824,-48.781 -19.818,-48.83 -19.798,-48.832 -19.782,-48.822 -19.755,-48.845 -19.704,-48.86 -19.66,-48.824 -19.623,-48.841 -19.598,-48.833 -19.604,-48.793 -19.591,-48.77 -19.6,-48.744 -19.582,-48.727 -19.574,-48.747 -19.554,-48.748 -19.554,-48.721 -19.534,-48.69 -
