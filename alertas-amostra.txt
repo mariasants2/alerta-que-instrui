@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-21T07:35:50Z</updated>
-  <dc:date>2026-11-21T07:35:50Z</dc:date>
+  <updated>2026-11-21T08:27:07Z</updated>
+  <dc:date>2026-11-21T08:27:07Z</dc:date>
   <entry>
     <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199407/2026</id>
-    <updated>2026-11-20T19:37:20Z</updated>
+    <id>199426/2026</id>
+    <updated>2026-11-20T20:30:21Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199407/2026</identifier>
+        <identifier>199426/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-20T16:37:20-03:00</sent>
+        <sent>2026-11-20T17:30:21-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -26,19 +26,14 @@
           <event>CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
           <urgency>Expected</urgency>
-          <severity>Severe</severity>
+          <severity>Extreme</severity>
           <certainty>Likely</certainty>
-          <onset>2026-11-20T16:37:20-03:00</onset>
-          <expires>2026-11-20T19:35:00-03:00</expires>
-          <senderName>Defesa Civil Estadual do Paraná</senderName>
-          <headline>Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.</headline>
-          <description>Tempestade com chuva forte e condição para rajadas de vento pontualmente intensas, muitas descargas elétricas e granizo pontual. Evite áreas de risco e busque abrigo! Emergências 199 ou 193.</description>
-          <instruction>Veja como proceder em casos de desastres. -
-- https://bit.ly/2W1BZxy -
-- Entenda o significado das cores do alerta:
-- http://www.defesacivil.pr.gov.br/Pagina/Significado-das-cores-dos-alertas -
-- Veja a área do alerta: -
-- https://www.defesacivil.pr.gov.br/alertas-vigentes -</instruction>
+          <onset>2026-11-20T17:30:21-03:00</onset>
+          <expires>2026-11-20T23:50:00-03:00</expires>
+          <senderName>Defesa Civil Estadual De São Paulo</senderName>
+          <headline>Defesa Civil:Chuva forte em Lorena e Cachoeira Paulista. Tem raios, vento e condicao para granizo. Atinge municipios vizinhos. Busque abrigo.</headline>
+          <description>Chuva forte em Lorena e Cachoeira Paulista. Tem raios, vento e condição para granizo. Atinge municípios vizinhos. Busque abrigo.</description>
+          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -46,9 +41,8 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>PARANÁ/PR</areaDesc>
-            <polygon>-25.081,-52.351 -24.93,-52.028 -24.93,-51.667 -25.053,-51.519 -25.162,-51.422 -25.387,-51.356 -25.618,-51.418 -25.622,-51.64 -25.524,-51.675 -25.383,-51.842 -25.204,-52.122 -25.081,-52.351</polygon>
-            <polygon>-24.185,-53.617 -24.096,-53.59 -23.801,-53.629 -24.05,-52.926 -24.284,-52.592 -24.482,-52.444 -24.771,-52.397 -25.004,-52.394 -25.036,-52.425 -24.958,-52.72 -24.884,-52.732 -24.658,-52.79 -24.482,-52.949 -24.351,-53.147 -24.262,-53.357 -24.185,-53.617</polygon>
+            <areaDesc>SÃO PAULO/SP</areaDesc>
+            <polygon>-22.67,-45.199 -22.764,-45.152 -22.865,-45.102 -22.797,-44.911 -22.737,-44.904 -22.657,-44.933 -22.605,-45.027 -22.601,-45.069 -22.643,-45.15 -22.67,-45.199</polygon>
           </area>
         </info>
       </alert>
@@ -57,3 +51,19 @@
   <entry>
     <title>CHUVAS INTENSAS</title>
     <author>
+      <name />
+    </author>
+    <id>199427/2026</id>
+    <updated>2026-11-20T20:36:46Z</updated>
+    <content type="text/xml">
+      <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+        <identifier>199427/2026</identifier>
+        <sender>CENAD-SEDEC</sender>
+        <sent>2026-11-20T17:36:46-03:00</sent>
+        <status>Actual</status>
+        <msgType>Alert</msgType>
+        <source>Defesa Civil</source>
+        <scope>Public</scope>
+        <info>
+          <language>pt-BR</language>
+          <category
