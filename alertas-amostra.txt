@@ -2,38 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-21T22:23:05Z</updated>
-  <dc:date>2026-11-21T22:23:05Z</dc:date>
+  <updated>2026-11-21T23:09:24Z</updated>
+  <dc:date>2026-11-21T23:09:24Z</dc:date>
   <entry>
-    <title>DESLIZAMENTOS</title>
+    <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199590/2026</id>
-    <updated>2026-11-21T10:29:31Z</updated>
+    <id>199591/2026</id>
+    <updated>2026-11-21T11:20:59Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199590/2026</identifier>
+        <identifier>199591/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-21T07:29:31-03:00</sent>
+        <sent>2026-11-21T08:20:59-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
         <scope>Public</scope>
         <info>
           <language>pt-BR</language>
-          <category>Geo</category>
-          <event>DESLIZAMENTOS</event>
+          <category>Met</category>
+          <event>CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
-          <urgency>Expected</urgency>
-          <severity>Moderate</severity>
+          <urgency>Immediate</urgency>
+          <severity>Severe</severity>
           <certainty>Likely</certainty>
-          <onset>2026-11-21T07:29:31-03:00</onset>
-          <expires>2026-11-22T10:00:00-03:00</expires>
-          <senderName>Defesa Civil Estadual de Minas Gerais</senderName>
-          <headline>Defesa Civil:ALERTA DE RISCO GEOLOGICO: Risco Moderado de Deslizamentos. Atente-se a locais de encostas, quedas de muros e desabamentos.</headline>
-          <description>ALERTA DE RISCO GEOLÓGICO: Risco Moderado de Deslizamentos. Atente-se a locais de encostas, quedas de muros e desabamentos.</description>
-          <instruction>Fique atento a rachaduras em paredes e no solo, inclinação de árvores e postes, surgimento de água nas encostas e movimentação do terreno. Ao identificar sinais de deslizamento, abandone imediatamente o imóvel e procure um local seguro, afastado da encosta. Não retorne à área de risco sem autorização dos órgãos competentes. Acione a Defesa Civil pelo 199 ou os Bombeiros pelo 193.</instruction>
+          <onset>2026-11-21T08:20:59-03:00</onset>
+          <expires>2026-11-22T08:00:00-03:00</expires>
+          <senderName>Defesa Civil de Belo Horizonte (MG)</senderName>
+          <headline>Defesa Civil:Chuva, raios e ventos de 50 km/h ate 8h de domingo (22) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh</headline>
+          <description>Chuva, raios e ventos de 50 km/h ate 8h de domingo (22) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh</description>
+          <instruction>Redobre a sua atenção! Evite áreas de inundação e não trafegue em ruas sujeitas a alagamentos ou perto de córregos e ribeirões nos momentos de forte chuva; Não atravesse ruas alagadas nem deixe crianças brincando nas enxurradas e próximo a córregos; Não se abrigue nem estacione veículos debaixo de árvores; Atenção especial para áreas de encostas e morros; Nunca se aproxime de cabos elétricos rompidos. Ligue para CEMIG (116) ou Defesa Civil (199).</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -41,5 +41,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>MINAS GERAIS/MG</areaDesc>
-            <polygon>-17.849,-40.204 -17.562,-40.508 -17.408,-40.703 -17.42,-40.953 -17.35,-41.211 -17.246,-41.215 -17.092,-41.186 -17.121,-41.29 -17.042,-41.335 -16.908,-41.231 -16.834,-41.236 -16.813,-41.335 -16.684,-41.344 -16.655,-41.398 -16.526,-41.489 -16.476,-41.544 -16.501,-41.631 -16.58,-41.618 -16.688,-41.581 -16.767,-41.606 -16.879,-41.677 -16.946,-41.581 -17.008,-41.643 -17.1,-41.81 -17.125,-41.922 -17.208,-41.922 -17.246,-42.043 -17.354,-42.118 -17.246,-42.255 -17.117,-42.455 -16.992,-42.559 -17.042,-42.596 -17.062,-42.717 -17.013,-42.763 -17.108,-42.908 -17.27,-43.045 -17.3,-42.987 -17.304
+            <areaDesc>Belo Horizonte/MG</areaDesc>
+            <polygon>-19.776,-43.95 -19.776,-43.95 -19.776,-43.951 -19.776,-43.952 -19.777,-43.952 -19.777,-43.951 -19.777,-43.951 -19.777,-43.951 -19.777,-43.952 -19.777,-43.954 -19.777,-43.954 -19.778,-43.956 -19.778,-43.957 -19.778,-43.958 -19.778,-43.958 -19.778,-43.958 -19.778,-43.959 -19.778,-43.959 -19.779,-43.959 -19.779,-43.959 -19.779,-43.959 -19.78,-43.959 -19.78,-43.959 -19.78,-43.959 -19.78,-43.959 -19.78,-43.96 -19.78,-43.96 -19.78,-43.96 -19.78,-43.96 -19.78,-43.96 -19.78,-43.96 -19.78,-43.961 -19.78,-43.961 -19.781,
