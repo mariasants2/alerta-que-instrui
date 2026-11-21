@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-21T05:16:42Z</updated>
-  <dc:date>2026-11-21T05:16:42Z</dc:date>
+  <updated>2026-11-21T06:13:25Z</updated>
+  <dc:date>2026-11-21T06:13:25Z</dc:date>
   <entry>
-    <title>CHUVAS INTENSAS</title>
+    <title>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199338/2026</id>
-    <updated>2026-11-20T17:16:26Z</updated>
+    <id>199370/2026</id>
+    <updated>2026-11-20T18:16:40Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199338/2026</identifier>
+        <identifier>199370/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-20T14:16:26-03:00</sent>
+        <sent>2026-11-20T15:16:40-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -23,17 +23,16 @@
         <info>
           <language>pt-BR</language>
           <category>Met</category>
-          <event>CHUVAS INTENSAS</event>
+          <event>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
           <urgency>Expected</urgency>
           <severity>Moderate</severity>
-          <certainty>Likely</certainty>
-          <onset>2026-11-20T14:10:00-03:00</onset>
-          <expires>2026-11-21T00:00:00-03:00</expires>
-          <senderName>Defesa Civil Estadual do Rio de Janeiro</senderName>
-          <headline>Defesa Civil:Previsao de pancadas isoladas de chuva moderada a forte com raios e rajadas de vento forte hoje (20/11). Emergencia, ligue 22981410895.</headline>
-          <description>Áreas de instabilidade causarão pancadas isoladas de chuva moderada a forte, com raios e rajadas de vento moderado a forte pontual, hoje (20/11).</description>
-          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 193 e 22981410895.</instruction>
+          <certainty>Observed</certainty>
+          <onset>2026-11-20T15:16:40-03:00</onset>
+          <expires>2026-11-20T20:15:00-03:00</expires>
+          <senderName>Defesa Civil Estadual de Santa Catarina</senderName>
+          <description>OBSERVAÇÃO - 20/11 15:14 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para áreas das regiões do Planalto Sul, Litoral Sul, Grande Florianópolis e Baixo Vale do Itajaí nas próximas 5 horas. Ocorrências ligue 199 ou 193.</description>
+          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -41,5 +40,6 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>Itaocara/RJ</areaDesc>
-            <polygon>-21.628,-41.937 -21.597,-41.937 -21.603,-41.947 -21.613,-41.963 -21.625,-41.98 -21.625,-41.981 -21.632,-41.993 -21.632,-41.993 -21.632,-41.994 -21.639,-42.007 -21.639,-42.009 -21.639,-42.01 -21.639,-42.011 -21.638,-42.013 -21.637,-42.014 -21.636,-42.015 -21.636,-42.015 -21.635,-42.016 -21.635,-42.016 -21.632,-42.017 -21.631,-42.017 -21.631,-42.018 -21.63,-42.019 -21.629,-42.02 -21.629,-42.022 -21.628,-42.024 -21.628,-42.026 -21.629,-42.027 -21.629,-42.028 -21.63,-42.029 -21.63,-42.031 -21.63,-42.033 -21.631,-42.035 -21.631,-42.037 -21.632,-42.038 -21.632,-42.039 -21.632,-42.039 -21.633,-42.039 -21.633,-42.04 -21.633,-42.04 -21.634,-42.04 -21.634,-42.041 -21.633,-42.041 -21.633,-42.042 -21.633,-42.043 -21.633,-42.044 -21.632,-42.044 -21.632,-42.045 -21.633,-42.046 -21.633,-42.048 -21.634,-42.049 -2
+            <areaDesc>SANTA CATARINA/SC</areaDesc>
+            <polygon>-28.541,-48.756 -28.541,-48.756 -28.541,-48.756 -28.54,-48.756 -28.54,-48.757 -28.54,-48.757 -28.54,-48.757 -28.54,-48.757 -28.54,-48.757 -28.54,-48.757 -28.54,-48.757 -28.54,-48.757 -28.54,-48.757 -28.54,-48.757 -28.541,-48.757 -28.541,-48.757 -28.541,-48.757 -28.541,-48.757 -28.541,-48.757 -28.541,-48.757 -28.541,-48.757 -28.541,-48.757 -28.541,-48.757 -28.541,-48.756</polygon>
+            <polygon>-28.54,-48.759 -28.54,-48.759 -28.539,-48.759 -28.539,-48.759 -28.539,-48.759 -28.539,-48.759 -28.539,-48.759 -28.538,-48.759 -28.538,-48.759 -28.538,-48.759 -28.538,-48.759 -28.538,-48.759 -28.538,-48.759 -28.538,-48.759 -28.538,-48.759 -28.538,-48.759 -28.538,-48.76 -28.538,-48.76 -28.538,-48.76 -28.538,-48.76 -28.538,-48.76 -28.538,-48.76 -28.538,-48.76 -28.538,-48.76 -28.538,-48.761 -28.538,-48.761 -28.539,
