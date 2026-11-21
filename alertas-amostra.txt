@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-21T01:13:10Z</updated>
-  <dc:date>2026-11-21T01:13:10Z</dc:date>
+  <updated>2026-11-21T02:21:20Z</updated>
+  <dc:date>2026-11-21T02:21:20Z</dc:date>
   <entry>
-    <title>TEMPESTADE LOCAL/CONVECTIVA - VENDAVAL</title>
+    <title>TEMPESTADE LOCAL/CONVECTIVA - GRANIZO</title>
     <author>
       <name />
     </author>
-    <id>199257/2026</id>
-    <updated>2026-11-20T13:21:48Z</updated>
+    <id>199273/2026</id>
+    <updated>2026-11-20T14:23:11Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199257/2026</identifier>
+        <identifier>199273/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-20T10:21:48-03:00</sent>
+        <sent>2026-11-20T11:23:11-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -23,16 +23,16 @@
         <info>
           <language>pt-BR</language>
           <category>Met</category>
-          <event>TEMPESTADE LOCAL/CONVECTIVA - VENDAVAL</event>
+          <event>TEMPESTADE LOCAL/CONVECTIVA - GRANIZO</event>
           <responseType>Execute</responseType>
           <urgency>Expected</urgency>
           <severity>Severe</severity>
           <certainty>Observed</certainty>
-          <onset>2026-11-20T10:21:48-03:00</onset>
-          <expires>2026-11-20T12:25:00-03:00</expires>
+          <onset>2026-11-20T11:23:11-03:00</onset>
+          <expires>2026-11-20T12:22:00-03:00</expires>
           <senderName>Defesa Civil Estadual do Rio Grande do Sul</senderName>
-          <headline>Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 12h25. Mantenha-se seguro</headline>
-          <description>RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 12h25. Mantenha-se seguro</description>
+          <headline>Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 12h22. Mantenha-se seguro</headline>
+          <description>RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 12h22. Mantenha-se seguro</description>
           <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 190 ou 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
@@ -42,4 +42,28 @@
           </parameter>
           <area>
             <areaDesc>RIO GRANDE DO SUL/RS</areaDesc>
-            <polygon>-27.229,-54.014 -27.235,-54.014 -27.253,-54.025 -27.263,-54.054 -27.284,-54.067 -27.288,-54.07 -27.513,-53.245 -27.19,-53.196 -27.177,-53.219 -27.171,-53.229 -27.171,-53.229 -27.171,-53.23 -27.17,-53.242 -27.185,-53.268 -27.189,-53.277 -27.196,-53.291 -27.21,-53.303 -27.217,-53.31 -27.217,-53.313 -27.216,-53.318 -27.209,-53.32 -27.194,-53.318 -27.178,-53.309 -27.163,-53.301 -27.141,-53.292 -27.135,-53.292 -27.133,-53.292 -27.129,-53.296 -27.129,-53.296 -27.129,-53.296 -27.129,-53.296 -27.126,-53.297 -27.126,-53.298 -27.118,-53.31 -27.119,-53.34 -27.118,-53.344 -27.117,-53.348 -27.117,-53.348 -27.117,-53.348 -27.111,-53.352 -27.093,-53.362 -27.092,-53.367 -27.09,-53.373 -27.095,-53.382 -27.103,-53.388 -27.109,-53.393 -27.127,-53.399 -27.128,-53.4 -27.128,-
+            <polygon>-28.554,-55.313 -28.809,-55.552 -29.118,-55.095 -28.495,-54.722 -28.554,-55.313</polygon>
+          </area>
+        </info>
+      </alert>
+    </content>
+  </entry>
+  <entry>
+    <title>CHUVAS INTENSAS</title>
+    <author>
+      <name />
+    </author>
+    <id>199274/2026</id>
+    <updated>2026-11-20T14:24:49Z</updated>
+    <content type="text/xml">
+      <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+        <identifier>199274/2026</identifier>
+        <sender>CENAD-SEDEC</sender>
+        <sent>2026-11-20T11:24:49-03:00</sent>
+        <status>Actual</status>
+        <msgType>Alert</msgType>
+        <source>Defesa Civil</source>
+        <scope>Public</scope>
+        <info>
+          <language>pt-BR</language>
+          <category

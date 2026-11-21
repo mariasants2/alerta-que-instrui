@@ -1,9 +1,37 @@
 {
- "atualizado": "2026-11-21T01:14:10+00:00",
+ "atualizado": "2026-11-21T02:21:20+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
  "noticias": [
+  {
+   "d": "20/11/2026",
+   "c": "alerta",
+   "v": "CNN Brasil",
+   "t": "Trinta e três cidades estão em alerta para chuvas em SP, diz Defesa Civil",
+   "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVFFZcXBfNkU3SElZWXNGTVV0Z0paazdGUmdqTjJ5N3pUemt6Rk9pQ0V6REVoQkdMb1BaV282QTRzRGQyQmpSTHFQN2dOUU41MUFYX3JhaFpMUURDbVRtOWJJVC0wOGVsLU5ndUVzQmNLSEFob3RsNXhZWU9GU2k3WTdlYnN5RS1vNUdfa0l1MnJYaTdWM0pBZks2MGNGT0ZVNzNKNmN5SnBwY0J2NEFKeXpUcw?oc=5"
+  },
+  {
+   "d": "20/11/2026",
+   "c": "alerta",
+   "v": "CNN Brasil",
+   "t": "Defesa Civil monitora chuvas em SP após emitir 33 alertas preventivos",
+   "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSldRLU9sQUVsaGVmc1VOcFZuQmdHWmpwcVNhUnoxLU1aai1WbDdlRm1TSXU1dzFQcnZqQ1dtVWVxLUUzSjZMWkowX2E3b2Q0d09Sc1VXOG1LU01HNDBDdzItVDg4TDI4aXU3bGpISDdXX0FZQUNUdlJMTUdMZElTVzhMbHA5eGJjbGZMVXJFbjVyTHhLRlQ3MWZEYkhtNTctXzdrS1lxaWd6eENwa3ZXWE5TVWtyRHpnX244?oc=5"
+  },
+  {
+   "d": "20/11/2026",
+   "c": "arvore",
+   "v": "Metrópoles",
+   "t": "Temporal no Vale do Paraíba alaga Santa Casa de Aparecida.",
+   "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUEZhclMxcjU3YXNCSTBMQV9mbTNMZXA4WFhmRUpPSFNpLWF0ckZsYy1ieWxOaGRCeHpVdE9IZ3kyZXFnMGhmZlNyNlQzaHBvRDJ4VGRPTkU0VUZnOFgya2JyOUZoM3gyMDBQUmdVUTJOX0ZVXzVLU2trQVh0TmNZRXY1T0xmaXpqRGdFcVA1UW81RG0xZVlPN3B3?oc=5"
+  },
+  {
+   "d": "20/11/2026",
+   "c": "chuva",
+   "v": "G1",
+   "t": "Tempestade atinge cidades do Vale do Paraíba e causa alagamentos em Lorena e Aparecida nesta sexta",
+   "u": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNTzRXdXc5WFlDcDJFRkUzRmx0NU9kTXppd09mQ1NOc2lJMjcwaU12amxvSXdpOUNsX01wekswZV9VOEVvVlhQa1BiSl8welhuQXgtclhIMEtQbGF0VTNZUndqbkVJZGJPS09Ma3RXQVVYcmt3cm5oVFpnaGlJVVVLSWxBR2pYVXRyekJ4ZTUwTDdhaFlTWlNUVVFVMXZtZzhKSzlZaXMxUFplLVVfb21wUUJrZUFyaFNNWVdsMjhiTTRsUlRFNUZYUXBFX3cwUXF0R1U3LUNRYkV0WGZMVmFNSGt4elhiQmJFN2QxcEFmazFPZFVVMW9qQXY5TmM2U25iVU45bTRsZ9IBlgJBVV95cUxNSVBnYXQwTXQyQXc0T2dsYkRmMENONEhjMnJZdTRpSzFnLTNDN2s2VUU5UUdJNmJnRGd1NmJ6cXFwSWJkeFpkOEVpMkN6WXBPOVIzLVgzcDdFallueXYtY2JlLWJlS3NRSGlPZUV0OEo2Tkx6QjhlcDJfZUtFQjhwS1ZZbnBNeGtHeTEybnYwdElVOHB3SUFQUkFmODZxcWRMRktvbEY1UG5SOGFHUFNiX1JRck5pT1M2a3pWZXRJcm96di1UT1Bzb1dteVVwc3dwZWtXMDdHQk9YbVc2TWFIaVAzYlcyeldJOWF6eFMtTkRvQVB2MTEwSko3SUJjYktEQzZzdHJLc3l5MDlyaUtvN3pUYkh1UQ?oc=5"
+  },
   {
    "d": "20/11/2026",
    "c": "chuva",
@@ -31,34 +59,6 @@
    "v": "Metrópoles",
    "t": "Chuva e granizo: Defesa Civil emite alerta severo para zona norte de SP",
    "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNazczLXVNY1Y1S3dhT1I5a3U5bmMtcnBfLV9OMXBKY25HWDMwQmJMLUVPN1JFMXhXTHZmQXk2WmU5SGhELU5naGttR0wyT3FTQVFvNU5RR3NUSHN3UDhtazh6N1dQQ2xjRE1XR2RDdWI5SE9EQ0s4SGJOVGQ5WTRuZTlvQjBtX09oYUR4TnEtdUFUR1AtVEtnb2RpQi1FRTFidWR4S2dPZmZYM1E?oc=5"
-  },
-  {
-   "d": "20/11/2026",
-   "c": "alerta",
-   "v": "G1",
-   "t": "Defesa Civil alerta para chuvas fortes no interior de SP durante o feriado prolongado",
-   "u": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOQTNQdXhJRHpTWTdjWEF1YXZ4TkVORGY0WjVxbWRBODBWYkRnYjRORGc4eDZEUThnaFp0S2JLTi1MMU9QZHhFWlkxZGt5dkR5SVhDV3MyTG5fT3YzT1U0RlUtOHc5enBNQy1RMGs4RjVqM0RvRWU0UmFLT3Uyc3lrTnY2U1ZLZV9GTzF2akFVSXV1VTY4TkQ5S1V0YzBpT1haSDRSWV9Nem9WMmQ1c1d3TXBXR2RBRnFzM3htVFozQ2lYX3hZOGpTaDZNbmxqZUhoa2Y4WlF6eGh0MWl4RWs3MHc1WWxfNjM5aURyTks0a244M29jNGfSAYQCQVVfeXFMTm5Lem1sRWg2ejVnS1AtUkltUV9Vb1dDOFVORTN0ZVlvVldkakJ5WUpxblFRMVlYelNoY0d6b1AxTlU2b3pidm4wYVlQaFp0bl9LNHVlTFpPa1BNZkVJbXBDV28wQmtMelFueFJ3em05TktVN3RjNEtiZk1CWm45QkplMWREWmRJZ2FOVjlra2pyS3o2M3A5Um00UDhXSlJNdjJyblRMRlBwY0JkdkVLckRHV2hLbGY4MEJvZXIzQURqZ0hMaTZxcGNBMXFlQ0doRHdvRkR1dTA2S0xlT1dJSTZVVlZ1SjNSRDdjTTBwVlJ3b0J0QUpRS3M4M0ZaT0JlLU5Ibkc?oc=5"
-  },
-  {
-   "d": "20/11/2026",
-   "c": "chuva",
-   "v": "Estadão",
-   "t": "Tempestades que causaram estragos no RS podem chegar até São Paulo? Veja previsão",
-   "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORWpjU2JjTUR0TmZoa0pLdVM3QUIwS2l2a2dHcGRyNl9JUjAtcThQQ3FXaURWNU1ha2l1cEpvQU1nd0c1SndCUTdkcEVSLTBRejd5d2EtaHl3cm0zS3FIb1BMYkpXdHVnY2xpR1U3ZjJsZ1Y1UmRjSll1U2h5WllVVjFwdDgzU0R1bTl5QkhkZGpmWkg2VVdGQm5SV2c0emZ4elRld1FubHpEOHdLSU1DZnMzTk8zd9IBuwFBVV95cUxQVHVlYW8xV2QwMmF5N0tHZENZLUtTdUpDTVl6NGZ4dm9BMHNDcUs4TUVRMWo5b1pNRFQ4dXRYOEY1VC1VNGFIbC1ZdFZjVzhHTzVhTUVPZmk2bmp3UjZ0SEIzam5CVExwNDhVeHFNR2U5UG1iWEhLSG5JeGNBYlVXSHE0MzRsR3h0THh0bnVXUXE5YzVQYmNTX2ZUSmxFd1dGajAwNTR4MkxzdS04Z2FHNWhDbDZPSEFWM0Iw?oc=5"
-  },
-  {
-   "d": "20/11/2026",
-   "c": "alerta",
-   "v": "G1",
-   "t": "Defesa Civil emite alerta de chuva forte em São José dos Campos",
-   "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbnBSTDE1cTdqYUh6V2xhbm0yaFBOMXc2dUlUQUtYalF3cHJ0WjB1bjFMRmo5dXdPVTlLVGVtX1JhdV9qOGxhT2R0SU96MGpyWTVqZjBFQnVReGx2bHplY0YyY1NNWHAzWmNnRHI5SnVuV194UHRmX0xWT1p0SDZsRkFWN1hlVmNTdi1KMlhOUUZkc0k1S1pDcEVzNUo5LTN0VTBOaUM4ZmZCRGtRbEpNZXVQc1lrUnZQN0VxbXNMV3M2b1NvbFllZFB0QXk1T04w0gHfAUFVX3lxTE56SkhWOV9Nbll0dEl4UVFaVmxYRkF3N1IwX1lERjBYOE1NSFU3b2p1SUY4MTR6MG5fTUNtTmlHRU5tVHMtSnlDLWJnUGZEbVZicmRnelNsMGNxYjA3cjVnLXdrWXpxalJWekdkaXhxd2k2NHRCbk9LaFM2UDh1RDR3N3FfYXdRVFVVWk54Sm1Ea2VJOU9qWi1yaUtEcVpsSzh4Y3h6MjUzN0phVmRjUEVOUHBtZnIyQURwN3pQWDMtZWZJaXotbGZ4elNidm94b3owRUo1SkdaTXpyMkhpcXM?oc=5"
-  },
-  {
-   "d": "20/11/2026",
-   "c": "calor",
-   "v": "Folha de S.Paulo",
-   "t": "São Paulo terá feriado típico de primavera, com muito sol, calor e pancadas de chuva à tarde",
-   "u": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZF9YNnZUblM0Z3ZWdXUxcUFSU0hQdUwtWUNxdlFDQnd4aEZXelJqdThHNHVKWXdINm8zaFNiX2pFRmVteC1HS2VZTDRBb19RWUxMZkd0UFhjRjJ2cXVmZk1lYko2WWZBdEppeUFaYmZQWGU0Z2tlS09UbFBpbzdLUjNpZTF5VXRZVnUwZWZIa09MLVdqdkVleHZNMzhETTM4VUIwa2wwdUpVUE4wWDB3YjZDcDBYeldwOXM5eXdtQ2JjdFY4eC0yNzF6ME13eGNfTUFMNktvM0F0aURv?oc=5"
   }
  ]
 }
