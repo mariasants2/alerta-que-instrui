@@ -1,9 +1,16 @@
 {
- "atualizado": "2026-11-21T21:00:01+00:00",
+ "atualizado": "2026-11-21T21:40:37+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
  "noticias": [
+  {
+   "d": "21/11/2026",
+   "c": "alerta",
+   "v": "UOL Notícias",
+   "t": "Defesa Civil reforça alerta para chuva forte em SP de domingo até terça",
+   "u": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQVndwNXdkVmxzSFBtaF9HZVdWcVUwQ3dnNlFULXJGVU9DXy1OWG0wRm9XOW1PdW1wbVBJUWJlTXU0R1dHa19JbzFWYjRnYjR3STJ4Wkh5Y1dFTmlFd0hPVmlwMjM5NVlJckxiNk12ajlTTVY2eC1CZXdDYjlfUmRCVVJrNmRSaGtENThkUGhReEhvT2NxQ3ZJUjRLWGUxcFFHenRrYUxkZEEyS2NjWlV4U0VSNHZUT3BMWnEzSnJHNWVCcXg2bFBZM1FGUXhXVnZwS0Nr?oc=5"
+  },
   {
    "d": "21/11/2026",
    "c": "arvore",
@@ -52,13 +59,6 @@
    "v": "G1",
    "t": "Vídeo mostra ruas transformadas em rios e carros parcialmente submersos após chuva em Aparecida",
    "u": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNb2hFYjdDMnZET09NWjdvY1BzOV9uNlVWUVJhcUdOOUZPcjQ3X0liZUdRMGlJRjNQWHNTWi1xMnVHWnZkSUpNN3ZIV2t6NWtKNDhNcDdVR3dOal9IMU9tamtFQ2VIc0hvLXp1MTBXVjJJUHk3ajZtZ0d5QjVFd0h4SVZTSjFlcXcwRDByTEFQdGt0TFlkTTJ3VEpOLUZLeEkxWjZNcjUwWUhtQ2d0UzNzd3YwNG5zZEpJMXRBZDR4NV9oNHNMZ1Y5QThnck1ISFpGQ3lVTl9BTmRNX3VmdXFIUkwzTVM2YnFzbXR2VdIB-wFBVV95cUxPOXVlemlMODZYY19GdXlCSnZhTVlEcU55ckxqQTlCd3IwaE83NEJOTEJwVHFmdDRqM2N3QzA3Y3FGMWphQTB4Y0NxVi1rNy1EdkNVVGVabVRFT3B0MnFyaE9aUkJ2em9uRmhkSHZPcXBqVDc3aXJNbEpJLUE4bXRFOTRNaHRSdXVXWTJYYmllTHNxbTBndk9aR3F1VUQwNUpLSUhSUTJBaC10WWx2NDN0MDF4ejM0dVNfUXNkSHY0UExvZVNkUHYxcS15NlZ5NnJHNFFWZWc2LURyM1R6TEhRZ1lUVEE4aVRVcTU1b2VlQVNqbkczUVpIN3owSQ?oc=5"
-  },
-  {
-   "d": "21/11/2026",
-   "c": "chuva",
-   "v": "Band",
-   "t": "Defesa Civil monitora ocorrências provocadas por chuvas em cidades de SP",
-   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOemdnY1JaUWtTcnZXMTZoVVBIZXdITm5yRUdKN21Nd3Q3dTBLc0RlWHRXdl9NSjBEZEViczVOUWpNbVF3N1FlNWQ1SWRmSWpDODFBQ1hJcElvYk80Nk13aVNmVnlEbmd1YkxhTm9PamhEVlBTeHl1bDJPMm8zTEJFaTQtOUxfZDkxdm1vMlhZRlFMRThERE9QVW12R3hvZWcxcFNSZkFHa3pscXdE?oc=5"
   }
  ]
 }

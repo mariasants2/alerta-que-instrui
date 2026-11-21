@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-21T20:55:42Z</updated>
-  <dc:date>2026-11-21T20:55:42Z</dc:date>
+  <updated>2026-11-21T21:36:50Z</updated>
+  <dc:date>2026-11-21T21:36:50Z</dc:date>
   <entry>
     <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199583/2026</id>
-    <updated>2026-11-21T08:55:30Z</updated>
+    <id>199585/2026</id>
+    <updated>2026-11-21T09:40:57Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199583/2026</identifier>
+        <identifier>199585/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-21T05:55:30-03:00</sent>
+        <sent>2026-11-21T06:40:57-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -25,14 +25,14 @@
           <category>Met</category>
           <event>CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
-          <urgency>Expected</urgency>
+          <urgency>Immediate</urgency>
           <severity>Severe</severity>
-          <certainty>Likely</certainty>
-          <onset>2026-11-21T05:55:30-03:00</onset>
-          <expires>2026-11-21T08:00:00-03:00</expires>
-          <senderName>Defesa Civil Estadual de Minas Gerais</senderName>
-          <headline>Defesa Civil:Alerta de Tempestade Severa com vendaval e chuva intensa. Proteja-se!</headline>
-          <description>Alerta de Tempestade Severa com vendaval e chuva intensa. Proteja-se!</description>
+          <certainty>Observed</certainty>
+          <onset>2026-11-21T06:40:57-03:00</onset>
+          <expires>2026-11-21T10:30:00-03:00</expires>
+          <senderName>Defesa Civil Estadual De São Paulo</senderName>
+          <headline>Defesa Civil:06h40 Chuva com raios e vento se espalhando por Palestina e municipios vizinhos, avancando para Olimpia e Guaraci. Tenha cuidado.</headline>
+          <description>06h40 Chuva com raios e vento se espalhando por Palestina e municípios vizinhos, avançando para Olímpia e Guaraci. Tenha cuidado.</description>
           <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
@@ -41,5 +41,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>MINAS GERAIS/MG</areaDesc>
-            <polygon>-19.563,-50.314 -19.563,-50.315 -19.562,-50.315 -19.562,-50.316 -19.562,-50.316 -19.562,-50.317 -19.562,-50.317 -19.561,-50.318 -19.561,-50.319 -19.561,-50.319 -19.561,-50.32 -19.56,-50.32 -19.56,-50.321 -19.56,-50.321 -19.56,-50.322 -19.559,-50.322 -19.559,-50.323 -19.559,-50.323 -19.558,-50.323 -19.558,-50.324 -19.557,-50.324 -19.557,-50.324 -19.557,-50.325 -19.556,-50.325 -19.556,-50.325 -19.555,-50.326 -19.555,-50.326 -19.555,-50.327 -19.554,-50.327 -19.554,-50.327 -19.554,-50.328 -19.553,-50.328 -19.553,-50.328 -19.553,-50.329 -19.552,-50.329 -19.552,-50.33 -19.552,-50.33 -19.551,-50.331 -19.551,-50.332 -19.551,-50.332 -19.551,-50.332 -19.551,-50.333 -19.55,-50.333 -19.55,-50.334 -19.55,-50.334 -19.55,-50.335 -19.549,-50.335 -19.549,-50.336 -19.549,-50.336 -19.549,-50.337 -19.549,-50.337 -19.549,-50.338 -19.549,-50.338 -19.549,-50.339 -19.549,-50.339 -19.549,-50.34 -19.549,-50.34 -19.549,-50.341 -19.549,-50.342 -19.549,-50.342 -19.549,-50
+            <areaDesc>SÃO PAULO/SP</areaDesc>
+            <polygon>-20.186,-48.857 -20.187,-48.857 -20.192,-48.856 -20.194,-48.857 -20.196,-48.857 -20.199,-48.857 -20.202,-48.857 -20.209,-48.853 -20.213,-48.853 -20.213,-48.853 -20.215,-48.853 -20.216,-48.853 -20.219,-48.854 -20.221,-48.855 -20.226,-48.856 -20.232,-48.859 -20.234,-48.863 -20.238,-48.869 -20.241,-48.872 -20.243,-48.872 -20.255,-48.878 -20.263,-48.883 -20.266,-48.885 -20.271,-48.886 -20.272,-48.886 -20.275,-48.887 -20.28,-48.886 -20.285,-48.885 -20.287,-48.886 -20.288,-48.886 -20.288,-48.887 -20.291,-48.888 -20.293,-48.888 -20.294,-48.888 -20.297,-48.888 -20.301,-48.885 -20.304,-48.883 -20.307,-48.88 -20.307,-48.879 -20.308,-48.878 -20.31,-48.877 -20.314,-48.875 -20.318,-48.875 -20.337,-48.879 -20.339,-48.879 -20.348,-48.88 -20.352,-48.879 -20.356,-48.878 -20.359,-48.877 -20.361,-48.876 -20.366,-48.873 -20.37,-48.872 -20.375,-48.8
