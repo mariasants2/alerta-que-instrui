@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-21T11:53:25+00:00",
+ "atualizado": "2026-11-21T12:46:51+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
@@ -35,20 +35,6 @@
   {
    "d": "20/11/2026",
    "c": "chuva",
-   "v": "UOL Notícias",
-   "t": "Chuva põe zonas norte, leste, centro e Marginal Tietê em estado de atenção",
-   "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOS095a2l2S2wzdkpTNkdNNEFNWENzZFh6N3duMVp1T3dQOEZMS2gza1FCMUp1MVlybnd3eDVwNmI2OXVxQzJzeldEaTVlMFRjUmw5YTJ5aGpZQng1a1hpSDRMeEdCcWJpTWl5NHdRTndlMll0NERWOU1iSWpDdzltaVZMUVJXc3RIdjhIQWV2TWJxM2lqTkNzTVI2OVBTUVAwNkw5QkNzUQ?oc=5"
-  },
-  {
-   "d": "20/11/2026",
-   "c": "chuva",
-   "v": "G1",
-   "t": "Cidade de SP entra em estado de atenção para alagamentos nesta sexta",
-   "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQkx4blRFZXVDdDJKMGVTTXdqSXFmdGluUWRwbE5YN2xmSFp2Nk40UTlqcXQ5SjQ2NFIydFdidGltUTUtN0wwTVBpZ1dHb0ExMTYwR2xtWnAwMjVpNkxCekd4NEZveHR0cmhJWkMzajZtenFZNGRTLW1HMTFib0x4Vk15RlVlbUVsTUhjUWlWclpJaF9KTUxmcDdrYjlGd9IBrAFBVV95cUxOMGNDbmFXSHk2aFEtNnRfdzFCMVZuY3Y3bElzUm5XWkZXWHVyN0t3V1NyZ2JmZlJvenVyMWVsLXhiaUR4TnRqd1Q2ZEpFQzVmejJ1aUp1VVBYSlVPWHdoYkpuZm5Cb3p0UHBSS0FkR0p0M093SjQ2ekZEM2dVaWNIeXE1bUVPRG1sSWk2LTRrLTNRelR1X2czbTZmZUNTbmZvR09zY0dVWkg3YmIz?oc=5"
-  },
-  {
-   "d": "20/11/2026",
-   "c": "chuva",
    "v": "G1",
    "t": "Fernão Dias é interditada nos dois sentidos após alagamento causado por fortes chuvas em MG",
    "u": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPbUU3Zi1MQk5OY2p6aGpPc1NUVzNxTWgzbjFQUmhGMHU5YS1xRDQ0SVR0MmlMTC1Hb0hHTkZtLVdmNldGZjk4bUhzVEJ6VTVMYW1YaEZxWVhoaEMxU3RLNjNkTnRKaU9IZWtEekJGaVMxNlNYN0JKY1ZHdDNTZ1N5cTkwNVhOanZiLVRUdWthVlFITlBUbXNScjQ3RWt6VlJ5WjBLZTVPWnNaRUdWMFg0SDBqS2M3TGpmQ3RDQjlMNnZKaGRJN1BkazVvR0pmV19OTDBPcUlBOVdVblVvRFZQWmNOUl9mRW0z0gH3AUFVX3lxTE9xVm1UR2FXTTh6Wk9yYkJhdmJNVlhfRXQ4NGR1b2JJc241V3o4RC02Z05TVDdIbkc2cV9DTEJqdUo4Rk50QUJKeFRjaldQa3ZmMEQ2ZnJ6NVpmc212YWNoNVB4OE1JUy1vVGxCbTRfckNLLW9tYTBFeGlwY3lmSFRQbzlqTXExZFN6TjZSSTFOLUxGU2tBalJxN2hxdXdlc3Z1N3dvOE9fcUxzWFZhTklROTV5TzN1cE9jVjFvVXJOX3FpN0VDRkFCZG43UUVfbHZVMTdmaVBKUUFURnhVX3FUanN6VHA1RUw2MVNyeV9pSjRDeFVLZlU?oc=5"
@@ -59,6 +45,20 @@
    "v": "Estadão",
    "t": "Chuvas fortes atingem litoral norte e cidades do interior de São Paulo; veja os locais",
    "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOG5pMGl6ZC1PMDJyMjFhVWk4LVRYSHZaN05CcXBQU0d4aEtNWEM2bFNkZk9XaGpjcnRaNkd3NzZtWm4xU211R3I5NGZ6N1hOT1FEYVRtQThMUktqVEtFMndVWW1ucElUMUk1OXRXeGEtcHVOSDZ2emlEQkgzNmZRcG5ISEJ0QlUza1poMkFMWHU5eUlPem1HdGRvNzZ0N0lTSDVER0w4QWVESUlIOXpkYzY0eElKczZiYUZsOE1PY1nSAcYBQVVfeXFMT3RCTERPVnFlQlJIalhEczhkMmdibEtpVUpYUEJzYXIyRkpNcEpNNnBObmpQRU9VQ3k4VnV6M01Ga25aWk1fY0ZBWjhkbEx5U0xPT1kwVXlCYjdzUmRweVczdFZyUVlZbjBwZk5aX3l6UmhhQXg5UFJwbEpSajlSREVWbnRVdE44VUNyeTRGeWNFMDRtdlgxQXF3di1jUTZWQU1KR2d4d2hQaW1Mdl9oZE9VZ2lsQXR2Qy15VEhxQXhRWWV4b1F3?oc=5"
+  },
+  {
+   "d": "20/11/2026",
+   "c": "alerta",
+   "v": "Metrópoles",
+   "t": "Chuva e granizo: Defesa Civil emite alerta severo para zona norte de SP",
+   "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNazczLXVNY1Y1S3dhT1I5a3U5bmMtcnBfLV9OMXBKY25HWDMwQmJMLUVPN1JFMXhXTHZmQXk2WmU5SGhELU5naGttR0wyT3FTQVFvNU5RR3NUSHN3UDhtazh6N1dQQ2xjRE1XR2RDdWI5SE9EQ0s4SGJOVGQ5WTRuZTlvQjBtX09oYUR4TnEtdUFUR1AtVEtnb2RpQi1FRTFidWR4S2dPZmZYM1E?oc=5"
+  },
+  {
+   "d": "20/11/2026",
+   "c": "alerta",
+   "v": "G1",
+   "t": "Defesa Civil alerta para chuvas fortes no interior de SP durante o feriado prolongado",
+   "u": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOQTNQdXhJRHpTWTdjWEF1YXZ4TkVORGY0WjVxbWRBODBWYkRnYjRORGc4eDZEUThnaFp0S2JLTi1MMU9QZHhFWlkxZGt5dkR5SVhDV3MyTG5fT3YzT1U0RlUtOHc5enBNQy1RMGs4RjVqM0RvRWU0UmFLT3Uyc3lrTnY2U1ZLZV9GTzF2akFVSXV1VTY4TkQ5S1V0YzBpT1haSDRSWV9Nem9WMmQ1c1d3TXBXR2RBRnFzM3htVFozQ2lYX3hZOGpTaDZNbmxqZUhoa2Y4WlF6eGh0MWl4RWs3MHc1WWxfNjM5aURyTks0a244M29jNGfSAYQCQVVfeXFMTm5Lem1sRWg2ejVnS1AtUkltUV9Vb1dDOFVORTN0ZVlvVldkakJ5WUpxblFRMVlYelNoY0d6b1AxTlU2b3pidm4wYVlQaFp0bl9LNHVlTFpPa1BNZkVJbXBDV28wQmtMelFueFJ3em05TktVN3RjNEtiZk1CWm45QkplMWREWmRJZ2FOVjlra2pyS3o2M3A5Um00UDhXSlJNdjJyblRMRlBwY0JkdkVLckRHV2hLbGY4MEJvZXIzQURqZ0hMaTZxcGNBMXFlQ0doRHdvRkR1dTA2S0xlT1dJSTZVVlZ1SjNSRDdjTTBwVlJ3b0J0QUpRS3M4M0ZaT0JlLU5Ibkc?oc=5"
   }
  ]
 }

@@ -1,85 +1,10 @@
 {
- "atualizado": "2026-11-21T11:53:25+00:00",
+ "atualizado": "2026-11-21T12:46:51+00:00",
  "fonte": "Defesa Civil (IDAP, Ministério da Integração)",
  "fonte_ok": true,
  "erro": null,
- "total_no_feed": 106,
+ "total_no_feed": 92,
  "alertas": [
-  {
-   "id": "199573/2026",
-   "enviado": "2026-11-21T04:48:01-03:00",
-   "expira": "2026-11-21T09:00:00-03:00",
-   "evento": "CHUVAS INTENSAS",
-   "gravidade": "Severe",
-   "titulo": "Defesa Civil:04h47 Chuva persistente na regiao de Aracatuba, Valparaiso, Mirandopolis, Barbosa e municipios vizinhos. Cuidado nas proximas horas.",
-   "descricao": "04h47 Chuva persistente na região de Araçatuba, Valparaíso, Mirandópolis, Barbosa e municípios vizinhos. Cuidado nas próximas horas.",
-   "instrucao": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
-   "area": "SÃO PAULO/SP",
-   "poligonos": [
-    [
-     [
-      -20.641,
-      -50.896
-     ],
-     [
-      -20.892,
-      -51.182
-     ],
-     [
-      -21.159,
-      -51.3
-     ],
-     [
-      -21.443,
-      -51.388
-     ],
-     [
-      -21.612,
-      -51.1
-     ],
-     [
-      -21.724,
-      -50.844
-     ],
-     [
-      -21.775,
-      -50.655
-     ],
-     [
-      -21.839,
-      -50.545
-     ],
-     [
-      -21.75,
-      -50.191
-     ],
-     [
-      -21.566,
-      -49.943
-     ],
-     [
-      -21.433,
-      -49.757
-     ],
-     [
-      -21.054,
-      -49.691
-     ],
-     [
-      -20.792,
-      -49.993
-     ],
-     [
-      -20.759,
-      -50.542
-     ],
-     [
-      -20.641,
-      -50.896
-     ]
-    ]
-   ]
-  },
   {
    "id": "199577/2026",
    "enviado": "2026-11-21T05:05:02-03:00",
