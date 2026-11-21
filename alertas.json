@@ -1,9 +1,9 @@
 {
- "atualizado": "2026-11-21T21:40:37+00:00",
+ "atualizado": "2026-11-21T22:24:43+00:00",
  "fonte": "Defesa Civil (IDAP, Ministério da Integração)",
  "fonte_ok": true,
  "erro": null,
- "total_no_feed": 106,
+ "total_no_feed": 107,
  "alertas": [
   {
    "id": "199625/2026",
@@ -19688,6 +19688,61 @@
      [
       -22.757,
       -44.246
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "199694/2026",
+   "enviado": "2026-11-21T18:59:23-03:00",
+   "expira": "2026-11-21T21:00:00-03:00",
+   "evento": "CHUVAS INTENSAS",
+   "gravidade": "Moderate",
+   "titulo": "Defesa Civil:19h00 Chuva isolada na regiao de Casa Branca. Tem raios e vento. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
+   "descricao": "19h00 Chuva isolada na região de Casa Branca. Tem raios e vento. Atinge municípios vizinhos. Tenha cuidado nas próximas horas.",
+   "instrucao": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+   "area": "SÃO PAULO/SP",
+   "poligonos": [
+    [
+     [
+      -21.675,
+      -47.235
+     ],
+     [
+      -21.777,
+      -47.248
+     ],
+     [
+      -21.929,
+      -47.209
+     ],
+     [
+      -21.947,
+      -47.062
+     ],
+     [
+      -21.939,
+      -46.943
+     ],
+     [
+      -21.866,
+      -46.822
+     ],
+     [
+      -21.632,
+      -46.838
+     ],
+     [
+      -21.562,
+      -46.904
+     ],
+     [
+      -21.542,
+      -47.158
+     ],
+     [
+      -21.675,
+      -47.235
      ]
     ]
    ]

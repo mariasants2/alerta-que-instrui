@@ -2,38 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-21T21:36:50Z</updated>
-  <dc:date>2026-11-21T21:36:50Z</dc:date>
+  <updated>2026-11-21T22:23:05Z</updated>
+  <dc:date>2026-11-21T22:23:05Z</dc:date>
   <entry>
-    <title>CHUVAS INTENSAS</title>
+    <title>DESLIZAMENTOS</title>
     <author>
       <name />
     </author>
-    <id>199585/2026</id>
-    <updated>2026-11-21T09:40:57Z</updated>
+    <id>199590/2026</id>
+    <updated>2026-11-21T10:29:31Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199585/2026</identifier>
+        <identifier>199590/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-21T06:40:57-03:00</sent>
+        <sent>2026-11-21T07:29:31-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
         <scope>Public</scope>
         <info>
           <language>pt-BR</language>
-          <category>Met</category>
-          <event>CHUVAS INTENSAS</event>
+          <category>Geo</category>
+          <event>DESLIZAMENTOS</event>
           <responseType>Execute</responseType>
-          <urgency>Immediate</urgency>
-          <severity>Severe</severity>
-          <certainty>Observed</certainty>
-          <onset>2026-11-21T06:40:57-03:00</onset>
-          <expires>2026-11-21T10:30:00-03:00</expires>
-          <senderName>Defesa Civil Estadual De São Paulo</senderName>
-          <headline>Defesa Civil:06h40 Chuva com raios e vento se espalhando por Palestina e municipios vizinhos, avancando para Olimpia e Guaraci. Tenha cuidado.</headline>
-          <description>06h40 Chuva com raios e vento se espalhando por Palestina e municípios vizinhos, avançando para Olímpia e Guaraci. Tenha cuidado.</description>
-          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
+          <urgency>Expected</urgency>
+          <severity>Moderate</severity>
+          <certainty>Likely</certainty>
+          <onset>2026-11-21T07:29:31-03:00</onset>
+          <expires>2026-11-22T10:00:00-03:00</expires>
+          <senderName>Defesa Civil Estadual de Minas Gerais</senderName>
+          <headline>Defesa Civil:ALERTA DE RISCO GEOLOGICO: Risco Moderado de Deslizamentos. Atente-se a locais de encostas, quedas de muros e desabamentos.</headline>
+          <description>ALERTA DE RISCO GEOLÓGICO: Risco Moderado de Deslizamentos. Atente-se a locais de encostas, quedas de muros e desabamentos.</description>
+          <instruction>Fique atento a rachaduras em paredes e no solo, inclinação de árvores e postes, surgimento de água nas encostas e movimentação do terreno. Ao identificar sinais de deslizamento, abandone imediatamente o imóvel e procure um local seguro, afastado da encosta. Não retorne à área de risco sem autorização dos órgãos competentes. Acione a Defesa Civil pelo 199 ou os Bombeiros pelo 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -41,5 +41,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>SÃO PAULO/SP</areaDesc>
-            <polygon>-20.186,-48.857 -20.187,-48.857 -20.192,-48.856 -20.194,-48.857 -20.196,-48.857 -20.199,-48.857 -20.202,-48.857 -20.209,-48.853 -20.213,-48.853 -20.213,-48.853 -20.215,-48.853 -20.216,-48.853 -20.219,-48.854 -20.221,-48.855 -20.226,-48.856 -20.232,-48.859 -20.234,-48.863 -20.238,-48.869 -20.241,-48.872 -20.243,-48.872 -20.255,-48.878 -20.263,-48.883 -20.266,-48.885 -20.271,-48.886 -20.272,-48.886 -20.275,-48.887 -20.28,-48.886 -20.285,-48.885 -20.287,-48.886 -20.288,-48.886 -20.288,-48.887 -20.291,-48.888 -20.293,-48.888 -20.294,-48.888 -20.297,-48.888 -20.301,-48.885 -20.304,-48.883 -20.307,-48.88 -20.307,-48.879 -20.308,-48.878 -20.31,-48.877 -20.314,-48.875 -20.318,-48.875 -20.337,-48.879 -20.339,-48.879 -20.348,-48.88 -20.352,-48.879 -20.356,-48.878 -20.359,-48.877 -20.361,-48.876 -20.366,-48.873 -20.37,-48.872 -20.375,-48.8
+            <areaDesc>MINAS GERAIS/MG</areaDesc>
+            <polygon>-17.849,-40.204 -17.562,-40.508 -17.408,-40.703 -17.42,-40.953 -17.35,-41.211 -17.246,-41.215 -17.092,-41.186 -17.121,-41.29 -17.042,-41.335 -16.908,-41.231 -16.834,-41.236 -16.813,-41.335 -16.684,-41.344 -16.655,-41.398 -16.526,-41.489 -16.476,-41.544 -16.501,-41.631 -16.58,-41.618 -16.688,-41.581 -16.767,-41.606 -16.879,-41.677 -16.946,-41.581 -17.008,-41.643 -17.1,-41.81 -17.125,-41.922 -17.208,-41.922 -17.246,-42.043 -17.354,-42.118 -17.246,-42.255 -17.117,-42.455 -16.992,-42.559 -17.042,-42.596 -17.062,-42.717 -17.013,-42.763 -17.108,-42.908 -17.27,-43.045 -17.3,-42.987 -17.304
