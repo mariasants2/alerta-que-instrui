@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-21T03:12:50Z</updated>
-  <dc:date>2026-11-21T03:12:50Z</dc:date>
+  <updated>2026-11-21T04:15:01Z</updated>
+  <dc:date>2026-11-21T04:15:01Z</dc:date>
   <entry>
-    <title>TEMPESTADE LOCAL/CONVECTIVA - GRANIZO</title>
+    <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199296/2026</id>
-    <updated>2026-11-20T15:12:57Z</updated>
+    <id>199313/2026</id>
+    <updated>2026-11-20T16:21:40Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199296/2026</identifier>
+        <identifier>199313/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-20T12:12:57-03:00</sent>
+        <sent>2026-11-20T13:21:40-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -23,17 +23,23 @@
         <info>
           <language>pt-BR</language>
           <category>Met</category>
-          <event>TEMPESTADE LOCAL/CONVECTIVA - GRANIZO</event>
+          <event>CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
           <urgency>Expected</urgency>
           <severity>Severe</severity>
-          <certainty>Observed</certainty>
-          <onset>2026-11-20T12:12:57-03:00</onset>
-          <expires>2026-11-20T13:10:00-03:00</expires>
-          <senderName>Defesa Civil Estadual do Rio Grande do Sul</senderName>
-          <headline>Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 13h10. Mantenha-se seguro</headline>
-          <description>RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 13h10. Mantenha-se seguro</description>
-          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 190 ou 193.</instruction>
+          <certainty>Likely</certainty>
+          <onset>2026-11-20T13:21:40-03:00</onset>
+          <expires>2026-11-20T16:15:00-03:00</expires>
+          <senderName>Defesa Civil Estadual do Paraná</senderName>
+          <headline>Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.</headline>
+          <description>Tempestades intensas com chuva forte e condição para rajadas de vento pontualmente intensas
+e queda de granizo pontual. Evite áreas de risco e busque abrigo! Emergências 199 ou 193.</description>
+          <instruction>Veja como proceder em casos de desastres. -
+- https://bit.ly/2W1BZxy -
+- Entenda o significado das cores do alerta:
+- http://www.defesacivil.pr.gov.br/Pagina/Significado-das-cores-dos-alertas -
+- Veja a área do alerta: -
+- https://www.defesacivil.pr.gov.br/alertas-vigentes</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -41,29 +47,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>RIO GRANDE DO SUL/RS</areaDesc>
-            <polygon>-28.685,-54.266 -28.709,-54.846 -29.02,-55.036 -29.322,-54.544 -28.685,-54.266</polygon>
-          </area>
-        </info>
-      </alert>
-    </content>
-  </entry>
-  <entry>
-    <title>CHUVAS INTENSAS</title>
-    <author>
-      <name />
-    </author>
-    <id>199297/2026</id>
-    <updated>2026-11-20T15:12:59Z</updated>
-    <content type="text/xml">
-      <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199297/2026</identifier>
-        <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-20T12:12:59-03:00</sent>
-        <status>Actual</status>
-        <msgType>Alert</msgType>
-        <source>Defesa Civil</source>
-        <scope>Public</scope>
-        <info>
-          <language>pt-BR</language>
-          <category>
+            <areaDesc>PARANÁ/PR</areaDesc>
+            <polygon>-26.25,-53.334 -26.25,-53.334 -26.25,-53.335 -26.249,-53.336 -26.249,-53.336 -26.249,-53.336 -26.249,-53.336 -26.249,-53.336 -26.249,-53.337 -26.249,-53.337 -26.248,-53.337 -26.248,-53.338 -26.248,-53.338 -26.248,-53.338 -26.248,-53.339 -26.248,-53.339 -26.248,-53.339 -26.248,-53.34 -26.248,-53.34 -26.248,-53.34 -26.248,-53.34 -26.248,-53.34 -26.248,-53.341 -26.248,-53.341 -26.248,-53.341 -26.248,-53.342 -26.249,-53.342 -26.249,-53.342 -26.249,-53.342 -26.249,-53.342 -26.249,-53.342 -26.249,-53.343 -26.249,-53.343 -26.249,-53.343 -26.249,-53.344 -26.25,-53.344 -26.25,-53.344 -26.25,-53.345 -26.25,-53.345 -26.25,-53.345 -26.25,-
