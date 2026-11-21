@@ -2,38 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-21T12:43:31Z</updated>
-  <dc:date>2026-11-21T12:43:31Z</dc:date>
+  <updated>2026-11-21T13:39:33Z</updated>
+  <dc:date>2026-11-21T13:39:33Z</dc:date>
   <entry>
-    <title>CHUVAS INTENSAS</title>
+    <title>CORRIDAS DE MASSA - SOLO/LAMA</title>
     <author>
       <name />
     </author>
-    <id>199511/2026</id>
-    <updated>2026-11-21T00:50:36Z</updated>
+    <id>199527/2026</id>
+    <updated>2026-11-21T01:47:58Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199511/2026</identifier>
+        <identifier>199527/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-20T21:50:36-03:00</sent>
+        <sent>2026-11-20T22:47:58-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
         <scope>Public</scope>
         <info>
           <language>pt-BR</language>
-          <category>Met</category>
-          <event>CHUVAS INTENSAS</event>
+          <category>Geo</category>
+          <event>CORRIDAS DE MASSA - SOLO/LAMA</event>
           <responseType>Execute</responseType>
-          <urgency>Immediate</urgency>
-          <severity>Moderate</severity>
-          <certainty>Observed</certainty>
-          <onset>2026-11-20T21:50:36-03:00</onset>
-          <expires>2026-11-21T02:00:00-03:00</expires>
-          <senderName>Defesa Civil Estadual do Espírito Santo</senderName>
-          <headline>Defesa Civil:(ES) ALERTA de CHUVA MODERADA, RAIO E VENTOS em Brejetuba, Afonso Claudio e Santa Maria de Jetiba nas proximas 04 horas. Emergencia ligue 193.</headline>
-          <description>(ES) ALERTA de CHUVA MODERADA, RAIO E VENTOS em Brejetuba, Afonso Claudio e Santa Maria de Jetiba nas proximas 04 horas. Fique atento. Emergencia ligue 193.</description>
-          <instruction>Fique atento. Em casos de emergência ligue 193.</instruction>
+          <urgency>Expected</urgency>
+          <severity>Severe</severity>
+          <certainty>Likely</certainty>
+          <onset>2026-11-20T22:47:58-03:00</onset>
+          <expires>2026-11-21T09:00:00-03:00</expires>
+          <senderName>Defesa Civil Estadual do Amazonas</senderName>
+          <headline>Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.</headline>
+          <description>Alta possibilidade de ocorrência de deslizamentos em áreas vulneráveis, em decorrência dos altos volumes pluviométricos registrados. O pluviômetro do CEMADEN no referido município registrou acumulados de chuva superiores a 40 mm em 24 horas. Previsão de chuva para as próximas horas, conforme previsão do INMET.</description>
+          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Observe os sinais de movimentação do terreno, como rachaduras no chão; árvores, postes ou cercas inclinadas ou embarrigadas; desníveis ou fendas no terreno; levantamento do piso da residência; barulhos vindos do chão como se fossem pequenos terremoto. Se observar algum desses sinais de movimentação do terreno, saia imediatamente da sua casa. Auxilie crianças, idosos e pessoas com dificuldade de locomoção.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -41,5 +41,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>ESPÍRITO SANTO/ES</areaDesc>
-            <polygon>-19.89,-41.15 -19.89,-41.151 -19.89,-41.151 -19.89,-41.152 -19.89,-41.155 -19.892,-41.155 -19.892,-41.156 -19.893,-41.157 -19.893,-41.157 -19.893,-41.158 -19.894,-41.158 -19.894,-41.158 -19.895,-41.158 -19.897,-41.159 -19.898,-41.159 -19.898,-41.16 -19.898,-41.161 -19.898,-41.162 -19.899,-41.163 -19.899,-41.163 -19.899,-41.163 -19.9,-41.164 -19.901,-41.165 -19.901,-41.165 -19.902,-41.166 -19.902,-41.166 -19.902,-41.166 -19.903,-41.166 -19.904,-41.167 -19.904,-41.167 -19.905,-41.168 -19.905,-41.168 -19.905,-41.169 -19.905,-41.169 -19.906,-41.17 -19.906,-41.17 -19.906,-41.171 -19.907,-41.172 -19.907,-41.173 -19.907,-41.173 -19.907,-41.174 -19.906,-41.174 -19.906,-41.176 -19.906,-41.177 -19.905,-41.177 -19.904,-41.178 -19.904,-41.178 -19.904,-41.179 -19.903,-41.18 -19.902,-41.18 -19.901,-41.18 -19.901,-41.179 -19.9,-41.179 -19.9,-41.18 -19.899,-41.181 
+            <areaDesc>Canutama/AM</areaDesc>
+            <polygon>-6.029,-64.163 -5.938,-64.273 -5.936,-64.282 -5.916,-64.358 -5.915,-64.363 -5.915,-64.364 -5.926,-64.388 -5.927,-64.388 -5.928,-64.388 -5.945,-64.389 -6.096,-64.387 -6.098,-64.402 -6.097,-64.414 -6.1,-64.43 -6.107,-64.441 -6.13,-64.452 -6.138,-64.453 -6.159,-64.456 -6.17,-64.462 -6.179,-
