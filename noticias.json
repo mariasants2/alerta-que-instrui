@@ -1,9 +1,23 @@
 {
- "atualizado": "2026-11-21T14:35:27+00:00",
+ "atualizado": "2026-11-21T15:25:07+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
  "noticias": [
+  {
+   "d": "21/11/2026",
+   "c": "chuva",
+   "v": "Agência Brasil",
+   "t": "Temporais provocam alagamentos e danos em imóveis no estado de SP",
+   "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZHJsUk9oY0RuWmU1QVIxSDN3NVBWTTE4b29ZOFh6SmdRcXNURWxabUtadkNzTXZxUy1CbkhYT1ZGc2RvR056OHRrVEpVV0lsTnV0RTRfSlVwYlV0eG1VMkdHTkRaSFRBWDk1cF9qTF92VjF5TVh1aXNZWjk0QzFPdFoxdGQ5ZkdndXBkbHNoMmJRVXZtX19HdzhtQ2U2RXE0b0xUVlN6WDdfdzVoNDVuRUlFWDAwb3dWMlhhZkE3SEI0YVFVT3JZ?oc=5"
+  },
+  {
+   "d": "21/11/2026",
+   "c": "arvore",
+   "v": "Metrópoles",
+   "t": "Chuva causa desabamentos, queda de árvores e alagamentos em cidades de SP",
+   "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQam9wUEN3ajk5eTdpZUx6eXlUMlVPeERQbWhaZ0h1anJBT21WUDh2ZUJub1Y4TmowejJrS2w4RExFMVNpZW1HT0hJcnpWNlFEWlNXZ1JwNzhERkVtZGlGR1piOE1NUzJjbUc5UVk1VEliYU5hMjZHMkpRQjNTYlRLQ0J3THZqY2NQY1ozZXNFa3NuWUhWZm9RVXVGNXU0WjZZU09mNTlEbFI2bDdXR2c?oc=5"
+  },
   {
    "d": "21/11/2026",
    "c": "arvore",
@@ -45,20 +59,6 @@
    "v": "Metrópoles",
    "t": "Temporal no Vale do Paraíba alaga Santa Casa de Aparecida.",
    "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUEZhclMxcjU3YXNCSTBMQV9mbTNMZXA4WFhmRUpPSFNpLWF0ckZsYy1ieWxOaGRCeHpVdE9IZ3kyZXFnMGhmZlNyNlQzaHBvRDJ4VGRPTkU0VUZnOFgya2JyOUZoM3gyMDBQUmdVUTJOX0ZVXzVLU2trQVh0TmNZRXY1T0xmaXpqRGdFcVA1UW81RG0xZVlPN3B3?oc=5"
-  },
-  {
-   "d": "20/11/2026",
-   "c": "chuva",
-   "v": "G1",
-   "t": "Tempestade atinge cidades do Vale do Paraíba e causa alagamentos em Lorena e Aparecida nesta sexta",
-   "u": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNTzRXdXc5WFlDcDJFRkUzRmx0NU9kTXppd09mQ1NOc2lJMjcwaU12amxvSXdpOUNsX01wekswZV9VOEVvVlhQa1BiSl8welhuQXgtclhIMEtQbGF0VTNZUndqbkVJZGJPS09Ma3RXQVVYcmt3cm5oVFpnaGlJVVVLSWxBR2pYVXRyekJ4ZTUwTDdhaFlTWlNUVVFVMXZtZzhKSzlZaXMxUFplLVVfb21wUUJrZUFyaFNNWVdsMjhiTTRsUlRFNUZYUXBFX3cwUXF0R1U3LUNRYkV0WGZMVmFNSGt4elhiQmJFN2QxcEFmazFPZFVVMW9qQXY5TmM2U25iVU45bTRsZ9IBlgJBVV95cUxNSVBnYXQwTXQyQXc0T2dsYkRmMENONEhjMnJZdTRpSzFnLTNDN2s2VUU5UUdJNmJnRGd1NmJ6cXFwSWJkeFpkOEVpMkN6WXBPOVIzLVgzcDdFallueXYtY2JlLWJlS3NRSGlPZUV0OEo2Tkx6QjhlcDJfZUtFQjhwS1ZZbnBNeGtHeTEybnYwdElVOHB3SUFQUkFmODZxcWRMRktvbEY1UG5SOGFHUFNiX1JRck5pT1M2a3pWZXRJcm96di1UT1Bzb1dteVVwc3dwZWtXMDdHQk9YbVc2TWFIaVAzYlcyeldJOWF6eFMtTkRvQVB2MTEwSko3SUJjYktEQzZzdHJLc3l5MDlyaUtvN3pUYkh1UQ?oc=5"
-  },
-  {
-   "d": "20/11/2026",
-   "c": "chuva",
-   "v": "G1",
-   "t": "Fernão Dias é interditada nos dois sentidos após alagamento causado por fortes chuvas em MG",
-   "u": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPbUU3Zi1MQk5OY2p6aGpPc1NUVzNxTWgzbjFQUmhGMHU5YS1xRDQ0SVR0MmlMTC1Hb0hHTkZtLVdmNldGZjk4bUhzVEJ6VTVMYW1YaEZxWVhoaEMxU3RLNjNkTnRKaU9IZWtEekJGaVMxNlNYN0JKY1ZHdDNTZ1N5cTkwNVhOanZiLVRUdWthVlFITlBUbXNScjQ3RWt6VlJ5WjBLZTVPWnNaRUdWMFg0SDBqS2M3TGpmQ3RDQjlMNnZKaGRJN1BkazVvR0pmV19OTDBPcUlBOVdVblVvRFZQWmNOUl9mRW0z0gH3AUFVX3lxTE9xVm1UR2FXTTh6Wk9yYkJhdmJNVlhfRXQ4NGR1b2JJc241V3o4RC02Z05TVDdIbkc2cV9DTEJqdUo4Rk50QUJKeFRjaldQa3ZmMEQ2ZnJ6NVpmc212YWNoNVB4OE1JUy1vVGxCbTRfckNLLW9tYTBFeGlwY3lmSFRQbzlqTXExZFN6TjZSSTFOLUxGU2tBalJxN2hxdXdlc3Z1N3dvOE9fcUxzWFZhTklROTV5TzN1cE9jVjFvVXJOX3FpN0VDRkFCZG43UUVfbHZVMTdmaVBKUUFURnhVX3FUanN6VHA1RUw2MVNyeV9pSjRDeFVLZlU?oc=5"
   }
  ]
 }
