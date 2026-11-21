@@ -1,9 +1,16 @@
 {
- "atualizado": "2026-11-21T19:24:47+00:00",
+ "atualizado": "2026-11-21T20:12:28+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
  "noticias": [
+  {
+   "d": "21/11/2026",
+   "c": "arvore",
+   "v": "G1",
+   "t": "Temporal afeta escolas e derruba casa em Aparecida: 'A gente fica assustado, enchente devastadora', diz morador",
+   "u": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOY3lTbFlBdVlQaHd2Y2lZblRkZHA3SUtDU3ZuNWlHRUZwNU5GTVl3TnBQcFhkbUsxaWZCOFF5R1NhaDg0QVJJSWlMOUdNR3FEZUVsWUF1WXAyRkQ1RjEwb3dod1phSUdoRngwWmpGNWY1LWt1N1UzQVVFR3ZoOWw2NVRBTmZSNVBHaFMxRzQxclFPRWo5UEF0ZlRUWHVwdjN2clAtRGtuSmNtZXk1eWZLVWpSempoQW1fZkdIaXpQRUR3WTRUdGc1M251OFZPVy05amxZS1VvMW9mbERxaXprVUJqbGhlYjdkaGgtc3FFbUdoT05qYXRfLVBLLV9OemI0WjV2U0VhZGJOd9IBmAJBVV95cUxNUW9FS0MwRmV6RHZRVjFoMU94ZFVNd3M1cGs5LU5PejBVNmJCMTNGTVFzeF8wWmF6cmFUYVd4Mmw2Z2daMkRMaEx6cjlTV0ZQYjRicnRrNVRzV2E2ODZCdHBIODVheXdjVjFKYnhpdGhSX0t0cjltUkplSHVWVDZTWXhmMDItY19SdS1WYWlBMzhYaEJRZG9aeFdENW91Um96TFY2M2dDcHFLZDdIWF9EY19rVDdOYXgwcjN5dWdRTE92amlvTlMxRnlKc2ZpMVQxVlVOMERyU1Vjc2F2NjV2NDNOdXhwNkZ5bm9ySWlsQ016NlVCak12aExMbllReThVdzJ1SzRzRUxvb2dPZFRDZzJPX3NtOEp1?oc=5"
+  },
   {
    "d": "21/11/2026",
    "c": "chuva",
@@ -52,13 +59,6 @@
    "v": "CNN Brasil",
    "t": "Defesa Civil monitora chuvas em SP após emitir 33 alertas preventivos",
    "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSldRLU9sQUVsaGVmc1VOcFZuQmdHWmpwcVNhUnoxLU1aai1WbDdlRm1TSXU1dzFQcnZqQ1dtVWVxLUUzSjZMWkowX2E3b2Q0d09Sc1VXOG1LU01HNDBDdzItVDg4TDI4aXU3bGpISDdXX0FZQUNUdlJMTUdMZElTVzhMbHA5eGJjbGZMVXJFbjVyTHhLRlQ3MWZEYkhtNTctXzdrS1lxaWd6eENwa3ZXWE5TVWtyRHpnX244?oc=5"
-  },
-  {
-   "d": "20/11/2026",
-   "c": "arvore",
-   "v": "Metrópoles",
-   "t": "Temporal no Vale do Paraíba alaga Santa Casa de Aparecida.",
-   "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUEZhclMxcjU3YXNCSTBMQV9mbTNMZXA4WFhmRUpPSFNpLWF0ckZsYy1ieWxOaGRCeHpVdE9IZ3kyZXFnMGhmZlNyNlQzaHBvRDJ4VGRPTkU0VUZnOFgya2JyOUZoM3gyMDBQUmdVUTJOX0ZVXzVLU2trQVh0TmNZRXY1T0xmaXpqRGdFcVA1UW81RG0xZVlPN3B3?oc=5"
   }
  ]
 }
