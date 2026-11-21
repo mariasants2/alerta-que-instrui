@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-21T15:21:39Z</updated>
-  <dc:date>2026-11-21T15:21:39Z</dc:date>
+  <updated>2026-11-21T16:12:36Z</updated>
+  <dc:date>2026-11-21T16:12:36Z</dc:date>
   <entry>
-    <title>CHUVAS INTENSAS</title>
+    <title>GRANIZO</title>
     <author>
       <name />
     </author>
-    <id>199550/2026</id>
-    <updated>2026-11-21T03:22:26Z</updated>
+    <id>199560/2026</id>
+    <updated>2026-11-21T04:29:50Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199550/2026</identifier>
+        <identifier>199560/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-21T00:22:26-03:00</sent>
+        <sent>2026-11-21T01:29:50-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -23,16 +23,16 @@
         <info>
           <language>pt-BR</language>
           <category>Met</category>
-          <event>CHUVAS INTENSAS</event>
+          <event>GRANIZO</event>
           <responseType>Execute</responseType>
           <urgency>Expected</urgency>
           <severity>Severe</severity>
           <certainty>Likely</certainty>
-          <onset>2026-11-21T00:22:26-03:00</onset>
-          <expires>2026-11-21T02:20:00-03:00</expires>
+          <onset>2026-11-21T01:29:50-03:00</onset>
+          <expires>2026-11-21T03:30:00-03:00</expires>
           <senderName>Defesa Civil Estadual de Minas Gerais</senderName>
-          <headline>Defesa Civil:Alerta de Tempestade Severa com vendaval e chuva forte. Proteja-se!</headline>
-          <description>Alerta de Tempestade Severa com vendaval e chuva forte. Proteja-se!</description>
+          <headline>Defesa Civil:Alerta de Tempestade Severa com granizo, vendaval e chuva forte. Proteja-se!</headline>
+          <description>Alerta de Tempestade Severa com granizo, vendaval e chuva forte. Proteja-se!</description>
           <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
@@ -41,5 +41,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>Oliveira/MG</areaDesc>
-            <polygon>-20.604,-44.789 -20.604,-44.789 -20.604,-44.79 -20.604,-44.79 -20.604,-44.791 -20.605,-44.791 -20.605,-44.791 -20.605,-44.791 -20.605,-44.792 -20.605,-44.792 -20.605,-44.792 -20.606,-44.792 -20.606,-44.793 -20.606,-44.793 -20.606,-44.793 -20.606,-44.793 -20.606,-44.794 -20.606,-44.794 -20.607,-44.794 -20.607,-44.794 -20.607,-44.794 -20.607,-44.795 -20.607,-44.795 -20.607,-44.795 -20.608,-44.795 -20.608,-44.796 -20.608,-44.796 -20.608,-44.796 -20.608,-44.796 -20.608,-44.796 -20.609,-44.797 -20.609,-44.797 -20.609,-44.797 -20.609,-44.797 -20.609,-44.798 -20.609,-44.798 -20.609,-44.798 -20.609,-44.798 -20.609,-44.799 -20.609,-44.799 -20.609,-44.799 -20.609,-44.799 -20.609,-44.799 -20.609,-44.799 -20.609,-44.799 -20.61,-44.799 -20.61,-44.799 -20.61,-44.799 -20.61,-44.799 -20.611,-44.799 -20.611,-44.799 -20.611,-44.798 -20.611,-44.798 -20.611,-44.798 -20.612,-44.798 -20.612,-44.798 -20.612,-44.798 -20.613,-44.798 -20.613,-44.798 -20.613,-44.798 -20.613,-44
+            <areaDesc>Coqueiral/MG, Santana da Vargem/MG</areaDesc>
+            <polygon>-21.064,-45.364 -21.064,-45.365 -21.064,-45.365 -21.064,-45.365 -21.064,-45.366 -21.064,-45.366 -21.064,-45.366 -21.065,-45.366 -21.065,-45.367 -21.065,-45.367 -21.065,-45.367 -21.065,-45.367 -21.065,-45.367 -21.066,-45.368 -21.066,-45.368 -21.066,-45.368 -21.066,-45.368 -21.066,-45.369 -21.066,-45.369 -21.067,-45.369 -21.067,-45.369 -21.067,-45.37 -21.067,-45.37 -21.067,-45.37 -21.068,-45.37 -21.068,-45.371 -21.068,-45.371 -21.069,-45.371 -21.069,-45.371 -21.069,-45.371 -21.069,-45.372 -21.069,-45.372 -21.07,-45.372 -21.07,-45.373 -21.07,-45.373 -21.07,-45.373 -21.07,-45.373 -21.071,-45.373 -21.071,-45.374 -21.071,-45.374 -21.071,-45.374 -21.072,-45.374 -21.072,-45.374 -21.072,-45.375 -21.072,-45.375 -21.072,-45.375 -21.072,-45.375 -21.073,-45.375 -21.073,-45.376 -21.073,-45.376 -21.073,-45.376 -21.073,-45.376 -21.074,-45.377 -21.074,-45.377 -21.074,-45.377 -21.074,-45.377 -21.074,-45.377 -21.075,-45.378 -21.075,-45.378 -21.0
