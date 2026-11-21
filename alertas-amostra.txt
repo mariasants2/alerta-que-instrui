@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-21T09:18:08Z</updated>
-  <dc:date>2026-11-21T09:18:08Z</dc:date>
+  <updated>2026-11-21T10:14:42Z</updated>
+  <dc:date>2026-11-21T10:14:42Z</dc:date>
   <entry>
     <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199449/2026</id>
-    <updated>2026-11-20T21:19:16Z</updated>
+    <id>199462/2026</id>
+    <updated>2026-11-20T22:15:03Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199449/2026</identifier>
+        <identifier>199462/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-20T18:19:16-03:00</sent>
+        <sent>2026-11-20T19:15:03-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -28,11 +28,13 @@
           <urgency>Expected</urgency>
           <severity>Severe</severity>
           <certainty>Likely</certainty>
-          <onset>2026-11-20T18:19:16-03:00</onset>
-          <expires>2026-11-20T21:15:00-03:00</expires>
+          <onset>2026-11-20T19:15:03-03:00</onset>
+          <expires>2026-11-20T22:15:00-03:00</expires>
           <senderName>Defesa Civil Estadual do Paraná</senderName>
           <headline>Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.</headline>
-          <description>Tempestade com chuva forte e condição para rajadas de vento pontualmente intensas, muitas descargas elétricas e granizo pontual. Evite áreas de risco e busque abrigo! Emergências 199 ou 193.</description>
+          <description>Tempestade com chuva forte e condição para rajadas de vento pontualmente intensas, muitas
+descargas elétricas e granizo pontual. Evite áreas de risco e busque abrigo! Emergências 199 ou
+193.</description>
           <instruction>Veja como proceder em casos de desastres. -
 - https://bit.ly/2W1BZxy -
 - Entenda o significado das cores do alerta:
@@ -47,19 +49,19 @@
           </parameter>
           <area>
             <areaDesc>PARANÁ/PR</areaDesc>
-            <polygon>-23.734,-52.887 -23.556,-52.748 -23.542,-52.429 -23.592,-52.134 -23.698,-51.699 -23.986,-51.388 -24.379,-51.263 -24.711,-51.31 -24.951,-51.454 -24.86,-51.761 -24.528,-51.772 -24.206,-51.792 -23.887,-51.986 -23.798,-52.204 -23.709,-52.604 -23.734,-52.887</polygon>
+            <polygon>-23.266,-51.563 -23.2,-51.695 -23.115,-51.552 -23.15,-50.931 -23.276,-50.739 -23.805,-50.387 -24.311,-50.25 -24.59,-50.277 -24.709,-50.852 -24.471,-50.816 -24.031,-50.871 -23.659,-50.997 -23.407,-51.239 -23.266,-51.563</polygon>
           </area>
         </info>
       </alert>
     </content>
   </entry>
   <entry>
-    <title>CHUVAS INTENSAS</title>
+    <title>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199450/2026</id>
-    <updated>2026-11-20T21:29:38Z</updated>
+    <id>199463/2026</id>
+    <updated>2026-11-20T22:17:02Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199450
+        <identifier>199463/20
