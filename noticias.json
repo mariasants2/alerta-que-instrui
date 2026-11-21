@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-21T16:15:28+00:00",
+ "atualizado": "2026-11-21T17:05:44+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
@@ -28,23 +28,16 @@
   {
    "d": "21/11/2026",
    "c": "chuva",
-   "v": "Terra",
-   "t": "São Paulo tem previsão de tempo abafado e chuva; veja como será o fim de semana",
-   "u": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOc1ZsRGlTZFZiZmE4cXU2NmdFeXpGYjZLQnN2N3dsTXE2cjBLNmlORUlxVDRYQk9xa192LU8zaFdVYTh3RUdYT2ZBS1lrS3N1U1p4LVpjQ2RCNHRsMmpzMF9pSlNkUlhtanlZTjY0XzZSSndLZVVtR093WW5iUFBBNzMzZW04WkJCbUZVRDVMeldNS1Foalg3S0RBZ2RLLVhYZkt3cmE0aUpLbkx4VjBqaVlBU2JtNENNOHJ3UEJTamx5c0gyc0tsbkhRYkNSVHYzbzJvNHZ0dEpwbzBmQi1fT1I2a05VX0xtVzNDYWlGWDlLUmVLSkNyQk9WVmlxTTJDMVZz?oc=5"
-  },
-  {
-   "d": "21/11/2026",
-   "c": "chuva",
    "v": "G1",
    "t": "Vídeo mostra ruas transformadas em rios e carros parcialmente submersos após chuva em Aparecida",
    "u": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNb2hFYjdDMnZET09NWjdvY1BzOV9uNlVWUVJhcUdOOUZPcjQ3X0liZUdRMGlJRjNQWHNTWi1xMnVHWnZkSUpNN3ZIV2t6NWtKNDhNcDdVR3dOal9IMU9tamtFQ2VIc0hvLXp1MTBXVjJJUHk3ajZtZ0d5QjVFd0h4SVZTSjFlcXcwRDByTEFQdGt0TFlkTTJ3VEpOLUZLeEkxWjZNcjUwWUhtQ2d0UzNzd3YwNG5zZEpJMXRBZDR4NV9oNHNMZ1Y5QThnck1ISFpGQ3lVTl9BTmRNX3VmdXFIUkwzTVM2YnFzbXR2VdIB-wFBVV95cUxPOXVlemlMODZYY19GdXlCSnZhTVlEcU55ckxqQTlCd3IwaE83NEJOTEJwVHFmdDRqM2N3QzA3Y3FGMWphQTB4Y0NxVi1rNy1EdkNVVGVabVRFT3B0MnFyaE9aUkJ2em9uRmhkSHZPcXBqVDc3aXJNbEpJLUE4bXRFOTRNaHRSdXVXWTJYYmllTHNxbTBndk9aR3F1VUQwNUpLSUhSUTJBaC10WWx2NDN0MDF4ejM0dVNfUXNkSHY0UExvZVNkUHYxcS15NlZ5NnJHNFFWZWc2LURyM1R6TEhRZ1lUVEE4aVRVcTU1b2VlQVNqbkczUVpIN3owSQ?oc=5"
   },
   {
-   "d": "21/11/2026",
-   "c": "chuva",
-   "v": "Band",
-   "t": "Defesa Civil monitora ocorrências provocadas por chuvas em cidades de SP",
-   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOemdnY1JaUWtTcnZXMTZoVVBIZXdITm5yRUdKN21Nd3Q3dTBLc0RlWHRXdl9NSjBEZEViczVOUWpNbVF3N1FlNWQ1SWRmSWpDODFBQ1hJcElvYk80Nk13aVNmVnlEbmd1YkxhTm9PamhEVlBTeHl1bDJPMm8zTEJFaTQtOUxfZDkxdm1vMlhZRlFMRThERE9QVW12R3hvZWcxcFNSZkFHa3pscXdE?oc=5"
+   "d": "20/11/2026",
+   "c": "alerta",
+   "v": "CNN Brasil",
+   "t": "Trinta e três cidades estão em alerta para chuvas em SP, diz Defesa Civil",
+   "u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNzZEOWtfWTZhWVlIeXkteC04VVlrOUFiUjFmdE1TU1dUdVRtVU1VQ0Q1TTVicFBEWVNKekI3NDBtdkh3Rm8tclFFY282Nll2MWIwRXBRQnhVQ0xSZ08xam5kblJSZHVxM0xjc0JrZ1JJTGtWNmpYMERodmwyQlYwNmJDQkNMZE9JZ0FWU1MtMzA5OWVyT1lPd3ZyMEFVZEZia3ZaeHFJNXdQV3RSQjhwQnVucUswUlpFTWx3YlVwNA?oc=5"
   },
   {
    "d": "20/11/2026",
@@ -59,6 +52,13 @@
    "v": "Metrópoles",
    "t": "Temporal no Vale do Paraíba alaga Santa Casa de Aparecida.",
    "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUEZhclMxcjU3YXNCSTBMQV9mbTNMZXA4WFhmRUpPSFNpLWF0ckZsYy1ieWxOaGRCeHpVdE9IZ3kyZXFnMGhmZlNyNlQzaHBvRDJ4VGRPTkU0VUZnOFgya2JyOUZoM3gyMDBQUmdVUTJOX0ZVXzVLU2trQVh0TmNZRXY1T0xmaXpqRGdFcVA1UW81RG0xZVlPN3B3?oc=5"
+  },
+  {
+   "d": "20/11/2026",
+   "c": "chuva",
+   "v": "G1",
+   "t": "Tempestade atinge cidades do Vale do Paraíba e causa alagamentos em Lorena e Aparecida nesta sexta",
+   "u": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNTzRXdXc5WFlDcDJFRkUzRmx0NU9kTXppd09mQ1NOc2lJMjcwaU12amxvSXdpOUNsX01wekswZV9VOEVvVlhQa1BiSl8welhuQXgtclhIMEtQbGF0VTNZUndqbkVJZGJPS09Ma3RXQVVYcmt3cm5oVFpnaGlJVVVLSWxBR2pYVXRyekJ4ZTUwTDdhaFlTWlNUVVFVMXZtZzhKSzlZaXMxUFplLVVfb21wUUJrZUFyaFNNWVdsMjhiTTRsUlRFNUZYUXBFX3cwUXF0R1U3LUNRYkV0WGZMVmFNSGt4elhiQmJFN2QxcEFmazFPZFVVMW9qQXY5TmM2U25iVU45bTRsZ9IBlgJBVV95cUxNSVBnYXQwTXQyQXc0T2dsYkRmMENONEhjMnJZdTRpSzFnLTNDN2s2VUU5UUdJNmJnRGd1NmJ6cXFwSWJkeFpkOEVpMkN6WXBPOVIzLVgzcDdFallueXYtY2JlLWJlS3NRSGlPZUV0OEo2Tkx6QjhlcDJfZUtFQjhwS1ZZbnBNeGtHeTEybnYwdElVOHB3SUFQUkFmODZxcWRMRktvbEY1UG5SOGFHUFNiX1JRck5pT1M2a3pWZXRJcm96di1UT1Bzb1dteVVwc3dwZWtXMDdHQk9YbVc2TWFIaVAzYlcyeldJOWF6eFMtTkRvQVB2MTEwSko3SUJjYktEQzZzdHJLc3l5MDlyaUtvN3pUYkh1UQ?oc=5"
   }
  ]
 }
