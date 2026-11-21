@@ -1,9 +1,16 @@
 {
- "atualizado": "2026-11-21T20:12:28+00:00",
+ "atualizado": "2026-11-21T21:00:01+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
  "noticias": [
+  {
+   "d": "21/11/2026",
+   "c": "arvore",
+   "v": "band.com.br",
+   "t": "Temporal no interior de SP derruba portal, destelha hotel e alaga cidades",
+   "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPa25oTUxqbFJrXzhHSUE4RjZ5eDdQdnFwOGdveVNCdW9fZHhNOXN0cW8yNUpsLUV0aWxhd1REa0FQS21zX3NDcXVyY3dvTDBwWTBwa1hXZUNPeVJELWt1bUFiQ1U1dTE5anhHR3d1eHBGWGIwNHlTSnYtZEFHSGEwTm1PUmpPVVRuOVRxOHQ0bVoxUjExc3hkR3RrSVVlNkJXM1FXMTFqM3Q3WE1JQlF1aVh3dEJnbWRGZ1RVclhyS2QtQWc?oc=5"
+  },
   {
    "d": "21/11/2026",
    "c": "arvore",
@@ -52,13 +59,6 @@
    "v": "Band",
    "t": "Defesa Civil monitora ocorrências provocadas por chuvas em cidades de SP",
    "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOemdnY1JaUWtTcnZXMTZoVVBIZXdITm5yRUdKN21Nd3Q3dTBLc0RlWHRXdl9NSjBEZEViczVOUWpNbVF3N1FlNWQ1SWRmSWpDODFBQ1hJcElvYk80Nk13aVNmVnlEbmd1YkxhTm9PamhEVlBTeHl1bDJPMm8zTEJFaTQtOUxfZDkxdm1vMlhZRlFMRThERE9QVW12R3hvZWcxcFNSZkFHa3pscXdE?oc=5"
-  },
-  {
-   "d": "20/11/2026",
-   "c": "alerta",
-   "v": "CNN Brasil",
-   "t": "Defesa Civil monitora chuvas em SP após emitir 33 alertas preventivos",
-   "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSldRLU9sQUVsaGVmc1VOcFZuQmdHWmpwcVNhUnoxLU1aai1WbDdlRm1TSXU1dzFQcnZqQ1dtVWVxLUUzSjZMWkowX2E3b2Q0d09Sc1VXOG1LU01HNDBDdzItVDg4TDI4aXU3bGpISDdXX0FZQUNUdlJMTUdMZElTVzhMbHA5eGJjbGZMVXJFbjVyTHhLRlQ3MWZEYkhtNTctXzdrS1lxaWd6eENwa3ZXWE5TVWtyRHpnX244?oc=5"
   }
  ]
 }
