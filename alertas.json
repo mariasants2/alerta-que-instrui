@@ -1,60 +1,8 @@
 {
- "atualizado": "2026-11-21T13:44:40+00:00",
+ "atualizado": "2026-11-21T14:35:27+00:00",
  "fonte": "Defesa Civil (IDAP, Ministério da Integração)",
  "fonte_ok": true,
  "erro": null,
  "total_no_feed": 84,
- "alertas": [
-  {
-   "id": "199589/2026",
-   "enviado": "2026-11-21T07:02:22-03:00",
-   "expira": "2026-11-21T11:00:00-03:00",
-   "evento": "CHUVAS INTENSAS",
-   "gravidade": "Severe",
-   "titulo": "Defesa Civil:07h00 Chuva com raios e vento atinge a regiao de Uchoa, Ibira e municipios vizinhos, avancando para Catanduva. Tenha cuidado nas proximas horas.",
-   "descricao": "07h00 Chuva com raios e vento atinge a região de Uchoa, Ibirá e municípios vizinhos, avançando para Catanduva. Tenha cuidado nas próximas horas.",
-   "instrucao": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
-   "area": "SÃO PAULO/SP",
-   "poligonos": [
-    [
-     [
-      -20.787,
-      -49.163
-     ],
-     [
-      -20.99,
-      -49.507
-     ],
-     [
-      -21.136,
-      -49.46
-     ],
-     [
-      -21.195,
-      -49.191
-     ],
-     [
-      -21.246,
-      -49.001
-     ],
-     [
-      -21.115,
-      -48.817
-     ],
-     [
-      -20.974,
-      -48.713
-     ],
-     [
-      -20.841,
-      -49.037
-     ],
-     [
-      -20.787,
-      -49.163
-     ]
-    ]
-   ]
-  }
- ]
+ "alertas": []
 }

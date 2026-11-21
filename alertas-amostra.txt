@@ -2,38 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-21T13:39:33Z</updated>
-  <dc:date>2026-11-21T13:39:33Z</dc:date>
+  <updated>2026-11-21T14:30:48Z</updated>
+  <dc:date>2026-11-21T14:30:48Z</dc:date>
   <entry>
-    <title>CORRIDAS DE MASSA - SOLO/LAMA</title>
+    <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199527/2026</id>
-    <updated>2026-11-21T01:47:58Z</updated>
+    <id>199538/2026</id>
+    <updated>2026-11-21T02:32:18Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199527/2026</identifier>
+        <identifier>199538/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-20T22:47:58-03:00</sent>
+        <sent>2026-11-20T23:32:18-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
         <scope>Public</scope>
         <info>
           <language>pt-BR</language>
-          <category>Geo</category>
-          <event>CORRIDAS DE MASSA - SOLO/LAMA</event>
+          <category>Met</category>
+          <event>CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
           <urgency>Expected</urgency>
-          <severity>Severe</severity>
+          <severity>Extreme</severity>
           <certainty>Likely</certainty>
-          <onset>2026-11-20T22:47:58-03:00</onset>
-          <expires>2026-11-21T09:00:00-03:00</expires>
-          <senderName>Defesa Civil Estadual do Amazonas</senderName>
-          <headline>Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.</headline>
-          <description>Alta possibilidade de ocorrência de deslizamentos em áreas vulneráveis, em decorrência dos altos volumes pluviométricos registrados. O pluviômetro do CEMADEN no referido município registrou acumulados de chuva superiores a 40 mm em 24 horas. Previsão de chuva para as próximas horas, conforme previsão do INMET.</description>
-          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Observe os sinais de movimentação do terreno, como rachaduras no chão; árvores, postes ou cercas inclinadas ou embarrigadas; desníveis ou fendas no terreno; levantamento do piso da residência; barulhos vindos do chão como se fossem pequenos terremoto. Se observar algum desses sinais de movimentação do terreno, saia imediatamente da sua casa. Auxilie crianças, idosos e pessoas com dificuldade de locomoção.</instruction>
+          <onset>2026-11-20T23:32:18-03:00</onset>
+          <expires>2026-11-21T01:27:00-03:00</expires>
+          <senderName>Defesa Civil Nacional</senderName>
+          <headline>Defesa Civil:Alerta de tempestade severa com chuvas intensas. Proteja-se!</headline>
+          <description>Alerta de tempestade severa com chuvas intensas. Proteja-se!</description>
+          <instruction>Durante tempestades com raios, procure abrigo em uma edificação segura. Evite áreas abertas, árvores, postes, cercas metálicas, rios e piscinas. Afaste-se de janelas e não utilize aparelhos conectados à rede elétrica. Nunca toque em fios caídos. Evite deslocamentos durante a tempestade e não atravesse áreas alagadas. Acompanhe os alertas da Defesa Civil e proteja-se!</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -41,5 +41,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>Canutama/AM</areaDesc>
-            <polygon>-6.029,-64.163 -5.938,-64.273 -5.936,-64.282 -5.916,-64.358 -5.915,-64.363 -5.915,-64.364 -5.926,-64.388 -5.927,-64.388 -5.928,-64.388 -5.945,-64.389 -6.096,-64.387 -6.098,-64.402 -6.097,-64.414 -6.1,-64.43 -6.107,-64.441 -6.13,-64.452 -6.138,-64.453 -6.159,-64.456 -6.17,-64.462 -6.179,-
+            <areaDesc>Belo Vale/MG</areaDesc>
+            <polygon>-20.303,-44.091 -20.303,-44.091 -20.303,-44.091 -20.303,-44.091 -20.303,-44.092 -20.303,-44.092 -20.303,-44.092 -20.302,-44.092 -20.302,-44.093 -20.302,-44.093 -20.302,-44.093 -20.302,-44.093 -20.301,-44.093 -20.301,-44.093 -20.301,-44.093 -20.301,-44.094 -20.3,-44.094 -20.3,-44.094 -20.3,-44.094 -20.3,-44.094 -20.299,-44.094 -20.299,-44.095 -20.299,-44.095 -20.299,-44.095 -20.299,-44.095 -20.299,-44.095 -20.299,-44.095 -20.299,-44.096 -20.299,-44.096 -20.3,-44.096 -20.3,-44.096 -20.3,-44.096 -20.301,-44.096 -20.301,-44.096 -20.301,-44.097 -20.301,-44.097 -20.301,-44.097 -20.302,-44.097 -20.302,-44.097 -20.302,-44.097 -20.302,-44.098 -20.302,-44.098 -20.303,-44.098 -20.303,-44.098 -20.303,-44.099 -20.303,-44.099 -20.303,-44.099 -20.30

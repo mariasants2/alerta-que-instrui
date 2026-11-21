@@ -1,15 +1,29 @@
 {
- "atualizado": "2026-11-21T13:44:40+00:00",
+ "atualizado": "2026-11-21T14:35:27+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
  "noticias": [
   {
    "d": "21/11/2026",
+   "c": "arvore",
+   "v": "G1",
+   "t": "Temporal arranca cobertura de escola, derruba árvores e deixa cidade sem água e luz no noroeste de SP",
+   "u": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNYzVPOEs2U25iblo3ekp6enhsampZWHZIUVlCM1hQZWxmNzMwRzZRYmRabnJzcnRld3pRbVVvdVBTTm9DdGxvU25fVUU5YUg4dFN6aXFGOVFkdmRPbnU3Y0NDbWNESkZ0SEhMRlkyMXFZNDZSdmtSZWNJSkFjWHplUldjY0Z4RndGbF9wZWVyWG4xMklEb2tCaVBOeWJ6UktvUTFRWHVTM3g1SlZuWFNmelJTR3lDajk2QWNUNWpOeWU4akw4QkdHcHJJclVzdGdLM0FSWGlPdjRZNmxhS0M4eG9hNXVtNERqcWxaYlVqdWY5RVpHdnRLajIxeGVLSWlyZVNKLUsxM1ppRWhFNUHSAZwCQVVfeXFMTTBaSU1qZnpsZEx1dEozMFVRTkpmNUEtUG0xNGRFYXo3RE51bG9PS1k3djUwMzhXU2REbXhFSG1oZ0lPVWdVZFpsRFR0QWVNSlFVZ01mbWxpdVU5V0xkcXE0dHZYcWwxWFkyRTB4aGc2aUloOTZ0Y2w3QXBXT3VBTy1mblBCS1BpVEVES3Z5WXIyd0xLNXUwM3J4MGplVVF4WEwxTHhNRmRxenhidkNPRWxEeTV1UHpCcUdLMDI5RjhEWFFCNkJlQWNNbGVORFFsRzhlYlp1QTUya0hHVmZ5M0ZaTzR4QllibHNJLVVsbDktaEhmWXAtMGsyUDZtdG0zM2FTSnpvOV90NzgzRzdMbFVCRlh0NUxOR2U0cFg?oc=5"
+  },
+  {
+   "d": "21/11/2026",
    "c": "chuva",
    "v": "Terra",
    "t": "São Paulo tem previsão de tempo abafado e chuva; veja como será o fim de semana",
    "u": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOc1ZsRGlTZFZiZmE4cXU2NmdFeXpGYjZLQnN2N3dsTXE2cjBLNmlORUlxVDRYQk9xa192LU8zaFdVYTh3RUdYT2ZBS1lrS3N1U1p4LVpjQ2RCNHRsMmpzMF9pSlNkUlhtanlZTjY0XzZSSndLZVVtR093WW5iUFBBNzMzZW04WkJCbUZVRDVMeldNS1Foalg3S0RBZ2RLLVhYZkt3cmE0aUpLbkx4VjBqaVlBU2JtNENNOHJ3UEJTamx5c0gyc0tsbkhRYkNSVHYzbzJvNHZ0dEpwbzBmQi1fT1I2a05VX0xtVzNDYWlGWDlLUmVLSkNyQk9WVmlxTTJDMVZz?oc=5"
+  },
+  {
+   "d": "21/11/2026",
+   "c": "chuva",
+   "v": "G1",
+   "t": "Vídeo mostra ruas transformadas em rios e carros parcialmente submersos após chuva em Aparecida",
+   "u": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNb2hFYjdDMnZET09NWjdvY1BzOV9uNlVWUVJhcUdOOUZPcjQ3X0liZUdRMGlJRjNQWHNTWi1xMnVHWnZkSUpNN3ZIV2t6NWtKNDhNcDdVR3dOal9IMU9tamtFQ2VIc0hvLXp1MTBXVjJJUHk3ajZtZ0d5QjVFd0h4SVZTSjFlcXcwRDByTEFQdGt0TFlkTTJ3VEpOLUZLeEkxWjZNcjUwWUhtQ2d0UzNzd3YwNG5zZEpJMXRBZDR4NV9oNHNMZ1Y5QThnck1ISFpGQ3lVTl9BTmRNX3VmdXFIUkwzTVM2YnFzbXR2VdIB-wFBVV95cUxPOXVlemlMODZYY19GdXlCSnZhTVlEcU55ckxqQTlCd3IwaE83NEJOTEJwVHFmdDRqM2N3QzA3Y3FGMWphQTB4Y0NxVi1rNy1EdkNVVGVabVRFT3B0MnFyaE9aUkJ2em9uRmhkSHZPcXBqVDc3aXJNbEpJLUE4bXRFOTRNaHRSdXVXWTJYYmllTHNxbTBndk9aR3F1VUQwNUpLSUhSUTJBaC10WWx2NDN0MDF4ejM0dVNfUXNkSHY0UExvZVNkUHYxcS15NlZ5NnJHNFFWZWc2LURyM1R6TEhRZ1lUVEE4aVRVcTU1b2VlQVNqbkczUVpIN3owSQ?oc=5"
   },
   {
    "d": "21/11/2026",
@@ -43,22 +57,8 @@
    "d": "20/11/2026",
    "c": "chuva",
    "v": "G1",
-   "t": "Cidade de SP entra em estado de atenção para alagamentos nesta sexta",
-   "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQkx4blRFZXVDdDJKMGVTTXdqSXFmdGluUWRwbE5YN2xmSFp2Nk40UTlqcXQ5SjQ2NFIydFdidGltUTUtN0wwTVBpZ1dHb0ExMTYwR2xtWnAwMjVpNkxCekd4NEZveHR0cmhJWkMzajZtenFZNGRTLW1HMTFib0x4Vk15RlVlbUVsTUhjUWlWclpJaF9KTUxmcDdrYjlGd9IBrAFBVV95cUxOMGNDbmFXSHk2aFEtNnRfdzFCMVZuY3Y3bElzUm5XWkZXWHVyN0t3V1NyZ2JmZlJvenVyMWVsLXhiaUR4TnRqd1Q2ZEpFQzVmejJ1aUp1VVBYSlVPWHdoYkpuZm5Cb3p0UHBSS0FkR0p0M093SjQ2ekZEM2dVaWNIeXE1bUVPRG1sSWk2LTRrLTNRelR1X2czbTZmZUNTbmZvR09zY0dVWkg3YmIz?oc=5"
-  },
-  {
-   "d": "20/11/2026",
-   "c": "chuva",
-   "v": "G1",
    "t": "Fernão Dias é interditada nos dois sentidos após alagamento causado por fortes chuvas em MG",
    "u": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPbUU3Zi1MQk5OY2p6aGpPc1NUVzNxTWgzbjFQUmhGMHU5YS1xRDQ0SVR0MmlMTC1Hb0hHTkZtLVdmNldGZjk4bUhzVEJ6VTVMYW1YaEZxWVhoaEMxU3RLNjNkTnRKaU9IZWtEekJGaVMxNlNYN0JKY1ZHdDNTZ1N5cTkwNVhOanZiLVRUdWthVlFITlBUbXNScjQ3RWt6VlJ5WjBLZTVPWnNaRUdWMFg0SDBqS2M3TGpmQ3RDQjlMNnZKaGRJN1BkazVvR0pmV19OTDBPcUlBOVdVblVvRFZQWmNOUl9mRW0z0gH3AUFVX3lxTE9xVm1UR2FXTTh6Wk9yYkJhdmJNVlhfRXQ4NGR1b2JJc241V3o4RC02Z05TVDdIbkc2cV9DTEJqdUo4Rk50QUJKeFRjaldQa3ZmMEQ2ZnJ6NVpmc212YWNoNVB4OE1JUy1vVGxCbTRfckNLLW9tYTBFeGlwY3lmSFRQbzlqTXExZFN6TjZSSTFOLUxGU2tBalJxN2hxdXdlc3Z1N3dvOE9fcUxzWFZhTklROTV5TzN1cE9jVjFvVXJOX3FpN0VDRkFCZG43UUVfbHZVMTdmaVBKUUFURnhVX3FUanN6VHA1RUw2MVNyeV9pSjRDeFVLZlU?oc=5"
-  },
-  {
-   "d": "20/11/2026",
-   "c": "chuva",
-   "v": "Estadão",
-   "t": "Chuvas fortes atingem litoral norte e cidades do interior de São Paulo; veja os locais",
-   "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOG5pMGl6ZC1PMDJyMjFhVWk4LVRYSHZaN05CcXBQU0d4aEtNWEM2bFNkZk9XaGpjcnRaNkd3NzZtWm4xU211R3I5NGZ6N1hOT1FEYVRtQThMUktqVEtFMndVWW1ucElUMUk1OXRXeGEtcHVOSDZ2emlEQkgzNmZRcG5ISEJ0QlUza1poMkFMWHU5eUlPem1HdGRvNzZ0N0lTSDVER0w4QWVESUlIOXpkYzY0eElKczZiYUZsOE1PY1nSAcYBQVVfeXFMT3RCTERPVnFlQlJIalhEczhkMmdibEtpVUpYUEJzYXIyRkpNcEpNNnBObmpQRU9VQ3k4VnV6M01Ga25aWk1fY0ZBWjhkbEx5U0xPT1kwVXlCYjdzUmRweVczdFZyUVlZbjBwZk5aX3l6UmhhQXg5UFJwbEpSajlSREVWbnRVdE44VUNyeTRGeWNFMDRtdlgxQXF3di1jUTZWQU1KR2d4d2hQaW1Mdl9oZE9VZ2lsQXR2Qy15VEhxQXhRWWV4b1F3?oc=5"
   }
  ]
 }
