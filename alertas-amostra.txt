@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-21T08:27:07Z</updated>
-  <dc:date>2026-11-21T08:27:07Z</dc:date>
+  <updated>2026-11-21T09:18:08Z</updated>
+  <dc:date>2026-11-21T09:18:08Z</dc:date>
   <entry>
     <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199426/2026</id>
-    <updated>2026-11-20T20:30:21Z</updated>
+    <id>199449/2026</id>
+    <updated>2026-11-20T21:19:16Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199426/2026</identifier>
+        <identifier>199449/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-20T17:30:21-03:00</sent>
+        <sent>2026-11-20T18:19:16-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -26,14 +26,19 @@
           <event>CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
           <urgency>Expected</urgency>
-          <severity>Extreme</severity>
+          <severity>Severe</severity>
           <certainty>Likely</certainty>
-          <onset>2026-11-20T17:30:21-03:00</onset>
-          <expires>2026-11-20T23:50:00-03:00</expires>
-          <senderName>Defesa Civil Estadual De São Paulo</senderName>
-          <headline>Defesa Civil:Chuva forte em Lorena e Cachoeira Paulista. Tem raios, vento e condicao para granizo. Atinge municipios vizinhos. Busque abrigo.</headline>
-          <description>Chuva forte em Lorena e Cachoeira Paulista. Tem raios, vento e condição para granizo. Atinge municípios vizinhos. Busque abrigo.</description>
-          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
+          <onset>2026-11-20T18:19:16-03:00</onset>
+          <expires>2026-11-20T21:15:00-03:00</expires>
+          <senderName>Defesa Civil Estadual do Paraná</senderName>
+          <headline>Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.</headline>
+          <description>Tempestade com chuva forte e condição para rajadas de vento pontualmente intensas, muitas descargas elétricas e granizo pontual. Evite áreas de risco e busque abrigo! Emergências 199 ou 193.</description>
+          <instruction>Veja como proceder em casos de desastres. -
+- https://bit.ly/2W1BZxy -
+- Entenda o significado das cores do alerta:
+- http://www.defesacivil.pr.gov.br/Pagina/Significado-das-cores-dos-alertas -
+- Veja a área do alerta: -
+- https://www.defesacivil.pr.gov.br/alertas-vigentes -</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -41,8 +46,8 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>SÃO PAULO/SP</areaDesc>
-            <polygon>-22.67,-45.199 -22.764,-45.152 -22.865,-45.102 -22.797,-44.911 -22.737,-44.904 -22.657,-44.933 -22.605,-45.027 -22.601,-45.069 -22.643,-45.15 -22.67,-45.199</polygon>
+            <areaDesc>PARANÁ/PR</areaDesc>
+            <polygon>-23.734,-52.887 -23.556,-52.748 -23.542,-52.429 -23.592,-52.134 -23.698,-51.699 -23.986,-51.388 -24.379,-51.263 -24.711,-51.31 -24.951,-51.454 -24.86,-51.761 -24.528,-51.772 -24.206,-51.792 -23.887,-51.986 -23.798,-52.204 -23.709,-52.604 -23.734,-52.887</polygon>
           </area>
         </info>
       </alert>
@@ -53,17 +58,8 @@
     <author>
       <name />
     </author>
-    <id>199427/2026</id>
-    <updated>2026-11-20T20:36:46Z</updated>
+    <id>199450/2026</id>
+    <updated>2026-11-20T21:29:38Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199427/2026</identifier>
-        <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-20T17:36:46-03:00</sent>
-        <status>Actual</status>
-        <msgType>Alert</msgType>
-        <source>Defesa Civil</source>
-        <scope>Public</scope>
-        <info>
-          <language>pt-BR</language>
-          <category
+        <identifier>199450
