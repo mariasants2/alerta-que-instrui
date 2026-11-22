@@ -1,9 +1,16 @@
 {
- "atualizado": "2026-11-22T03:50:36+00:00",
+ "atualizado": "2026-11-22T04:53:19+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
  "noticias": [
+  {
+   "d": "22/11/2026",
+   "c": "arvore",
+   "v": "G1",
+   "t": "Previsão do tempo hoje para Santo André (SP): sol com muitas nuvens e pancadas de chuva à tarde; à noite ocorre temporal",
+   "u": "https://news.google.com/rss/articles/CBMingJBVV95cUxOeVNncGw1N2pkRElPVFZKRDVBd2VOd0w3VGV3ZE1tb2piclc1cUg4cmI0R0YyVEx4UGJRUngxNDRWMjYtSzFQWTRvTzQ3MU1QZTg1YllTQmtYUTFYVmpWQkwtVEdoVUF5SDZJcWZIOF9lb05Ya0lUZmNTVlRUYk5PS0tJeFZEaUFDUjlZdmtoSk1MSmxiUTZnRHFncEQ4enVIdGRLd0JkVkhweFhTSHo1NkRZdFNuc2o2SjhjS3ZDWFktclpnQWI2bU5KRGp6ajRwcFlINW9qQmlIQURpSVFiYk9MMk1relZ1cWdnOW9tMFdqa1RLVmxDdmo2d2V3Wmt4NkpmMUdCa1plZkZGakR3NlZpZGdfMVBCNnpsemdn0gGsAkFVX3lxTE9uRGowam5ycHlJXzRscE15NzBQS0V5aXBBLWlQXzNMcWVhV3RhRWgxSk5CZmJPbmdYWlNRd2J3M2dueGhCQUZ2RWJQZmZwaV81aS1LYW4tVkVXSldMQnRrZUpKRHNmczhoV3RQdFN1WmtDUDNwZG1aREk1OEFWbUpXWEw3RnNQQnNrTUFGSkxycVdBdnBJQUhkQ09BUlJIZzhSTmsxbUN3ZXA1cFVwVWM4M0cwVm9fSTg5NVlBYmZ0MUVtX3NtbmhMUk1ZVnhGWEhGcXNpOWk0U0duOGNUSWhWU2lhYWEyNEtmRWlEaFpwNnVrNnJYbU94UzFhOEl5aWp0ZnFMQ3Ftc25CUHRONXctSzB6a3RHZWNUMFB5VXQzMlRXeGtwNnFlLWhjUQ?oc=5"
+  },
   {
    "d": "21/11/2026",
    "c": "alerta",
@@ -52,13 +59,6 @@
    "v": "G1",
    "t": "Vídeo mostra fiéis de joelhos em passarela do Santuário de Aparecida durante temporal: 'Cumprindo promessa', diz fotógrafo",
    "u": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQM3RnVTdwRnZfMEhKZEVZRUVUU3RHZ2ptLWE4a0R6QjNfWU84ZjZ6Yy1pbUcxZWRiaFdHRVVfTUZWZjhzbm9wLWg3ZERBajZTX29PbHZMT3FkcXEzanFmOGhPY1JCVFNMSzNnVUhjdWFnbUtjdnJKYWZSZEVxSkhhYmZfVlV3RU9yNzFlTEg5RlcyM0V1NXJKMnJCeVFHR014SFJoU1RobWV1anBlNkZWbng5ZEtrNVVORmZEUnFDc2FmZ3d6XzFJcGVCSGN4UjJBd1U1SXZ5dG00ZDFMTFY2SjBkZFlGeXlVTmRmWEw2MHNvNzlaMjlXRzFoWVJFa2ZSRXhmVnNoekhla0ZCLWo0aGVEYlNXd21pVmfSAagCQVVfeXFMUFROU2VPYlQ0ZDVYbEZJVDVqY0gzOG44a0tGMmJNQ3R4aDFieEM0TzlkRFpBTElicGJkSHh2Z0k3S29Ldi1VVGVXQ2NQRFNHZkhxN3lkZzNRaWNkVVpORFJjcXc1Mm56MVluUWxHV2hsaF9XQ3ZqZ19PN3VkWDkzMVZuMEM2clNhcDlMOVpCV0JWOXdZV1dwREdla1lHOVVPU1V2Qmx1N01DdDZtWmtHR1hpUk8tTktMM2R3dFJYNHBET2VWaEtWU1VjV2hHam8wM0hFaVVqcGV5b3Nybk8xTlM4c0hFVmFBaFFxMVZYOWtPTVVIV3lpcWwwVHlrZnN3UWhEWkxIYmVhNzdGVXN6ZG4zVzBWQmhMZG1SR0l1ZkFiR0lEX2liYWI?oc=5"
-  },
-  {
-   "d": "21/11/2026",
-   "c": "chuva",
-   "v": "Terra",
-   "t": "São Paulo tem previsão de tempo abafado e chuva; veja como será o fim de semana",
-   "u": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOc1ZsRGlTZFZiZmE4cXU2NmdFeXpGYjZLQnN2N3dsTXE2cjBLNmlORUlxVDRYQk9xa192LU8zaFdVYTh3RUdYT2ZBS1lrS3N1U1p4LVpjQ2RCNHRsMmpzMF9pSlNkUlhtanlZTjY0XzZSSndLZVVtR093WW5iUFBBNzMzZW04WkJCbUZVRDVMeldNS1Foalg3S0RBZ2RLLVhYZkt3cmE0aUpLbkx4VjBqaVlBU2JtNENNOHJ3UEJTamx5c0gyc0tsbkhRYkNSVHYzbzJvNHZ0dEpwbzBmQi1fT1I2a05VX0xtVzNDYWlGWDlLUmVLSkNyQk9WVmlxTTJDMVZz?oc=5"
   }
  ]
 }
