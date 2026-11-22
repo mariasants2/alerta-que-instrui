@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-22T02:55:43Z</updated>
-  <dc:date>2026-11-22T02:55:43Z</dc:date>
+  <updated>2026-11-22T03:47:06Z</updated>
+  <dc:date>2026-11-22T03:47:06Z</dc:date>
   <entry>
     <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199629/2026</id>
-    <updated>2026-11-21T14:56:32Z</updated>
+    <id>199630/2026</id>
+    <updated>2026-11-21T15:51:24Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199629/2026</identifier>
+        <identifier>199630/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-21T11:56:32-03:00</sent>
+        <sent>2026-11-21T12:51:24-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -25,15 +25,15 @@
           <category>Met</category>
           <event>CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
-          <urgency>Expected</urgency>
-          <severity>Severe</severity>
+          <urgency>Immediate</urgency>
+          <severity>Moderate</severity>
           <certainty>Likely</certainty>
-          <onset>2026-11-21T11:56:32-03:00</onset>
-          <expires>2026-11-21T14:00:00-03:00</expires>
-          <senderName>Defesa Civil Estadual de Minas Gerais</senderName>
-          <headline>Defesa Civil:Alerta de Tempestade Severa com chuva forte e rajadas de vento. Proteja-se!</headline>
-          <description>Alerta de Tempestade Severa com chuva forte e rajadas de vento. Proteja-se!</description>
-          <instruction>Acompanhe os alertas da Defesa Civil. Durante chuvas intensas, procure abrigo seguro, evite áreas alagadas, enxurradas e locais próximos a encostas. Não atravesse ruas inundadas, a pé ou de veículo. Fique atento a sinais de deslizamentos e ao aumento do nível de rios e córregos. Em situação de perigo, afaste-se imediatamente da área de risco. Emergências: Defesa Civil 199 e Bombeiros 193.</instruction>
+          <onset>2026-11-21T12:51:24-03:00</onset>
+          <expires>2026-11-22T00:55:00-03:00</expires>
+          <senderName>Defesa Civil de Maracaju (MS)</senderName>
+          <headline>Defesa Civil:POSSIBILIDADE de chuvas intensas ( ate 100mm ) e fortes rajadas de vento ( ate 100 km/h ), acompanhe visualmente e PROTEJA-SE</headline>
+          <description>Defesa Civil publica aviso iniciando em: 21/11/2026 08:56. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h), e queda de granizo. Risco de corte de energia elétrica, estragos em plantações, queda de árvores e de alagamentos.</description>
+          <instruction>Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda). Se possível, desligue aparelhos elétricos e quadro geral de energia. Obtenha mais informações junto à Defesa Civil (telefone 3454-4037 / 98466-2342) e ao Corpo de Bombeiros (telefone 193).</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -41,5 +41,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>MINAS GERAIS/MG</areaDesc>
-            <polygon>-16.121,-45.079 -16.061,-45.067 -16.012,-45.041 -15.991,-45.043 -15.983,-45.09 -15.964,-45.094 -15.952,-45.118 -15.943,-45.114 -15.953,-45.125 -15.948,-45.138 -15.945,-45.136 -15.942,-45.126 -15.918,-45.132 -15.882,-45.155 -15.884,-45.165 -15.851,-45.193 -15.842,-45.224 -15.85,-45.245 -15.878,-45.272 -15.875,-45.29 -15.9,-45.308 -15.88,-45.32 -15.896,-45.339 -15.889,-45.366 -15.924,-45.412 -15.953,-45.43 -15.982,-45.437 -15.994,-45.417 -16.016,-45.42 -16.044,-45.387 -16.09,-45.368 -16.097,-45.354 -16.103,-45.356 -16.102,-45.379 -16.123,-45.394 -16.153,-45.361 -16.198,-45.363 -16.209,-45.354 -16.224,-45.361 -16.269,-45.316 -16.266,-45.235 -16.245,-45.228 -16.234,-45.
+            <areaDesc>Maracaju/MS</areaDesc>
+            <polygon>-21.041,-55.282 -21.039,-55.281 -21.036,-55.279 -21.029,-55.277 -21.022,-55.276 -21.021,-55.276 -21.016,-55.275 -21.014,-55.275 -21.008,-55.272 -21.006,-55.272 -21.006,-55.277 -21.011,-55.282 -21.014,-55.285 -21.018,-55.29 -21.019,-55.291 -21.02,-55.292 -21.021,-55.293 -21.025,-55.296 -21.029,-55.298 -21.03,-55.299 -21.033,-55.3 -21.034,-55.301 -21.039,-55.303 -21.041,-55.305 -21.042,-55.307 -21.043,-55.309 -21.042,-55.31 -21.045,-55.314 -21.046,-55.317 -21.047,-55
