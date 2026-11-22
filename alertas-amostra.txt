@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-22T13:05:28Z</updated>
-  <dc:date>2026-11-22T13:05:28Z</dc:date>
+  <updated>2026-11-22T19:09:36Z</updated>
+  <dc:date>2026-11-22T19:09:36Z</dc:date>
   <entry>
-    <title>GRANIZO</title>
+    <title>TEMPESTADE LOCAL/CONVECTIVA - GRANIZO</title>
     <author>
       <name />
     </author>
-    <id>199726/2026</id>
-    <updated>2026-11-22T01:23:08Z</updated>
+    <id>199740/2026</id>
+    <updated>2026-11-22T07:09:32Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199726/2026</identifier>
+        <identifier>199740/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-21T22:23:08-03:00</sent>
+        <sent>2026-11-22T04:09:32-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -23,16 +23,16 @@
         <info>
           <language>pt-BR</language>
           <category>Met</category>
-          <event>GRANIZO</event>
+          <event>TEMPESTADE LOCAL/CONVECTIVA - GRANIZO</event>
           <responseType>Execute</responseType>
           <urgency>Expected</urgency>
           <severity>Extreme</severity>
           <certainty>Observed</certainty>
-          <onset>2026-11-21T22:23:08-03:00</onset>
-          <expires>2026-11-21T23:20:00-03:00</expires>
-          <senderName>Defesa Civil Estadual do Rio Grande do Sul</senderName>
-          <headline>Defesa Civil:RS: Alerta VERMELHO p/ tempestade c/ GRANIZO GRANDE e VENDAVAL na prox. hora. Risco MUITO ALTO de destelhamento. ABRIGUE-SE. Emerg.190/193.</headline>
-          <description>RS: Alerta VERMELHO p/ tempestade c/ GRANIZO GRANDE e VENDAVAL na prox. hora. Risco MUITO ALTO de destelhamento. ABRIGUE-SE. Emerg.190/193.</description>
+          <onset>2026-11-22T04:09:32-03:00</onset>
+          <expires>2026-11-22T05:10:00-03:00</expires>
+          <senderName>Defesa Civil Estadual de Santa Catarina</senderName>
+          <headline>Defesa Civil:SDC: ALERTA de tempestade severa com granizo e vendaval na proxima hora. BUSQUE ABRIGO longe de arvores, placas e postes de energia. Emerg 199/193</headline>
+          <description>ALERTA - 22/11 04:06 - TEMPESTADE SEVERA com GRANIZO, RAJADAS DE VENTO e RAIOS para os municípios de Bom Jardim da Serra, Rio Rufino, São Joaquim, Urubici e Urupema na próxima hora. Ocorrências ligue 199 ou 193.</description>
           <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
@@ -41,30 +41,25 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>RIO GRANDE DO SUL/RS</areaDesc>
-            <polygon>-27.544,-53.982 -27.796,-53.927 -27.818,-54.09 -27.85,-54.08 -27.793,-53.685 -27.48,-53.759 -27.544,-53.982</polygon>
+            <areaDesc>SANTA CATARINA/SC</areaDesc>
+            <polygon>-27.996,-49.961 -28.146,-49.979 -28.187,-49.635 -27.983,-49.628 -27.996,-49.961</polygon>
           </area>
         </info>
       </alert>
     </content>
   </entry>
   <entry>
-    <title>GRANIZO</title>
+    <title>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199727/2026</id>
-    <updated>2026-11-22T01:52:49Z</updated>
+    <id>199741/2026</id>
+    <updated>2026-11-22T07:14:45Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199727/2026</identifier>
+        <identifier>199741/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-21T22:52:49-03:00</sent>
+        <sent>2026-11-22T04:14:45-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
-        <source>Defesa Civil</source>
-        <scope>Public</scope>
-        <info>
-          <language>pt-BR</language>
-          <category>Met</category>
-          <event
+        <source>Defesa Civil</sou
