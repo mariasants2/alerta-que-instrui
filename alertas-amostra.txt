@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-22T04:48:44Z</updated>
-  <dc:date>2026-11-22T04:48:44Z</dc:date>
+  <updated>2026-11-22T13:05:28Z</updated>
+  <dc:date>2026-11-22T13:05:28Z</dc:date>
   <entry>
-    <title>CHUVAS INTENSAS</title>
+    <title>GRANIZO</title>
     <author>
       <name />
     </author>
-    <id>199633/2026</id>
-    <updated>2026-11-21T17:13:23Z</updated>
+    <id>199726/2026</id>
+    <updated>2026-11-22T01:23:08Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199633/2026</identifier>
+        <identifier>199726/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-21T14:13:23-03:00</sent>
+        <sent>2026-11-21T22:23:08-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -23,17 +23,17 @@
         <info>
           <language>pt-BR</language>
           <category>Met</category>
-          <event>CHUVAS INTENSAS</event>
+          <event>GRANIZO</event>
           <responseType>Execute</responseType>
           <urgency>Expected</urgency>
-          <severity>Severe</severity>
-          <certainty>Likely</certainty>
-          <onset>2026-11-21T14:13:23-03:00</onset>
-          <expires>2026-11-21T16:15:00-03:00</expires>
-          <senderName>Defesa Civil Estadual de Minas Gerais</senderName>
-          <headline>Defesa Civil:Alerta de Tempestade Severa com chuva forte e rajadas de vento. Proteja-se!</headline>
-          <description>Alerta de Tempestade Severa com chuva forte e rajadas de vento. Proteja-se!</description>
-          <instruction>Acompanhe os alertas da Defesa Civil. Durante chuvas intensas, procure abrigo seguro, evite áreas alagadas, enxurradas e locais próximos a encostas. Não atravesse ruas inundadas, a pé ou de veículo. Fique atento a sinais de deslizamentos e ao aumento do nível de rios e córregos. Em situação de perigo, afaste-se imediatamente da área de risco. Emergências: Defesa Civil 199 e Bombeiros 193.</instruction>
+          <severity>Extreme</severity>
+          <certainty>Observed</certainty>
+          <onset>2026-11-21T22:23:08-03:00</onset>
+          <expires>2026-11-21T23:20:00-03:00</expires>
+          <senderName>Defesa Civil Estadual do Rio Grande do Sul</senderName>
+          <headline>Defesa Civil:RS: Alerta VERMELHO p/ tempestade c/ GRANIZO GRANDE e VENDAVAL na prox. hora. Risco MUITO ALTO de destelhamento. ABRIGUE-SE. Emerg.190/193.</headline>
+          <description>RS: Alerta VERMELHO p/ tempestade c/ GRANIZO GRANDE e VENDAVAL na prox. hora. Risco MUITO ALTO de destelhamento. ABRIGUE-SE. Emerg.190/193.</description>
+          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -41,5 +41,30 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>MINAS GERAIS/MG</areaDesc>
-            <polygon>-19.21,-45.139 -19.198,-45.159 -19.221,-45.162 -19.229,-45.182 -19.241,-45.173 -19.22,-45.213 -19.268,-45.235 -19.276,-45.253 -19.268,-45.269 -19.281,-45.276 -19.283,-45.297 -19.313,-45.312 -19.318,-45.339 -19.314,-45.358 -19.294,-45.37 -19.295,-45.392 -19.268,-45.404 -19.259,-45.422 -19.254,-45.517 -19.224,-45.5 -19.2,-45.526 -19.222,-45.574 -19.227,-45.628 -19.218,-45.634 -19.22,-45.652 -19.192,-45.652 -19.182,-45.629 -19.153,-45.625 -19.153,-45.587 -19.141,-45.58 -19.131,-45.59 -19.134,-45.636 -19.126,-45.633 -19.106,-45.656 -19.053,-45.642 -19.045,-45.631 -19.036,-45.649 -19.01,-45.659 -18.959,-45.646 -18.944,-45.619 -18.959,-45.596 -18.958,-45.572 -18.989,-45.5
+            <areaDesc>RIO GRANDE DO SUL/RS</areaDesc>
+            <polygon>-27.544,-53.982 -27.796,-53.927 -27.818,-54.09 -27.85,-54.08 -27.793,-53.685 -27.48,-53.759 -27.544,-53.982</polygon>
+          </area>
+        </info>
+      </alert>
+    </content>
+  </entry>
+  <entry>
+    <title>GRANIZO</title>
+    <author>
+      <name />
+    </author>
+    <id>199727/2026</id>
+    <updated>2026-11-22T01:52:49Z</updated>
+    <content type="text/xml">
+      <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+        <identifier>199727/2026</identifier>
+        <sender>CENAD-SEDEC</sender>
+        <sent>2026-11-21T22:52:49-03:00</sent>
+        <status>Actual</status>
+        <msgType>Alert</msgType>
+        <source>Defesa Civil</source>
+        <scope>Public</scope>
+        <info>
+          <language>pt-BR</language>
+          <category>Met</category>
+          <event
