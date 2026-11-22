@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-22T00:51:54Z</updated>
-  <dc:date>2026-11-22T00:51:54Z</dc:date>
+  <updated>2026-11-22T01:58:15Z</updated>
+  <dc:date>2026-11-22T01:58:15Z</dc:date>
   <entry>
-    <title>CHUVAS INTENSAS</title>
+    <title>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199606/2026</id>
-    <updated>2026-11-21T13:01:00Z</updated>
+    <id>199618/2026</id>
+    <updated>2026-11-21T13:59:15Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199606/2026</identifier>
+        <identifier>199618/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-21T10:01:00-03:00</sent>
+        <sent>2026-11-21T10:59:15-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -23,17 +23,16 @@
         <info>
           <language>pt-BR</language>
           <category>Met</category>
-          <event>CHUVAS INTENSAS</event>
+          <event>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
           <urgency>Expected</urgency>
-          <severity>Severe</severity>
+          <severity>Moderate</severity>
           <certainty>Likely</certainty>
-          <onset>2026-11-21T10:01:00-03:00</onset>
-          <expires>2026-11-21T12:00:00-03:00</expires>
-          <senderName>Defesa Civil Estadual de Minas Gerais</senderName>
-          <headline>Defesa Civil:Alerta de Tempestade Severa com vendaval e chuva forte. Proteja-se!</headline>
-          <description>Alerta de Tempestade Severa com vendaval e chuva forte. Proteja-se!</description>
-          <instruction>Fique atento a rachaduras em paredes e no solo, inclinação de árvores e postes, surgimento de água nas encostas e movimentação do terreno. Ao identificar sinais de deslizamento, abandone imediatamente o imóvel e procure um local seguro, afastado da encosta. Não retorne à área de risco sem autorização dos órgãos competentes. Acione a Defesa Civil pelo 199 ou os Bombeiros pelo 193.</instruction>
+          <onset>2026-11-22T03:00:00-03:00</onset>
+          <expires>2026-11-22T23:55:00-03:00</expires>
+          <senderName>Defesa Civil Estadual de Santa Catarina</senderName>
+          <description>Observação Meteorológica SDC/SC 21/11 10:00 ¿ Temporais e chuva intensa no domingo (22). Ocorrências ligue 199/193.</description>
+          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -41,5 +40,6 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>MINAS GERAIS/MG</areaDesc>
-            <polygon>-18.341,-48.642 -18.34,-48.641 -18.34,-48.641 -18.333,-48.631 -18.339,-48.597 -18.326,-48.564 -18.344,-48.554 -18.346,-48.554 -18.346,-48.554 -18.346,-48.554 -18.347,-48.553 -18.348,-48.552 -18.351,-48.551 -18.367,-48.516 -18.355,-48.484 -18.364,-48.483 -18.366,-48.485 -18.367,-48.485 -18.368,-48.486 -18.37,-48.486 -18.371,-48.486 -18.374,-48.486 -18.374,-48.486 -18.374,-48.486 -18.374,-48.486 -18.376,-48.485 -18.378,-48.484 -18.379,-48.481 -18.381,-48.481 -18.38,-48.48 -18.38,-48.479 -18.38,-48.479 -18.38,-48.479 -18.378,-48.474 -18.378,-48.474 -18.378,-48.474 -18.375,-48.473 -18.358,-48.444 -18.362,-48.439 -18.363,-48.439 -18.363,-48.439 -18.363,-48.439 -18.365,-48.437 -18.366,-48.434 -18
+            <areaDesc>SANTA CATARINA/SC</areaDesc>
+            <polygon>-28.611,-48.821 -28.611,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.61,-48.823 -28.61,-48.823 -28.61,-48.823 -28.61,-48.823 -28.61,-48.822 -28.61,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821</polygon>
+            <polygon>-28.541,-48.756 -28.541,-48.756 -28.541
