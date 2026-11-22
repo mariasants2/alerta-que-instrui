@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-22T01:58:15Z</updated>
-  <dc:date>2026-11-22T01:58:15Z</dc:date>
+  <updated>2026-11-22T02:55:43Z</updated>
+  <dc:date>2026-11-22T02:55:43Z</dc:date>
   <entry>
-    <title>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</title>
+    <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199618/2026</id>
-    <updated>2026-11-21T13:59:15Z</updated>
+    <id>199629/2026</id>
+    <updated>2026-11-21T14:56:32Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199618/2026</identifier>
+        <identifier>199629/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-21T10:59:15-03:00</sent>
+        <sent>2026-11-21T11:56:32-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -23,16 +23,17 @@
         <info>
           <language>pt-BR</language>
           <category>Met</category>
-          <event>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</event>
+          <event>CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
           <urgency>Expected</urgency>
-          <severity>Moderate</severity>
+          <severity>Severe</severity>
           <certainty>Likely</certainty>
-          <onset>2026-11-22T03:00:00-03:00</onset>
-          <expires>2026-11-22T23:55:00-03:00</expires>
-          <senderName>Defesa Civil Estadual de Santa Catarina</senderName>
-          <description>Observação Meteorológica SDC/SC 21/11 10:00 ¿ Temporais e chuva intensa no domingo (22). Ocorrências ligue 199/193.</description>
-          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
+          <onset>2026-11-21T11:56:32-03:00</onset>
+          <expires>2026-11-21T14:00:00-03:00</expires>
+          <senderName>Defesa Civil Estadual de Minas Gerais</senderName>
+          <headline>Defesa Civil:Alerta de Tempestade Severa com chuva forte e rajadas de vento. Proteja-se!</headline>
+          <description>Alerta de Tempestade Severa com chuva forte e rajadas de vento. Proteja-se!</description>
+          <instruction>Acompanhe os alertas da Defesa Civil. Durante chuvas intensas, procure abrigo seguro, evite áreas alagadas, enxurradas e locais próximos a encostas. Não atravesse ruas inundadas, a pé ou de veículo. Fique atento a sinais de deslizamentos e ao aumento do nível de rios e córregos. Em situação de perigo, afaste-se imediatamente da área de risco. Emergências: Defesa Civil 199 e Bombeiros 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -40,6 +41,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>SANTA CATARINA/SC</areaDesc>
-            <polygon>-28.611,-48.821 -28.611,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.61,-48.823 -28.61,-48.823 -28.61,-48.823 -28.61,-48.823 -28.61,-48.822 -28.61,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821</polygon>
-            <polygon>-28.541,-48.756 -28.541,-48.756 -28.541
+            <areaDesc>MINAS GERAIS/MG</areaDesc>
+            <polygon>-16.121,-45.079 -16.061,-45.067 -16.012,-45.041 -15.991,-45.043 -15.983,-45.09 -15.964,-45.094 -15.952,-45.118 -15.943,-45.114 -15.953,-45.125 -15.948,-45.138 -15.945,-45.136 -15.942,-45.126 -15.918,-45.132 -15.882,-45.155 -15.884,-45.165 -15.851,-45.193 -15.842,-45.224 -15.85,-45.245 -15.878,-45.272 -15.875,-45.29 -15.9,-45.308 -15.88,-45.32 -15.896,-45.339 -15.889,-45.366 -15.924,-45.412 -15.953,-45.43 -15.982,-45.437 -15.994,-45.417 -16.016,-45.42 -16.044,-45.387 -16.09,-45.368 -16.097,-45.354 -16.103,-45.356 -16.102,-45.379 -16.123,-45.394 -16.153,-45.361 -16.198,-45.363 -16.209,-45.354 -16.224,-45.361 -16.269,-45.316 -16.266,-45.235 -16.245,-45.228 -16.234,-45.
