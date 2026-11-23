@@ -1,24 +1,11 @@
 {
- "atualizado": "2026-11-23T01:03:48+00:00",
+ "atualizado": "2026-11-23T08:58:01+00:00",
  "fonte": "CGE, Prefeitura de São Paulo",
  "fonte_ok": true,
  "erro": null,
  "ativos": {
   "transitaveis": 0,
-  "intransitaveis": 2
+  "intransitaveis": 0
  },
- "pontos": [
-  {
-   "local": "AV MORVAN DIAS DE FIGUEIREDO",
-   "detalhe": "Sentido: A SENNA/CASTELO B Referência: R DA COROA"
-  },
-  {
-   "local": "AV PROF FRANCISCO MORATO",
-   "detalhe": "Sentido: AMBOS Referência: 4537"
-  },
-  {
-   "local": "AV PROF FRANCISCO MORATO",
-   "detalhe": "Sentido: BAIRRO/CENTRO Referência: 3500"
-  }
- ]
+ "pontos": []
 }

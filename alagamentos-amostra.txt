@@ -19,37 +19,13 @@ Dicas
 Sala de Imprensa
 Contato
 Alagamentos
-Zona Norte
-Vila Maria/ Vila Guilherme
-1 pts.
-De 20:27 a
-AV MORVAN DIAS DE FIGUEIREDO
-Sentido: A SENNA/CASTELO B
-Referência: R DA COROA
-Zona Oeste
-Butantã
-2 pts.
-De 19:59 a 20:24
-AV PROF FRANCISCO MORATO
-Sentido: AMBOS
-Referência: 4537
-De 20:01 a 20:24
-AV PROF FRANCISCO MORATO
-Sentido: BAIRRO/CENTRO
-Referência: 3500
-Zona Leste
-Mooca
-1 pts.
-De 20:21 a
-R JOSE DE ALENCAR (BRAS)
-Sentido: CENTRO/BAIRRO
-Referência: AV CELSO GARCIA
+Não há registros de alagamentos para essa data.
 Transitáveis = 0 pts
-Intransitáveis = 2 pts
+Intransitáveis = 0 pts
 }
 Ativos
-Transitáveis = 1 pts
-Intransitáveis = 1 pts
+Transitáveis = 0 pts
+Intransitáveis = 0 pts
 }
 Inativos
 Entenda a classificação dos pontos de alagamento.

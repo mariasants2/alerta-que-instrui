@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-22T19:09:36Z</updated>
-  <dc:date>2026-11-22T19:09:36Z</dc:date>
+  <updated>2026-11-23T08:57:31Z</updated>
+  <dc:date>2026-11-23T08:57:31Z</dc:date>
   <entry>
-    <title>TEMPESTADE LOCAL/CONVECTIVA - GRANIZO</title>
+    <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199740/2026</id>
-    <updated>2026-11-22T07:09:32Z</updated>
+    <id>199928/2026</id>
+    <updated>2026-11-22T20:57:51Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199740/2026</identifier>
+        <identifier>199928/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-22T04:09:32-03:00</sent>
+        <sent>2026-11-22T17:57:51-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -23,17 +23,17 @@
         <info>
           <language>pt-BR</language>
           <category>Met</category>
-          <event>TEMPESTADE LOCAL/CONVECTIVA - GRANIZO</event>
+          <event>CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
           <urgency>Expected</urgency>
-          <severity>Extreme</severity>
-          <certainty>Observed</certainty>
-          <onset>2026-11-22T04:09:32-03:00</onset>
-          <expires>2026-11-22T05:10:00-03:00</expires>
-          <senderName>Defesa Civil Estadual de Santa Catarina</senderName>
-          <headline>Defesa Civil:SDC: ALERTA de tempestade severa com granizo e vendaval na proxima hora. BUSQUE ABRIGO longe de arvores, placas e postes de energia. Emerg 199/193</headline>
-          <description>ALERTA - 22/11 04:06 - TEMPESTADE SEVERA com GRANIZO, RAJADAS DE VENTO e RAIOS para os municípios de Bom Jardim da Serra, Rio Rufino, São Joaquim, Urubici e Urupema na próxima hora. Ocorrências ligue 199 ou 193.</description>
-          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
+          <severity>Severe</severity>
+          <certainty>Possible</certainty>
+          <onset>2026-11-22T17:57:51-03:00</onset>
+          <expires>2026-11-22T19:56:00-03:00</expires>
+          <senderName>Defesa Civil Estadual de Minas Gerais</senderName>
+          <headline>Defesa Civil:Alerta de tempestade severa com rajadas de vento e chuva moderada a forte  com duracao de 02:00h. Proteja-se!</headline>
+          <description>Alerta de tempestade severa com rajadas de vento e chuva moderada a forte  com duração de 02:00h. Proteja-se!</description>
+          <instruction>Acompanhe os alertas da Defesa Civil. Durante chuvas intensas, procure abrigo seguro, evite áreas alagadas, enxurradas e locais próximos a encostas. Não atravesse ruas inundadas, a pé ou de veículo. Fique atento a sinais de deslizamentos e ao aumento do nível de rios e córregos. Em situação de perigo, afaste-se imediatamente da área de risco. Emergências: Defesa Civil 199 e Bombeiros 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -41,25 +41,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>SANTA CATARINA/SC</areaDesc>
-            <polygon>-27.996,-49.961 -28.146,-49.979 -28.187,-49.635 -27.983,-49.628 -27.996,-49.961</polygon>
-          </area>
-        </info>
-      </alert>
-    </content>
-  </entry>
-  <entry>
-    <title>TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS</title>
-    <author>
-      <name />
-    </author>
-    <id>199741/2026</id>
-    <updated>2026-11-22T07:14:45Z</updated>
-    <content type="text/xml">
-      <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199741/2026</identifier>
-        <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-22T04:14:45-03:00</sent>
-        <status>Actual</status>
-        <msgType>Alert</msgType>
-        <source>Defesa Civil</sou
+            <areaDesc>MINAS GERAIS/MG</areaDesc>
+            <polygon>-15.807,-40.961 -15.806,-40.962 -15.806,-40.962 -15.806,-40.963 -15.806,-40.963 -15.806,-40.964 -15.806,-40.964 -15.807,-40.965 -15.807,-40.965 -15.807,-40.966 -15.807,-40.966 -15.806,-40.967 -15.806,-40.967 -15.806,-40.968 -15.806,-40.968 -15.807,-40.969 -15.807,-40.969 -15.807,-40.97 -15.807,-40.97 -15.807,-40.971 -15.807,-40.971 -15.808,-40.972 -15.808,-40.972 -15.809,-40.973 -15.809,-40.973 -15.809,-40.974 -15.81,-40.974 -15.81,-40.974 -15.811,-40.974 -15.812,-40.974 -15.812,-40.974 -15.813,-40.975 -15.813,-40.975 -15.814,-40.975 -15.814,-40.976 -15.814,-40.976 -15.815,-40.976 -15.815,-40.976 

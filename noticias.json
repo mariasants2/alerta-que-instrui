@@ -1,15 +1,36 @@
 {
- "atualizado": "2026-11-23T01:03:48+00:00",
+ "atualizado": "2026-11-23T08:58:01+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
  "noticias": [
   {
+   "d": "23/11/2026",
+   "c": "chuva",
+   "v": "Folha de S.Paulo",
+   "t": "São Paulo terá segunda-feira(23) abafada e com pancadas de chuva à tarde",
+   "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUXVfZ2dDeFhQYVltblBYVEF4SDhobVhEYVR1THA0bkYtRFZUaTBXUXk1TDUwWWMxMlNfM1F3dmQ1Sy1RQWJGQ2tsNWFVQlotZ3FXajJTZU5jX3A1am4wUE9YZjlSUndKZ2J3SnktZWNvaFRyVEI3TUk1enpValJja2ZyLWRGelRoTlNoY0g3RHZCWXZ6MFpQYWdOVFdwUDBfM2lVZ0R5WHUtT3NOSEJuMEt0eTc5R2dUcDlHXzRLUjdtZw?oc=5"
+  },
+  {
+   "d": "23/11/2026",
+   "c": "arvore",
+   "v": "G1",
+   "t": "Previsão do tempo hoje para Osasco (SP): sol com muitas nuvens e pancadas de chuva à tarde; à noite ocorre temporal",
+   "u": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQV25xUC13ZTd5MkR3Wi1iVmROZmtqdHFYMDZaU3hNSDFPclNDRXBHbThYdjFBcXp5TEpNbjVQLXAzMGM4bW5fRko5VDVqanlNd2xHaDdwMzd2VU84cTZQcjZvanJReGwwTWdkNXlGckpYNzdfMkxXZHlhZloyZ1QxMWRfR0dxdG80Ukl5UUdmbWxKaVBTS1Y4ay1pY1docVhYeXZ3UmplbmlVaU9CT3RmdEljd19UOU1COWs1TUVqNml0UWh2RjlobmNxeFRlWXI5TDRubzYzNjlyeFRGRmxZcldFLVBRRy1TTUItYWtsX2g0WndsOFpfVDhIaWc2NDM5NHpfdmxPRGtueEhEd3VwVEdoLW5YS2PSAaYCQVVfeXFMTXVzbVFieEZuWks0cWJBOFUzTnlpUEcyQ2FoY3g4WGFnandncTlZRkJIQVZfbTdEX0JFejRKWW44QU4zMmxTRkN3REoyQWlFeHRZUlF0RklxblN1YWFpd1NmYjlBWXI2d0EwYlc2cnlqM2tzTnppOWpxX1ZWMXVfckdQdkJGOGxiN2JjcjRRZ3htcXh5V1h0bFlBQ0dZQ3Fkai1oakpseVNseUJkenEwLXZYWjBtSTZXR3Fqa3FJRmJoUmJkbzdqV2lXekZOZ3d5U2JUdlNTYXVndDF6bVZzVFJpMjl6OUwwdkx2WEVyRU8xeXF2UG1iMFhiTjJCNVFyOU9DYXFnLTAxNUw0TXhKVXRnZFdvc2NEMEY2ZGswTDlENTgzbHdR?oc=5"
+  },
+  {
    "d": "22/11/2026",
-   "c": "alerta",
-   "v": "Estadão",
-   "t": "CGE encerra estado de alerta para alagamentos na cidade de São Paulo",
-   "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQmlubks2VW53NDEwd2pjVGVzd1JYRXJvb0RRb1dET0xQYXVIOFdxd0x6MHBtb1RaamprcERGVTB0dlpWVmZRY204anZac2FhWnV6T0RFaUJ1clM3bzM1dlZLaGdjem9QcmF5LUU1bmRZWXlRNTkyRVJ5OUpyeUFfNEt0c9IBiAFBVV95cUxPRDBCa1FCMzdieXN3QXRMY0tadkVST2F1aURIZVhnSWJWQllvNGM2cVNUWGZ6TDhKa01vM09USFpNZDdXOGJFS2hFcWJWc2c5Y1ZCaFl5Ri1LczRyM1hEWDdEakNIa0xtd3dkZlNFYWQ0U0p3NDZJV1VVMFRyVWlYczVDdk1lNUg5?oc=5"
+   "c": "chuva",
+   "v": "Band",
+   "t": "Parte de teto de shopping desaba e ruas alagadas; veja estragos da chuva em SP",
+   "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLU1JdFdqWlp0RU9CdmFMNkstQ1VWWHVnamw5d0t3cHlwdlJ1UklMWlJBREpEU2lTMWY2d3ZoeDdTTXlSQkZVRkFMeTVjRkhGRGpIV3gwd0lwWTV0bEZxblNiZ3BLM2hMU1Q5M1oxU2Vqd3BlN1QtT2JfU0VmUGNkdlBRVDFHdzV6SWdrdWxrOFlDTEpUSnN5eEN3QnlKdC1XazBoLURTU0JaNC0yQW1hZmVoMA?oc=5"
+  },
+  {
+   "d": "22/11/2026",
+   "c": "chuva",
+   "v": "Metrópoles",
+   "t": "Chuva em SP deixa 3 pessoas afogadas e provoca queda de teto em shopping.",
+   "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUmhQd3JwNkhyMTNXX2ExblVpUGxxTDh6ZXd3enJDdnRyQ2phb2hHQlJVbDdfdVlhV2dIMnk1S3QzcU5aMWs2dEg5N2JZdy1MRUNxS01na3ZxWWN6V0hOcloxQVI0QWNHUVRSQUdIMVBzSk5wbVl3alZaYkV6X0xHWmtqNHhLUGE0TDB1UXVRR3JpWFJ6NjhIaWVreWVKZ0lobHlDVUZYZHBEVkhVZEE?oc=5"
   },
   {
    "d": "22/11/2026",
@@ -30,7 +51,7 @@
    "c": "chuva",
    "v": "G1",
    "t": "Alagamento no M'Boi Morim, em São Paulo",
-   "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWHk1QVlaRkxIQ0c1UUg1aEhMaTNNXy1fR3JUWEY2RGFpc2JUT05pcTQyZlJDQXU1ODhPUS1Vd01zTm9XRGlGd2FBVno0enlpZWZLM085NWpQRVE3cUhCM1d4UEFWTG4tYklUdnkyX2lLbHN5a1dENkhpbzJiV3pSNjBEYy1NM1BGbDFpQW02WndITWRHWWF30gGmAUFVX3lxTFBFZllDaU8xRV9iUzhyVUtDVTlSb3Y5M3RDZkdMcTRrQUhkcWNhd3NpTVlqbkhETy0zNm1jVkJuMDFXNGFSV3ZaSDNwb01mYWlwZ3J4LXVaeWphRVJudkhrRU4xbHNaNzJWVHpQZ0Z6TkFWcTRZZmw5SXFuWkxuRUhCRWVNZ0NEbjYtQTdUTEUtRG5zbkpnMWVQRHFGVXZ1NlRGN25rX2c?oc=5"
+   "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRWZZQ2lPMUVfYlM4clVLQ1U5Um92OTN0Q2ZHTHE0a0FIZHFjYXdzaU1Zam5IRE8tMzZtY1ZCbjAxVzRhUld2WkgzcG9NZmFpcGdyeC11WnlqYUVSbnZIa0VOMWxzWjcyVlR6UGdGek5BVnE0WWZsOUlxblpMbkVIQkVlTWdDRG42LUE3VExFLURuc25KZzFlUERxRlV2dTZURjdua19n0gGmAUFVX3lxTFBFZllDaU8xRV9iUzhyVUtDVTlSb3Y5M3RDZkdMcTRrQUhkcWNhd3NpTVlqbkhETy0zNm1jVkJuMDFXNGFSV3ZaSDNwb01mYWlwZ3J4LXVaeWphRVJudkhrRU4xbHNaNzJWVHpQZ0Z6TkFWcTRZZmw5SXFuWkxuRUhCRWVNZ0NEbjYtQTdUTEUtRG5zbkpnMWVQRHFGVXZ1NlRGN25rX2c?oc=5"
   },
   {
    "d": "22/11/2026",
@@ -38,27 +59,6 @@
    "v": "SBT News",
    "t": "Defesa Civil envia ajuda a Aparecida após fortes chuvas",
    "u": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNM2Y1R2Z5RHFMTUhIZXJyYnp0QVJscHBYazZoQWZQRlNoWW5iU0xPLWhPY3VSRW9aRFEyLTNrSTBGcUtKcFB1ZGs2WC1ubmZLV1Y0dVFvX3l0Um5DWEVKUnlqMFVhOWE5UGhrZzdtYl80RXZXaXhjSktCYm1yOGl4WEFsNXJ4NDJPdXF0Xw?oc=5"
-  },
-  {
-   "d": "22/11/2026",
-   "c": "alerta",
-   "v": "Folha de S.Paulo",
-   "t": "Defesa Civil emite alerta severo de chuva para São Paulo após 25 avisos no estado",
-   "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSlUwNDlObVkyOWlSTUh0d0pZR1VTbUkxeVpVZEdRNTJDbDdSeEJQV25KdHVkZmZNVXpSZzRXbmIxdFZBUU9faEFLMzByNGFqN2NFeWQ2ak8talZpTWljOUQwOTNSSTkzLW4wOWJucjl6Wld0VGhENW1WM19rQ3lSVmEycU5CN3dmaks4cHZHNEJnUGdMUnd3Wmh3YVhqbGpFdXp3cmVia3o5dWtWaGItbVFiRk1jeEZYaDE3Q1lsUlZMNnk5SFNzZFMzak1qNjlr?oc=5"
-  },
-  {
-   "d": "22/11/2026",
-   "c": "alerta",
-   "v": "SBT News",
-   "t": "Defesa Civil emite alerta severo de chuva em São Paulo",
-   "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPREt6bFJoZ1NHTFRBdUJHb3V6X1M0V2pOZ2ZpLTViOUlWVzFYNGpKQnZrX1FZaWh0NFNfYThOWnpNS2tUT00xMEpxZEFQbkxpWXNUNXNNQ0Y0QkcxZHFJR0JCS1Rjd3VnU0tDQ0h6MkxVbG16WDlzYmY5UU8wM19wTFpOX0xPaWNFdWlWX2pMMmJOZDRoX1ZwTElySTBDbWc?oc=5"
-  },
-  {
-   "d": "22/11/2026",
-   "c": "alerta",
-   "v": "CNN Brasil",
-   "t": "Defesa Civil emite alerta severo para chuvas na grande São Paulo",
-   "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQVcyZzM1U2FfUDkxUkVxQ2JpTWlheGpNdDFOdERaRnEyVUtyX0pWUFlyQXFtMngtTENwWW1BeHhDUk8tSFdPUVlNNGktWklWUGZOZmxTUWlNMHZReUY4bXdVQXVoSkNCeVVuVjlCV3VKeE5FckhwZzZLS2VadU4tRklFVVVIVk56VUljelNTcEh2NHB6bFBuSHBXQVdJc2d0SGRjSXpaS0k5QW81dDJr?oc=5"
   }
  ]
 }
