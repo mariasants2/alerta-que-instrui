@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-22T20:20:56+00:00",
+ "atualizado": "2026-11-23T01:03:48+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
@@ -7,58 +7,58 @@
   {
    "d": "22/11/2026",
    "c": "alerta",
-   "v": "Terra",
-   "t": "Após estragos em Aparecida, Defesa Civil mantém SP em alerta até terça-feira",
-   "u": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOX2tDUEhyNTVKYUtYQVdyTkZia0QxM1dNTGQzTWttMUdDUGR1b0poR3JmNUsydWJLaUlkVjhMUHpFRmtyMlJqWExVeDdpd2NnaW96Y2phMm9DQ2hSM1ZUUGJCb0lMQm1RR3ltMW5XUGFtamtEQUM0ZkVuMERGRkhwa05vZkFDb2xVbE56UU0xZ2RJWGZaU000NEFiOWJmbUc0b2xHWVFkX1h3OTNLRWVVSTAzRXNCZmM2LVZjc2lHUklLNkFfc2ZlUkszMDZZZ2FwR3NJT2E2LXlzY0VnWVdrRVFhTnVZbHdubzVZ?oc=5"
-  },
-  {
-   "d": "22/11/2026",
-   "c": "alerta",
-   "v": "Metrópoles",
-   "t": "Estado de SP tem alerta para chuvas com vendaval e granizo até 3ª (24/11)",
-   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcE13a3R4UFIwelNVOGdpcUxUSjA2SEdYYzFOYmtSZUhIQ1REbHNlcjRzZTJkVmZBVU1zcFQ1UnhEdE9jcnE4RndEOFBoTVIwQm03Q3JJbFg2SGFhcURwUklhOGtHLURrbEZlTFhpcXhwdU14Y0s2ZGZBTlNDOUlHMXFnQkNwbWFKTE5nNnRDVXhUa2lsOHRiaUJWOHI2OV9NeEo0VVBpZXI0V0o3?oc=5"
-  },
-  {
-   "d": "22/11/2026",
-   "c": "arvore",
-   "v": "CBN",
-   "t": "Temporal em Aparecida (SP) deixa casas alagadas e moradores tentam recuperar prejuízos",
-   "u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOR1c3WHdvS0kzbkZZZFZRNEtadWc3aVFPQ2FmRnFfWjlNZmJ4WEQtbm5ZOFRHZG11U3NaUkJiNl9Kbmd3a1d4S1J5bEdBZWZrdUVHRDZqLUtKV21UOGpDZUhJZ2JFelpvQ0tRYWxHZ19ndS1BdEQyODhFR1FVX0k3TDc5WlVubkRCbUxQQ0M1T1ZRRTdKalk5aHdsbndnOEI4ZHZ2LXc1OTdUdnJ5QTYyR1ljMWJWVVlMdmhGcFZMRmRkWlVqMzlBbElGRTg0a1RWOUV3ejFoSznSAecBQVVfeXFMTXRxM0w1VktxM3VKWlJMaWNLaTB6OGcyX0VMdFpqbHZYd2dBUU5BNzQ3ZTZUTkJrOTVIS05XVlJ6aEYyMzJ2dVlQUHpmSzZEVUE1MENwWVJmTUpxWEM3MDR3SWlSeENGNDAwcW5GclRnNlJPUnBhaTNVekd5V1NPVDBWRGpvdlM1aV9VUUs5V0owYXhhU0pFVWw4V1o5ZTNybXRqYkozT3huOVFsRExCb2I3RjI4RGxoZFoxdGh5MC1rWmZyM1AyNlluSFQtS0h4cGJwSTc4bWo5SlV1VkR3eWlRcDJmblBR?oc=5"
-  },
-  {
-   "d": "22/11/2026",
-   "c": "arvore",
-   "v": "CNN Brasil",
-   "t": "Temporal causa estragos em Aparecida, deixa cinco feridos e dois soterrados",
-   "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQT0o3cDBTWDkwbVFFRkswemV4UHlobU41X3FXLVRoMXN2a3VOcDFaSTh6allrcFVickM5STFuQTV0SVVGYzQ3OE5ENTVnc3BGc2VFaWE3ZmdmM2gwRk51UHNQRVp5RkVhalhzMlNRNlpsWU0xdW00T1hqUjZkbXNKUWxUSDh5cndDbUlaZ2N2NzNHZWJsTVl4M21KdXpKTTB6T2FLWHJtY3Iyam1hcWF5bnFXY3B2c0FObWhjd21zYUo1UQ?oc=5"
-  },
-  {
-   "d": "22/11/2026",
-   "c": "arvore",
-   "v": "CNN Brasil",
-   "t": "Fotógrafo registra fiéis \"cumprindo promessa\" durante temporal em Aparecida",
-   "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVU9RVkx2M0RaUktESExIZENKSVZRWm01RmxjR2ZrTEFUUE8zSkpnUV9FWEV6MjJYdllHTVJvOC16ek5OS1JVQnAtZE1RbjBncWtLY0hUQWVxZGNMUzBVcW1CSUJIQ0JjTGQxV0ZtbExYRk5yLW1lcXpORW9ySzlIMGw4ZnBfcHpLajZ2U3R4UVBtNExDY0FxQ2VhU1JxNHBOa1o1YWpITFJ0d0p4dDJqQ3RKTWhGMXhPYVpIajg3X2Y?oc=5"
-  },
-  {
-   "d": "22/11/2026",
-   "c": "alerta",
    "v": "Estadão",
-   "t": "Defesa Civil de SP reforça alerta para fortes chuvas em todo o Estado até terça-feira",
-   "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZnpBdkxzM3Q3M2JPM0lyV2hadzBIVjI4eXBqWC0tWVZfbVZTRFFfSjZGbVY5Y1l4aHBrLWFPZ2xMMk5uSEFXQ29MV0pLTktsNGJvTV80TkFJRkFrSnprVXRPZ2lNZ25EZmFvNHNRQXpVdWh5dmVDVXV4cTlxUUJCTWY5dlF2dzJNNG85dV9mUDQ2RXR5QkRtNGNWMHB1Yk5DMjNPSjVtSFd4TG54TUpQbVZseEo1clpKamVwMWktajJkbkdCYmRiNHRYS0ZneTVZ?oc=5"
+   "t": "CGE encerra estado de alerta para alagamentos na cidade de São Paulo",
+   "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQmlubks2VW53NDEwd2pjVGVzd1JYRXJvb0RRb1dET0xQYXVIOFdxd0x6MHBtb1RaamprcERGVTB0dlpWVmZRY204anZac2FhWnV6T0RFaUJ1clM3bzM1dlZLaGdjem9QcmF5LUU1bmRZWXlRNTkyRVJ5OUpyeUFfNEt0c9IBiAFBVV95cUxPRDBCa1FCMzdieXN3QXRMY0tadkVST2F1aURIZVhnSWJWQllvNGM2cVNUWGZ6TDhKa01vM09USFpNZDdXOGJFS2hFcWJWc2c5Y1ZCaFl5Ri1LczRyM1hEWDdEakNIa0xtd3dkZlNFYWQ0U0p3NDZJV1VVMFRyVWlYczVDdk1lNUg5?oc=5"
+  },
+  {
+   "d": "22/11/2026",
+   "c": "alerta",
+   "v": "VEJA",
+   "t": "Defesa Civil monitora ocorrências por chuvas em municípios de SP e emite mais de 40 alertas",
+   "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWFE5Y3FXYldGNFh2NXJqUVptblN5bldyMmtrT1hLVE02TmVZb2lzU1A0ekhILUM3Qnc0OGFqX3JDOEdtWVNBN3Q3MlZ4M2JScV9TVzh2SloySHdCSHFKR0ZKU1pPbkhqMWJITUZ5WFVPbjZkbjJzNUk0MDRyUWtOQkxBWXJtcWdRVFRhZS1qZHNYaVEycUJQdWVIcTVMeE5aQ2FQOUVveWRkSV9mZzA3ZXZaYmxPVUd3RnVBNjY5cWdkbTQ?oc=5"
+  },
+  {
+   "d": "22/11/2026",
+   "c": "alerta",
+   "v": "Exame",
+   "t": "Chuvas em SP: Defesa Civil emite 41 alertas e mantém monitoramento até terça-feira, 24",
+   "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMERfUWtCSFdkQi1BXzFGeEk3YnNCRHpKQkZOMkxtal83Zk5CbTFQZkxCNWxrVDBpdi1MWlFEVFczcVFVY214YUEyUWJVV19ZRkpHaExlclNzcXFqWlpWYko2S1E3SThJTGdlbFRaVUZJUVZzdmdJcVoyclVyNllBaXpmYWtNLVB4RXItNWZBa0wtWEVxMVhYRDN3WW5IaTVsdi1qSTBMbXhTeDltOXFv?oc=5"
   },
   {
    "d": "22/11/2026",
    "c": "chuva",
-   "v": "VEJA SÃO PAULO",
-   "t": "Chuva deve marcar o fim do feriado em São Paulo neste domingo (22)",
-   "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTGl5U0NmYkV1WGdkWVE1M19saGtKRHNzQ0J1bHBFTzFMS2N4OWVPOF85RnAweFFXdl9CNW85emc1QkNlaXZTR1I5ZW9qb2x2U3VZSlN5eGJZNzhNNllOQ043Rlc1YzdRT1BOX05FbDlHZzY1bExLV3JGNFlqdVNLTTJsazVOM0NnbWc?oc=5"
+   "v": "G1",
+   "t": "Alagamento no M'Boi Morim, em São Paulo",
+   "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWHk1QVlaRkxIQ0c1UUg1aEhMaTNNXy1fR3JUWEY2RGFpc2JUT05pcTQyZlJDQXU1ODhPUS1Vd01zTm9XRGlGd2FBVno0enlpZWZLM085NWpQRVE3cUhCM1d4UEFWTG4tYklUdnkyX2lLbHN5a1dENkhpbzJiV3pSNjBEYy1NM1BGbDFpQW02WndITWRHWWF30gGmAUFVX3lxTFBFZllDaU8xRV9iUzhyVUtDVTlSb3Y5M3RDZkdMcTRrQUhkcWNhd3NpTVlqbkhETy0zNm1jVkJuMDFXNGFSV3ZaSDNwb01mYWlwZ3J4LXVaeWphRVJudkhrRU4xbHNaNzJWVHpQZ0Z6TkFWcTRZZmw5SXFuWkxuRUhCRWVNZ0NEbjYtQTdUTEUtRG5zbkpnMWVQRHFGVXZ1NlRGN25rX2c?oc=5"
   },
   {
    "d": "22/11/2026",
    "c": "chuva",
+   "v": "SBT News",
+   "t": "Defesa Civil envia ajuda a Aparecida após fortes chuvas",
+   "u": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNM2Y1R2Z5RHFMTUhIZXJyYnp0QVJscHBYazZoQWZQRlNoWW5iU0xPLWhPY3VSRW9aRFEyLTNrSTBGcUtKcFB1ZGs2WC1ubmZLV1Y0dVFvX3l0Um5DWEVKUnlqMFVhOWE5UGhrZzdtYl80RXZXaXhjSktCYm1yOGl4WEFsNXJ4NDJPdXF0Xw?oc=5"
+  },
+  {
+   "d": "22/11/2026",
+   "c": "alerta",
    "v": "Folha de S.Paulo",
-   "t": "Aparecida tem escolas alagadas e carros submersos após fortes chuvas de sexta",
-   "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSTR5QzdfRlU2T3lDRzREVXpGTEh3S1MwRzBpOW84TFRyV083VmRZTURrSjBjNzVpb1pFVVRDNE95bkN1R3RQakl4eExkQU54VVBWb0k0OGdHT3pia2JFOTJ6dENZNTFPaW5RcGVPRG1tRVFzRW5sR0ZEdlhXYXdlSG54UzdqUDBwTTBYeExIV2VyNUVPY1ZDR25UTzVYZTNaOTNaX3BldTdaQTFZTDhZQVpUbDN1Y0tZMFZJM0syMmZYZXk3REJoU2Fn?oc=5"
+   "t": "Defesa Civil emite alerta severo de chuva para São Paulo após 25 avisos no estado",
+   "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSlUwNDlObVkyOWlSTUh0d0pZR1VTbUkxeVpVZEdRNTJDbDdSeEJQV25KdHVkZmZNVXpSZzRXbmIxdFZBUU9faEFLMzByNGFqN2NFeWQ2ak8talZpTWljOUQwOTNSSTkzLW4wOWJucjl6Wld0VGhENW1WM19rQ3lSVmEycU5CN3dmaks4cHZHNEJnUGdMUnd3Wmh3YVhqbGpFdXp3cmVia3o5dWtWaGItbVFiRk1jeEZYaDE3Q1lsUlZMNnk5SFNzZFMzak1qNjlr?oc=5"
+  },
+  {
+   "d": "22/11/2026",
+   "c": "alerta",
+   "v": "SBT News",
+   "t": "Defesa Civil emite alerta severo de chuva em São Paulo",
+   "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPREt6bFJoZ1NHTFRBdUJHb3V6X1M0V2pOZ2ZpLTViOUlWVzFYNGpKQnZrX1FZaWh0NFNfYThOWnpNS2tUT00xMEpxZEFQbkxpWXNUNXNNQ0Y0QkcxZHFJR0JCS1Rjd3VnU0tDQ0h6MkxVbG16WDlzYmY5UU8wM19wTFpOX0xPaWNFdWlWX2pMMmJOZDRoX1ZwTElySTBDbWc?oc=5"
+  },
+  {
+   "d": "22/11/2026",
+   "c": "alerta",
+   "v": "CNN Brasil",
+   "t": "Defesa Civil emite alerta severo para chuvas na grande São Paulo",
+   "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQVcyZzM1U2FfUDkxUkVxQ2JpTWlheGpNdDFOdERaRnEyVUtyX0pWUFlyQXFtMngtTENwWW1BeHhDUk8tSFdPUVlNNGktWklWUGZOZmxTUWlNMHZReUY4bXdVQXVoSkNCeVVuVjlCV3VKeE5FckhwZzZLS2VadU4tRklFVVVIVk56VUljelNTcEh2NHB6bFBuSHBXQVdJc2d0SGRjSXpaS0k5QW81dDJr?oc=5"
   }
  ]
 }
