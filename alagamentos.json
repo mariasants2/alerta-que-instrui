@@ -1,11 +1,60 @@
 {
- "atualizado": "2026-11-23T08:58:01+00:00",
+ "atualizado": "2026-11-23T21:11:58+00:00",
  "fonte": "CGE, Prefeitura de São Paulo",
  "fonte_ok": true,
  "erro": null,
  "ativos": {
-  "transitaveis": 0,
-  "intransitaveis": 0
+  "transitaveis": 6,
+  "intransitaveis": 6
  },
- "pontos": []
+ "pontos": [
+  {
+   "local": "AV MORVAN DIAS DE FIGUEIREDO",
+   "detalhe": "Sentido: A SENNA/CASTELO B Referência: R DA COROA"
+  },
+  {
+   "local": "AV MORVAN DIAS DE FIGUEIREDO",
+   "detalhe": "Sentido: A SENNA/CASTELO B Referência: PTE PRES JANIO QUADROS"
+  },
+  {
+   "local": "AV SANTOS DUMONT",
+   "detalhe": "Sentido: AEROPORTO/SANTANA Referência: R GUAPORE"
+  },
+  {
+   "local": "AV GAL OLIMPIO DA SILVEIRA",
+   "detalhe": "Sentido: BAIRRO/CENTRO Referência: R CONS BROTERO"
+  },
+  {
+   "local": "AV NOVE DE JULHO",
+   "detalhe": "Sentido: CENTRO/BAIRRO Referência: PC DA BANDEIRA"
+  },
+  {
+   "local": "AV MAGALHAES DE CASTRO",
+   "detalhe": "Sentido: CASTELO/INTERLAGOS Referência: PTE ENG ARY TORRES"
+  },
+  {
+   "local": "AV DAS NACOES UNIDAS",
+   "detalhe": "Sentido: INTERLAGOS/CASTELO Referência: PTE ENG ROBERTO ROSSI ZUCCOLO"
+  },
+  {
+   "local": "AV PAES DE BARROS",
+   "detalhe": "Sentido: BAIRRO/CENTRO Referência: R DA MOOCA"
+  },
+  {
+   "local": "AV CDSSA ELISABETH DE ROBIANO",
+   "detalhe": "Sentido: CASTELO B/A SENNA Referência: PTE PRES JANIO QUADROS"
+  },
+  {
+   "local": "AV CD DE FRONTIN",
+   "detalhe": "Sentido: CENTRO/BAIRRO Referência: R PINHALZINHO"
+  },
+  {
+   "local": "VD BISPA KEILA FERREIRA",
+   "detalhe": "Sentido: AMBOS Referência: 682"
+  },
+  {
+   "local": "AV CONDE DE FRONTIN",
+   "detalhe": "Sentido: AMBOS Referência: ALT. 542"
+  }
+ ]
 }

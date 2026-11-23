@@ -19,13 +19,90 @@ Dicas
 Sala de Imprensa
 Contato
 Alagamentos
-Não há registros de alagamentos para essa data.
-Transitáveis = 0 pts
-Intransitáveis = 0 pts
+Zona Norte
+Vila Maria/ Vila Guilherme
+3 pts.
+De 16:49 a
+R CHICO PONTES
+Sentido: UNICO
+Referência: AV GUILHERME
+De 17:27 a
+AV MORVAN DIAS DE FIGUEIREDO
+Sentido: A SENNA/CASTELO B
+Referência: R DA COROA
+De 17:34 a
+AV MORVAN DIAS DE FIGUEIREDO
+Sentido: A SENNA/CASTELO B
+Referência: PTE PRES JANIO QUADROS
+Centro
+Sé
+4 pts.
+De 16:31 a 17:46
+TN S JOAO PAULO II
+Sentido: SANTANA/AEROPORTO
+Referência: 1
+De 16:51 a
+AV SANTOS DUMONT
+Sentido: AEROPORTO/SANTANA
+Referência: R GUAPORE
+De 17:13 a
+AV GAL OLIMPIO DA SILVEIRA
+Sentido: BAIRRO/CENTRO
+Referência: R CONS BROTERO
+De 17:23 a 17:36
+AV NOVE DE JULHO
+Sentido: CENTRO/BAIRRO
+Referência: PC DA BANDEIRA
+Zona Oeste
+Butantã
+1 pts.
+De 17:46 a
+AV MAGALHAES DE CASTRO
+Sentido: CASTELO/INTERLAGOS
+Referência: PTE ENG ARY TORRES
+Pinheiros
+1 pts.
+De 17:31 a
+AV DAS NACOES UNIDAS
+Sentido: INTERLAGOS/CASTELO
+Referência: PTE ENG ROBERTO ROSSI ZUCCOLO
+Zona Leste
+Itaquera
+1 pts.
+De 17:19 a
+R ITAGIMIRIM
+Sentido: CENTRO/BAIRRO
+Referência: R PDE VIEGAS DE MENEZES
+Mooca
+4 pts.
+De 17:15 a 17:33
+AV PAES DE BARROS
+Sentido: BAIRRO/CENTRO
+Referência: R DA MOOCA
+De 17:18 a
+AV CDSSA ELISABETH DE ROBIANO
+Sentido: CASTELO B/A SENNA
+Referência: PTE PRES JANIO QUADROS
+De 17:21 a
+AV CD DE FRONTIN
+Sentido: CENTRO/BAIRRO
+Referência: R PINHALZINHO
+De 17:46 a
+VD BISPA KEILA FERREIRA
+Sentido: AMBOS
+Referência: 682
+Penha
+1 pts.
+De 17:55 a
+AV CONDE DE FRONTIN
+Sentido: AMBOS
+Referência: ALT. 542
+Transitáveis = 6 pts
+Intransitáveis = 6 pts
 }
 Ativos
 Transitáveis = 0 pts
-Intransitáveis = 0 pts
+Intransitáveis = 3 pts
 }
 Inativos
 Entenda a classificação dos pontos de alagamento.

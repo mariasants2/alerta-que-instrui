@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-23T08:57:31Z</updated>
-  <dc:date>2026-11-23T08:57:31Z</dc:date>
+  <updated>2026-11-23T21:09:16Z</updated>
+  <dc:date>2026-11-23T21:09:16Z</dc:date>
   <entry>
     <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>199928/2026</id>
-    <updated>2026-11-22T20:57:51Z</updated>
+    <id>200043/2026</id>
+    <updated>2026-11-23T09:59:04Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>199928/2026</identifier>
+        <identifier>200043/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-22T17:57:51-03:00</sent>
+        <sent>2026-11-23T06:59:04-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -25,15 +25,20 @@
           <category>Met</category>
           <event>CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
-          <urgency>Expected</urgency>
+          <urgency>Immediate</urgency>
           <severity>Severe</severity>
           <certainty>Possible</certainty>
-          <onset>2026-11-22T17:57:51-03:00</onset>
-          <expires>2026-11-22T19:56:00-03:00</expires>
-          <senderName>Defesa Civil Estadual de Minas Gerais</senderName>
-          <headline>Defesa Civil:Alerta de tempestade severa com rajadas de vento e chuva moderada a forte  com duracao de 02:00h. Proteja-se!</headline>
-          <description>Alerta de tempestade severa com rajadas de vento e chuva moderada a forte  com duração de 02:00h. Proteja-se!</description>
-          <instruction>Acompanhe os alertas da Defesa Civil. Durante chuvas intensas, procure abrigo seguro, evite áreas alagadas, enxurradas e locais próximos a encostas. Não atravesse ruas inundadas, a pé ou de veículo. Fique atento a sinais de deslizamentos e ao aumento do nível de rios e córregos. Em situação de perigo, afaste-se imediatamente da área de risco. Emergências: Defesa Civil 199 e Bombeiros 193.</instruction>
+          <onset>2026-11-23T06:59:04-03:00</onset>
+          <expires>2026-11-23T12:00:00-03:00</expires>
+          <senderName>Defesa Civil Nacional</senderName>
+          <headline>Defesa Civil:Mesquita(23/11 6:55): pancadas de chuva moderada nas proximas horas. Evite areas alagadas. Emergencia:199</headline>
+          <description>Atenção moradores de Mesquita.
+Previsão de pancadas de chuva moderada nas próximas horas. Fiquem atentos aos alertas da Defesa Civil. Evitem áreas alagadas e áreas de risco.
+Em casos de emergência, ligue (21)40421772 ou 199.</description>
+          <instruction>Os moradores de áreas de risco devem ficar atentos para indícios de ameaças de deslizamentos e estarem preparados para se deslocarem para locais seguros;
+-As pessoas que estiverem em locais seguros devem permanecer nestes locais até o aviso de chuva intensa cessar;
+-Evite transitar em áreas alagadas e próximas a córregos, canais e rios sujeitos a transbordamento;
+-Em casos de ventos fortes e/ou chuvas com descargas atmosféricas, evite ficar próximo a árvores, redes de distribuição de energia</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -41,5 +46,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>MINAS GERAIS/MG</areaDesc>
-            <polygon>-15.807,-40.961 -15.806,-40.962 -15.806,-40.962 -15.806,-40.963 -15.806,-40.963 -15.806,-40.964 -15.806,-40.964 -15.807,-40.965 -15.807,-40.965 -15.807,-40.966 -15.807,-40.966 -15.806,-40.967 -15.806,-40.967 -15.806,-40.968 -15.806,-40.968 -15.807,-40.969 -15.807,-40.969 -15.807,-40.97 -15.807,-40.97 -15.807,-40.971 -15.807,-40.971 -15.808,-40.972 -15.808,-40.972 -15.809,-40.973 -15.809,-40.973 -15.809,-40.974 -15.81,-40.974 -15.81,-40.974 -15.811,-40.974 -15.812,-40.974 -15.812,-40.974 -15.813,-40.975 -15.813,-40.975 -15.814,-40.975 -15.814,-40.976 -15.814,-40.976 -15.815,-40.976 -15.815,-40.976 
+            <areaDesc>Mesquita/RJ</areaDesc>
+            <polygon>-22.767,-43.42 -22.766,-43.42 -22.766,-43.421 -22.766,-43.421 -22.765,-43.421 -22.765,-43.421 -22.765,-43.421 -22.765,-43.421 -22.765,-43.421 -22.765,-43.421 -22.765,-43.421 -22.765,-43.421 -22.764,-43.422 -22.764,-43.422 -22.764,-43.422 -22.764,-43.422 -22.764,-43.422 -22.764,-43.422 -22.764,-43.423 -22.764,-43.423 -22.764,-43.423 -22.764,-43.423 -22.764,-43.423 -22.765,-43.424 -22.765,-43.424 -22.
