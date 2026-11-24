@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-23T21:09:16Z</updated>
-  <dc:date>2026-11-23T21:09:16Z</dc:date>
+  <updated>2026-11-24T05:21:30Z</updated>
+  <dc:date>2026-11-24T05:21:30Z</dc:date>
   <entry>
     <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>200043/2026</id>
-    <updated>2026-11-23T09:59:04Z</updated>
+    <id>200126/2026</id>
+    <updated>2026-11-23T17:21:23Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>200043/2026</identifier>
+        <identifier>200126/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-23T06:59:04-03:00</sent>
+        <sent>2026-11-23T14:21:23-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -25,20 +25,21 @@
           <category>Met</category>
           <event>CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
-          <urgency>Immediate</urgency>
+          <urgency>Expected</urgency>
           <severity>Severe</severity>
-          <certainty>Possible</certainty>
-          <onset>2026-11-23T06:59:04-03:00</onset>
-          <expires>2026-11-23T12:00:00-03:00</expires>
-          <senderName>Defesa Civil Nacional</senderName>
-          <headline>Defesa Civil:Mesquita(23/11 6:55): pancadas de chuva moderada nas proximas horas. Evite areas alagadas. Emergencia:199</headline>
-          <description>Atenção moradores de Mesquita.
-Previsão de pancadas de chuva moderada nas próximas horas. Fiquem atentos aos alertas da Defesa Civil. Evitem áreas alagadas e áreas de risco.
-Em casos de emergência, ligue (21)40421772 ou 199.</description>
-          <instruction>Os moradores de áreas de risco devem ficar atentos para indícios de ameaças de deslizamentos e estarem preparados para se deslocarem para locais seguros;
--As pessoas que estiverem em locais seguros devem permanecer nestes locais até o aviso de chuva intensa cessar;
--Evite transitar em áreas alagadas e próximas a córregos, canais e rios sujeitos a transbordamento;
--Em casos de ventos fortes e/ou chuvas com descargas atmosféricas, evite ficar próximo a árvores, redes de distribuição de energia</instruction>
+          <certainty>Likely</certainty>
+          <onset>2026-11-23T14:21:23-03:00</onset>
+          <expires>2026-11-23T17:20:00-03:00</expires>
+          <senderName>Defesa Civil Estadual do Paraná</senderName>
+          <headline>Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.</headline>
+          <description>Tempestade com chuva forte e condição para rajadas de vento, muitas descargas elétricas e granizo pontual. Evite áreas de risco e busque abrigo! Emergências 199 ou 193.</description>
+          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.
+Veja como proceder em casos de desastres. -
+- https://bit.ly/2W1BZxy -
+- Entenda o significado das cores do alerta:
+- http://www.defesacivil.pr.gov.br/Pagina/Significado-das-cores-dos-alertas -
+- Veja a área do alerta: -
+- https://www.defesacivil.pr.gov.br/alertas-vigentes -</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -46,5 +47,5 @@ Em casos de emergência, ligue (21)40421772 ou 199.</description>
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>Mesquita/RJ</areaDesc>
-            <polygon>-22.767,-43.42 -22.766,-43.42 -22.766,-43.421 -22.766,-43.421 -22.765,-43.421 -22.765,-43.421 -22.765,-43.421 -22.765,-43.421 -22.765,-43.421 -22.765,-43.421 -22.765,-43.421 -22.765,-43.421 -22.764,-43.422 -22.764,-43.422 -22.764,-43.422 -22.764,-43.422 -22.764,-43.422 -22.764,-43.422 -22.764,-43.423 -22.764,-43.423 -22.764,-43.423 -22.764,-43.423 -22.764,-43.423 -22.765,-43.424 -22.765,-43.424 -22.
+            <areaDesc>PARANÁ/PR</areaDesc>
+            <polygon>-22.95,-50.243 -22.95,-50.243 -22.952,-50.241 -22.953,-50.24 -22.954,-50.237 -22.954,-50.232 -22.954,-50.23 -22.953,-50.228 -22.953,-50.227 -22.952,-50.226 -22.951,-50.224 -22.949,-50.221 -22.949,-50.22 -22.948,-50.22 -22.948,-50.219 -22.947,-50.216 -22.948,-50.212 -22.952,-50.203 -22.952,-50.203 -22.952,-50.203 -22.952,-50.203 -22.952,-50.198 -22.951,-50.194 -22.951,-50.193 -22.951,-50.193 -22.951,-50.193 -22.951,-50.192 -22.952,-50.19 -22.954,-50.185 -22.953,-50.183 -22.952,-50.18 -22.949,-50.175 -22.948,-50.168 -22.9
