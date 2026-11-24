@@ -293,8 +293,6 @@ h1,h2,h3,.big{letter-spacing:-.005em}
 </div>
 <script>
 (function(){var s=document.getElementById("splash");if(!s)return;
- var visto=false;try{visto=sessionStorage.getItem("trovia-abertura")==="1";sessionStorage.setItem("trovia-abertura","1");}catch(e){}
- if(visto){s.remove();return;}
  var fim=function(){if(s&&s.parentNode)s.parentNode.removeChild(s);};
  s.addEventListener("click",function(){s.classList.add("skip");setTimeout(fim,250);});
  s.addEventListener("animationend",function(e){if(e.target===s)fim();});
@@ -705,7 +703,7 @@ const regAny=()=>REGIOES.find(r=>r.id===S.region)||MUNICIPIOS.find(m=>m.id===S.r
 const moradiaTxt=()=>[(TIPO.find(t=>t[0]===S.tipo)||[,""])[1],(MORADIA.find(m=>m[0]===S.moradia)||[,""])[1]].filter(Boolean).join(" · ")||"—";
 const reg=()=>{ const r=regAny(); return r&&r.risco?r:null; };
 const fonteHTML=k=>{const f=FONTES[k]; if(!f) return ""; return f.url?`<a href="${f.url}" target="_blank" rel="noopener">${esc(f.nome)}</a>`:esc(f.nome);};
-const casaTxt=()=>S.house.filter(k=>k!=="adultos").map(k=>(CASA.find(c=>c[0]===k)||[,k])[1]).join(", ")||"Só adultos";
+const casaTxt=()=>(!S.house.length||(S.house.length===1&&S.house[0]==="adultos"))?"Só adultos":S.house.map(k=>(CASA.find(c=>c[0]===k)||[,k])[1]).join(", ");
 const ICON={
   alagamento:`<svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="var(--flood-bg)"/><path d="M20 8c-4 6-7 9.5-7 13a7 7 0 0 0 14 0c0-3.5-3-7-7-13z" fill="var(--flood)"/><path d="M8 31c3 0 3-2 6-2s3 2 6 2 3-2 6-2 3 2 6 2" stroke="var(--flood)" stroke-width="2" fill="none"/></svg>`,
   deslizamento:`<svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="var(--slide-bg)"/><path d="M6 31 17 12l6 9 3-4 8 14z" fill="var(--slide)"/><circle cx="27" cy="27" r="2.2" fill="var(--slide)"/><circle cx="31" cy="23" r="1.6" fill="var(--slide)"/></svg>`,
@@ -2172,14 +2170,15 @@ const horaDe=iso=>{ try{ return new Date(iso).toLocaleTimeString("pt-BR",{hour:"
 
 /* ---------- 1) "Moro sozinho(a)" em quem mora com você ---------- */
 CASA.unshift(["sozinho","Moro sozinho(a)"]);
+// "Adultos" agora combina com as outras opções (ex.: adultos e crianças). Só "Moro sozinho(a)" é exclusivo (pode junto com animal).
+(()=>{ const a=CASA.findIndex(c=>c[0]==="adultos"); if(a>-1){ const [x]=CASA.splice(a,1); CASA.splice(1,0,["adultos","Adultos"]); } })();
 const _drawOnbChipsV8=drawOnbChips;
 drawOnbChips=function(){
   _drawOnbChipsV8();
   $("#fHouse").querySelectorAll(".chip").forEach(b=>b.onclick=()=>{ const k=b.dataset.h; let h=draft.house.slice();
-    if(k==="adultos") h=["adultos"];
-    else if(k==="sozinho") h=h.includes("sozinho")?[]:(h.includes("animal")?["sozinho","animal"]:["sozinho"]);
-    else if(k==="animal") h=h.includes("animal")?h.filter(x=>x!=="animal"):h.filter(x=>x!=="adultos").concat("animal");
-    else { h=h.filter(x=>x!=="adultos"&&x!=="sozinho"); h=h.includes(k)?h.filter(x=>x!==k):h.concat(k); }
+    if(k==="sozinho") h=h.includes("sozinho")?[]:(h.includes("animal")?["sozinho","animal"]:["sozinho"]);
+    else if(k==="animal") h=h.includes("animal")?h.filter(x=>x!=="animal"):h.concat("animal");
+    else { h=h.filter(x=>x!=="sozinho"); h=h.includes(k)?h.filter(x=>x!==k):h.concat(k); }
     draft.house=h; drawOnbChips(); });
 };
 try{ if(!$("#onb").classList.contains("hidden")) drawOnbChips(); }catch(e){} // 1ª vez: o cadastro já abriu antes deste trecho carregar
