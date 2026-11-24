@@ -2620,6 +2620,145 @@ if(location.hash==="#testeia"){ let n=0; const t=setInterval(()=>{ n++; const ou
 /* ---------- 13) Texto de abertura: instrução para onde a pessoa estiver (não só em casa) ---------- */
 try{ document.querySelectorAll("#v-inicio p").forEach(p=>{ for(const n of p.childNodes){ if(n.nodeType===3&&/O app traduz para a sua casa/.test(n.textContent)) n.textContent=n.textContent.replace("O app traduz para a sua casa","O app traduz para onde você estiver: em casa, na rua ou no trabalho"); } }); }catch(e){}
 
+
+/* ---------- 15) Menos texto (feedback dos testes) ---------- */
+(()=>{
+  const css=document.createElement("style");
+  css.textContent=`
+  #v-inicio #avisosCard{display:none}
+  #v-inicio #alertStatus:not(.on){display:none}
+  #onb #avisosCard{margin:14px 0 4px;box-shadow:none;background:var(--bg)}
+  #onb #avisosCard h3{font-size:16px}
+  .hero .curto{margin:0 0 12px;font-size:15px;color:#DCE6FF}
+  #trCard .ex-det{margin-top:8px} #trCard .ex-det summary{cursor:pointer;color:var(--accent);font-weight:700;font-size:14px;list-style:none;padding:4px 0}
+  #trCard .ex-det summary::-webkit-details-marker{display:none}
+  #trCard .ex-det[open] summary{margin-bottom:6px}
+  .reg-resumo{font:600 17px/1.35 var(--serif);margin:8px 0 2px}
+  details.reg-det{margin-top:10px} details.reg-det summary{cursor:pointer;color:var(--accent);font-weight:700;font-size:14px}
+  .plan-step.fold>.step-head,.card.fold>h3{cursor:pointer;position:relative;padding-right:34px;margin-bottom:0}
+  .plan-step.fold>.step-head::after,.card.fold>h3::after{content:"";position:absolute;right:6px;top:50%;width:10px;height:10px;border-right:2.5px solid var(--ink);border-bottom:2.5px solid var(--ink);transform:translateY(-70%) rotate(45deg);transition:transform .2s}
+  .fold.open>.step-head::after,.card.fold.open>h3::after{transform:translateY(-30%) rotate(-135deg)}
+  .fold:not(.open)>*:not(.step-head):not(h3){display:none!important}
+  .fold:not(.open){padding-bottom:16px}
+  .fold .abre{display:block;font:400 13px var(--sans);color:var(--muted);margin-top:2px}
+  .fold.open .abre{display:none}
+  `;
+  document.head.appendChild(css);
+
+  /* A) avisos e SMS: saem da tela inicial e vão para o cadastro / Meu perfil */
+  const moverAvisos=()=>{ const a=$("#avisosCard"), alvo=$("#fTema"); if(!a||!alvo) return;
+    if(a.parentNode!==alvo.parentNode){ alvo.after(a); }
+    if(!$("#smsDica")) a.insertAdjacentHTML("beforeend",`<p class="small muted" id="smsDica" style="margin:10px 0 0">Também dá para receber o alerta oficial por SMS: envie o seu CEP para <b>40199</b>.</p>`); };
+  if(typeof renderAvisos==="function"){ const _rA=renderAvisos; renderAvisos=function(){ _rA(); moverAvisos(); const p=$("#avisosCard p.small.muted:not(#smsDica)"); if(p) p.textContent="Receba um aviso com o que fazer quando sair alerta para a sua cidade."; const s=$("#smsDica"); if(s) $("#avisosCard").appendChild(s); }; }
+  moverAvisos(); try{ if(typeof renderAvisos==="function") renderAvisos(); }catch(e){}
+
+  /* B) Início mais enxuto */
+  const enxugarInicio=()=>{
+    const hp=$("#v-inicio .hero p:not(.kick)"); const ta=$("#tourAgain");
+    if(hp && ta && !hp.classList.contains("curto")){ hp.className="curto"; hp.textContent="Toque no que você precisa · "; hp.appendChild(ta); }
+    const tr=$("#trCard");
+    if(tr && !tr.dataset.enx){ tr.dataset.enx=1;
+      const d=tr.querySelector("p.small.muted"); if(d){ d.textContent="Cole o alerta ou mande o print. "; d.insertAdjacentHTML("beforeend",`<a href="sms:40199" class="sms-link">Não recebe alertas? Mande seu CEP para 40199</a>`); }
+      tr.querySelectorAll("p.small, .muted.small").forEach(p=>{ if(/A IA lê o print/.test(p.textContent)) p.style.display="none"; });
+      const chips=$("#trChips");
+      if(chips && !chips.closest("details")){ const det=document.createElement("details"); det.className="ex-det"; det.innerHTML="<summary>Sem alerta agora? Ver um exemplo</summary>";
+        const go=[...tr.querySelectorAll("button")].find(b=>/Traduzir para/.test(b.textContent)); (go||tr.lastElementChild).after(det); det.appendChild(chips); }
+    }
+  };
+
+  /* C) Bairro em 1 frase */
+  const GR={"muito alto":4,"alto":3,"médio":2,"medio":2,"baixo":1};
+  const enxugarBairro=()=>{ const c=$("#regionCard .card"); if(!c||c.dataset.enx) return; c.dataset.enx=1;
+    const p=[...c.children].find(e=>e.tagName==="P"&&/setor|ocorr|alag|desliz/i.test(e.textContent)); if(!p) return;
+    const t=p.textContent; let tot=0, gmax=0, gtxt="";
+    for(const m of t.matchAll(/(\d[\d.]*)\s+setor(?:es)? de risco[^()]*\(grau máximo:\s*([^)]+)\)/gi)){ tot+=parseInt(m[1].replace(/\./g,""))||0; const g=GR[m[2].trim().toLowerCase()]||0; if(g>gmax){gmax=g;gtxt=m[2].trim();} }
+    const resumo=document.createElement("p"); resumo.className="reg-resumo";
+    resumo.textContent=tot?`${tot.toLocaleString("pt-BR")} áreas de risco mapeadas. Grau máximo: ${gtxt}.`:t.split(/(?<=\.)\s/)[0];
+    const det=document.createElement("details"); det.className="reg-det"; det.innerHTML="<summary>Ver detalhes e fontes</summary>";
+    p.before(resumo); det.appendChild(p);
+    [...c.children].forEach(e=>{ if(e!==resumo && (e.classList.contains("src") || (e.tagName==="P"&&/Atenção/.test(e.textContent)))) det.appendChild(e); });
+    const kv=c.querySelector(".kv"); (kv||resumo).after(det);
+  };
+  if(typeof renderHome==="function"){ const _rH=renderHome; renderHome=function(){ _rH(); try{ enxugarInicio(); enxugarBairro(); }catch(e){} }; }
+  try{ enxugarInicio(); enxugarBairro(); }catch(e){}
+
+  /* D) Plano em partes: só "Quando o alerta chegar" aberto; o resto abre ao tocar */
+  const ABERTOS=new Set();
+  const dobrar=()=>{ const v=$("#v-plano"); if(!v) return;
+    const alvos=[...v.querySelectorAll(".plan-step")].filter(c=>c.id!=="pl_alerta")
+      .concat([...v.querySelectorAll(".card")].filter(c=>{ const h=c.querySelector(":scope>h3"); return h&&/Respostas do plano/.test(h.textContent); }));
+    alvos.forEach((c,i)=>{ const key=c.id||("resp"+i); const head=c.querySelector(":scope>.step-head")||c.querySelector(":scope>h3"); if(!head) return;
+      c.classList.add("fold"); if(ABERTOS.has(key)) c.classList.add("open");
+      if(!head.querySelector(".abre")) head.insertAdjacentHTML("beforeend",`<span class="abre">Toque para abrir</span>`);
+      head.setAttribute("role","button"); head.setAttribute("tabindex","0"); head.setAttribute("aria-expanded",c.classList.contains("open"));
+      head.onclick=(e)=>{ if(e&&e.target&&e.target.closest&&e.target.closest("button")) return; c.classList.toggle("open"); c.classList.contains("open")?ABERTOS.add(key):ABERTOS.delete(key); head.setAttribute("aria-expanded",c.classList.contains("open")); };
+      head.onkeydown=e=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); head.onclick(); } };
+    }); };
+  if(typeof renderPlan==="function"){ const _rP=renderPlan; renderPlan=function(){ _rP(); try{ dobrar(); }catch(e){} }; }
+  try{ dobrar(); }catch(e){}
+})();
+
+/* ---------- 16) Tela inicial no perfil, "O que é o plano de casa?" e SMS 40199 ---------- */
+(()=>{
+  const css=document.createElement("style");
+  css.textContent=`
+  #onb #instCard{margin:10px 0 4px;box-shadow:none;background:var(--bg)}
+  #onb #instCard h3{font-size:16px}
+  .oque-plano{display:inline-flex;align-items:center;gap:6px;background:none;border:0;padding:6px 0;color:var(--accent);font-weight:700;font-size:15px;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+  .sms-link{display:block;margin-top:4px;color:var(--accent);font-weight:700}
+  .check.sms .abrir{margin-left:auto;flex:none;font-weight:700;color:var(--accent);text-decoration:none;border:1.5px solid var(--line);border-radius:999px;padding:4px 12px;font-size:14px;background:var(--card)}
+  .check.sms{align-items:center}
+  `;
+  document.head.appendChild(css);
+
+  /* adicionar à tela inicial: agora fica em Meu perfil (junto dos avisos) */
+  renderInstalar=function(){
+    let box=$("#instCard");
+    const standalone=matchMedia("(display-mode: standalone)").matches||navigator.standalone;
+    const alvo=$("#avisosCard")||$("#fTema"); if(!alvo) return;
+    if(!box){ alvo.insertAdjacentHTML("afterend",`<div class="card" id="instCard"></div>`); box=$("#instCard"); }
+    else if(box.previousElementSibling!==alvo) alvo.after(box);
+    const ios=/iphone|ipad|ipod/i.test(navigator.userAgent);
+    if(standalone||S.instalado){ box.innerHTML=`<h3 style="margin:0 0 4px">App na tela inicial</h3><p class="small muted" style="margin:0">Pronto: o app já está na tela inicial do seu celular.</p>`; return; }
+    box.innerHTML=`<h3 style="margin:0 0 4px">Ter o app na tela inicial</h3>
+      <p class="small muted" style="margin:0 0 10px">Abre em 1 toque, até sem internet.</p>
+      ${_instalar?`<button class="btn primary" type="button" id="instBtn">Adicionar à tela inicial</button>`:
+        ios?`<p class="small" style="margin:0">No Safari: toque em <b>Compartilhar</b> (quadrado com seta) e depois em <b>Adicionar à Tela de Início</b>.</p>`:
+        `<p class="small" style="margin:0">No navegador: abra o menu <b>⋮</b> e toque em <b>Adicionar à tela inicial</b> (ou <b>Instalar app</b>).</p>`}`;
+    const b=$("#instBtn"); if(b) b.onclick=async()=>{ _instalar.prompt(); const r=await _instalar.userChoice.catch(()=>null); _instalar=null; if(r&&r.outcome==="accepted"){ S.instalado=1; save(); } renderInstalar(); };
+  };
+  if(typeof renderAvisos==="function"){ const _rA2=renderAvisos; renderAvisos=function(){ _rA2(); try{ renderInstalar(); }catch(e){} }; }
+  try{ renderInstalar(); }catch(e){}
+
+  /* "O que é o plano de casa?": abre o chat com a explicação pronta (funciona com ou sem IA) */
+  const EXPLICA="O plano de casa é o que a sua família combina antes da chuva, para ninguém precisar pensar na hora do perigo.\n\nSão 7 perguntas rápidas: qual sinal de perigo observar, onde fica o quadro de luz, onde estão os documentos, quem ajuda quem a sair, para onde ir, onde se encontrar e quem avisar.\n\nCom as suas respostas, o app junta as orientações oficiais da Defesa Civil e monta o passo a passo: o que fazer quando o alerta chegar e o que fazer se você vir o sinal. Leva uns 3 minutos e fica salvo só no seu celular, até sem internet.";
+  window.explicarPlano=async function(){
+    await initChat(); go("chat");
+    setTimeout(()=>{ $("#chatChips").innerHTML=""; addMsg("O que é o plano de casa?","me"); hist.push({role:"user",content:"O que é o plano de casa?"});
+      botSay(EXPLICA);
+      setTimeout(()=>setChips([["Montar meu plano agora",()=>send("Quero montar o plano da minha casa.")],["Agora não",()=>{}]]),450); },350);
+  };
+  const BTN=`<button type="button" class="oque-plano" data-explica-plano>O que é o plano de casa?</button>`;
+  document.addEventListener("click",e=>{ if(e.target.closest("[data-explica-plano]")){ e.preventDefault(); explicarPlano(); } });
+  const ajustarPlanHome=()=>{ const ph=$("#planHome"); if(!ph) return;
+    ph.querySelectorAll("p").forEach(p=>{ if(/Leva uns 3 minutos/.test(p.textContent)) p.textContent="Leva 3 minutos e funciona até sem internet."; });
+    if(!ph.querySelector("[data-explica-plano]")){ const p=[...ph.querySelectorAll("p")].find(p=>/3 minutos/.test(p.textContent)); (p||ph.querySelector("h3")||ph.firstElementChild).insertAdjacentHTML("afterend",BTN); } };
+  if(typeof renderPlanHome==="function"){ const _rPH=renderPlanHome; renderPlanHome=function(){ _rPH(); try{ ajustarPlanHome(); }catch(e){} }; }
+  try{ ajustarPlanHome(); }catch(e){}
+
+  /* Meu plano: link no topo + item "SMS 40199" na lista de antes da chuva */
+  const ajustarPlano=()=>{ const v=$("#v-plano"); if(!v) return;
+    const h2=v.querySelector("h2"); if(h2 && !v.querySelector(":scope > [data-explica-plano]")) h2.insertAdjacentHTML("afterend",BTN);
+    const antes=[...v.querySelectorAll(".plan-step")].find(c=>/Agora, antes da chuva/.test(c.textContent));
+    if(antes && !antes.querySelector(".check.sms")){ const head=antes.querySelector(":scope>.step-head");
+      const ok=S.checks&&S.checks.sms40199;
+      (head||antes.firstElementChild).insertAdjacentHTML("afterend",`<label class="check sms"><input type="checkbox" data-c="sms40199" ${ok?"checked":""}> <span>Cadastre o seu CEP no SMS <b>40199</b> para receber os alertas oficiais (é grátis)</span><a class="abrir" href="sms:40199">Abrir SMS</a></label>`);
+      const i=antes.querySelector('input[data-c="sms40199"]'); i.addEventListener("change",()=>{ S.checks=S.checks||{}; S.checks.sms40199=i.checked; save(); });
+    } };
+  if(typeof renderPlan==="function"){ const _rP2=renderPlan; renderPlan=function(){ _rP2(); try{ ajustarPlano(); }catch(e){} }; }
+  try{ ajustarPlano(); }catch(e){}
+})();
+
 </script>
 <script>if("serviceWorker" in navigator && location.protocol==="https:"){addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));}</script>
 </body>
