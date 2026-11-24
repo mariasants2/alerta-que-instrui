@@ -1,13 +1,13 @@
 {
-  "name": "Alerta que Instrui",
-  "short_name": "Alerta",
-  "description": "O alerta da Defesa Civil, traduzido com IA para a sua casa.",
+  "name": "TROVIA",
+  "short_name": "TROVIA",
+  "description": "O alerta da Defesa Civil traduzido para onde você estiver.",
   "lang": "pt-BR",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#EEF6FF",
-  "theme_color": "#2F4860",
+  "background_color": "#0A1B4D",
+  "theme_color": "#0A1B4D",
   "icons": [
     {
       "src": "icon-192.png",
