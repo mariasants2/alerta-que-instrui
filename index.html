@@ -267,6 +267,12 @@ header.top .logo-lockup{height:30px;width:auto;flex:none;display:block}
 header.top{flex-wrap:wrap;row-gap:4px}
 header.top .t{order:3;flex-basis:100%}
 header.top .chip-region{margin-left:auto}
+/* TROVIA: botão claro/escuro */
+header.top .tema-btn{margin-left:auto;width:42px;height:42px;flex:none;border-radius:999px;border:0;background:rgba(255,255,255,.12);color:#FFD400;display:grid;place-items:center;cursor:pointer}
+header.top .tema-btn[aria-pressed=true]{background:#FFD400;color:#0A1B4D}
+header.top .tema-btn:focus-visible{outline:3px solid #FFD400;outline-offset:2px}
+header.top .chip-region{margin-left:0}
+
 h1,h2,h3,.big{letter-spacing:-.005em}
 /* TROVIA: abertura animada */
 #splash{position:fixed;inset:0;z-index:9999;background:#0A1B4D;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;cursor:pointer;
@@ -287,6 +293,37 @@ h1,h2,h3,.big{letter-spacing:-.005em}
 </style>
 </head>
 <body>
+<script>
+/* TROVIA: tema claro / escuro / automático (salvo só neste aparelho) */
+(function(){
+  var K="trovia-tema", DARK="(prefers-color-scheme: dark)";
+  var MQ={auto:DARK, claro:DARK+" and (max-width: 0px)", escuro:DARK+", all"};
+  function get(){ try{ var t=localStorage.getItem(K); return MQ[t]?t:"auto"; }catch(e){ return "auto"; } }
+  function escuroAgora(t){ return t==="escuro"||(t==="auto"&&window.matchMedia&&matchMedia(DARK).matches); }
+  function percorre(rules,t){ for(var i=0;i<rules.length;i++){ var r=rules[i];
+      if(r.media&&r.media.mediaText&&r.media.mediaText.indexOf("prefers-color-scheme: dark")>-1){ try{ r.media.mediaText=MQ[t]; }catch(e){} }
+      if(r.cssRules) percorre(r.cssRules,t); } }
+  function aplicar(){ var t=get();
+    for(var s=0;s<document.styleSheets.length;s++){ try{ percorre(document.styleSheets[s].cssRules,t); }catch(e){} }
+    document.documentElement.style.colorScheme=t==="auto"?"":(t==="escuro"?"dark":"light");
+    var b=document.getElementById("temaBtn"), esc=escuroAgora(t);
+    if(b){ b.setAttribute("aria-pressed",esc?"true":"false"); b.setAttribute("aria-label",esc?"Mudar para o modo claro":"Mudar para o modo escuro"); }
+    var c=document.getElementById("fTema");
+    if(c){ if(!c.firstChild){ c.innerHTML=[["auto","Igual ao celular"],["claro","Claro"],["escuro","Escuro"]].map(function(o){return '<button type="button" class="chip" data-tema="'+o[0]+'">'+o[1]+'</button>';}).join("");
+        c.addEventListener("click",function(e){ var x=e.target.closest("[data-tema]"); if(x) definir(x.getAttribute("data-tema")); }); }
+      [].forEach.call(c.querySelectorAll("[data-tema]"),function(x){ x.setAttribute("aria-pressed",x.getAttribute("data-tema")===t?"true":"false"); }); }
+  }
+  function definir(t){ try{ localStorage.setItem(K,t); }catch(e){} aplicar(); }
+  window.troviaTema={get:get,definir:definir,aplicar:aplicar};
+  aplicar();
+  document.addEventListener("DOMContentLoaded",function(){
+    aplicar();
+    var b=document.getElementById("temaBtn"); if(b) b.addEventListener("click",function(){ definir(escuroAgora(get())?"claro":"escuro"); });
+  });
+  window.addEventListener("load",aplicar);
+  if(window.matchMedia){ try{ matchMedia(DARK).addEventListener("change",aplicar); }catch(e){} }
+})();
+</script>
 <div id="splash" aria-hidden="true">
   <svg viewBox="0 0 260 48" xmlns="http://www.w3.org/2000/svg"><g class="spMark"><g transform="scale(0.75)"><path d="M11 15 H53" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" fill="none"/><path d="M32 15 V32 C32 42 38 50 48 50" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" fill="none"/><circle cx="48" cy="50" r="8" fill="#FFD400"/></g></g><g class="spWord"><g transform="translate(64,8)" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3 H23 M13 3 V29"/><path transform="translate(32,0)" d="M3 3 V29 M3 3 H15 A8 8 0 0 1 15 19 H3 M13 19 L22 29"/><circle cx="80" cy="16" r="13"/><path transform="translate(102,0)" d="M3 3 L16 29 L29 3"/><path transform="translate(140,0)" d="M13 1 L4 18 H14 L6 31" stroke="#FFD400"/><path transform="translate(164,0)" d="M3 29 L16 3 L29 29 M9 19 H23"/></g></g></svg>
   <p class="spTag">Prever riscos. Proteger vidas.</p>
@@ -302,6 +339,7 @@ h1,h2,h3,.big{letter-spacing:-.005em}
 <header class="top">
   <svg class="logo-lockup" role="img" aria-label="TROVIA" viewBox="0 0 260 48" xmlns="http://www.w3.org/2000/svg"><g transform="scale(0.75)"><path d="M11 15 H53" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" fill="none"/><path d="M32 15 V32 C32 42 38 50 48 50" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" fill="none"/><circle cx="48" cy="50" r="8" fill="#FFD400"/></g><g transform="translate(64,8)" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3 H23 M13 3 V29"/><path transform="translate(32,0)" d="M3 3 V29 M3 3 H15 A8 8 0 0 1 15 19 H3 M13 19 L22 29"/><circle cx="80" cy="16" r="13"/><path transform="translate(102,0)" d="M3 3 L16 29 L29 3"/><path transform="translate(140,0)" d="M13 1 L4 18 H14 L6 31" stroke="#FFD400"/><path transform="translate(164,0)" d="M3 29 L16 3 L29 29 M9 19 H23"/></g></svg>
   <div class="t"><h1 class="sr">TROVIA</h1><div class="hi" id="hello"></div></div>
+  <button class="tema-btn" id="temaBtn" type="button" aria-label="Mudar para o modo escuro" title="Claro ou escuro"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.3 1.1 2.2h5c0-.9.4-1.6 1.1-2.2A6 6 0 0 0 12 3z"/></svg></button>
   <button class="chip-region" id="hdrRegion" type="button" aria-label="Editar meu perfil">Meu perfil</button>
 </header>
 
@@ -414,6 +452,8 @@ h1,h2,h3,.big{letter-spacing:-.005em}
     <div class="chips" id="fMoradia"></div>
     <label class="field">Quem mora com você? <span class="muted small">(pode marcar mais de um)</span></label>
     <div class="chips" id="fHouse"></div>
+    <label class="field">Aparência do app <span class="muted small">(muda na hora)</span></label>
+    <div class="chips" id="fTema"></div>
     <div id="iaBox" class="hidden"><label class="field" for="fKey">Chave da IA do Google (Gemini) <span class="muted small">— só para teste, fica neste aparelho</span></label><input id="fKey" type="text" autocomplete="off" placeholder="AIza..."></div>
     <p class="small" id="onbErr" style="color:var(--alert)" role="alert"></p>
     <button class="linkbtn" type="button" id="lnkPriv" style="margin:6px 0">Privacidade e uso de dados</button>
