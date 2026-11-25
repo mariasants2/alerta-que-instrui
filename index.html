@@ -2672,8 +2672,10 @@ try{ document.querySelectorAll("#v-inicio p").forEach(p=>{ for(const n of p.chil
     const p=[...c.children].find(e=>e.tagName==="P"&&/setor|ocorr|alag|desliz/i.test(e.textContent)); if(!p) return;
     const t=p.textContent; let tot=0, gmax=0, gtxt="";
     for(const m of t.matchAll(/(\d[\d.]*)\s+setor(?:es)? de risco[^()]*\(grau máximo:\s*([^)]+)\)/gi)){ tot+=parseInt(m[1].replace(/\./g,""))||0; const g=GR[m[2].trim().toLowerCase()]||0; if(g>gmax){gmax=g;gtxt=m[2].trim();} }
+    if(!tot){ const m=t.match(/mapeou\s+([\d.]+)\s+setores/i); if(m) tot=parseInt(m[1].replace(/\./g,""))||0;
+      for(const g of t.matchAll(/grau máximo[^,)]*,\s*([^)]+)\)/gi)){ const v=GR[g[1].trim().toLowerCase()]||0; if(v>gmax){gmax=v;gtxt=g[1].trim();} } }
     const resumo=document.createElement("p"); resumo.className="reg-resumo";
-    resumo.textContent=tot?`${tot.toLocaleString("pt-BR")} áreas de risco mapeadas. Grau máximo: ${gtxt}.`:t.split(/(?<=\.)\s/)[0];
+    resumo.textContent=tot?`${tot.toLocaleString("pt-BR")} áreas de risco mapeadas.${gtxt?` Grau máximo: ${gtxt}.`:""}`:t.split(/(?<=\.)\s/)[0];
     const det=document.createElement("details"); det.className="reg-det"; det.innerHTML="<summary>Ver detalhes e fontes</summary>";
     p.before(resumo); det.appendChild(p);
     [...c.children].forEach(e=>{ if(e!==resumo && (e.classList.contains("src") || (e.tagName==="P"&&/Atenção/.test(e.textContent)))) det.appendChild(e); });
@@ -2757,6 +2759,125 @@ try{ document.querySelectorAll("#v-inicio p").forEach(p=>{ for(const n of p.chil
     } };
   if(typeof renderPlan==="function"){ const _rP2=renderPlan; renderPlan=function(){ _rP2(); try{ ajustarPlano(); }catch(e){} }; }
   try{ ajustarPlano(); }catch(e){}
+})();
+
+
+/* ---------- 17) Rodada de feedback: tradução direta e proporcional à chuva, notícias recentes, cores, abas ---------- */
+(()=>{
+  const css=document.createElement("style");
+  css.textContent=`
+  /* cores: sem caixa amarela no título; botões do topo na paleta */
+  .hero h3{color:#fff!important}
+  .hero h3 mark{background:none!important;color:#FFD400!important;padding:0!important}
+  .hero .q3 button,.hero .q3 button.q1,.hero .q3 button.q2,.hero .q3 button.q3{background:rgba(255,255,255,.08)!important;border:1px solid rgba(255,255,255,.22)!important;color:#fff!important}
+  .hero .q3 button small{color:#DCE6FF!important}
+  .hero .q3 button i{background:#FFD400!important;color:#0A1B4D!important}
+  .kicker,.kicker.q1,.kicker.q2,.kicker.q3{background:var(--ice)!important;color:var(--navy)!important}
+  @media (prefers-color-scheme: dark){ .kicker,.kicker.q1,.kicker.q2,.kicker.q3{background:#14307A!important;color:#E8EDFF!important} .kicker i{background:#FFD400!important;color:#0A1B4D!important} }
+  /* tradução */
+  #trChuva{display:none!important}
+  .status.prep{background:var(--warn-bg);border-color:#FFD400}
+  .status.prep .ic{background:#FFD400;color:#0A1B4D}
+  .prep-nota{font-size:14px;color:var(--muted);margin:-2px 0 8px}
+  details.tr-mais{margin:6px 0 10px} details.tr-mais summary{cursor:pointer;color:var(--accent);font-weight:700;font-size:14px;padding:4px 0}
+  details.tr-mais ol.steps{margin-top:6px}
+  /* abas: Telefones e Dúvidas; sem a faixa do rodapé */
+  footer.sos{display:none!important}
+  nav.tabs{bottom:0!important;padding-bottom:max(6px,env(safe-area-inset-bottom))}
+  nav.tabs .in{grid-template-columns:repeat(5,1fr)!important}
+  nav.tabs button{font-size:11.5px!important}
+  .app{padding-bottom:120px!important}
+  .tel-lista{display:grid;gap:10px}
+  .tel-item{display:flex;align-items:center;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px 16px;text-decoration:none;color:var(--ink);box-shadow:var(--shadow)}
+  .tel-item .n{flex:none;width:64px;height:64px;border-radius:16px;background:var(--sos);color:#fff;display:grid;place-items:center;font:700 24px var(--serif)}
+  .tel-item b{display:block;font:600 18px/1.2 var(--serif)}
+  .tel-item span{display:block;font-size:14px;color:var(--muted);margin-top:2px}
+  .tel-item .lig{margin-left:auto;flex:none;font-weight:700;color:var(--accent);font-size:14px}
+  `;
+  document.head.appendChild(css);
+
+  /* 1) Print só aparece quando a IA está ligada (ler print depende da IA) */
+  const iaLigada=()=>{ let k=""; try{ k=localStorage.getItem("aqi-gemini-key")||""; }catch(e){}
+    const ok=!(S.consent&&S.consent.ia===false); return ok && (!!window.PONTE_URL || (k.length>20 && !/TESTE/.test(k))); };
+  window.iaLigada=iaLigada;
+  const ajustarPrint=()=>{ const on=iaLigada(); const pr=$("#trCard .printrow"); if(pr) pr.style.display=on?"":"none";
+    $("#trCard").querySelectorAll("p").forEach(p=>{ if(/A IA lê o print/.test(p.textContent)) p.style.display="none"; });
+    const d=$("#trCard p.small.muted"); if(d && d.firstChild && d.firstChild.nodeType===3) d.firstChild.textContent=on?"Cole o alerta ou mande o print. ":"Cole aqui o texto do alerta. "; };
+  if(typeof renderHome==="function"){ const _rh=renderHome; renderHome=function(){ _rh(); try{ ajustarPrint(); }catch(e){} }; }
+  try{ ajustarPrint(); }catch(e){}
+
+  /* 2) Tradução: nível proporcional à chuva de agora + listas curtas */
+  const MAX_AGORA=3, MAX_SINAL=2;
+  const dobraLista=(ol,max,rotulo)=>{ if(!ol) return; const lis=[...ol.children]; if(lis.length<=max) return;
+    const det=document.createElement("details"); det.className="tr-mais"; det.innerHTML=`<summary>${rotulo(lis.length-max)}</summary>`;
+    const ol2=document.createElement("ol"); ol2.className="steps"; ol2.start=max+1; lis.slice(max).forEach(li=>ol2.appendChild(li)); det.appendChild(ol2); ol.after(det); };
+  const _rt=renderTraducao;
+  renderTraducao=function(o,texto,viaIA){
+    _rt(o,texto,viaIA); const res=$("#trRes"); if(!res||(o&&o.calor)) return;
+    // "Como o app leu" e histórico: vão para "ver detalhes"
+    const det=document.createElement("details"); det.className="tr-mais"; det.innerHTML="<summary>Ver detalhes do alerta</summary>";
+    [...res.children].forEach(e=>{ if(e.classList&&e.classList.contains("leitura")) det.appendChild(e); else if(e.tagName==="P"&&/Histórico:/.test(e.textContent)) det.appendChild(e); else if(e.tagName==="DIV"&&/Como o app leu|A IA leu|grifad/i.test(e.textContent)&&!e.classList.contains("status")) det.appendChild(e); });
+    // aviso de preparo: frase curta em destaque logo abaixo de "Faça agora"
+    res.querySelectorAll("p.small.muted").forEach(p=>{ if(/São ações de preparo/.test(p.textContent)) p.remove(); });
+    const hs=[...res.querySelectorAll("h4.mini")];
+    const hAgora=hs.find(h=>/Faça agora/i.test(h.textContent));
+    if(hAgora){ hAgora.insertAdjacentHTML("afterend",`<p class="prep-nota">Preparo de poucos minutos. Se nada acontecer, você não perdeu nada.</p>`);
+      dobraLista(hAgora.nextElementSibling.nextElementSibling,MAX_AGORA,n=>`Mais ${n} ${n>1?"ações":"ação"}`); }
+    const hSinal=hs.find(h=>/^Se você vir/i.test(h.textContent.trim()));
+    if(hSinal) dobraLista(hSinal.nextElementSibling,MAX_SINAL,n=>`Mais ${n} ${n>1?"ações":"ação"}`);
+    const hSinal2=hs.find(h=>/^E se você vir/i.test(h.textContent.trim()));
+    if(hSinal2){ const ol=hSinal2.nextElementSibling; const d2=document.createElement("details"); d2.className="tr-mais"; d2.innerHTML=`<summary>${esc(hSinal2.textContent)}</summary>`; hSinal2.before(d2); d2.appendChild(ol); hSinal2.remove(); }
+    if(det.children.length>1){ const row=$("#trOut .row"); (row||res).before(det); }
+    // nível: o alerta vale para a região; o quanto agir depende da chuva medida/prevista aí agora
+    const st=res.querySelector(":scope > .status"); if(!st) return;
+    const vale=o.vale_para_voce;
+    if(vale==="sim"||vale==="provavelmente"){
+      const b=st.querySelector("b"), sm=st.querySelector(".small"); if(b) b.textContent="O alerta vale para a sua região";
+      chuvaRegiao().then(c=>{ if(!c||!st.isConnected) return;
+        const forte=c.hoje>=10||c.max1h>=10||c.acum3>=30, fraca=c.hoje<5&&c.max1h<5&&c.acum3<30;
+        const mm=`${String(c.hoje).replace(".",",")} mm hoje${c.acum3>=1?` · ${c.acum3} mm nos últimos 3 dias`:""}`;
+        if(forte){ st.className="status on"; b.textContent="Vale para você: prepare-se agora"; if(sm) sm.textContent=`Está chovendo forte na sua região (${mm}).`; }
+        else if(fraca){ st.className="status prep"; st.querySelector(".ic").textContent="!"; b.textContent="Vale para a sua região. Por enquanto, só o preparo"; if(sm) sm.textContent=`A chuva aí está fraca agora (${mm}). Faça o preparo e fique de olho no sinal.`; }
+        else { b.textContent="Vale para a sua região: prepare-se"; if(sm) sm.textContent=`Chuva moderada na sua região (${mm}).`; }
+      });
+    }
+  };
+
+
+  /* 2b) "Em palavras simples" (sem IA): descreve o que o alerta diz, sem exagerar ("chuva" não vira "chuva forte") */
+  if(typeof traduzRegras==="function"){ const _tR=traduzRegras; traduzRegras=function(t){ const o=_tR(t); if(!o||o.calor) return o;
+    const low=semAcento(String(t||"").toLowerCase()); const forte=/forte|intens|sever|temporal|extrem|acumulad/.test(low);
+    const p=[]; if(/desliz|escorreg|encosta|morro/.test(low)) p.push("risco de deslizamento"); if(/alag|enchent|inund|transbord/.test(low)) p.push("risco de alagamento"); if(/raio/.test(low)) p.push("raios"); if(/vento|rajad/.test(low)) p.push("vento");
+    const base=(forte?"chuva forte":"chuva")+(p.length?" com "+(p.length>1?p.slice(0,-1).join(", ")+" e "+p[p.length-1]:p[0]):"");
+    o.em_palavras_simples=String(o.em_palavras_simples||"").replace(/^A Defesa Civil avisa: [^.]*\./,"A Defesa Civil avisa: "+base+"."); return o; }; }
+
+  /* 3) Notícias: só as das últimas 48 horas; sem nenhuma, a seção some */
+  const dtN=s=>{ const m=String(s||"").match(/(\d\d)\/(\d\d)\/(\d{4})/); return m?new Date(+m[3],+m[2]-1,+m[1]).getTime():0; };
+  const recenteN=n=>Date.now()-dtN(n.d)<=2*86400000+86400000; // até 2 dias atrás (conta o dia inteiro)
+  const _rn=renderNews;
+  renderNews=function(){ const f=NOTICIAS.filter(recenteN); NOTICIAS.splice(0,NOTICIAS.length,...f); _rn();
+    const det=[...document.querySelectorAll("#v-inicio details.mais")].find(d=>d.querySelector("#newsList")); if(det) det.style.display=NOTICIAS.length?"":"none"; };
+  try{ renderNews(); }catch(e){}
+
+  /* 4) Abas: Início · Meu plano · Telefones · Mapa · Dúvidas */
+  const nav=$("nav.tabs .in");
+  if(nav && !nav.querySelector('[data-tab="telefones"]')){
+    nav.insertAdjacentHTML("beforeend",`<button type="button" data-tab="telefones"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg>Telefones</button>`);
+    const t=nav.querySelector('[data-tab="telefones"]'); t.addEventListener("click",()=>go("telefones"));
+    ["inicio","plano","telefones","mapa","chat"].forEach(k=>{ const b=nav.querySelector(`[data-tab="${k}"]`); if(b) nav.appendChild(b); });
+    const chat=nav.querySelector('[data-tab="chat"]'); if(chat){ chat.lastChild.textContent="Dúvidas"; }
+  }
+  const tc=$("#t-chat"); if(tc) tc.textContent="Dúvidas frequentes";
+  if(!$("#v-telefones")){
+    const TEL=[["199","Defesa Civil","Deslizamento, enchente, casa com rachadura ou risco de cair"],["193","Bombeiros","Resgate, pessoa presa ou ferida, incêndio"],["192","SAMU","Emergência médica"],["190","Polícia","Crime ou ameaça"]];
+    const sec=document.createElement("section"); sec.className="view"; sec.id="v-telefones"; sec.setAttribute("aria-labelledby","t-tel");
+    sec.innerHTML=`<h2 id="t-tel">Telefones de emergência</h2>
+      <p class="muted" style="margin:-6px 0 14px">Toque para ligar. Funciona em todo o Brasil, de graça.</p>
+      <div class="tel-lista">${TEL.map(([n,q,d])=>`<a class="tel-item" href="tel:${n}"><span class="n">${n}</span><span><b>${q}</b><span>${d}</span></span><span class="lig">Ligar</span></a>`).join("")}</div>
+      <div class="card" style="margin-top:14px"><h3 style="margin:0 0 4px">Alertas oficiais por SMS</h3><p class="small muted" style="margin:0 0 10px">Envie o seu CEP para o número 40199 e receba os alertas da Defesa Civil. É grátis.</p><a class="btn" href="sms:40199">Abrir SMS para 40199</a></div>
+      <p class="small muted" style="margin-top:12px">TROVIA é um protótipo estudantil. Em perigo, ligue para os números acima.</p>`;
+    const ref=$("#v-mapa")||$("#v-chat"); ref.parentNode.insertBefore(sec,ref);
+  }
 })();
 
 </script>
