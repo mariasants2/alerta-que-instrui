@@ -26,6 +26,7 @@ jobs:
         run: |
           mkdir -p saida
           git fetch origin dados 2>/dev/null && git show origin/dados:enviados.json > saida/enviados_antes.json 2>/dev/null || echo "[]" > saida/enviados_antes.json
+          git show origin/dados:noticias.json > saida/noticias_antes.json 2>/dev/null || true
           python3 robo.py saida
       - name: Salvar na branch "dados" (não mexe no site)
         run: |
