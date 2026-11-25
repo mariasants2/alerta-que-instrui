@@ -1,29 +1,29 @@
 {
- "atualizado": "2026-11-25T03:43:28+00:00",
+ "atualizado": "2026-11-25T09:39:34+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
  "noticias": [
   {
+   "d": "25/11/2026",
+   "c": "arvore",
+   "v": "G1",
+   "t": "Previsão do tempo hoje para São Paulo (SP): sol com aumento de nuvens e pancadas de chuva no fim da manhã e à tarde; à noite, temporal",
+   "u": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNaU0xaGl0LURTX2s4MHpNTFhqaTVLT2FCS3NRX0Z1bjZaVmhzNHJjTFl6cl9RUHBLNndFREFZUWhSSU1qQUg1NHNxWG9mZzhYN0FhVW41T2h4aGlwa3Q4R21DNUhIOFAxZC1WVEE5eUFjMXIwcTdiYXZFcmtjVkdLR3I3RjZWSDluMExpR0kxVEZYdlNEd0hyVlNFMHJUVFJhc3J1dTVGd3NDNXE1TGpFX3hhaUJVVmFWVE5Ra3NmOUpPbUhVT0lPWk1WdjMxVzI4MTBZMHFISC1JQXlzNi1aR05lOGRrOEJwaWxTTkJxSjRpZ3dyZXR4RTcwRFJGeHpJLXR1RVR3ck5vUFpkazRKTXByMmhIMElIbGRsYk94NjdLdUtGWURHZVI4S1lXdEHSAb4CQVVfeXFMTXlfUXVseHdLcWlQVnJKcV9kTGJfLWxMNnpZOG9VaFJ0N2xoanVPMVFYWVVVQ09mNmtadkZSbk0xU05qcFJYZXN3U0JoOEZDMUY2Rm5UejZXWVZpYlAxaDFMVzlOY2llYklEdU9nVkFZbUk4aWZ0VHhmR2FWYmRrbnliT1FkYWJYRjJia2k2NjJ3bkRJbkxTTGMwTHk2MXRMbEEtUW9RdlN6Y2NkMElkT3o0Z05nZFhCZ0VLejl0TUFpbmdlRGpYd3Z4a1I1OUV0SU9LemkwZjZkN1h6eDllVEJCQjc5WWlYVnpBUlRFa2ZBVHRjVHd2RkF3Vlp3dWd1bG1Qd245SUtPQjdoTzJZNmd2Nmp0d19vR2RWb3JQbXJYeWNNXzhyZEtNcWhyeGdNUVF1elljeWZZb3owNDVn?oc=5"
+  },
+  {
+   "d": "25/11/2026",
+   "c": "arvore",
+   "v": "G1",
+   "t": "Previsão do tempo hoje para São Bernardo do Campo (SP): sol com muitas nuvens e pancadas de chuva à tarde; à noite ocorre temporal",
+   "u": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOTXRINng2emhnbHYtcHktcVdRRnJBcGc3ZHZsYzNMeFV2SUFzeXFRUmRJM1BUTW5BS1c2MXhMVy1jejl4eTNtZldSRWVjSW95cURSUFEtaFUwMWpTRHZxRXdUV0E1Z1JhbnN5eHlMOG9wQi1yZnRwd3FyMjQ3X2Q0VFJ5Uk1NZFRRdDhhMUpsNXJxRlgtZ2E4QzdRbXFRUTZBZEg2bTdxbU9Dbm9xc25mdFEwUWRFTS1JcHhvZ3BtVUJ1U0RZeVhLR21JdWs5MXNrZTZOVDkxUUVUTEpkSVdPckV1ZjBHRnQ0WUdBWU1lOG9yU3JtSFpBVXBuVFp2LXVfWm4wZldQaENZSVZvYmZHVFg1UGtSN1RHc0dDTjBhRnI1LVJtWFdCNkxuUdIBugJBVV95cUxONURHYjBURUV3eTJxaDZ1VS1XTGdwVDBmbXh6QmRmZ1JmR2U0M2JaZEVlRkxkRUF1VzhJUUVuZjdsbG0wLVBPTlp4QVZWU0pvZnJxYzB3WUMyU21SMFNIa2NaYmg2RHFDdzdzdDdYWjYzeGIwTXlSMVNPMnh0RW1POGQzYkprcExjNFBnMjltaVZSSWlaNFVvSndWM244ZllQYy1Oa09KQzItN2ZGZWw5VllGUXU4Q2doVDlaQWVzdmNXZDRWVHY2Ti0zMkNubndkUUxTa3E2U0NuWTZScV9qbEdRVkZtc1UxeG13YmFscmxSUjhISl9wWEFEbDNVVXN3SmZKVklyOTc0SkNEMVc3dERTV0xUa0VPU3N4Ukt3LTMycVM5MXhJb0RSRjFXU0pvOVF0R0pQSmdvUQ?oc=5"
+  },
+  {
    "d": "24/11/2026",
    "c": "chuva",
    "v": "G1",
    "t": "Defesa Civil mobiliza gabinete de crise para monitorar chuvas fortes previstas para estado de SP nesta quarta",
-   "u": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPWkVaUFUwTVp2VlRvNjdtczlUQWtJcEJvQ1VrUk5NQ0xEcUlOSjhfbTh3WXZkWWFNUUgzVnR5TmRLLXI5ZkRueS1ENldKZTR0VDlHZzctbWNEZ3FKYi1CTWJwV0llbXg1cWxLVHZqNUJ1MXo4d2JsYm15YzRIQnZaX2FIeWkzekZvZXgyUzI4U05RNzJUV1ZWV2E5a05MNWNLTXVoUWJRMGlvVjFMMV9qQ1VaZUlZUjBoVzBHckh0SEdBS3JwQTVGTThYWGMxR2szRk5BMjJjRUVOSjFoek9rRnozMGN6MTVocWppR3lQN3dGaGs3ejdyVTZfZGLSAYsCQVVfeXFMT2prWFN6TVN5b21EbDI1dThydXJQSzVCbkJIY3ZQRmZUaEY5bzlCcjU1VG02SEhxWTVTdmgtRWhseUJQMGtXejFtNUVsb0lsVDE4Snp4eHMtRnFCMU91OGpzTEx0Y2NnSTUyMEFjOVN5TnFWQXI3X1lyS2JGc0dpNGZkMnRUZXZUV19zVGpLZmdxTG52cDVPcWtBQUJQV016S0lCRHpseU1Jamx4XzNGT25FUU94NHVnb2VabE43amZXZEI1emVFd1RYV2VqSERsMXRzMHNTbF9NZTdwNnpiU2lZM1hUaWNRMWtOMHlwVkhwcktvVGhEUWlpR1liZlc5MUpXWW1OZUJUWUdJ?oc=5"
-  },
-  {
-   "d": "24/11/2026",
-   "c": "chuva",
-   "v": "TVS+ SBT",
-   "t": "Defesa Civil reforça monitoramento para chuva forte em SP; região de Sorocaba também tem previsão de chuva",
-   "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTTVtU3E2dTh6dncxVTFFT1dOTDBsLVpGNHJxX2V5LWkxT1ZseFYxTEZySDMwbWFOWGZ1NXk1bkFPRUpCZ3JLQmUtaGVYYmxOdXZBLUliUFB6SnBkREg4M3lYQWFyOTZva3JidFRVUUY5V2ZQU3hERDRwRmVycTkxVVh5X0ZpYWtMRXVGVjhNWVlHUU1oZWtfb2VCdHFmTkRfbjJzcXgzeDJORHJCdmhxOEU2b3JPTFVrdzdMbThHNC1jcXBIQ1Bxc2h5QlkxZw?oc=5"
-  },
-  {
-   "d": "24/11/2026",
-   "c": "chuva",
-   "v": "VEJA SÃO PAULO",
-   "t": "Defesa Civil mobiliza gabinete especial para monitorar chuvas intensas em SP",
-   "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYnBZSEZQdl9hWDhGaTc1cl95eGozVllUc1dUNExBcGJheWdMNmR2R2hmeHpDeHl2OEFYY0hDdXhMdVVmUHBkMXd4MkV4U3JYbEFQX2t4Yl9pbERuVGtrUGdxV2Fzc2pJNldraDMydXdnQ1FKQ0tkOHp1TkRuWXZKS3h4M0ZXOXBiQ3Nab25fSGtrLUtTd3NZeWtSNkNvYWZZYkY5VEk4S3hKRXBhazRTTjJJcw?oc=5"
+   "u": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPWkVaUFUwTVp2VlRvNjdtczlUQWtJcEJvQ1VrUk5NQ0xEcUlOSjhfbTh3WXZkWWFNUUgzVnR5TmRLLXI5ZkRueS1ENldKZTR0VDlHZzctbWNEZ3FKYi1CTWJwV0llbXg1cWxLVHZqNUJ1MXo4d2JsYm15YzRIQnZaX2FIeWkzekZvZXgyUzI4U05RNzJUV1ZWV2E5a05MNWNLTXVoUWJRMGlvVjFMMV9qQ1VaZUlZUjBoVzBHckh0SEdBS3JwQTVGTThYWGMxR2szRk5BMjJjRUVOSjFoek9rRnozMGN6MTVocWppR3lQN3dGaGs3ejdyVTZfZGI?oc=5"
   },
   {
    "d": "24/11/2026",
@@ -49,16 +49,16 @@
   {
    "d": "24/11/2026",
    "c": "alerta",
-   "v": "VEJA",
-   "t": "Inmet emite alerta de perigo para tempestades em São Paulo nesta terça (24)",
-   "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSURvbnNrOXFmeUlRb1J0UVBYSmxQajZtVGdZNlhXODE0RGwzcWlvU1FBem90UFo2T19vVmE3MjdYemQwU2p4Q18tRkZjcG5XaVNnUzRHVU1GZkpYQXF5MVViaWo5X3FtSDk5UHNFZnB0WHZad0dEOS1PSGFSQlYtejliTWw0em9wZXdDV2l1R3BTSmpIQ0xoa2xrYTBaZDgyY1YxLUJpQ1lsdklSWS03bUtTSQ?oc=5"
+   "v": "folhajornal.com.br",
+   "t": "Defesa Civil alerta para chuva forte no litoral paulista entre quarta e quinta-feira e apoia cidades atingidas",
+   "u": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50OUV5MmxPZXZSQ1dOc05rbHhfMmRHY2RHTnp1RjkyQVRFMWx4al82UjVQWS0yaDVjcWd1bDdsWGlwZEctZkNlTElNQ2RKTGJIZ2JNTVpzUHhQd2hUa3JFeHJ6TFFCOEpCVE5CejlPbVZKV0s4T3Rz?oc=5"
   },
   {
    "d": "24/11/2026",
-   "c": "arvore",
-   "v": "VEJA SÃO PAULO",
-   "t": "Temporal em SP tem resgate em escola, motos submersas e buscas no Tamanduateí",
-   "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUWpPcGtucjN5b0NFNjlRQWE2RXdVMkY0S1U2MkxIQ1k4c2ZEU180UFl2bU1ER3BVUzBzWGNPLWtkaURYWXM2R0R2cm95YnZXTzdQUm5xZWktZTRRNFNLUm42b2xyR1BkeGJyZHlkMUNyRS1GQkpzdDVpMnVlLVNSY1BPZkd6UGM3OVU2bzRQNG9rWlpZbUhKazRQc3lueVBQZUpYSmwwbTFaV2VTU19uUjFRVQ?oc=5"
+   "c": "alerta",
+   "v": "VEJA",
+   "t": "Inmet emite alerta de perigo para tempestades em São Paulo nesta terça (24)",
+   "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSURvbnNrOXFmeUlRb1J0UVBYSmxQajZtVGdZNlhXODE0RGwzcWlvU1FBem90UFo2T19vVmE3MjdYemQwU2p4Q18tRkZjcG5XaVNnUzRHVU1GZkpYQXF5MVViaWo5X3FtSDk5UHNFZnB0WHZad0dEOS1PSGFSQlYtejliTWw0em9wZXdDV2l1R3BTSmpIQ0xoa2xrYTBaZDgyY1YxLUJpQ1lsdklSWS03bUtTSQ?oc=5"
   }
  ]
 }
