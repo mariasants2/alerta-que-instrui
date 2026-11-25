@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-25T09:35:05Z</updated>
-  <dc:date>2026-11-25T09:35:05Z</dc:date>
+  <updated>2026-11-25T19:34:13Z</updated>
+  <dc:date>2026-11-25T19:34:13Z</dc:date>
   <entry>
-    <title>CHUVAS INTENSAS</title>
+    <title>INUNDAÇÕES</title>
     <author>
       <name />
     </author>
-    <id>200467/2026</id>
-    <updated>2026-11-24T21:37:34Z</updated>
+    <id>200525/2026</id>
+    <updated>2026-11-25T07:56:42Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>200467/2026</identifier>
+        <identifier>200525/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-24T18:37:34-03:00</sent>
+        <sent>2026-11-25T04:56:42-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -23,23 +23,17 @@
         <info>
           <language>pt-BR</language>
           <category>Met</category>
-          <event>CHUVAS INTENSAS</event>
+          <event>INUNDAÇÕES</event>
           <responseType>Execute</responseType>
           <urgency>Expected</urgency>
-          <severity>Severe</severity>
+          <severity>Extreme</severity>
           <certainty>Likely</certainty>
-          <onset>2026-11-24T18:37:34-03:00</onset>
-          <expires>2026-11-24T21:35:00-03:00</expires>
-          <senderName>Defesa Civil Estadual do Paraná</senderName>
-          <headline>Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.</headline>
-          <description>PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.</description>
-          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.
-Veja como proceder em casos de desastres. -
-- https://bit.ly/2W1BZxy -
-- Entenda o significado das cores do alerta:
-- http://www.defesacivil.pr.gov.br/Pagina/Significado-das-cores-dos-alertas -
-- Veja a área do alerta: -
-- https://www.defesacivil.pr.gov.br/alertas-vigentes -</instruction>
+          <onset>2026-11-25T05:00:00-03:00</onset>
+          <expires>2026-11-25T17:00:00-03:00</expires>
+          <senderName>Defesa Civil Estadual do Rio Grande do Sul</senderName>
+          <headline>Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Uruguai. Risco MUITO ALTO em Irai. Valido por 12h. Evite areas inundaveis. Emergencia: 190/193.</headline>
+          <description>RS: Alerta VERMELHO: INUNDAÇÃO do rio Uruguai. Risco MUITO ALTO em Iraí. Válido por 12h. Evite áreas inundáveis. Emergência: 190/193.</description>
+          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 190 ou 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -47,8 +41,8 @@ Veja como proceder em casos de desastres. -
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>PARANÁ/PR</areaDesc>
-            <polygon>-23.791,-52.478 -23.812,-52.411 -23.654,-52.293 -23.497,-52.266 -23.29,-52.516 -23.272,-52.685 -23.306,-52.773 -23.556,-52.848 -23.67,-52.67 -23.791,-52.478</polygon>
+            <areaDesc>Iraí/RS</areaDesc>
+            <polygon>-27.189,-53.267 -27.192,-53.273 -27.195,-53.268 -27.183,-53.242 -27.18,-53.25 -27.189,-53.267</polygon>
           </area>
         </info>
       </alert>
@@ -59,9 +53,19 @@ Veja como proceder em casos de desastres. -
     <author>
       <name />
     </author>
-    <id>200468/2026</id>
-    <updated>2026-11-24T21:45:04Z</updated>
+    <id>200526/2026</id>
+    <updated>2026-11-25T07:58:07Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>200468/2026</identifier>
-        <send
+        <identifier>200526/2026</identifier>
+        <sender>CENAD-SEDEC</sender>
+        <sent>2026-11-25T04:58:07-03:00</sent>
+        <status>Actual</status>
+        <msgType>Alert</msgType>
+        <source>Defesa Civil</source>
+        <scope>Public</scope>
+        <info>
+          <language>pt-BR</language>
+          <category>Met</category>
+          <event>CHUVAS INTENSAS</event>
+ 
