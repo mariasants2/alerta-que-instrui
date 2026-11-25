@@ -2937,6 +2937,23 @@ try{ document.querySelectorAll("#v-inicio p").forEach(p=>{ for(const n of p.chil
   try{ checkAlerts(); }catch(e){}
 })();
 
+
+/* ---------- 21) IA mais rápida (modelo que está respondendo primeiro) e exemplos sempre recolhidos ---------- */
+(()=>{
+  // O 3.8-flash anda sobrecarregado (erro 503): começar pelo 3.6-flash evita uma tentativa perdida a cada pergunta.
+  try{ GEMINI.models.splice(0,GEMINI.models.length,"gemini-3.6-flash","gemini-3.5-flash-lite","gemini-3.8-flash","gemini-flash-latest"); }catch(e){}
+  // Alerta em vigor: só ele fica à vista (botão próprio); os exemplos continuam em "Ver um exemplo".
+  if(typeof renderTradutor==="function"){ const _rt3=renderTradutor; renderTradutor=function(){ _rt3();
+    const d=$("#trCard details.ex-det"); if(!d) return; const s=d.querySelector("summary"); d.open=false; if(s) s.textContent="Sem alerta agora? Ver um exemplo";
+    let box=$("#trLive"); const vivo=(typeof liveAlert!=="undefined"&&liveAlert);
+    [...$("#trChips").querySelectorAll(".chip")].forEach(c=>{ if(/Alerta oficial em vigor/.test(c.textContent)) c.remove(); });
+    if(!vivo){ if(box) box.remove(); return; }
+    if(!box){ d.insertAdjacentHTML("beforebegin",`<div id="trLive" style="margin-top:10px"><button type="button" class="btn hl block" id="trLiveBtn">Traduzir o alerta oficial em vigor</button></div>`); box=$("#trLive"); }
+    $("#trLiveBtn").onclick=()=>{ $("#trIn").value=liveAlert.text; traduzir(); };
+  }; }
+  try{ renderTradutor(); }catch(e){}
+})();
+
 </script>
 <script>if("serviceWorker" in navigator && location.protocol==="https:"){addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));}</script>
 </body>
