@@ -1,6 +1,64 @@
 {
- "atualizado": "2026-11-25T00:53:05+00:00",
+ "atualizado": "2026-11-25T03:43:28+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
- "fonte_ok": false,
- "erro": "HTTPError: HTTP Error 503: Service Unavailable"
+ "fonte_ok": true,
+ "erro": null,
+ "noticias": [
+  {
+   "d": "24/11/2026",
+   "c": "chuva",
+   "v": "G1",
+   "t": "Defesa Civil mobiliza gabinete de crise para monitorar chuvas fortes previstas para estado de SP nesta quarta",
+   "u": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPWkVaUFUwTVp2VlRvNjdtczlUQWtJcEJvQ1VrUk5NQ0xEcUlOSjhfbTh3WXZkWWFNUUgzVnR5TmRLLXI5ZkRueS1ENldKZTR0VDlHZzctbWNEZ3FKYi1CTWJwV0llbXg1cWxLVHZqNUJ1MXo4d2JsYm15YzRIQnZaX2FIeWkzekZvZXgyUzI4U05RNzJUV1ZWV2E5a05MNWNLTXVoUWJRMGlvVjFMMV9qQ1VaZUlZUjBoVzBHckh0SEdBS3JwQTVGTThYWGMxR2szRk5BMjJjRUVOSjFoek9rRnozMGN6MTVocWppR3lQN3dGaGs3ejdyVTZfZGLSAYsCQVVfeXFMT2prWFN6TVN5b21EbDI1dThydXJQSzVCbkJIY3ZQRmZUaEY5bzlCcjU1VG02SEhxWTVTdmgtRWhseUJQMGtXejFtNUVsb0lsVDE4Snp4eHMtRnFCMU91OGpzTEx0Y2NnSTUyMEFjOVN5TnFWQXI3X1lyS2JGc0dpNGZkMnRUZXZUV19zVGpLZmdxTG52cDVPcWtBQUJQV016S0lCRHpseU1Jamx4XzNGT25FUU94NHVnb2VabE43amZXZEI1emVFd1RYV2VqSERsMXRzMHNTbF9NZTdwNnpiU2lZM1hUaWNRMWtOMHlwVkhwcktvVGhEUWlpR1liZlc5MUpXWW1OZUJUWUdJ?oc=5"
+  },
+  {
+   "d": "24/11/2026",
+   "c": "chuva",
+   "v": "TVS+ SBT",
+   "t": "Defesa Civil reforça monitoramento para chuva forte em SP; região de Sorocaba também tem previsão de chuva",
+   "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTTVtU3E2dTh6dncxVTFFT1dOTDBsLVpGNHJxX2V5LWkxT1ZseFYxTEZySDMwbWFOWGZ1NXk1bkFPRUpCZ3JLQmUtaGVYYmxOdXZBLUliUFB6SnBkREg4M3lYQWFyOTZva3JidFRVUUY5V2ZQU3hERDRwRmVycTkxVVh5X0ZpYWtMRXVGVjhNWVlHUU1oZWtfb2VCdHFmTkRfbjJzcXgzeDJORHJCdmhxOEU2b3JPTFVrdzdMbThHNC1jcXBIQ1Bxc2h5QlkxZw?oc=5"
+  },
+  {
+   "d": "24/11/2026",
+   "c": "chuva",
+   "v": "VEJA SÃO PAULO",
+   "t": "Defesa Civil mobiliza gabinete especial para monitorar chuvas intensas em SP",
+   "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYnBZSEZQdl9hWDhGaTc1cl95eGozVllUc1dUNExBcGJheWdMNmR2R2hmeHpDeHl2OEFYY0hDdXhMdVVmUHBkMXd4MkV4U3JYbEFQX2t4Yl9pbERuVGtrUGdxV2Fzc2pJNldraDMydXdnQ1FKQ0tkOHp1TkRuWXZKS3h4M0ZXOXBiQ3Nab25fSGtrLUtTd3NZeWtSNkNvYWZZYkY5VEk4S3hKRXBhazRTTjJJcw?oc=5"
+  },
+  {
+   "d": "24/11/2026",
+   "c": "chuva",
+   "v": "R7",
+   "t": "Deslizamento de terra atinge residências na zona norte de São Paulo",
+   "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdWJYU1FpdHRkcG1CRjVibzk1NUZleWwtWF8yTDFXM19ObFlYZVoxa1lOSjl4LXBZRDZ3dmRaSF9lNkpWLUp2RFdFX2dFTjJqS1UzbERRT3RnZUgwNE4zVG84MlY4YmxtYUJSMmtEeEdDNWMzWEtHZV9mRUdUZ1hlM2FvYXhhTTRBMWQ1Z3ZtVGpad1BVd1NpcVlGQjN3N0VkT1RKNnJTUE4waU1vcVhIQVpxR0cwcm1zYTRr?oc=5"
+  },
+  {
+   "d": "24/11/2026",
+   "c": "arvore",
+   "v": "Estadão",
+   "t": "Temporal alaga vias da Pompeia e coloca SP em estado de atenção pelo 4º dia consecutivo",
+   "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR1hCQXlSZHBYdnlWMVB6TFoxTXVWY3FQTXVlSHF5TktqR0h6RWtNNHZpWkhqa21PV3BaUUVVd1RPTEZCT1o5dE5BQTVBM2owaGtxTWI4LTN1Tjdvd3QyUkdSZVQxcjdRQjdjN0I5QVBaSHBlVjIxU0tqbllMNUFIc3VSUXRDQk1TS3NGZE9nSE9rMVZOeEE?oc=5"
+  },
+  {
+   "d": "24/11/2026",
+   "c": "alerta",
+   "v": "CNN Brasil",
+   "t": "Defesa Civil alerta para temporais e calor em São Paulo",
+   "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYnF1eTFhUjdRS2dJazJ4VnZVYVlNbm5qYVpjOUVnNUdhSEhBSkZ2T3RlYmtGWTdYNk80aFhtZk15M2tMUFJPZHV4clhHS3hiNXdXZW9zRXlHNEdWSDM3YWRlUEtWY21mVTRVdTQxNW51TWFaT3BPOENxSVk4am8xaWRaMTQ5aGJSR2h1MGk5b2RfNGFmTkFmdVYwOTNpNWxmX3RUT0lWcGo?oc=5"
+  },
+  {
+   "d": "24/11/2026",
+   "c": "alerta",
+   "v": "VEJA",
+   "t": "Inmet emite alerta de perigo para tempestades em São Paulo nesta terça (24)",
+   "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSURvbnNrOXFmeUlRb1J0UVBYSmxQajZtVGdZNlhXODE0RGwzcWlvU1FBem90UFo2T19vVmE3MjdYemQwU2p4Q18tRkZjcG5XaVNnUzRHVU1GZkpYQXF5MVViaWo5X3FtSDk5UHNFZnB0WHZad0dEOS1PSGFSQlYtejliTWw0em9wZXdDV2l1R3BTSmpIQ0xoa2xrYTBaZDgyY1YxLUJpQ1lsdklSWS03bUtTSQ?oc=5"
+  },
+  {
+   "d": "24/11/2026",
+   "c": "arvore",
+   "v": "VEJA SÃO PAULO",
+   "t": "Temporal em SP tem resgate em escola, motos submersas e buscas no Tamanduateí",
+   "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUWpPcGtucjN5b0NFNjlRQWE2RXdVMkY0S1U2MkxIQ1k4c2ZEU180UFl2bU1ER3BVUzBzWGNPLWtkaURYWXM2R0R2cm95YnZXTzdQUm5xZWktZTRRNFNLUm42b2xyR1BkeGJyZHlkMUNyRS1GQkpzdDVpMnVlLVNSY1BPZkd6UGM3OVU2bzRQNG9rWlpZbUhKazRQc3lueVBQZUpYSmwwbTFaV2VTU19uUjFRVQ?oc=5"
+  }
+ ]
 }
