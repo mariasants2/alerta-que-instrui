@@ -1357,7 +1357,7 @@ ALERTA: """${texto.slice(0,1500)}"""`;
     for(const model of GEMINI.models){
       const res=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,{method:"POST",headers:{"Content-Type":"application/json","x-goog-api-key":gemKey},
         body:JSON.stringify({contents:[{role:"user",parts:[{text:prompt}]}],generationConfig:{temperature:0.2,responseMimeType:"application/json",maxOutputTokens:900}})});
-      if(res.status===404) continue; if(!res.ok) throw new Error("http "+res.status);
+      if(res.status===404||res.status===429||res.status>=500) continue; if(!res.ok) throw new Error("http "+res.status);
       const j=await res.json(); raw=((j.candidates||[])[0]?.content?.parts||[]).map(p=>p.text||"").join(""); break;
     }
   }else{
@@ -1673,7 +1673,7 @@ async function iaJSON(prompt,maxTok){
     for(const model of GEMINI.models){
       const res=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,{method:"POST",headers:{"Content-Type":"application/json","x-goog-api-key":gemKey},
         body:JSON.stringify({contents:[{role:"user",parts:[{text:prompt}]}],generationConfig:{temperature:0.2,responseMimeType:"application/json",maxOutputTokens:maxTok||700}})});
-      if(res.status===404) continue; if(!res.ok) throw new Error("http "+res.status);
+      if(res.status===404||res.status===429||res.status>=500) continue; if(!res.ok) throw new Error("http "+res.status);
       const j=await res.json(); raw=((j.candidates||[])[0]?.content?.parts||[]).map(p=>p.text||"").join(""); break;
     }
   }else{
@@ -1850,7 +1850,7 @@ async function lerPrint(blob){
     for(const model of GEMINI.models){
       const res=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,{method:"POST",headers:{"Content-Type":"application/json","x-goog-api-key":gemKey},
         body:JSON.stringify({contents:[{role:"user",parts:[{inline_data:{mime_type:"image/jpeg",data:b64}},{text:PROMPT_PRINT}]}],generationConfig:{temperature:0,maxOutputTokens:600}})});
-      if(res.status===404) continue; if(!res.ok) throw new Error("http "+res.status);
+      if(res.status===404||res.status===429||res.status>=500) continue; if(!res.ok) throw new Error("http "+res.status);
       const j=await res.json(); return ((j.candidates||[])[0]?.content?.parts||[]).map(p=>p.text||"").join("").trim();
     }
     throw new Error("sem modelo");
@@ -2896,6 +2896,45 @@ try{ document.querySelectorAll("#v-inicio p").forEach(p=>{ for(const n of p.chil
   if(typeof renderTradutor==="function"){ const _rtr=renderTradutor; renderTradutor=function(){ _rtr(); const d=$("#trCard details.ex-det"); if(!d) return; const s=d.querySelector("summary");
     if(typeof liveAlert!=="undefined"&&liveAlert){ d.open=true; if(s) s.textContent="Alerta em vigor e exemplos"; } else if(s) s.textContent="Sem alerta agora? Ver um exemplo"; }; }
   try{ renderTradutor(); }catch(e){}
+})();
+
+
+/* ---------- 20) Alerta oficial: robô (GitHub) + ponte ao vivo (Cloudflare) ---------- */
+// Ordem: dados do robô se tiverem até 30 min → feed oficial ao vivo pela ponte → última checagem do robô (até 12 h) → aviso de que não deu para checar.
+(()=>{
+  const PONTE=String(window.PONTE_URL||"").trim().replace(/\/+$/,"");
+  const minutos=iso=>(Date.now()-Date.parse(iso))/60000;
+  const rotulo=iso=>{ const d=new Date(iso), h=horaDe(iso); const hoje=new Date().toDateString()===d.toDateString(); return hoje?`às ${h}`:`em ${d.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"})} às ${h}`; };
+  function mostrar(lista,quando,velho){
+    const vale=(lista||[]).filter(x=>(!x.expira||Date.parse(x.expira)>Date.now())&&alertaVale(x)); const r=regAny();
+    if(vale.length){ const al=vale[0];
+      liveAlert={text:al.descricao||al.titulo, head:al.titulo||al.evento||"Alerta", area:/^\s*S[ÃA]O PAULO\s*\/\s*SP\s*$/i.test(al.area||"")?"":(al.area||""), id:al.id};
+      statusBox("on","Alerta da Defesa Civil em vigor",`${esc(liveAlert.head)}${liveAlert.area?" · "+esc(liveAlert.area.slice(0,140)):""}<br><span class="muted">Conferido ${quando} no sistema oficial de alertas.</span>`);
+      try{ novoAlerta(al); }catch(e){}
+    } else statusBox("off",`Nenhum alerta oficial ativo para ${r?esc(r.municipio?r.nome:"a cidade de São Paulo"):"São Paulo"}${velho?"":" agora"}`,
+      velho?`Na última checagem, ${quando}, no sistema oficial de alertas da Defesa Civil.`:`Conferido ${quando} no sistema oficial de alertas da Defesa Civil.`);
+    try{ renderTradutor(); }catch(e){}
+  }
+  function lerCAP(xmlTxt){
+    const xml=new DOMParser().parseFromString(xmlTxt,"application/xml");
+    const tx=(el,tag)=>{ const n=el.getElementsByTagNameNS("*",tag)[0]; return n?n.textContent.trim():""; };
+    return [...xml.getElementsByTagNameNS("*","alert")].map(a=>{
+      const infos=[...a.getElementsByTagNameNS("*","info")]; const info=infos.find(i=>/^pt/i.test(tx(i,"language")))||infos[0]||a;
+      const areas=[...info.getElementsByTagNameNS("*","area")].map(x=>tx(x,"areaDesc")).filter(Boolean);
+      const pol=[...info.getElementsByTagNameNS("*","polygon")].map(p=>p.textContent.trim().split(/\s+/).map(par=>par.split(",").slice(0,2).map(Number)).filter(v=>v.length===2&&!isNaN(v[0])&&!isNaN(v[1]))).filter(p=>p.length>2);
+      return {id:tx(a,"identifier"),expira:tx(info,"expires"),evento:tx(info,"event"),titulo:tx(info,"headline"),descricao:tx(info,"description"),area:areas.join("; ").slice(0,600),poligonos:pol.slice(0,20)};
+    }).filter(x=>x.area?/\/\s*SP\b/i.test(x.area):/S[ãa]o Paulo(?! de Oliven)/i.test(x.titulo+" "+x.descricao));
+  }
+  checkAlerts=async function(){
+    const d=await lerDados("alertas.json");
+    if(d&&d.fonte_ok&&minutos(d.atualizado)<=30) return mostrar(d.alertas,rotulo(d.atualizado),false);
+    if(PONTE){ try{ const ctrl=new AbortController(); const to=setTimeout(()=>ctrl.abort(),9000);
+        const r=await fetch(PONTE+"/alertas",{signal:ctrl.signal,cache:"no-store"}); clearTimeout(to);
+        if(r.ok){ const lista=lerCAP(await r.text()); return mostrar(lista,rotulo(new Date().toISOString()),false); } }catch(e){} }
+    if(d&&d.fonte_ok&&minutos(d.atualizado)<=720) return mostrar(d.alertas,rotulo(d.atualizado),true);
+    statusBox("unk","Não deu para checar os alertas oficiais agora","Tente de novo em alguns minutos. Se um alerta chegou no seu celular, cole o texto logo abaixo.");
+  };
+  try{ checkAlerts(); }catch(e){}
 })();
 
 </script>

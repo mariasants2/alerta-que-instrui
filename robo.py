@@ -159,6 +159,15 @@ def salvar(nome, fonte, fn):
         dados.update(res); dados["fonte_ok"] = True
     except Exception as e:
         dados["erro"] = f"{type(e).__name__}: {e}"[:300]
+        # Notícias: se a busca falhar (ex.: Google fora do ar), mantém as últimas notícias boas em vez de apagar tudo.
+        if nome == "noticias.json":
+            try:
+                prev = json.load(open(os.path.join(OUT, "noticias_antes.json"), encoding="utf-8"))
+                if prev.get("fonte_ok") and prev.get("noticias"):
+                    prev["erro_ultima_tentativa"] = dados["erro"]
+                    dados = prev
+            except Exception:
+                pass
     with open(os.path.join(OUT, nome), "w", encoding="utf-8") as f:
         json.dump(dados, f, ensure_ascii=False, indent=1)
     with open(os.path.join(OUT, nome.replace(".json", "-amostra.txt")), "w", encoding="utf-8") as f:
