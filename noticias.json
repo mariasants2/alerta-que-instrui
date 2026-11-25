@@ -1,64 +1,6 @@
 {
- "atualizado": "2026-11-24T16:11:13+00:00",
+ "atualizado": "2026-11-25T00:53:05+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
- "fonte_ok": true,
- "erro": null,
- "noticias": [
-  {
-   "d": "24/11/2026",
-   "c": "chuva",
-   "v": "G1",
-   "t": "Idoso morre ao cair e bater a cabeça enquanto retirava água de casa durante alagamento em Suzano",
-   "u": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNRVZqemhvVGp3cDFqRkRxaEhZcDhUZjBHcnBjSVZpWWRxQkp5N0JkVlpsTnJrdHdrYUc3cjNxSWkwc3FZLTNBWmdBTW5FQkY4cnFCZnFwZFBRTHJWZk5GTFBvRjhKMmg0MHpWVVRRc05QQmhHTnc5Yzc4bXhJZDJHNEtDb2c2Nm8yZlhnUHo2Qks2MWZZcmFrLS1Tdk5uRDhjMHVmeVZJV09ISjFxSDVtWld0OWxhXzZNQnFINl9pMDJFOGRackdNeXFpQ3RmMjZ5bU44TEtKUG96U0xLQXpWQ2p2ZzZvNy1EaURUel9GeFdscG1RbnVfZlNmWk7SAYsCQVVfeXFMTjkxSU1VR0JHd0Q4QnVIa0pVdDhlSzJUUVI0ZnE3emFDSmtZeW5uV1RPQV9jSG1JV1AxTFV4TFZTR1gxNHNzWHBDV1pYM3h3anRhZFJkOWktcjc5RDEtbkxIdnlKVkVJQWwzMHJwcjhVaW45dFJmZGdtMzZTcWZZYXpEZXcxc190R1RieXJmMVI3Ni14VlNoVk5yQVZ6ank0N1NGUThnYllVclZUSjhIZ2VJMmF2S1VoaExkME11b2ZLbmpzUTRlOWNzdWlVV05iUGlOS2RhN3BxT25ISGxKbXNQVERsNjhTUnNaSG1Da002SnFYN0FwS3FVQnJhUVNLSUFsZUg3N3J1S0pF?oc=5"
-  },
-  {
-   "d": "24/11/2026",
-   "c": "alerta",
-   "v": "VEJA",
-   "t": "Inmet emite alerta de perigo para tempestades em São Paulo nesta terça (24)",
-   "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSURvbnNrOXFmeUlRb1J0UVBYSmxQajZtVGdZNlhXODE0RGwzcWlvU1FBem90UFo2T19vVmE3MjdYemQwU2p4Q18tRkZjcG5XaVNnUzRHVU1GZkpYQXF5MVViaWo5X3FtSDk5UHNFZnB0WHZad0dEOS1PSGFSQlYtejliTWw0em9wZXdDV2l1R3BTSmpIQ0xoa2xrYTBaZDgyY1YxLUJpQ1lsdklSWS03bUtTSQ?oc=5"
-  },
-  {
-   "d": "24/11/2026",
-   "c": "arvore",
-   "v": "R7",
-   "t": "Temporal alaga ruas, invade casas e provoca caos no trânsito em São Paulo",
-   "u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNFc0c0xQWDY5VENGYzNKbGt3TlplTnJoU1lTWVFkbXcyejZvbi04d2pqSXpicGswRDVxcW9DbVR2cTFEZll4ZkMzQTA2dzY2d3FqVzFEYURRU0hTd0w4WGhkU0taTFZNQmZCQ2ZYOW1pNDhJbjRwLWJCeEV4VWJ5MUVzTkJESTluS3RVNFB6cGVWYkQ5YTUtR0JQcXJHdzJ3SF9CTkF5VXNNZU10eXYydGh5ZkhhR3lzTGpEc3owUQ?oc=5"
-  },
-  {
-   "d": "24/11/2026",
-   "c": "chuva",
-   "v": "Estadão",
-   "t": "Vídeo: ‘A água subiu muito rápido’: médico salva idoso com prancha de surfe durante alagamento em SP",
-   "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQY0VZdXQxdGtXQXpHZVVMRVNWVlRqUHpFa1Z3cVV1TVdNU3QyRGpBOXJMelp3VUIzT0pLREdIb1JWcGIyOW9NMGh1Z3hjYl94Y2NCS0xZZUM2MTFUUW9CQzM3Q3lzaHp1c290bFlBb3h2UkpxWG9jN0xBSTVFaEx5WEhKbERpcFgxLVJGRzRjSnBreUxmNlpxNkdIMmdaMmhxZzJzNFJ3YUZyUERlbzBMeHFGeW14MDNqLWdSa3NGdWlTcHZsTTRPNnd4ONIB0AFBVV95cUxQTmhsdHE5TDQ3S3ZPY05ZdUdjREM0WGZCMmtET1VlS1JXdVJkVWdNaFZ1MjNxRmZKNXp0bkFJeVpiaFVVZzdUQUJNX1NOTzNiYmp2TlVWS0EwbFduZmJlMXYyNXloY0psNVdmN0lPYTB0X0xYaVprLVdya05pTjdfanlxN28yVlB1WXF1emliQ0s0aUZmRXBzR09hQTFBcUg1Um1HMkNfVzBPUlZVdVZNRUpSSUl1WWZPRm1iNFBZNDhQVGlrMkFOOXIzQTNISzln?oc=5"
-  },
-  {
-   "d": "24/11/2026",
-   "c": "alerta",
-   "v": "R7",
-   "t": "Defesa Civil mantém alerta para chuva forte, ventos e granizo em SP nesta terça (24)",
-   "u": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZlQxM0NCcy0zVkM5LWk4YnZYTC1RRXZRT2h6d0Z1aXp3dk9XYWU4ckR3dlVHV1RaQ0w2QWtWUncyWXhHNE01Wi1HYkQwYVFYWl9Fd21XUmJPTkZWVkRyZ0F5MG1uMTVKMjNFdDZ5REpjV2lwa2J0bGpkNnhyaC13QmVKcnBEYUNnNGM1RU5sM1dONS1UZHZNVTQ5MnhBZ2k3YkZseFB0SFRmRjJ2aEppRFpveVMtM3lpTVJNU3Y4eUdtNHZiODdNeDA3czZHaDF2akFkby1vbWlBTm8?oc=5"
-  },
-  {
-   "d": "24/11/2026",
-   "c": "arvore",
-   "v": "G1",
-   "t": "Imagens de drone mostram estragos após rios transbordarem durante temporal em Itaberá; VÍDEO",
-   "u": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNlVjS0RXaG55Mk5LVl9lQjgtcGVoX1BDazdvSGQxeEJMbG5CMVN6ZG1FTEM0TWhYZVladlRxQXp3ekxMUU9zcXNJRjZQV0xJLXc0aVZKWkozZzVnQUF1MF9ER1BwOU5HdkxHdmpWMDRyQ0lDMHVPNmVjOUFjYWRYV1BrUGFrTUktaHoyLXctRGt1T1dsRXFabU8xUzJJcVdXSFlXc3p3RHlWUUxuZjd3LUExUVp3bUxmcUczY2lpaDRwU0hqZURNSnc2YzFzczJfdnRRUU52a2RLQ2NWVDdQb19UT0tIb1dXT19LaWZaY3kzUdIBgAJBVV95cUxQU0MxQjZlVWZPLUt0MWlWc2lYVGpXeTNRWDZETjJjeFU0NFNBUVlfM29BMWxtQTc2clFvV1pXMk9Qcm1jOGpXMTRZRkNzOGIxMjhVeWNrQmswMmxTTHhnSmhtUTJ0OGVXZ3ZOZnVVUEMzSUtEdWM1ZjhadkFnZGRRc3M2YUowbHAwTWZEQTF0eW1yYXg0RVpBbG1adkdjSUZSTjlpemVDeWZraVQwU2hwR2xsdGZ6WldLQm1tcGFsS0RuUlpIYXNudFdwOG1GdXZFNnJiaHlYbTZhX0d5V0FsX1ljSjFLSmdEVGFVcVVHUXRCcEdBTkhtbWtGTUYzaFky?oc=5"
-  },
-  {
-   "d": "24/11/2026",
-   "c": "chuva",
-   "v": "CNN Brasil",
-   "t": "São Paulo registra 10 mortes em decorrência das chuvas em um mês",
-   "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTkhzN2RTa3QtUlEyR1k1VUw3R1RZSVNFVTUtWGtTbjJTdzIxa2E1MnJnX1ZjNlh1cTV1elNoejRDYXBIVG15Z0ZBQWFhc2pVcHBnNXFwNXU3UlYtVkVEYkxXZmlOcE1RanhiNTV1VVZXNFJjZzlzSHhlbWFEbnZhNHd1U0FPTFFVYmZlUGIyY1BFcHh6UDNxajFFeF9WOGN5eG9Cekd1YXJJSmZoemkzVFk4Vjg?oc=5"
-  },
-  {
-   "d": "23/11/2026",
-   "c": "arvore",
-   "v": "G1",
-   "t": "Bombeiros fazem buscas por mulher que caiu no rio Tamanduateí durante temporal na Zona Sul de SP",
-   "u": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSDZrYnpUanIxN1lyeEpMeUh6NUl4cGdlaGxSckJJUEdua19wTGN0My1LT3c4M2ZfR0swVVFBcEprbFN3RVU0X2ZyUW03MzVsRExQQi10MnFUMXFHUWNLWTEyUUtxSlYyc3NJT05vbG5zMDFBdUptNHd3YUl3NzBXQ0RxSGpRdDdFUVpzTk1mOUh2dVlOSW9oYng5X1phSWpqSENFSmlRckctVnZxOHp4ZzlhdVJMMHRpbzU2Y1A3V3VPdEwxVzRJQVZRd21zSENFcTJkUHZnWVBYUWc0MVHSAewBQVVfeXFMTXZHbllIcjlrM0k2c2F0LUN3Qlo3M1BoYzJHUUFVYnQtcVJyRlhfNUViNV9oRWFpTWZlLVJGdW92OXFGT1F4ajJqLVBrcXBaRDM2NnlCRk1qeThFcWJFVEZtV2FXYkxWZHBkR2hmMmJ5YW5zQzh1bHZHdTJDYm5sWnhFaEVVVGpud1hFNVZ4MThhbUVuVURJSmRMUm5sbzZKT1liSHlpOUJyMWZkSDNBdFNoWG1IaWtUSkd6Sm8tRVVzb21pb1pMY1I5MG9DNkZQQWl3LXpmeTFkTDZUYlJXcUxhN0V6WGJ0TVZVT1E?oc=5"
-  }
- ]
+ "fonte_ok": false,
+ "erro": "HTTPError: HTTP Error 503: Service Unavailable"
 }
