@@ -2626,7 +2626,7 @@ try{ document.querySelectorAll("#v-inicio p").forEach(p=>{ for(const n of p.chil
   const css=document.createElement("style");
   css.textContent=`
   #v-inicio #avisosCard{display:none}
-  #v-inicio #alertStatus:not(.on){display:none}
+  #v-inicio #alertStatus.off{padding:12px 14px} #v-inicio #alertStatus.off .ic{width:30px;height:30px}
   #onb #avisosCard{margin:14px 0 4px;box-shadow:none;background:var(--bg)}
   #onb #avisosCard h3{font-size:16px}
   .hero .curto{margin:0 0 12px;font-size:15px;color:#DCE6FF}
@@ -2678,7 +2678,7 @@ try{ document.querySelectorAll("#v-inicio p").forEach(p=>{ for(const n of p.chil
     resumo.textContent=tot?`${tot.toLocaleString("pt-BR")} áreas de risco mapeadas.${gtxt?` Grau máximo: ${gtxt}.`:""}`:t.split(/(?<=\.)\s/)[0];
     const det=document.createElement("details"); det.className="reg-det"; det.innerHTML="<summary>Ver detalhes e fontes</summary>";
     p.before(resumo); det.appendChild(p);
-    [...c.children].forEach(e=>{ if(e!==resumo && (e.classList.contains("src") || (e.tagName==="P"&&/Atenção/.test(e.textContent)))) det.appendChild(e); });
+    [...c.children].forEach(e=>{ if(e!==resumo && e.classList.contains("src")) det.appendChild(e); });
     const kv=c.querySelector(".kv"); (kv||resumo).after(det);
   };
   if(typeof renderHome==="function"){ const _rH=renderHome; renderHome=function(){ _rH(); try{ enxugarInicio(); enxugarBairro(); }catch(e){} }; }
@@ -2878,6 +2878,24 @@ try{ document.querySelectorAll("#v-inicio p").forEach(p=>{ for(const n of p.chil
       <p class="small muted" style="margin-top:12px">TROVIA é um protótipo estudantil. Em perigo, ligue para os números acima.</p>`;
     const ref=$("#v-mapa")||$("#v-chat"); ref.parentNode.insertBefore(sec,ref);
   }
+})();
+
+
+/* ---------- 18) Status do alerta oficial (em vigor ou não) sempre logo abaixo do topo ---------- */
+(()=>{ const mover=()=>{ const st=$("#alertStatus"), h=$("#v-inicio .hero"); if(st&&h&&h.nextElementSibling!==st) h.after(st); };
+  if(typeof statusBox==="function"){ const _sb=statusBox; statusBox=function(k,t,b){ _sb(k,t,b); mover(); }; }
+  mover(); })();
+
+
+/* ---------- 19) Revisão: estado "não deu para checar", alerta em vigor sempre à vista ---------- */
+(()=>{
+  if(typeof statusBox==="function"){ const _sb2=statusBox; statusBox=function(k,t,b){
+    if(k==="unk"&&/Receba os alertas oficiais/.test(t||"")){ t="Não deu para checar os alertas oficiais agora"; b="Tente de novo em alguns minutos. Se um alerta chegou no seu celular, cole o texto logo abaixo."; }
+    _sb2(k,t,b); }; }
+  try{ const st=$("#alertStatus"); if(st&&st.classList.contains("unk")){ const bb=st.querySelector("b"), sm=st.querySelector(".small"); if(bb&&/Receba os alertas/.test(bb.textContent)){ bb.textContent="Não deu para checar os alertas oficiais agora"; if(sm) sm.textContent="Tente de novo em alguns minutos. Se um alerta chegou no seu celular, cole o texto logo abaixo."; } } }catch(e){}
+  if(typeof renderTradutor==="function"){ const _rtr=renderTradutor; renderTradutor=function(){ _rtr(); const d=$("#trCard details.ex-det"); if(!d) return; const s=d.querySelector("summary");
+    if(typeof liveAlert!=="undefined"&&liveAlert){ d.open=true; if(s) s.textContent="Alerta em vigor e exemplos"; } else if(s) s.textContent="Sem alerta agora? Ver um exemplo"; }; }
+  try{ renderTradutor(); }catch(e){}
 })();
 
 </script>
