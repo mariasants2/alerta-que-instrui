@@ -1,15 +1,29 @@
 {
- "atualizado": "2026-11-26T11:24:56+00:00",
+ "atualizado": "2026-11-26T20:26:42+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
  "noticias": [
   {
-   "d": "25/11/2026",
+   "d": "26/11/2026",
+   "c": "arvore",
+   "v": "G1",
+   "t": "Temporal em Aparecida deixa 27 pessoas desalojadas, interdita apartamentos, hotel e 22 comércios",
+   "u": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOTXBUNVRPVVFNUU5NZVB1REZpZVF3UzdKc3pTeHFQUXRlMWU0ZzdQMzI1MXZjTVc1MXdNVER2OTlVb3IxZlYyVENDV3c3Z2c4VEUzaEg3dWtsUlJlWnZhVXNFVHhPSDJpclNtSi15ZjdYaG5TcWZpZzV5WlQzZGlHRGc5RVQ0TkltUDluVGZvOUpDZm9iQ2MzeHd1T0hXcG5XZ2lkclpHMHJRZEpIdjdtV21MZ0xWZTIzQ3FhcC1Tc082dVA4SnVfeEpzb2xobWp1Y2pmanozLXZaQWNhVjFjcTZKOFFfSHJKQzg5ZmN2cndkTTQ4elYyd1ZB0gGIAkFVX3lxTE44ZUJDeV9aNHV6a1BiY0RLRjFabFh5djR5WHdHNkM2aVdUVGplM0JBWGlRdFFtVXpPYVZ5UU01WUxuVlFfbWQ5MjVXeWFvTGJmbXJEQnZpWWkzUjFNaTZQenJQLTNaeldwQlBZUWJyYWVVYjNBRTNMWkptejkzYnRLRGprTHBtcm9ndU8zUVBUQUo3aU5mUWNLbVNNd2w1LUlOUHVKNVFNbElJaVNoNWhJRGpYWURWRFhUOGZrR3pmc3JhcG9Id0l6VVRvcEwwUkhNV3FFNTFOb1JwNV9LU25VRk1jRDRuVVYwNTFIZWc5RGlTVHJmRUE2cTBXTDQ0U2UzRFBTT0FJSg?oc=5"
+  },
+  {
+   "d": "26/11/2026",
    "c": "arvore",
    "v": "Estadão",
-   "t": "Após temporal, SP retoma buscas por desaparecida, interdita casas e registra desabamentos",
-   "u": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUmpkSTNQQkdoLVJ0YWg0eXExcW93aDJ1VVNvamFJWVppWncwUlhmX2NEWkRpU25QYmxkNmh4ZzlmR1BoYUpLeVhFWTQwZ1REU3poT21zbEdXRXhOejhjTjBqb1JNdkRPS0UtMlUwVXRiX2pIb0VPNkNFSjBwY0hrbU9USi13MTdLZGM0WS1FeDFhUXRINm1BSFp4emNUbHdwZDR4eWJfMUg2XzVZOUF3TEQ4MlprUTFVRUVtcTVhWURid1M0ZER6d2pCLWlhV0lwdjlN?oc=5"
+   "t": "Temporal alaga vias da Pompeia e coloca SP em estado de atenção pelo 4º dia consecutivo",
+   "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR1hCQXlSZHBYdnlWMVB6TFoxTXVWY3FQTXVlSHF5TktqR0h6RWtNNHZpWkhqa21PV3BaUUVVd1RPTEZCT1o5dE5BQTVBM2owaGtxTWI4LTN1Tjdvd3QyUkdSZVQxcjdRQjdjN0I5QVBaSHBlVjIxU0tqbllMNUFIc3VSUXRDQk1TS3NGZE9nSE9rMVZOeEE?oc=5"
+  },
+  {
+   "d": "26/11/2026",
+   "c": "chuva",
+   "v": "Metrópoles",
+   "t": "Aparecida: muro desaba com chuva, atinge carros e interdita 16 apartamentos",
+   "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPY2RNd3ZUZURVUE0yb2JpVU5qLU5ZRHkzSnI5aEhUMVR5c0ZXdHMyQWhlaXFGbVJJZHdrS3pGbkNreFBwTEFGODlMRy1ZclczUlFxOW5sOTZDeDNoTWh0cHdBWDlmTWoyWnBCeU80anFySk8ycWtlaXM3cGluUGRhenJLNVJMa2JqU2dablhCc0JDVGdQcTU5bzlLYTBhVXhpaWxxY1hWRXdkTUlqbHpF?oc=5"
   },
   {
    "d": "25/11/2026",
@@ -17,20 +31,6 @@
    "v": "G1",
    "t": "Temporal provoca alagamentos e interdita ruas e avenidas em Americana",
    "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYnJPNVhaLXE3OGJleVVXWEg4QWg0bVpkeEVZeEx0U0p0ZUZ2TVNLOEVxWGRaLTRHMFZsbmY3b0x6Q1AzdHdpWk1sZUlHZWJKNTg4TnZGc3lwaDV4MWRmUnNVcEZSUG53UDZqaXNDRWVZd2N5Y2JBdkpFYkVmRV9lbWctNndBcFRNcjhnMDlYWUljaUtOZkZuLUhCTE1xYjlCZURaenhNQ0VldmlqT3Z0dU5hS1VWWHotbFlhRXR5UVJNN1Z1cUJ5TkxtWmVzWTTSAd4BQVVfeXFMTXFpcTJOZnJVcENTVktvRmRLMDBrWDJTN2FDTm9EWTVJV2x0SFEwcGF1VUY4VVJiNUN5cW5pRU5hYWVZM2VpSUtVNkVQbk05VEpRTWJScE54V2RvRE9ta1lMQTJJam5sSmxUanJFeUNpZ1MzN3ZYRTFjUTZYS0UwekZVR2RWRFRoZkdZakdJbl9kNGN0T0QzdlhCVzhFZWJSV21JMTNIZ2ZJb1BaM19uUk9IS0xDS3dzSUF6R2NFMGN6aUc3aDlTdDlsR1c4T0dRek1PZjU0VVdyRk5YVjlB?oc=5"
-  },
-  {
-   "d": "25/11/2026",
-   "c": "arvore",
-   "v": "Terra",
-   "t": "Temporal destrói abrigo em São Paulo, mata quatro cães e deixa mais de 200 animais em situação difícil",
-   "u": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPSlNVV3NFdktNYlBoLVFLU1lHUmVoNW9VSUVNOFdXZWhjS0w2TE9GOS11cUZNVmRyanduRXNxVVVIQnpITkVIMUlmRGRvTWxwU0liUmE3OENzRGJKREtzbWkyVnF6TEpMR3pGY0pQbzJkSS1PNlA3dWlBVXNqc2F1ampueFoxTHZDdHlJeXhsMXFQLWtTWU1xcllnbE9zXy1KdEFkaW5GdHhVbFdBN3RKV2QtYzdrYU5ETWJBOTkyUHpGYzl6SkRJTmNxS1dJVWpfOVFocV9QcmZaQ1VvRWZCTmhFWUNqb0JoQ1VkeHFQV1pDbC1KZXlCSEJtSFRLbkRUa1BuMmp5UnluRGZ2alE?oc=5"
-  },
-  {
-   "d": "25/11/2026",
-   "c": "chuva",
-   "v": "Band",
-   "t": "Alagamento em ruas suspende aulas de escola em São João da Boa Vista",
-   "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNemxmN2hKdEdWaDg4RW94QmhIX3hZajRXMW5iRWE2YjhKblRBcWI1SFpLcnJtejhET0VQX2hOcnBaQldLdkRCaUNidll1V3hRd2c4WXdtYm1fcElXemZNQm5ORGMxMC02WXVUODBneXFBUjExZ3JzUFFGLUdWNzNwQ2g5aW9kWHNBUlB6emRHSFBqMzRFRS1aT1A2VmZERXNQRVR5SmRuMA?oc=5"
   },
   {
    "d": "25/11/2026",
