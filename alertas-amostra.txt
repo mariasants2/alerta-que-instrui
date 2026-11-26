@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-26T02:24:34Z</updated>
-  <dc:date>2026-11-26T02:24:34Z</dc:date>
+  <updated>2026-11-26T11:24:03Z</updated>
+  <dc:date>2026-11-26T11:24:03Z</dc:date>
   <entry>
     <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>200556/2026</id>
-    <updated>2026-11-25T14:29:58Z</updated>
+    <id>200703/2026</id>
+    <updated>2026-11-25T23:28:53Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>200556/2026</identifier>
+        <identifier>200703/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-25T11:29:58-03:00</sent>
+        <sent>2026-11-25T20:28:53-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -26,18 +26,14 @@
           <event>CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
           <urgency>Expected</urgency>
-          <severity>Moderate</severity>
-          <certainty>Likely</certainty>
-          <onset>2026-11-25T11:29:58-03:00</onset>
-          <expires>2026-11-26T04:00:00-03:00</expires>
-          <senderName>Defesa Civil Estadual do Paraná</senderName>
-          <headline>Defesa Civil:PR AVISO DE TEMPO: Temporais irregulares e chuva pontualmente forte nesta qua 25/11. Mantenha-se atento e evite o risco. Ocorrencias ligue 199/193</headline>
-          <description>PR AVISO DE TEMPO: Temporais irregulares e chuva pontualmente forte nesta qua 25/11. Mantenha-se atento e evite o risco. Ocorrencias ligue 199/193</description>
-          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.
-Confira o aviso meteorológico vigente no site da Defesa Civil. -
-- https://www.defesacivil.pr.gov.br/ -
-- Entenda o significado das cores do alerta:
-- http://www.defesacivil.pr.gov.br/Pagina/Significado-das-cores-dos-alertas -</instruction>
+          <severity>Extreme</severity>
+          <certainty>Observed</certainty>
+          <onset>2026-11-25T20:28:53-03:00</onset>
+          <expires>2026-11-25T22:25:00-03:00</expires>
+          <senderName>Defesa Civil Estadual De São Paulo</senderName>
+          <headline>Defesa Civil:Chuva persiste na regiao de Campinas e Valinhos. Tem raios, vento e condicao para granizo. Atinge municipios vizinhos. Busque abrigo.</headline>
+          <description>Chuva persiste na região de Campinas e Valinhos. Tem raios, vento e condição para granizo. Atinge municípios vizinhos. Busque abrigo.</description>
+          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -45,5 +41,29 @@ Confira o aviso meteorológico vigente no site da Defesa Civil. -
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>PARANÁ/PR</areaDesc>
-            <polygon>-22.539,-52.048 -22.539,-52.046 -22.539,-52.042 -22.539,-52.035 -22.538,-52.034 -22.539,-52.033 -22.539,-52.032 -22.539,-52.032 -22.539,-52.029 -22.539,-52.028 -22.539,-52.027 -22.539,-52.025 -22.541,-52.012 -22.545,-52.002 -22.545,-52.002 -22.545,-52.0 -22.545,-51.998 -22.545,-51.998 -22.545,-51.997 -22.546,-51.996 -22.546,-51.996 -22.548,-51.993 -22.549,-51.992 -22.55,-51.991 -22.554,-51.981 -22.556,-51.977 -22.556,-51.975 -22.559,-51.97 -22.56,-51.969 -22.56,-51.968 -22.563,-51.96 -22.564,-51.955 -22.565,-51.952 -22.566,-51.947 -22.566,-51.943 -22.567,-51.94 -22.569,-51.93
+            <areaDesc>SÃO PAULO/SP</areaDesc>
+            <polygon>-22.846,-47.033 -22.866,-47.146 -22.947,-47.168 -23.028,-47.167 -23.059,-47.12 -23.052,-47.042 -23.008,-46.97 -22.924,-46.948 -22.846,-47.033</polygon>
+          </area>
+        </info>
+      </alert>
+    </content>
+  </entry>
+  <entry>
+    <title>CHUVAS INTENSAS</title>
+    <author>
+      <name />
+    </author>
+    <id>200704/2026</id>
+    <updated>2026-11-25T23:35:00Z</updated>
+    <content type="text/xml">
+      <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+        <identifier>200704/2026</identifier>
+        <sender>CENAD-SEDEC</sender>
+        <sent>2026-11-25T20:35:00-03:00</sent>
+        <status>Actual</status>
+        <msgType>Alert</msgType>
+        <source>Defesa Civil</source>
+        <scope>Public</scope>
+        <info>
+          <language>pt-BR</language>
+          <category>Me
