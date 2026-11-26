@@ -19,13 +19,40 @@ Dicas
 Sala de Imprensa
 Contato
 Alagamentos
-Não há registros de alagamentos para essa data.
+Zona Oeste
+Lapa
+2 pts.
+De 05:23 a 10:12
+PC PASCOAL MARTINS
+Sentido: AMBOS
+Referência: AV MARQ DE SAO VICENTE
+De 19:13 a 19:47
+PC PASCOAL MARTINS
+Sentido: BAIRRO/CENTRO
+Referência: AV MARQ DE SAO VICENTE
+Pinheiros
+2 pts.
+De 04:36 a 05:04
+MARGINAL PINHEIROS INTCB
+Sentido: INTERLAGOS/CASTELO
+Referência: PTE OCTAVIO FRIAS DE OLIVEIRA
+De 05:43 a 06:09
+AV DRA RUTH CARDOSO
+Sentido: INTERLAGOS/CASTELO
+Referência: PC ARCIP ANSELMO DE OLIVEIRA
+Zona Leste
+Itaquera
+1 pts.
+De 06:38 a 10:14
+R VICTORIO SANTIM
+Sentido: BAIRRO/CENTRO
+Referência: R ITALINA
 Transitáveis = 0 pts
 Intransitáveis = 0 pts
 }
 Ativos
-Transitáveis = 0 pts
-Intransitáveis = 0 pts
+Transitáveis = 3 pts
+Intransitáveis = 2 pts
 }
 Inativos
 Entenda a classificação dos pontos de alagamento.

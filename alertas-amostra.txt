@@ -2,64 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-25T19:34:13Z</updated>
-  <dc:date>2026-11-25T19:34:13Z</dc:date>
-  <entry>
-    <title>INUNDAÇÕES</title>
-    <author>
-      <name />
-    </author>
-    <id>200525/2026</id>
-    <updated>2026-11-25T07:56:42Z</updated>
-    <content type="text/xml">
-      <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>200525/2026</identifier>
-        <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-25T04:56:42-03:00</sent>
-        <status>Actual</status>
-        <msgType>Alert</msgType>
-        <source>Defesa Civil</source>
-        <scope>Public</scope>
-        <info>
-          <language>pt-BR</language>
-          <category>Met</category>
-          <event>INUNDAÇÕES</event>
-          <responseType>Execute</responseType>
-          <urgency>Expected</urgency>
-          <severity>Extreme</severity>
-          <certainty>Likely</certainty>
-          <onset>2026-11-25T05:00:00-03:00</onset>
-          <expires>2026-11-25T17:00:00-03:00</expires>
-          <senderName>Defesa Civil Estadual do Rio Grande do Sul</senderName>
-          <headline>Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Uruguai. Risco MUITO ALTO em Irai. Valido por 12h. Evite areas inundaveis. Emergencia: 190/193.</headline>
-          <description>RS: Alerta VERMELHO: INUNDAÇÃO do rio Uruguai. Risco MUITO ALTO em Iraí. Válido por 12h. Evite áreas inundáveis. Emergência: 190/193.</description>
-          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 190 ou 193.</instruction>
-          <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
-          <contact>+55 61 2034-4660</contact>
-          <parameter>
-            <valueName>CHANNEL-LIST</valueName>
-            <value>Google</value>
-          </parameter>
-          <area>
-            <areaDesc>Iraí/RS</areaDesc>
-            <polygon>-27.189,-53.267 -27.192,-53.273 -27.195,-53.268 -27.183,-53.242 -27.18,-53.25 -27.189,-53.267</polygon>
-          </area>
-        </info>
-      </alert>
-    </content>
-  </entry>
+  <updated>2026-11-26T02:24:34Z</updated>
+  <dc:date>2026-11-26T02:24:34Z</dc:date>
   <entry>
     <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>200526/2026</id>
-    <updated>2026-11-25T07:58:07Z</updated>
+    <id>200556/2026</id>
+    <updated>2026-11-25T14:29:58Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>200526/2026</identifier>
+        <identifier>200556/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-25T04:58:07-03:00</sent>
+        <sent>2026-11-25T11:29:58-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -68,4 +24,26 @@
           <language>pt-BR</language>
           <category>Met</category>
           <event>CHUVAS INTENSAS</event>
- 
+          <responseType>Execute</responseType>
+          <urgency>Expected</urgency>
+          <severity>Moderate</severity>
+          <certainty>Likely</certainty>
+          <onset>2026-11-25T11:29:58-03:00</onset>
+          <expires>2026-11-26T04:00:00-03:00</expires>
+          <senderName>Defesa Civil Estadual do Paraná</senderName>
+          <headline>Defesa Civil:PR AVISO DE TEMPO: Temporais irregulares e chuva pontualmente forte nesta qua 25/11. Mantenha-se atento e evite o risco. Ocorrencias ligue 199/193</headline>
+          <description>PR AVISO DE TEMPO: Temporais irregulares e chuva pontualmente forte nesta qua 25/11. Mantenha-se atento e evite o risco. Ocorrencias ligue 199/193</description>
+          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.
+Confira o aviso meteorológico vigente no site da Defesa Civil. -
+- https://www.defesacivil.pr.gov.br/ -
+- Entenda o significado das cores do alerta:
+- http://www.defesacivil.pr.gov.br/Pagina/Significado-das-cores-dos-alertas -</instruction>
+          <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
+          <contact>+55 61 2034-4660</contact>
+          <parameter>
+            <valueName>CHANNEL-LIST</valueName>
+            <value>Google</value>
+          </parameter>
+          <area>
+            <areaDesc>PARANÁ/PR</areaDesc>
+            <polygon>-22.539,-52.048 -22.539,-52.046 -22.539,-52.042 -22.539,-52.035 -22.538,-52.034 -22.539,-52.033 -22.539,-52.032 -22.539,-52.032 -22.539,-52.029 -22.539,-52.028 -22.539,-52.027 -22.539,-52.025 -22.541,-52.012 -22.545,-52.002 -22.545,-52.002 -22.545,-52.0 -22.545,-51.998 -22.545,-51.998 -22.545,-51.997 -22.546,-51.996 -22.546,-51.996 -22.548,-51.993 -22.549,-51.992 -22.55,-51.991 -22.554,-51.981 -22.556,-51.977 -22.556,-51.975 -22.559,-51.97 -22.56,-51.969 -22.56,-51.968 -22.563,-51.96 -22.564,-51.955 -22.565,-51.952 -22.566,-51.947 -22.566,-51.943 -22.567,-51.94 -22.569,-51.93

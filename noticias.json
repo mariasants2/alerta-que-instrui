@@ -1,15 +1,36 @@
 {
- "atualizado": "2026-11-25T19:36:44+00:00",
+ "atualizado": "2026-11-26T02:27:28+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
  "noticias": [
   {
    "d": "25/11/2026",
+   "c": "arvore",
+   "v": "Terra",
+   "t": "Temporal destrói abrigo em São Paulo, mata quatro cães e deixa mais de 200 animais em situação difícil",
+   "u": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPSlNVV3NFdktNYlBoLVFLU1lHUmVoNW9VSUVNOFdXZWhjS0w2TE9GOS11cUZNVmRyanduRXNxVVVIQnpITkVIMUlmRGRvTWxwU0liUmE3OENzRGJKREtzbWkyVnF6TEpMR3pGY0pQbzJkSS1PNlA3dWlBVXNqc2F1ampueFoxTHZDdHlJeXhsMXFQLWtTWU1xcllnbE9zXy1KdEFkaW5GdHhVbFdBN3RKV2QtYzdrYU5ETWJBOTkyUHpGYzl6SkRJTmNxS1dJVWpfOVFocV9QcmZaQ1VvRWZCTmhFWUNqb0JoQ1VkeHFQV1pDbC1KZXlCSEJtSFRLbkRUa1BuMmp5UnluRGZ2alE?oc=5"
+  },
+  {
+   "d": "25/11/2026",
+   "c": "chuva",
+   "v": "Band",
+   "t": "Alagamento em ruas suspende aulas de escola em São João da Boa Vista",
+   "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNemxmN2hKdEdWaDg4RW94QmhIX3hZajRXMW5iRWE2YjhKblRBcWI1SFpLcnJtejhET0VQX2hOcnBaQldLdkRCaUNidll1V3hRd2c4WXdtYm1fcElXemZNQm5ORGMxMC02WXVUODBneXFBUjExZ3JzUFFGLUdWNzNwQ2g5aW9kWHNBUlB6emRHSFBqMzRFRS1aT1A2VmZERXNQRVR5SmRuMA?oc=5"
+  },
+  {
+   "d": "25/11/2026",
+   "c": "chuva",
+   "v": "G1",
+   "t": "El Niño: chuva forte prevista até quinta-feira aumenta risco de deslizamentos no Litoral Norte de SP",
+   "u": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNMjdqSjZfLWJHdFg0SFUzb3AtblBBRjNmeEJZRGNIWEdaTmdHMXo1bkVyRVpHUk9kMi1QS0didEhYa1g4QWhuVjZqVy1nQzl5WmI0ZnpJZGwtT0ZZcU9KbU1QUFF1WUxtTURuYVZlZ1gwZ0g1c3o5eDZNWktxOGNpMFRsUzdZU0JDcm5wc2JBcnpCRUFzaTU5cTJwYXpHVVJOVzRZWFZ4dzRfZlB3eUpJakdaZE45MGd1eHBLQ1FiTndiSGdocEJaWmZVbmZveGhGVzZMNFBxMkRWQ1A3SHN0d1BNc0gtd3VPeGI5NGpVSk9GNDRYMWpvdFN4UEVpSGtK0gGPAkFVX3lxTE9vYXRtNUt5ZXpUZDZrZUVUdDlGanJiUklJdHNyS1BHNXhOQ3ZzTHl6YzQwaTlQWWl5WEhWdzBvcm5pa3hVekh2d21rLU8ydllMaFp6Z2R0WlktT284YkNNZ2RiQTRvY0xqNUN3dll2WjRGZ3JfdHZ5Y2U4YzNJbGFBRHhYekpxd0VLRGdMU05ZSHRNWVBNdjM3ZThnTXMyanItVXRfRkpfZFFqbGtBNkdNVXUzb1hwcnM1dnkzbmFwakVnRlVCeUlOdDBZUVFxeTlVYzBpSUx1NE5aTVJOMm1Hakd1bFgzVkw3eXB0T00xTFdNTE9wcUdqaEVWb0laTndyemhiaWw0dWhEcWsyMm8?oc=5"
+  },
+  {
+   "d": "25/11/2026",
    "c": "alerta",
    "v": "G1",
    "t": "Defesa Civil renova alerta para chuvas intensas em todo o estado de São Paulo",
-   "u": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNbF9hWWc5TlhNd0dONHdUTEJoSzhYTkMzLWY0d1BlbnRYT2hnWUN0dXc2REJZcHd1MExiYzJDTzB6dEdaS2wzLXZVbTVWMWJSQmZYOWM5TDNmcGhSUEJxeXNKa3RvRTJVTWdHSTJrUjVJOUhXX2x0dlhwdWhOemVIVkw1Q1VvalduVzFWWUpiWlZfcG01OVRQNm51UkFXblJCSGY5LVE1QTdyRzktcEl5amFiN1hiTzRPYkxJRlA5eEVQblpRcUtXN1NhY0RNWXRTcmYzV3dRM2lnSHJXUTM0bnl4ZGd3M3ZOUXY5amNFazZnV0J5ZmlIMG9NYzPSAYsCQVVfeXFMT19MZFJ0OEEyUDFZWmpmUGRWdW1FMElHTVdFcWhTNmc5U3pldzk4cjFKNzRkLVpTSHc4eUNsTmRtc2pjM0xKSGhkNGwxcGNIdDgyRWtlSXhXRkQ3SEMxSGpBbmtwbzFwaThUSGJlUGIxekR5bnU4RUYyMHI5SVdlSm9TdEk3ZVBBc2lRWjItRnRzVC1LTkcyUzl4ZWljcmpVOTY4REpRYzlzSGZUN0w1cXIzUnZFMmZfR1owaVlXbE5uUUNrUnhUcnBxb0tWaFpGcTh2S3lqMkxXR2NWWS1KemZXbDcyNHhzSXpUSnVZMTVWSHpBMUt5S0VrTllFVU01LTJLaFFGcGhsV1hR?oc=5"
+   "u": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPX0xkUnQ4QTJQMVlaamZQZFZ1bUUwSUdNV0VxaFM2ZzlTemV3OThyMUo3NGQtWlNIdzh5Q2xOZG1zamMzTEpIaGQ0bDFwY0h0ODJFa2VJeFdGRDdIQzFIakFua3BvMXBpOFRIYmVQYjF6RHludThFRjIwcjlJV2VKb1N0STdlUEFzaVFaMi1GdHNULUtORzJTOXhlaWNyalU5NjhESlFjOXNIZlQ3TDVxcjNSdkUyZl9HWjBpWVdsTm5RQ2tSeFRycHFvS1ZoWkZxOHZLeWoyTFdHY1ZZLUp6ZldsNzI0eHNJelRKdVkxNVZIekExS3lLRWtOWUVVTTUtMktoUUZwaGxXWFHSAYsCQVVfeXFMT19MZFJ0OEEyUDFZWmpmUGRWdW1FMElHTVdFcWhTNmc5U3pldzk4cjFKNzRkLVpTSHc4eUNsTmRtc2pjM0xKSGhkNGwxcGNIdDgyRWtlSXhXRkQ3SEMxSGpBbmtwbzFwaThUSGJlUGIxekR5bnU4RUYyMHI5SVdlSm9TdEk3ZVBBc2lRWjItRnRzVC1LTkcyUzl4ZWljcmpVOTY4REpRYzlzSGZUN0w1cXIzUnZFMmZfR1owaVlXbE5uUUNrUnhUcnBxb0tWaFpGcTh2S3lqMkxXR2NWWS1KemZXbDcyNHhzSXpUSnVZMTVWSHpBMUt5S0VrTllFVU01LTJLaFFGcGhsV1hR?oc=5"
   },
   {
    "d": "25/11/2026",
@@ -20,10 +41,10 @@
   },
   {
    "d": "25/11/2026",
-   "c": "arvore",
-   "v": "Metrópoles",
-   "t": "Chuva forte derruba 17 árvores e interdita rua e avenida em São Paulo",
-   "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOTBCYlhZc1ppcWxUbDNKZUthX3J5b0h4X0dSNGlmZkZob0h6aFNwcXY2V0dwdVJJQ3VaM3lKUkpKMGZrV3VsUVJRRjdzNUg5R1RPWDZVc3FheVgxUVU0T1BDYXpOUEtrQzE3aDNlZ1VfM2pQMGZmcXQ0aEd4NENRbEZNWmptQUN2UXJncnZvRFAwYzlGdWRCLWJtTG5YSlUxLXoyTThNMWN1dw?oc=5"
+   "c": "chuva",
+   "v": "Jovem Pan",
+   "t": "Chuvas deixam mortos, feridos e desalojados em cidades de São Paulo",
+   "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8yX3FER2kwWGlsUHVvazZUSHp4UXBBSWxxSVQ4N0UzU0FtNUYxUHlyc0taSEVZRlNVdmtiU00ySzl3czhKUEVLa0xfQnZOT2NqVUU1b05MSFQ5Q0c5NVRDZU1wTk5XRlVBNkxvLXVTSjNaWVU?oc=5"
   },
   {
    "d": "25/11/2026",
@@ -38,27 +59,6 @@
    "v": "SBT News",
    "t": "Mulher e bebê morrem após deslizamento atingir casa em SP",
    "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUFlVMHE2dVJubmI5RTFjMzdpNFpRQXprRXYyUS0wUmN1bE1EaDFQSmtpZUl1UnhqMV9SblRka2EydWdDR0ZucVN3VFZmR2FKV3FjbFprZDVEOVdidjNBUUdBaFVzdHF1akdGUm11VEtBRUVQYjZ3eWE1VkVLUEVkNjM4bHVQY2I2cEttemI2aGQ4TjdCNkdQRll1d1ZhTTNv?oc=5"
-  },
-  {
-   "d": "25/11/2026",
-   "c": "chuva",
-   "v": "R7",
-   "t": "Defesa Civil interdita casas e apartamentos após deslizamento de terra na zona norte de São Paulo",
-   "u": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUkU5amNnX0dEU3NKSV96RlM3TzQ4eTlaenFvbjgxVWdLZHFRWHJYcEVlNG5md0Yxdllta3lzWFpJVHdiU3A2SkFuTGRDRUY5ejVDLTNjM3VrN3Y2WjN6MmUxUUo5QkpJMm5Ddm41R25GbS1KTUY5YWljRDJ4clZiX1ktNTN2MjVfT3BnajIxQ3o5a1JMOF9aWWE0aVZwcm9WSHRvX3VfYjgtNFpBSjFaak45OVotdTF2cmFLZURZRWRhMzM2akJnYWNZbWJfZGM2aTFHa2NHcUxCck82TUstTg?oc=5"
-  },
-  {
-   "d": "25/11/2026",
-   "c": "chuva",
-   "v": "CNN Brasil",
-   "t": "Chuva em SP: Duas pessoas morrem no interior e capital tem caos no trânsito",
-   "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOG8wbk96NlRlVUdYLXdrNkY1cDlPTmQ2MmRYcHgxb0RjU1BrdFZwTWR3SF81SHVuU0hsaFRyZkx5U2R2R3N2TG1WZVJVenVfQ3RWNjRHQ00ybVpxV1hyNE53UmpWLVRMOVBCd2llLWY4dU1Kbl9zR0VCeThsOTdVZm9XQUdIOWswaUpyZGhaV0RPZTJHU3g0d1JJUGszb1hYUnZhRFhoUS1jdTF3czJEb1V4QXZTMkJXWWI0bHJ3WFExdw?oc=5"
-  },
-  {
-   "d": "25/11/2026",
-   "c": "chuva",
-   "v": "Metrópoles",
-   "t": "Novas tempestades previstas para SP mobilizam gabinete da Defesa Civil",
-   "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeFdXTDVpZi1iNEZSamt0VHlyU3hJQWtlTnkxdEFtbW9aU1RoS0RGd1Y4NHBwS3laVmoydWpqMFNVWFFFaU1US21BUkxITWJWTmFST09tUHRqU1Z0NnBQdk1tTHZmRzBvOFVfZ0l0b1VwS0Z4anF3ZnZrNVlhenU5X245RUpfaWhEa2Q3TUVYVzFNQ21mY29CN3FLXzNuMkRGUzI1WXlMY0w5NTA?oc=5"
   }
  ]
 }
