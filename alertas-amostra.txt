@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-27T12:16:31Z</updated>
-  <dc:date>2026-11-27T12:16:31Z</dc:date>
+  <updated>2026-11-27T21:27:14Z</updated>
+  <dc:date>2026-11-27T21:27:14Z</dc:date>
   <entry>
     <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>200887/2026</id>
-    <updated>2026-11-27T02:03:39Z</updated>
+    <id>200895/2026</id>
+    <updated>2026-11-27T10:07:38Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>200887/2026</identifier>
+        <identifier>200895/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-26T23:03:39-03:00</sent>
+        <sent>2026-11-27T07:07:38-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -28,8 +28,8 @@
           <urgency>Expected</urgency>
           <severity>Severe</severity>
           <certainty>Likely</certainty>
-          <onset>2026-11-26T23:03:39-03:00</onset>
-          <expires>2026-11-27T03:00:00-03:00</expires>
+          <onset>2026-11-27T07:07:38-03:00</onset>
+          <expires>2026-11-27T11:00:00-03:00</expires>
           <senderName>Defesa Civil Estadual do Amazonas</senderName>
           <headline>Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.</headline>
           <description>A análise da imagem de satélite GOES, no canal infravermelho, disponível no portal CIRA/NOAA, indica a presença de nuvens associadas a chuva intensa com possibilidade de pancadas de chuva de intensidade moderada a forte sobre o(s) referido(s) município(s). Também há chance de descargas elétricas e rajadas de vento, além do risco de alagamentos e enxurradas em áreas vulneráveis.</description>
@@ -42,4 +42,4 @@
           </parameter>
           <area>
             <areaDesc>AMAZONAS/AM</areaDesc>
-            <polygon>-3.283,-59.138 -3.279,-59.152 -3.276,-59.159 -3.272,-59.17 -3.265,-59.183 -3.255,-59.201 -3.247,-59.217 -3.242,-59.228 -3.239,-59.234 -3.293,-59.233 -3.293,-59.233 -3.347,-59.233 -3.35,-59.233 -3.355,-59.234 -3.357,-59.235 -3.357,-59.235 -3.358,-59.236 -3.359,-59.236 -3.361,-59.238 -3.362,-59.238 -3.363,-59.24 -3.365,-59.242 -3.367,-59.244 -3.368,-59.245 -3.369,-59.246 -3.372,-59.249 -3.373,
+            <polygon>2.156,-63.289 2.161,-63.303 2.165,-63.31 2.175,-63.326 2.184,-63.337 2.197,-63.359 2.208,-63.369 2.211,-63.372 2.202,-63.386 2.199,-63.395 2.188,-63.395 2.182,-63.388 2.172,-63.39 2.165,-63.394 2.156,-63.393 2.146,-63.397 2.144,-63.405 2.137,-63.414 2.131,-63.421 2.135,-63.427 2.126,-63.434 2.125,-63.444 2.128,-63.451 2.136,-63.46 2.14,-63.466 2.137,-63.474 2.126,-63.475 2.121,-63.485 2.115,

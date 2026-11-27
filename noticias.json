@@ -1,9 +1,16 @@
 {
- "atualizado": "2026-11-27T12:18:44+00:00",
+ "atualizado": "2026-11-27T21:28:49+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
  "noticias": [
+  {
+   "d": "27/11/2026",
+   "c": "chuva",
+   "v": "G1",
+   "t": "Chuva forte deixa uma pessoa morta e provoca alagamentos e deslizamentos no Alto Tietê; veja previsão para o fim de semana",
+   "u": "https://news.google.com/rss/articles/CBMingJBVV95cUxPeW9oaEdBdG5MOEgxUl91UWh5LWg0UGg4NmxjUGVPWUVCZ2FaTnhpNjJzR1dyWHd6cUJnTTU4c1B1LTlud0FUNW94VWFGNUJLWHZwd05XQ0hnUGhVck0wVTIxTkVzMW9DR2VidEZMcWV2RUMtMkdRcEIxc2kwWnZZMzlBMXNDMHJEWUF2RFQySTN2OEdQaHd4cFFldmtBeWVHSWNQY3pzZ1kzZDZOLVNkbm9qYmEtbzd2M3lSaEpXajB2bHc4TXlqdG80RjVrMkFFSnBIdmhnSlFNQTloMDZxQ01DN2V5aW1hMHRRY0JyVUZsdFRLaHE2Ujd5UVRzZTZmUS1wMlJaNFkzWW9mUDJoZ09XOWV4NFQzTzVLTXhB0gGsAkFVX3lxTFBFUmlfQzVaT1QxeE9EU2FPYUxZQkQ0S0E2U256MEtETnFsRFRtLURYdjc3RVo0MWdJOE81RHhEbzAzNU5tQVBXR0xrdkVnTEZOMFl1bE05ZVlXS2JUYkNDUmVnVFpKcGZOOVVjYjFQcGNCLWoxektDWU9uVzFDbWJoMEJuNFpZaHhzajFTVEdmNVl1c0piWU1oVklFak9mc0RvREdVUi1aS1pFd2pfMFJOX1BEdzRPZkUxdS1ZdVg2WlRaZ2k0ZTFBUDdxQ2VrUVRMRkY4WnNMUzJKSHU5WEw3aloyYzlEM2RVcWlGN3FHTmUtV3pSUDJhdUJJblI1Mkw3UGtjc2loVE5ZOFlsdjUtMktLcU5xQWphb0plbkJ2LWFYMVBPNDVoaHU2eg?oc=5"
+  },
   {
    "d": "27/11/2026",
    "c": "arvore",
@@ -28,13 +35,6 @@
   {
    "d": "26/11/2026",
    "c": "arvore",
-   "v": "band.com.br",
-   "t": "Temporal invade casas, derruba muro de prédio e deixa desalojados em SP",
-   "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVXd3TmE0U2RYQkxyRElOdXU2ajc5TjlFOG5manpKT0J6bWlSZ1hGSlAtc0tOWFVyRWpDOWlEeUlQQ0E5MDN1eGxJTDN6cVJ2MDhCX2dKWkJuTkwtd1ctYWRxMnR0TjRuWEZqaXNMSzRNbmpLN3YtejQ3VjN1SU1CLUoweE5KTkFVSHRhZTdvQmhFREJZcl92TlVnS1FBQ2ZGQlBnVzg1NWVaLUdBZDRlR1M1RHNtTEVFOW13TGpNNjI?oc=5"
-  },
-  {
-   "d": "26/11/2026",
-   "c": "arvore",
    "v": "G1",
    "t": "Temporal em Aparecida deixa 27 pessoas desalojadas, interdita apartamentos, hotel e 22 comércios",
    "u": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOTXBUNVRPVVFNUU5NZVB1REZpZVF3UzdKc3pTeHFQUXRlMWU0ZzdQMzI1MXZjTVc1MXdNVER2OTlVb3IxZlYyVENDV3c3Z2c4VEUzaEg3dWtsUlJlWnZhVXNFVHhPSDJpclNtSi15ZjdYaG5TcWZpZzV5WlQzZGlHRGc5RVQ0TkltUDluVGZvOUpDZm9iQ2MzeHd1T0hXcG5XZ2lkclpHMHJRZEpIdjdtV21MZ0xWZTIzQ3FhcC1Tc082dVA4SnVfeEpzb2xobWp1Y2pmanozLXZaQWNhVjFjcTZKOFFfSHJKQzg5ZmN2cndkTTQ4elYyd1ZB0gGIAkFVX3lxTE44ZUJDeV9aNHV6a1BiY0RLRjFabFh5djR5WHdHNkM2aVdUVGplM0JBWGlRdFFtVXpPYVZ5UU01WUxuVlFfbWQ5MjVXeWFvTGJmbXJEQnZpWWkzUjFNaTZQenJQLTNaeldwQlBZUWJyYWVVYjNBRTNMWkptejkzYnRLRGprTHBtcm9ndU8zUVBUQUo3aU5mUWNLbVNNd2w1LUlOUHVKNVFNbElJaVNoNWhJRGpYWURWRFhUOGZrR3pmc3JhcG9Id0l6VVRvcEwwUkhNV3FFNTFOb1JwNV9LU25VRk1jRDRuVVYwNTFIZWc5RGlTVHJmRUE2cTBXTDQ0U2UzRFBTT0FJSg?oc=5"
@@ -49,16 +49,16 @@
   {
    "d": "26/11/2026",
    "c": "chuva",
-   "v": "Band",
-   "t": "Monte Alegre do Sul decreta emergência após deslizamento matar mãe e bebê",
-   "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM0VUazdLTW5qVE54SS1kcTNIOEY4aHJXMkJyZmlzZGdNRmxlTUhfSEFFQVJqRGVsamdXZFBfcXF1WUcyTFVnVFJKd3pCakNpTFNoNmJ6QUh5Q0xFYm1EUndVQkZSQUN0MktFcXA2WUY5ckVxR1hpdjRTd3poN043WDhfUVo5UzZxSE90Ml83NzJpWFMzSGRCYmZVNFloNVhKYWk4MnRRSlVZdzlEWWc?oc=5"
+   "v": "CBN São José dos Campos e Vale",
+   "t": "Chuva coloca cidades do Vale entre as mais atingidas de SP",
+   "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbHgzYm1hb25nYTNmdmt4WFQwNzIyUEpld08zZ29RRzJvcy1nX0tWOXItZkUwUFUzcWhDRDNUY1ZwN0FuYWp4VUQxTkJEVnhpb0FHUzVucFJ1WGpKOXdXdVBXbzR3UHFJMDEtNmhtdDZiVWNPa0VMLTF1Zm5pT0hZanJ3UXNiU1YwU3R2dkFCSQ?oc=5"
   },
   {
    "d": "26/11/2026",
-   "c": "chuva",
-   "v": "Band",
-   "t": "Americana registra pontos de alagamento após Ribeirão Quilombo transbordar",
-   "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNldZQVJySFNDU3AwNlYtY1lNV1pYcTdMbU05d21QMEdnNUpGSTNVSUJlYjRpRXpCX2Q3bVdNZVU3Q1IwcmRYQm9KbDBfckdwWmZUbTRJc1JNZXlEdUZibldBN2xGS3M3Z2gtdXBVbTVLV3BGem5IVWtqRVFueXltVWFaNVFxTFQ3MnRoVU5fYkhvNzhWTjNtczlwLTAtMG1LUU0xdWQ1RGVZWm94NlF3?oc=5"
+   "c": "alerta",
+   "v": "Folha de Alphaville",
+   "t": "Chuvas volumosas colocam Estado de SP em alerta severo",
+   "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQlg1VGU5d0hBTk8yaGZKYktqZVdxYTZraW00R1hGR1RfcnNZc0VRQ1o0MzZ3UkxnUWtjenEwc1NyR0NhRzZtLVMwV1djck9jVjJwdGh0dlpyS1luYnM5UDNZdVZtbHQ4RklpVHVNUGM2bWJhVnFfV29RWXBRb0lKVmlVaFp6VmZzbVNGUUxsbHp5WDZFNkVQdWhOUTExN24zUkZGUFNB?oc=5"
   }
  ]
 }
