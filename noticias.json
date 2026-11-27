@@ -1,9 +1,30 @@
 {
- "atualizado": "2026-11-26T20:26:42+00:00",
+ "atualizado": "2026-11-27T03:08:49+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
  "noticias": [
+  {
+   "d": "26/11/2026",
+   "c": "chuva",
+   "v": "CNN Brasil",
+   "t": "Chuva em SP supera em 50% o esperado para o mês de novembro",
+   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNkFrNXdMRzZTaHQ0QmJHZkliMzdaYW1oc3hqX3FsRzZjNFlTVTFULXRJeFJaYUFORnVTOGN0NDh2VkJSS1MzMXY2Qi1vNlVCTEt4VTNiakpsOUZnNHIxNVpyUVp6QlFpTlZrSWcyaUxPY1BSMFdzN0pBeFZNV3N1a2JYTTg1NC1KNXgycVRlVnR3V1Y0M2c4X01NNmxaNkdHYWVSY0FiVmF4bjhS?oc=5"
+  },
+  {
+   "d": "26/11/2026",
+   "c": "arvore",
+   "v": "G1",
+   "t": "Temporal provoca transtornos na Vila São Paulo",
+   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUnNBdmFkQm90anY3cWNjZzNXMWY3eGZpeTRNSERTZnBTbEwwdjZPaW5MMDBpY1ppWmhvOWxqZS1RbHdHdmc0dU5PWWl6UEhTUmw2LURkeHpIMXhLN1R4UkE0Y1c5Q0RXZVh1cmtIclNqYTEtS3RyV0Z4ZC1BTkZiUWZrQmYwVm1fb211dms4bGJjeVBiTmc3NVFkZUFLUlE2RXRmakxzZ0ltM3Q00gG7AUFVX3lxTE1aVEhoVy1SZWxvWG1KUDVqYVoxazJiTmpnemNhTDRyVmNLeThCNXZVcGc1NWdQXzltTlV5TWhiRHlyX1k3TnplMGJ0alVsMmZUMkM1MXZDSVR6SnYtWWFxRDlDMk1yWnB5bV91S2w4T243TU9aSmZER0xiT1E2ZmsxQXl0UlZVcy12NzBtWTMwbXY5WFZWOUtQWUtWQ0dKdE9SRl9xNWdWbGtXU2JVb1VRT2pqUHp1ZXQzQ2M?oc=5"
+  },
+  {
+   "d": "26/11/2026",
+   "c": "arvore",
+   "v": "band.com.br",
+   "t": "Temporal invade casas, derruba muro de prédio e deixa desalojados em SP",
+   "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVXd3TmE0U2RYQkxyRElOdXU2ajc5TjlFOG5manpKT0J6bWlSZ1hGSlAtc0tOWFVyRWpDOWlEeUlQQ0E5MDN1eGxJTDN6cVJ2MDhCX2dKWkJuTkwtd1ctYWRxMnR0TjRuWEZqaXNMSzRNbmpLN3YtejQ3VjN1SU1CLUoweE5KTkFVSHRhZTdvQmhFREJZcl92TlVnS1FBQ2ZGQlBnVzg1NWVaLUdBZDRlR1M1RHNtTEVFOW13TGpNNjI?oc=5"
+  },
   {
    "d": "26/11/2026",
    "c": "arvore",
@@ -14,51 +35,30 @@
   {
    "d": "26/11/2026",
    "c": "arvore",
-   "v": "Estadão",
-   "t": "Temporal alaga vias da Pompeia e coloca SP em estado de atenção pelo 4º dia consecutivo",
-   "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR1hCQXlSZHBYdnlWMVB6TFoxTXVWY3FQTXVlSHF5TktqR0h6RWtNNHZpWkhqa21PV3BaUUVVd1RPTEZCT1o5dE5BQTVBM2owaGtxTWI4LTN1Tjdvd3QyUkdSZVQxcjdRQjdjN0I5QVBaSHBlVjIxU0tqbllMNUFIc3VSUXRDQk1TS3NGZE9nSE9rMVZOeEE?oc=5"
+   "v": "Metrópoles",
+   "t": "Atibaia, no interior de SP, registra ruas tomadas pela água após temporal.",
+   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcjJueUJSb3VZQXlSUGZGXzc2SzV6aWk0LWxxckdUaXNkZFFXOXBaNEFuZ1YyWXA0OEkteW56UTFvQmh6Yl9vXzU5TzF2N0R1M3hwY3FlTVcyU3NnVFY5dlpvdWNhd0pBVnF1QlJwX1ZCLTFrdXJIcEQ5Y1VJOGNuM3V4RjFNVnNhaHlhMk5RR2tDRW52NjFSdjFDeTNrY0JKNXZKNVhuZDRiSWZs?oc=5"
   },
   {
    "d": "26/11/2026",
    "c": "chuva",
-   "v": "Metrópoles",
-   "t": "Aparecida: muro desaba com chuva, atinge carros e interdita 16 apartamentos",
-   "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPY2RNd3ZUZURVUE0yb2JpVU5qLU5ZRHkzSnI5aEhUMVR5c0ZXdHMyQWhlaXFGbVJJZHdrS3pGbkNreFBwTEFGODlMRy1ZclczUlFxOW5sOTZDeDNoTWh0cHdBWDlmTWoyWnBCeU80anFySk8ycWtlaXM3cGluUGRhenJLNVJMa2JqU2dablhCc0JDVGdQcTU5bzlLYTBhVXhpaWxxY1hWRXdkTUlqbHpF?oc=5"
+   "v": "Band",
+   "t": "Monte Alegre do Sul decreta emergência após deslizamento matar mãe e bebê",
+   "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM0VUazdLTW5qVE54SS1kcTNIOEY4aHJXMkJyZmlzZGdNRmxlTUhfSEFFQVJqRGVsamdXZFBfcXF1WUcyTFVnVFJKd3pCakNpTFNoNmJ6QUh5Q0xFYm1EUndVQkZSQUN0MktFcXA2WUY5ckVxR1hpdjRTd3poN043WDhfUVo5UzZxSE90Ml83NzJpWFMzSGRCYmZVNFloNVhKYWk4MnRRSlVZdzlEWWc?oc=5"
   },
   {
-   "d": "25/11/2026",
+   "d": "26/11/2026",
+   "c": "chuva",
+   "v": "Band",
+   "t": "Americana registra pontos de alagamento após Ribeirão Quilombo transbordar",
+   "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNldZQVJySFNDU3AwNlYtY1lNV1pYcTdMbU05d21QMEdnNUpGSTNVSUJlYjRpRXpCX2Q3bVdNZVU3Q1IwcmRYQm9KbDBfckdwWmZUbTRJc1JNZXlEdUZibldBN2xGS3M3Z2gtdXBVbTVLV3BGem5IVWtqRVFueXltVWFaNVFxTFQ3MnRoVU5fYkhvNzhWTjNtczlwLTAtMG1LUU0xdWQ1RGVZWm94NlF3?oc=5"
+  },
+  {
+   "d": "26/11/2026",
    "c": "arvore",
-   "v": "G1",
-   "t": "Temporal provoca alagamentos e interdita ruas e avenidas em Americana",
-   "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYnJPNVhaLXE3OGJleVVXWEg4QWg0bVpkeEVZeEx0U0p0ZUZ2TVNLOEVxWGRaLTRHMFZsbmY3b0x6Q1AzdHdpWk1sZUlHZWJKNTg4TnZGc3lwaDV4MWRmUnNVcEZSUG53UDZqaXNDRWVZd2N5Y2JBdkpFYkVmRV9lbWctNndBcFRNcjhnMDlYWUljaUtOZkZuLUhCTE1xYjlCZURaenhNQ0VldmlqT3Z0dU5hS1VWWHotbFlhRXR5UVJNN1Z1cUJ5TkxtWmVzWTTSAd4BQVVfeXFMTXFpcTJOZnJVcENTVktvRmRLMDBrWDJTN2FDTm9EWTVJV2x0SFEwcGF1VUY4VVJiNUN5cW5pRU5hYWVZM2VpSUtVNkVQbk05VEpRTWJScE54V2RvRE9ta1lMQTJJam5sSmxUanJFeUNpZ1MzN3ZYRTFjUTZYS0UwekZVR2RWRFRoZkdZakdJbl9kNGN0T0QzdlhCVzhFZWJSV21JMTNIZ2ZJb1BaM19uUk9IS0xDS3dzSUF6R2NFMGN6aUc3aDlTdDlsR1c4T0dRek1PZjU0VVdyRk5YVjlB?oc=5"
-  },
-  {
-   "d": "25/11/2026",
-   "c": "chuva",
-   "v": "G1",
-   "t": "El Niño: chuva forte prevista até quinta-feira aumenta risco de deslizamentos no Litoral Norte de SP",
-   "u": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNMjdqSjZfLWJHdFg0SFUzb3AtblBBRjNmeEJZRGNIWEdaTmdHMXo1bkVyRVpHUk9kMi1QS0didEhYa1g4QWhuVjZqVy1nQzl5WmI0ZnpJZGwtT0ZZcU9KbU1QUFF1WUxtTURuYVZlZ1gwZ0g1c3o5eDZNWktxOGNpMFRsUzdZU0JDcm5wc2JBcnpCRUFzaTU5cTJwYXpHVVJOVzRZWFZ4dzRfZlB3eUpJakdaZE45MGd1eHBLQ1FiTndiSGdocEJaWmZVbmZveGhGVzZMNFBxMkRWQ1A3SHN0d1BNc0gtd3VPeGI5NGpVSk9GNDRYMWpvdFN4UEVpSGtK0gGPAkFVX3lxTE9vYXRtNUt5ZXpUZDZrZUVUdDlGanJiUklJdHNyS1BHNXhOQ3ZzTHl6YzQwaTlQWWl5WEhWdzBvcm5pa3hVekh2d21rLU8ydllMaFp6Z2R0WlktT284YkNNZ2RiQTRvY0xqNUN3dll2WjRGZ3JfdHZ5Y2U4YzNJbGFBRHhYekpxd0VLRGdMU05ZSHRNWVBNdjM3ZThnTXMyanItVXRfRkpfZFFqbGtBNkdNVXUzb1hwcnM1dnkzbmFwakVnRlVCeUlOdDBZUVFxeTlVYzBpSUx1NE5aTVJOMm1Hakd1bFgzVkw3eXB0T00xTFdNTE9wcUdqaEVWb0laTndyemhiaWw0dWhEcWsyMm8?oc=5"
-  },
-  {
-   "d": "25/11/2026",
-   "c": "alerta",
-   "v": "G1",
-   "t": "Defesa Civil renova alerta para chuvas intensas em todo o estado de São Paulo",
-   "u": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPX0xkUnQ4QTJQMVlaamZQZFZ1bUUwSUdNV0VxaFM2ZzlTemV3OThyMUo3NGQtWlNIdzh5Q2xOZG1zamMzTEpIaGQ0bDFwY0h0ODJFa2VJeFdGRDdIQzFIakFua3BvMXBpOFRIYmVQYjF6RHludThFRjIwcjlJV2VKb1N0STdlUEFzaVFaMi1GdHNULUtORzJTOXhlaWNyalU5NjhESlFjOXNIZlQ3TDVxcjNSdkUyZl9HWjBpWVdsTm5RQ2tSeFRycHFvS1ZoWkZxOHZLeWoyTFdHY1ZZLUp6ZldsNzI0eHNJelRKdVkxNVZIekExS3lLRWtOWUVVTTUtMktoUUZwaGxXWFHSAYsCQVVfeXFMT19MZFJ0OEEyUDFZWmpmUGRWdW1FMElHTVdFcWhTNmc5U3pldzk4cjFKNzRkLVpTSHc4eUNsTmRtc2pjM0xKSGhkNGwxcGNIdDgyRWtlSXhXRkQ3SEMxSGpBbmtwbzFwaThUSGJlUGIxekR5bnU4RUYyMHI5SVdlSm9TdEk3ZVBBc2lRWjItRnRzVC1LTkcyUzl4ZWljcmpVOTY4REpRYzlzSGZUN0w1cXIzUnZFMmZfR1owaVlXbE5uUUNrUnhUcnBxb0tWaFpGcTh2S3lqMkxXR2NWWS1KemZXbDcyNHhzSXpUSnVZMTVWSHpBMUt5S0VrTllFVU01LTJLaFFGcGhsV1hR?oc=5"
-  },
-  {
-   "d": "25/11/2026",
-   "c": "chuva",
-   "v": "Jovem Pan",
-   "t": "Mãe e bebê morrem em deslizamento de terra no interior de SP",
-   "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdFgwQnlMRGk4dlBaSUtldTdqV2lfZ19LSlVLa0cwZzNTZjRUbkp0M3lHQnQ4ZXM3UzZESFd2RHB4dTMwRnhCT0lERDNGUGJ3eDlHVThUTmhyU0hZUmZ4S3g0SG84SW9rRW15MzhSUGY0b2pRSy1ET2FYMUNxemJKSDd2eHJOMHpUdmRXekJibkRJcHljRGVz?oc=5"
-  },
-  {
-   "d": "25/11/2026",
-   "c": "chuva",
-   "v": "Jovem Pan",
-   "t": "Chuvas deixam mortos, feridos e desalojados em cidades de São Paulo",
-   "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8yX3FER2kwWGlsUHVvazZUSHp4UXBBSWxxSVQ4N0UzU0FtNUYxUHlyc0taSEVZRlNVdmtiU00ySzl3czhKUEVLa0xfQnZOT2NqVUU1b05MSFQ5Q0c5NVRDZU1wTk5XRlVBNkxvLXVTSjNaWVU?oc=5"
+   "v": "Band",
+   "t": "Árvore cai sobre carro estacionado durante temporal em Campinas",
+   "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYU5NdU50R1VsZ296MC1OMUVqRlBjT0MwLTlYN2V5SE96T29RVm9xeWxpSlg2U1hkWG1JODdaWlFwcHNlN3ZCa2YycmZHU3pBeDhRMzJkNlR0Mkd0aTYzX2gxS2h5NFpEak9DZ0RRLVZYNDNiVHNDYjdvVW04UERTNzJYeEI5WDZGU0xiR3JpQklhRkwtQmw4eDRoajR5NGZDeWc?oc=5"
   }
  ]
 }

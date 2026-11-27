@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-26T20:26:19Z</updated>
-  <dc:date>2026-11-26T20:26:19Z</dc:date>
+  <updated>2026-11-27T03:06:08Z</updated>
+  <dc:date>2026-11-27T03:06:08Z</dc:date>
   <entry>
     <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>200739/2026</id>
-    <updated>2026-11-26T08:41:58Z</updated>
+    <id>200768/2026</id>
+    <updated>2026-11-26T15:07:13Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>200739/2026</identifier>
+        <identifier>200768/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-26T05:41:58-03:00</sent>
+        <sent>2026-11-26T12:07:13-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -26,17 +26,14 @@
           <event>CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
           <urgency>Immediate</urgency>
-          <severity>Severe</severity>
+          <severity>Moderate</severity>
           <certainty>Observed</certainty>
-          <onset>2026-11-26T05:41:58-03:00</onset>
-          <expires>2026-11-26T10:00:00-03:00</expires>
-          <senderName>Defesa Civil de Niterói (RJ)</senderName>
-          <headline>Defesa Civil:(26/11 05:30) Niteroi: Previsao de chuva fraca a moderada nas proximas horas. Em caso de emergencia, ligue 199.</headline>
-          <description>Defesa Civil de Niterói informa: Núcleos de chuva atuam na Baía de Guanabara e no Oceano Atlântico e se deslocam em direção a cidade de Niterói. Previsão de chuva fraca a moderada, nas próximas horas.</description>
-          <instruction>-Moradores de áreas de risco: fiquem atentos a indícios de ameaças de deslizamentos e preparados para se deslocarem para locais seguros;
--Quem estiver em locais seguros deve permanecer nestes locais até o aviso de chuva intensa cessar;
--Evite transitar em áreas alagadas e próximas a córregos, canais e rios sujeitos a transbordamento;
--Em casos de ventos fortes e/ou chuvas com raios, evite ficar próximo a árvores, redes de energia elétrica, toldos, tapumes ou em áreas descampadas.</instruction>
+          <onset>2026-11-26T12:07:13-03:00</onset>
+          <expires>2026-11-26T19:00:00-03:00</expires>
+          <senderName>Defesa Civil Estadual do Espírito Santo</senderName>
+          <headline>Defesa Civil:(ES)  ALERTA de RAIOS, VENTO, CHUVAS INTENSAS E GRANIZO para litoral Sul e Guarapari nas proximas 06 horas. Fique atento. Emergencia ligue 193.</headline>
+          <description>(ES)  ALERTA de RAIOS, VENTO, CHUVAS INTENSAS E GRANIZO para litoral Sul e Guarapari nas proximas 06 horas. Fique atento. Emergencia ligue 193.</description>
+          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -44,6 +41,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>Niterói/RJ</areaDesc>
-            <polygon>-22.985,-43.083 -22.986,-43.086 -22.987,-43.088 -22.987,-43.088 -22.987,-43.088 -22.987,-43.088 -22.988,-43.088 -22.988,-43.088 -22.989,-43.086 -22.989,-43.084 -22.988,-43.083 -22.988,-43.082 -22.988,-43.081 -22.986,-43.08 -22.986,-43.08 -22.986,-43.081 -22.985,-43.081 -22.985,-43.081 -22.985,-43.082 -22.985,-43.083</polygon>
-            <polygon>-22.982,-43.062 -22.982,-43.062 -22.982,-43.062 -22.982,-43.063 -22.982,-43.06
+            <areaDesc>ESPÍRITO SANTO/ES</areaDesc>
+            <polygon>-20.546,-40.643 -20.545,-40.643 -20.545,-40.643 -20.545,-40.643 -20.545,-40.643 -20.546,-40.644 -20.546,-40.644 -20.546,-40.644 -20.546,-40.644 -20.546,-40.644 -20.545,-40.644 -20.545,-40.644 -20.546,-40.644 -20.546,-40.645 -20.546,-40.645 -20.546,-40.645 -20.546,-40.645 -20.546,-40.645 -20.546,-40.645 -20.546,-40.646 -20.546,-40.646 -20.546,-40.646 -20.546,-40.646 -20.546,-40.646 -20.546,-40.646 -20.546,-40.646 -20.546,-40.647 -20.546,-40.647 -20.546,-40.647 -20.546,-40.647 -20.546,-40.647 -20.546,-40.647 -20.546,-40.647 -20.546,-40.647 -20.546,-40.647 -20.546,-40.647 -20.546,-40.648 -20.546,-40.648 -20.546,-40.648 -20.546,-40.648 -20.546,-40.648 -20.546,-40.648 -20.547,-40.648 -20.547,-40.649 -20.547,-40.649 -20.547,-40.649 -20.547,-40.649 -20.547,-40.649 -20.548,-40.649 -20.548,-40.65 -
