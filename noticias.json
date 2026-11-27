@@ -1,9 +1,16 @@
 {
- "atualizado": "2026-11-27T03:08:49+00:00",
+ "atualizado": "2026-11-27T12:18:44+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
  "noticias": [
+  {
+   "d": "27/11/2026",
+   "c": "arvore",
+   "v": "Folha de S.Paulo",
+   "t": "São Paulo tem previsão de chuva fraca nesta sexta (27) e de temporal no sábado (28)",
+   "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNWVKRGRBc09iYzdBc19IbHlZMFhMVjlsRXNiOVZwSktMRkhaQmVmbmlJbVc1V3QtemxyakxaY3dBR2diZmhyUVYxa25CdlQtX29CUzVpYlZpTlVOUnhDUU1KWXh3c0Y3RGJ4MzE5RWhPT3hDTVRrMUJ6c3NvcGUxaGlrWDlLUzhxU0ZRdE1tdW1jLW9jRWxLQXNHbDV0ODVuaDRSV1JDWGc5WnVhOVNEZzJ4ODNQS1pxSFZlWExqbmg0Q1lCcU5lNjIyX1RDdw?oc=5"
+  },
   {
    "d": "26/11/2026",
    "c": "chuva",
@@ -52,13 +59,6 @@
    "v": "Band",
    "t": "Americana registra pontos de alagamento após Ribeirão Quilombo transbordar",
    "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNldZQVJySFNDU3AwNlYtY1lNV1pYcTdMbU05d21QMEdnNUpGSTNVSUJlYjRpRXpCX2Q3bVdNZVU3Q1IwcmRYQm9KbDBfckdwWmZUbTRJc1JNZXlEdUZibldBN2xGS3M3Z2gtdXBVbTVLV3BGem5IVWtqRVFueXltVWFaNVFxTFQ3MnRoVU5fYkhvNzhWTjNtczlwLTAtMG1LUU0xdWQ1RGVZWm94NlF3?oc=5"
-  },
-  {
-   "d": "26/11/2026",
-   "c": "arvore",
-   "v": "Band",
-   "t": "Árvore cai sobre carro estacionado durante temporal em Campinas",
-   "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYU5NdU50R1VsZ296MC1OMUVqRlBjT0MwLTlYN2V5SE96T29RVm9xeWxpSlg2U1hkWG1JODdaWlFwcHNlN3ZCa2YycmZHU3pBeDhRMzJkNlR0Mkd0aTYzX2gxS2h5NFpEak9DZ0RRLVZYNDNiVHNDYjdvVW04UERTNzJYeEI5WDZGU0xiR3JpQklhRkwtQmw4eDRoajR5NGZDeWc?oc=5"
   }
  ]
 }

@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-27T03:06:08Z</updated>
-  <dc:date>2026-11-27T03:06:08Z</dc:date>
+  <updated>2026-11-27T12:16:31Z</updated>
+  <dc:date>2026-11-27T12:16:31Z</dc:date>
   <entry>
     <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>200768/2026</id>
-    <updated>2026-11-26T15:07:13Z</updated>
+    <id>200887/2026</id>
+    <updated>2026-11-27T02:03:39Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>200768/2026</identifier>
+        <identifier>200887/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-26T12:07:13-03:00</sent>
+        <sent>2026-11-26T23:03:39-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
@@ -25,15 +25,15 @@
           <category>Met</category>
           <event>CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
-          <urgency>Immediate</urgency>
-          <severity>Moderate</severity>
-          <certainty>Observed</certainty>
-          <onset>2026-11-26T12:07:13-03:00</onset>
-          <expires>2026-11-26T19:00:00-03:00</expires>
-          <senderName>Defesa Civil Estadual do Espírito Santo</senderName>
-          <headline>Defesa Civil:(ES)  ALERTA de RAIOS, VENTO, CHUVAS INTENSAS E GRANIZO para litoral Sul e Guarapari nas proximas 06 horas. Fique atento. Emergencia ligue 193.</headline>
-          <description>(ES)  ALERTA de RAIOS, VENTO, CHUVAS INTENSAS E GRANIZO para litoral Sul e Guarapari nas proximas 06 horas. Fique atento. Emergencia ligue 193.</description>
-          <instruction>Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.</instruction>
+          <urgency>Expected</urgency>
+          <severity>Severe</severity>
+          <certainty>Likely</certainty>
+          <onset>2026-11-26T23:03:39-03:00</onset>
+          <expires>2026-11-27T03:00:00-03:00</expires>
+          <senderName>Defesa Civil Estadual do Amazonas</senderName>
+          <headline>Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.</headline>
+          <description>A análise da imagem de satélite GOES, no canal infravermelho, disponível no portal CIRA/NOAA, indica a presença de nuvens associadas a chuva intensa com possibilidade de pancadas de chuva de intensidade moderada a forte sobre o(s) referido(s) município(s). Também há chance de descargas elétricas e rajadas de vento, além do risco de alagamentos e enxurradas em áreas vulneráveis.</description>
+          <instruction>Siga as orientações da defesa civil local. Se houver vendaval, granizo ou descargas elétricas, fique atento às recomendações para estes tipos de ameaças; Auxilie crianças, idosos e pessoas com dificuldade de locomoção próximas a você; Evite contato com a água de alagamentos, pois podem estar contaminadas e provocar doenças.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -41,5 +41,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>ESPÍRITO SANTO/ES</areaDesc>
-            <polygon>-20.546,-40.643 -20.545,-40.643 -20.545,-40.643 -20.545,-40.643 -20.545,-40.643 -20.546,-40.644 -20.546,-40.644 -20.546,-40.644 -20.546,-40.644 -20.546,-40.644 -20.545,-40.644 -20.545,-40.644 -20.546,-40.644 -20.546,-40.645 -20.546,-40.645 -20.546,-40.645 -20.546,-40.645 -20.546,-40.645 -20.546,-40.645 -20.546,-40.646 -20.546,-40.646 -20.546,-40.646 -20.546,-40.646 -20.546,-40.646 -20.546,-40.646 -20.546,-40.646 -20.546,-40.647 -20.546,-40.647 -20.546,-40.647 -20.546,-40.647 -20.546,-40.647 -20.546,-40.647 -20.546,-40.647 -20.546,-40.647 -20.546,-40.647 -20.546,-40.647 -20.546,-40.648 -20.546,-40.648 -20.546,-40.648 -20.546,-40.648 -20.546,-40.648 -20.546,-40.648 -20.547,-40.648 -20.547,-40.649 -20.547,-40.649 -20.547,-40.649 -20.547,-40.649 -20.547,-40.649 -20.548,-40.649 -20.548,-40.65 -
+            <areaDesc>AMAZONAS/AM</areaDesc>
+            <polygon>-3.283,-59.138 -3.279,-59.152 -3.276,-59.159 -3.272,-59.17 -3.265,-59.183 -3.255,-59.201 -3.247,-59.217 -3.242,-59.228 -3.239,-59.234 -3.293,-59.233 -3.293,-59.233 -3.347,-59.233 -3.35,-59.233 -3.355,-59.234 -3.357,-59.235 -3.357,-59.235 -3.358,-59.236 -3.359,-59.236 -3.361,-59.238 -3.362,-59.238 -3.363,-59.24 -3.365,-59.242 -3.367,-59.244 -3.368,-59.245 -3.369,-59.246 -3.372,-59.249 -3.373,
