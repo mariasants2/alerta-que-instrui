@@ -2,43 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-28T03:26:21Z</updated>
-  <dc:date>2026-11-28T03:26:21Z</dc:date>
+  <updated>2026-11-28T12:10:30Z</updated>
+  <dc:date>2026-11-28T12:10:30Z</dc:date>
   <entry>
-    <title>RESSACA</title>
+    <title>CHUVAS INTENSAS</title>
     <author>
       <name />
     </author>
-    <id>200908/2026</id>
-    <updated>2026-11-27T15:32:00Z</updated>
+    <id>200973/2026</id>
+    <updated>2026-11-28T00:24:01Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>200908/2026</identifier>
+        <identifier>200973/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-27T12:32:00-03:00</sent>
+        <sent>2026-11-27T21:24:01-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
         <scope>Public</scope>
         <info>
           <language>pt-BR</language>
-          <category>Env</category>
-          <event>RESSACA</event>
+          <category>Met</category>
+          <event>CHUVAS INTENSAS</event>
           <responseType>Execute</responseType>
-          <urgency>Immediate</urgency>
+          <urgency>Expected</urgency>
           <severity>Severe</severity>
-          <certainty>Likely</certainty>
-          <onset>2026-11-27T12:30:00-03:00</onset>
-          <expires>2026-11-28T09:00:00-03:00</expires>
-          <senderName>Defesa Civil de Niterói (RJ)</senderName>
-          <headline>Defesa Civil:Niteroi: Aviso de Ressaca. Inicio: 27/11 sexta-feira 18h. Fim: 28/11 sabado 09h. Ondas com altura de 2,5 a 3,0 metros. Emergencia, 199.</headline>
-          <description>Defesa Civil de Niterói informa: A Marinha do Brasil emitiu aviso de ressaca, incluindo a cidade de Niterói. Início: às 18h00min do dia 27/11/2026 (Sexta-feira). Fim: às 09h00min do dia 28/11/2026 (Sábado). Direção e altura das ondas: Direção Sudoeste 2,5 a 3,0 metros.</description>
-          <instruction>* Evitar o banho de mar e esportes na praia neste período;
-* Não permanecer em mirantes ou em locais próximos ao mar durante o período;
-* Os frequentadores de praias devem seguir as orientações das equipes do Corpo de Bombeiros;
-* Evitar trafegar de bicicleta na orla caso as ondas estejam atingindo as calçadas;
-* Os pescadores devem evitar navegar durante o período de ressaca;
-* Não entrar no mar para resgatar vítimas de acidente. Neste caso, acione imediatamente as equipes do Corpo de Bombeiros</instruction>
+          <certainty>Possible</certainty>
+          <onset>2026-11-27T21:24:01-03:00</onset>
+          <expires>2026-11-27T23:22:00-03:00</expires>
+          <senderName>Defesa Civil Estadual de Minas Gerais</senderName>
+          <headline>Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte  com duracao de 02:00h. Proteja-se!</headline>
+          <description>Alerta de tempestade com rajadas de vento e chuva moderada a forte  com duração de 02:00h. Proteja-se!</description>
+          <instruction>Acompanhe os alertas da Defesa Civil. Durante chuvas intensas, procure abrigo seguro, evite áreas alagadas, enxurradas e locais próximos a encostas. Não atravesse ruas inundadas, a pé ou de veículo. Fique atento a sinais de deslizamentos e ao aumento do nível de rios e córregos. Em situação de perigo, afaste-se imediatamente da área de risco. Emergências: Defesa Civil 199 e Bombeiros 193.</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -46,6 +41,5 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>Niterói/RJ</areaDesc>
-            <polygon>-22.985,-43.083 -22.986,-43.086 -22.987,-43.088 -22.987,-43.088 -22.987,-43.088 -22.987,-43.088 -22.988,-43.088 -22.988,-43.088 -22.989,-43.086 -22.989,-43.084 -22.988,-43.083 -22.988,-43.082 -22.988,-43.081 -22.986,-43.08 -22.986,-43.08 -22.986,-43.081 -22.985,-43.081 -22.985,-43.081 -22.985,-43.082 -22.985,-43.083</polygon>
-      
+            <areaDesc>MINAS GERAIS/MG</areaDesc>
+            <polygon>-19.466,-50.811 -19.466,-50.812 -19.466,-50.812 -19.466,-50.813 -19.466,-50.813 -19.466,-50.814 -19.466,-50.814 -19.466,-50.815 -19.466,-50.815 -19.466,-50.816 -19.467,-50.816 -19.467,-50.816 -19.467,-50.816 -19.468,-50.816 -19.468,-50.817 -19.468,-50.817 -19.469,-50.818 -19.469,-50.818 -19.469,-50.817 -19.47,-50.818 -19.47,-50.818 -19.47,-50.818 -19.47,-50.82 -19.471,-50.82 -19.471,-50.82 -19.472,-50.821 -19.472,-50.821 -19.472,-50.822 -19.472,-50.823 -19.472,-50.823 -19.472,-50.823 -19.473,-50.825 -19.473,-50.825 -19.474,-50.825 -19.475,-50.824 -19.48,-50.824 -19.483,-50.824 -19.487,-50.826 -19.492,-50.83 -19

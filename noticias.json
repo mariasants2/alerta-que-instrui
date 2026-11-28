@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-28T03:29:13+00:00",
+ "atualizado": "2026-11-28T12:14:36+00:00",
  "fonte": "Google Notícias (manchetes de veículos confiáveis)",
  "fonte_ok": true,
  "erro": null,
@@ -27,6 +27,13 @@
   },
   {
    "d": "26/11/2026",
+   "c": "chuva",
+   "v": "CNN Brasil",
+   "t": "Chuva em SP supera em 50% o esperado para o mês de novembro",
+   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNkFrNXdMRzZTaHQ0QmJHZkliMzdaYW1oc3hqX3FsRzZjNFlTVTFULXRJeFJaYUFORnVTOGN0NDh2VkJSS1MzMXY2Qi1vNlVCTEt4VTNiakpsOUZnNHIxNVpyUVp6QlFpTlZrSWcyaUxPY1BSMFdzN0pBeFZNV3N1a2JYTTg1NC1KNXgycVRlVnR3V1Y0M2c4X01NNmxaNkdHYWVSY0FiVmF4bjhS?oc=5"
+  },
+  {
+   "d": "26/11/2026",
    "c": "arvore",
    "v": "G1",
    "t": "Temporal provoca transtornos na Vila São Paulo",
@@ -42,23 +49,16 @@
   {
    "d": "26/11/2026",
    "c": "arvore",
-   "v": "Metrópoles",
-   "t": "Atibaia, no interior de SP, registra ruas tomadas pela água após temporal.",
-   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcjJueUJSb3VZQXlSUGZGXzc2SzV6aWk0LWxxckdUaXNkZFFXOXBaNEFuZ1YyWXA0OEkteW56UTFvQmh6Yl9vXzU5TzF2N0R1M3hwY3FlTVcyU3NnVFY5dlpvdWNhd0pBVnF1QlJwX1ZCLTFrdXJIcEQ5Y1VJOGNuM3V4RjFNVnNhaHlhMk5RR2tDRW52NjFSdjFDeTNrY0JKNXZKNVhuZDRiSWZs?oc=5"
+   "v": "Estadão",
+   "t": "Temporal alaga vias da Pompeia e coloca SP em estado de atenção pelo 4º dia consecutivo",
+   "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQR1hCQXlSZHBYdnlWMVB6TFoxTXVWY3FQTXVlSHF5TktqR0h6RWtNNHZpWkhqa21PV3BaUUVVd1RPTEZCT1o5dE5BQTVBM2owaGtxTWI4LTN1Tjdvd3QyUkdSZVQxcjdRQjdjN0I5QVBaSHBlVjIxU0tqbllMNUFIc3VSUXRDQk1TS3NGZE9nSE9rMVZOeEE?oc=5"
   },
   {
    "d": "26/11/2026",
-   "c": "alerta",
-   "v": "Folha de Alphaville",
-   "t": "Chuvas volumosas colocam Estado de SP em alerta severo",
-   "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQlg1VGU5d0hBTk8yaGZKYktqZVdxYTZraW00R1hGR1RfcnNZc0VRQ1o0MzZ3UkxnUWtjenEwc1NyR0NhRzZtLVMwV1djck9jVjJwdGh0dlpyS1luYnM5UDNZdVZtbHQ4RklpVHVNUGM2bWJhVnFfV29RWXBRb0lKVmlVaFp6VmZzbVNGUUxsbHp5WDZFNkVQdWhOUTExN24zUkZGUFNB?oc=5"
-  },
-  {
-   "d": "26/11/2026",
-   "c": "arvore",
-   "v": "G1",
-   "t": "VÍDEO mostra momento em que muro desaba após temporal e atinge carros em Aparecida: 'Está caindo tudo'",
-   "u": "https://news.google.com/rss/articles/CBMigAJBVV95cUxObWpIRWpocHZSeDVicUdKVFVBOFpFRGowTzFVSUJmUFdiQ0pCanFlUGtWcXV6bjlGNEtENnJEa2NZeXZyQnBPUnp3T1NxRXNtb05xYm11Q3VOY2Z3RE5KTW5zVG8yVUJYMVZ3ZjBKeXAwWVVKWnhmeXJtaFFMd2NtRUlhdUR5cVpDUkZFdWtMTFBIWEFSQlU0bDc0bXlwV2s4ZDhTYTJLWTJ0aGphMzF1d0IzeTM1MFllbkgzRXlNT0FaRnQwb3pfMWpESTEyU0MyU0NDWGdUalp2a0t1bDBkVmJRR3M5YWtyZ1JRT01QY25VN0tCQ0RuXzNWYXJJbFV20gGPAkFVX3lxTE5QWUt3VkdrcVNRTkgteFR3OVFPMWxtRGozZnh5MktxQjlnYmo1VWwybE5Rd3BQcjQ3NzY4ai1ldlUtX1RRcjROMmxOeHdNM2Ytc21hODljU194M0FjOUVNa24xYVlfN0RCYi0wMU1wU2xwZUZGazFTalk0SkdYSUtjLXhfcWpRbmJSZ09GUVQ2SGo2Y1RGS2s1Q3pnN0hSWXRZWk10SkRWREYyc0ZrUGdHUmpuWm9ZNnE3MENaeUU0TDFBNms4TXU0OTAyUmtsamVqeXl0bFg3Z3d1NHhOZl85X253TVB3NE4wcU1NdzJLMVRIUVNHSzhoS1hlNW9sbnR1SnJyUFoxQzFKaDlOUHc?oc=5"
+   "c": "chuva",
+   "v": "CBN São José dos Campos e Vale",
+   "t": "Chuva coloca cidades do Vale entre as mais atingidas de SP",
+   "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbHgzYm1hb25nYTNmdmt4WFQwNzIyUEpld08zZ29RRzJvcy1nX0tWOXItZkUwUFUzcWhDRDNUY1ZwN0FuYWp4VUQxTkJEVnhpb0FHUzVucFJ1WGpKOXdXdVBXbzR3UHFJMDEtNmhtdDZiVWNPa0VMLTF1Zm5pT0hZanJ3UXNiU1YwU3R2dkFCSQ?oc=5"
   }
  ]
 }
