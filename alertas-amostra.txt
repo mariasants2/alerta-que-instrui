@@ -2,38 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>Rss Idap</title>
   <id>http://idapapi.mi.gov.br/api/rss/cap</id>
-  <updated>2026-11-27T21:27:14Z</updated>
-  <dc:date>2026-11-27T21:27:14Z</dc:date>
+  <updated>2026-11-28T03:26:21Z</updated>
+  <dc:date>2026-11-28T03:26:21Z</dc:date>
   <entry>
-    <title>CHUVAS INTENSAS</title>
+    <title>RESSACA</title>
     <author>
       <name />
     </author>
-    <id>200895/2026</id>
-    <updated>2026-11-27T10:07:38Z</updated>
+    <id>200908/2026</id>
+    <updated>2026-11-27T15:32:00Z</updated>
     <content type="text/xml">
       <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-        <identifier>200895/2026</identifier>
+        <identifier>200908/2026</identifier>
         <sender>CENAD-SEDEC</sender>
-        <sent>2026-11-27T07:07:38-03:00</sent>
+        <sent>2026-11-27T12:32:00-03:00</sent>
         <status>Actual</status>
         <msgType>Alert</msgType>
         <source>Defesa Civil</source>
         <scope>Public</scope>
         <info>
           <language>pt-BR</language>
-          <category>Met</category>
-          <event>CHUVAS INTENSAS</event>
+          <category>Env</category>
+          <event>RESSACA</event>
           <responseType>Execute</responseType>
-          <urgency>Expected</urgency>
+          <urgency>Immediate</urgency>
           <severity>Severe</severity>
           <certainty>Likely</certainty>
-          <onset>2026-11-27T07:07:38-03:00</onset>
-          <expires>2026-11-27T11:00:00-03:00</expires>
-          <senderName>Defesa Civil Estadual do Amazonas</senderName>
-          <headline>Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.</headline>
-          <description>A análise da imagem de satélite GOES, no canal infravermelho, disponível no portal CIRA/NOAA, indica a presença de nuvens associadas a chuva intensa com possibilidade de pancadas de chuva de intensidade moderada a forte sobre o(s) referido(s) município(s). Também há chance de descargas elétricas e rajadas de vento, além do risco de alagamentos e enxurradas em áreas vulneráveis.</description>
-          <instruction>Siga as orientações da defesa civil local. Se houver vendaval, granizo ou descargas elétricas, fique atento às recomendações para estes tipos de ameaças; Auxilie crianças, idosos e pessoas com dificuldade de locomoção próximas a você; Evite contato com a água de alagamentos, pois podem estar contaminadas e provocar doenças.</instruction>
+          <onset>2026-11-27T12:30:00-03:00</onset>
+          <expires>2026-11-28T09:00:00-03:00</expires>
+          <senderName>Defesa Civil de Niterói (RJ)</senderName>
+          <headline>Defesa Civil:Niteroi: Aviso de Ressaca. Inicio: 27/11 sexta-feira 18h. Fim: 28/11 sabado 09h. Ondas com altura de 2,5 a 3,0 metros. Emergencia, 199.</headline>
+          <description>Defesa Civil de Niterói informa: A Marinha do Brasil emitiu aviso de ressaca, incluindo a cidade de Niterói. Início: às 18h00min do dia 27/11/2026 (Sexta-feira). Fim: às 09h00min do dia 28/11/2026 (Sábado). Direção e altura das ondas: Direção Sudoeste 2,5 a 3,0 metros.</description>
+          <instruction>* Evitar o banho de mar e esportes na praia neste período;
+* Não permanecer em mirantes ou em locais próximos ao mar durante o período;
+* Os frequentadores de praias devem seguir as orientações das equipes do Corpo de Bombeiros;
+* Evitar trafegar de bicicleta na orla caso as ondas estejam atingindo as calçadas;
+* Os pescadores devem evitar navegar durante o período de ressaca;
+* Não entrar no mar para resgatar vítimas de acidente. Neste caso, acione imediatamente as equipes do Corpo de Bombeiros</instruction>
           <web>https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir</web>
           <contact>+55 61 2034-4660</contact>
           <parameter>
@@ -41,5 +46,6 @@
             <value>Google</value>
           </parameter>
           <area>
-            <areaDesc>AMAZONAS/AM</areaDesc>
-            <polygon>2.156,-63.289 2.161,-63.303 2.165,-63.31 2.175,-63.326 2.184,-63.337 2.197,-63.359 2.208,-63.369 2.211,-63.372 2.202,-63.386 2.199,-63.395 2.188,-63.395 2.182,-63.388 2.172,-63.39 2.165,-63.394 2.156,-63.393 2.146,-63.397 2.144,-63.405 2.137,-63.414 2.131,-63.421 2.135,-63.427 2.126,-63.434 2.125,-63.444 2.128,-63.451 2.136,-63.46 2.14,-63.466 2.137,-63.474 2.126,-63.475 2.121,-63.485 2.115,
+            <areaDesc>Niterói/RJ</areaDesc>
+            <polygon>-22.985,-43.083 -22.986,-43.086 -22.987,-43.088 -22.987,-43.088 -22.987,-43.088 -22.987,-43.088 -22.988,-43.088 -22.988,-43.088 -22.989,-43.086 -22.989,-43.084 -22.988,-43.083 -22.988,-43.082 -22.988,-43.081 -22.986,-43.08 -22.986,-43.08 -22.986,-43.081 -22.985,-43.081 -22.985,-43.081 -22.985,-43.082 -22.985,-43.083</polygon>
+      
